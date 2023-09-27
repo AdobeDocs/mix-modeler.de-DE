@@ -2,10 +2,10 @@
 user-guide-title: Gemischter Modelle
 breadcrumb-title: Gemischter Modelle
 user-guide-description: Erfahren Sie, wie Sie gemischte Modelle verwenden.
-source-git-commit: 625ab651b676e50505f386cf70abb27f57f6c8f1
+source-git-commit: cf4890eb9efc2cfc82f9d2761983a13ad5d730ee
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '67'
+ht-degree: 26%
 
 ---
 
@@ -46,6 +46,13 @@ ht-degree: 0%
 
 + [Anwendungsfälle](use-cases.md)
 
++ Versionen {#releases}
+   + [Neueste Version](releases/latest.md)
+   + [Versionen 2023](releases/2023.md)
+   + [Veröffentlichungsprozess](releases/releases.md)
+
++ [Glossar](glossary.md)
+
 
 <!-- Admin integration with AEP not part of first release
 
@@ -55,12 +62,3 @@ ht-degree: 0%
   + [Audits](administration/audits.md)
   
 -->
-
-
-+ Versionen {#releases}
-   + [Neueste Version](releases/latest.md)
-   + [Versionen 2023](releases/2023.md)
-   + [Veröffentlichungsprozess](releases/releases.md)
-
-+ [Glossar](glossary.md)
-
