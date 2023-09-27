@@ -2,9 +2,9 @@
 title: Anwendungsfälle für Adobe Mix-Modelle
 description: Anwendungsbeispiele für Adobe Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ In diesem Anwendungsfall können Sie die Wirkung des Marketings über alle gebü
 
 ### Challenges
 
-Die Herausforderungen, die dieser Anwendungsfall angeht, sind:
+Die Herausforderungen, die diese Anwendungsbeispiele angehen, sind:
 
 * Schwierigkeiten bei der Messung der inkrementellen Journey-Performance durch silolierte Kundendaten, Signalverlust und winterte Gärten.
 * Inkonsistenz der Einblicke aus getrennten MMM- und MTA-Methoden, wodurch das Vertrauen in die Ergebnisse verringert wird.
@@ -30,13 +30,13 @@ Die Herausforderungen, die dieser Anwendungsfall angeht, sind:
 
 ### Ansatz
 
-Der schrittbasierte Ansatz für diesen Anwendungsfall:
+Der schrittweise Ansatz für diesen Anwendungsfall lautet:
 
 | Schritt | Details |
 |---|---|
-| Erfassen | Identifizieren und erfassen Sie Datenquellen unter gemeinsamen Schemata. <br/>Nutzen Sie bestehende Investitionen in Adobe Analytics oder Customer Journey Analytics, um die Bereitstellung zu beschleunigen. |
-| Konfigurieren | Konfigurieren Sie flexible Modelle mithilfe des AI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele<br/>Automatische Sicherstellung der Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transfer-Lernen. |
-| Analyse | Verstehen Sie den ROI des gesamten Marketing und einzelner Kanäle/Subkanäle.<br/>Verstehen Sie eindeutig, welche Touchpoints die inkrementellen Konversionen am besten fördern. |
+| Erfassen | Identifizieren und erfassen Sie Datenquellen unter gemeinsamen Schemata. <br/>Anwenden bestehender Investitionen in Adobe Analytics oder Customer Journey Analytics auf die schnelle Bereitstellung. |
+| Konfigurieren | Flexible Modelle mithilfe eines KI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele konfigurieren<br/>Automatische Sicherstellung der Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transfer-Lernen. |
+| Analyse | Verstehen Sie eindeutig den ROI des gesamten Marketing und einzelner Kanäle/Subkanäle.<br/>Verstehen Sie eindeutig, welche Touchpoints die inkrementellen Konversionen am besten fördern. |
 
 {style="table-layout:auto"}
 
@@ -46,21 +46,21 @@ Der schrittbasierte Ansatz für diesen Anwendungsfall:
 Eine erfolgreiche Implementierung dieser Verwendung kann die folgenden Auswirkungen haben:
 
 * Integrieren Sie aggregierte Daten, Touchpoint-Daten und exogene Variablen, um eine möglichst umfassende Messeansicht zu erhalten.
-* Verwenden Sie die AI-as-a-Service-Lösung, um schnell Modelle für den Erfolg mit Zugriff auf Modelltransparenz zu erstellen, um ein höheres Maß an Vertrauen zu erreichen.
-* Steigerung des Vertrauens in strategische und taktische Entscheidungsprozesse durch Abstimmung der Ergebnisse auf Zusammenfassungs- und Touchpoint-Ebene.
+* Verwenden Sie eine AI-as-a-Service-Lösung, um schnell Modelle für den Erfolg mit Zugriff auf Modelltransparenz zu erstellen, um ein höheres Maß an Vertrauen zu erreichen.
+* Stärkung des Vertrauens in strategische und taktische Entscheidungsprozesse durch Abstimmung der Ergebnisse auf Zusammenfassungs- und Touchpoint-Ebene.
 
 +++
 
 
 ## Erstellen von Marketingplänen zur Optimierung des ROI
 
-Dieses Anwendungsbeispiel nutzt benutzerfreundliche, KI-fähige Optimierungs- und Szenario-Planungswerkzeuge, um den ROI zu maximieren.
+In diesem Anwendungsfall werden benutzerfreundliche, KI-fähige Optimierungs- und Szenario-Planungswerkzeuge verwendet, um den ROI zu maximieren.
 
 +++ Details
 
 ### Challenges
 
-Die Herausforderungen, die dieser Anwendungsfall angeht, sind:
+Die Herausforderungen, die diese Anwendungsbeispiele angehen, sind:
 
 * Erstellen Sie datengesteuerte Marketinginvestitionspläne, die auf Effizienzkurven basieren und sich nicht auf das Bauchgefühl verlassen.
 * Maximieren Sie Ergebnisse über mehrere Standorte, Geschäftsbereiche und Kanäle hinweg gleichzeitig.
@@ -69,7 +69,7 @@ Die Herausforderungen, die dieser Anwendungsfall angeht, sind:
 
 ### Ansatz
 
-Der schrittbasierte Ansatz für diesen Anwendungsfall:
+Der schrittweise Ansatz für diesen Anwendungsfall lautet:
 
 | Schritt | Details |
 |---|---|
@@ -90,44 +90,47 @@ Eine erfolgreiche Implementierung dieser Verwendung kann die folgenden Auswirkun
 
 +++
 
+<!-- This use case is not supported with initial release
 
-## Datengesteuerte Inflight-Optimierungen durchführen
+## Make data-driven inflight optimizations
 
-Dieser Anwendungsfall hilft Ihnen, den ROI wöchentlich zu verbessern, indem Sie die tatsächliche und prognostizierte Leistung beurteilen, um die Verbesserungen im Inflight-Bereich zu verbessern.
+This use case helps you to improve ROI weekly by assessing actual and forecasted performance to make inflight improvements.
 
 +++ Details
 
 ### Challenges
 
-Die Herausforderungen, die dieser Anwendungsfall angeht, sind:
+The challenges this use case addresses are:
 
-* Die Kampagnenleistung ist oft langsam oder es gibt keine ausreichende Granularität, um sie sicher zu optimieren.
-* Undurchsichtige, nicht standardisierte Daten über Dutzende von Kanälen und Quellen hinweg verkürzen die Zeitdauer bis zu Einblicken.
-* Kein demokratisierter Zugriff auf Tools und übermäßige Abhängigkeit von ausgewählten Experten oder externen Anbietern, wodurch die Bearbeitungszeiten verkürzt werden.
+* Campaign performance is often slow, or lacks granularity need to confidently optimize.
+* Messy, non-standardized data across dozens of channels and sources drives slow time to insight.
+* No democratized access to tools and overreliance on select experts or external vendors, increasing turnaround times.
 
 
 
-### Ansatz
+### Approach
 
-Der schrittbasierte Ansatz für diesen Anwendungsfall:
+The step based approach for this use case:
 
-| Schritt | Details |
+| Step | Details |
 |---|---|
-| Erfassen | Erfassen Sie Daten in gängigen Schemata, um die Modellaktualisierung und -wiederverwendbarkeit in allen Experience Platform-Applikationen zu erleichtern.<br/>Optimierung von Datenrohren, Reinigung und Qualitätssicherung mit automatisierten Harmonisierungswerkzeugen. |
-| Aktualisieren | Erstellen und aktualisieren Sie KI-/ML-Modelle mithilfe einer benutzerfreundlichen Self-Service-Plattform.<br/>Sie erhalten auf wöchentlicher oder monatlicher Basis neue Ergebnisse, einschließlich historischer und prognostizierter ROIs nach Kanälen. |
-| Optimieren | Schnelle Inflight-Optimierungen durch eine kanalübergreifende Umstellung der Ausgaben auf der Grundlage der gemessenen Leistung. |
+| Ingest | Ingest data in common schemas for easy model refreshes and reusability across Experience Platform applications.<br/>Streamline data piping, cleaning & QA with automated harmonization tools. |
+| Refresh | Build and refresh AI/ML  models using a user-friendly, self-service platform.<br/>Get new results, including historic and forecasted ROIs by channel, on a weekly or monthly basis. |
+| Optimize | Make rapid inflight optimizations by shifting spend across channels based on measured performance. |
 
 {style="table-layout:auto"}
 
 
-### Wirkung
+### Impact 
 
-Eine erfolgreiche Implementierung dieser Verwendung kann die folgenden Auswirkungen haben:
+Successful implementation of this use can have the following impact:
 
-* Maximieren Sie Geschwindigkeit, Skalierbarkeit und Benutzerfreundlichkeit über Mess- und Analytics-Anwendungsfälle hinweg mit standardisierten Datenschemata und einer gemeinsamen Datengrundlage.
-* Schnelle wöchentliche oder monatliche Flugzeugaboptimierungen und Maximierung des ROI mit datengesteuerten Ausgabenverschiebungen, die die prognostizierten besten ROIs widerspiegeln.
+* Maximize speed, scalability, and usability across measurement & analytic use cases with standardized data schemas and common data foundation.
+* Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## taktische Einblicke über Adobe-Apps hinweg aktivieren
 
@@ -137,7 +140,7 @@ In diesem Anwendungsfall erhalten Sie strategische, schrittweise Einblicke in Ku
 
 ### Challenges
 
-Die Herausforderungen, die dieser Anwendungsfall angeht, sind:
+Die Herausforderungen, die diese Anwendungsbeispiele angehen, sind:
 
 * Allein Top-Down-Lösungen können bei der Ermittlung detaillierter Schlüsseloptimierungsmöglichkeiten fehlen.
 * Die Ergebnisse von Messmodellen sind überwältigend, übermäßig beschreibend und führen nicht einfach zu Einblicken oder Aktionen.
@@ -146,11 +149,11 @@ Die Herausforderungen, die dieser Anwendungsfall angeht, sind:
 
 ### Ansatz
 
-Der schrittbasierte Ansatz für diesen Anwendungsfall:
+Der schrittweise Ansatz für diesen Anwendungsfall lautet:
 
 | Schritt | Details |
 |---|---|
-| Modell | Konfigurieren und trainieren Sie das KI-/ML-Modell, um konsistente MTA-Touchpoint-Ergebnisse und MMM-Aggregatergebnisse zu erhalten. |
+| Modell | Konfigurieren und trainieren Sie ein KI-/ML-Modell, um konsistente MTA-Touchpoint-Ergebnisse und MMM-Aggregatergebnisse zu erhalten. |
 | Analyse | Exportieren Sie inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics- oder externe BI-Tools.<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Werten. |
 | Aktion | Erstellen und aktivieren Sie mithilfe von Real-time Customer Data Platform Suchvorgänge für die wichtigsten Verbrauchersegmente.<br/>Entwickeln datengesteuerter Marketingstrategien nach Kundensegmenten für zukünftige Kampagnen. |
 
