@@ -1,10 +1,10 @@
 ---
-title: Pläne vergleichen
-description: Erfahren Sie, wie Sie Pläne im Adobe Mix Model vergleichen.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+title: Administration
+description: Erfahren Sie, wie Sie Adobe Mix Modeler verwalten.
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 7%
+source-wordcount: '158'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ In der Adobe Experience Cloud-Benutzeroberfläche
 
 1. Auswählen ![Person](assets/icons/User.svg) **[!UICONTROL Roles]** aus dem linken Bereich.
 
-1. Wählen Sie eine vorhandene Rolle aus oder erstellen Sie eine Rolle mithilfe von **[!UICONTROL Create role]**. Wenn Sie eine vorhandene Rolle ausgewählt haben, wählen Sie ![Bearbeiten](assets/icons/Edit.svg) **[!UICONTROL Edit]** um die Berechtigungen für die Rolle zu bearbeiten. Siehe [Rollen verwalten](https://helpx.adobe.com/de/enterprise/using/admin-console.html) für weitere Informationen.
+1. Wählen Sie eine vorhandene Rolle aus oder erstellen Sie eine Rolle mithilfe von **[!UICONTROL Create role]**. Wenn Sie eine vorhandene Rolle auswählen, wählen Sie ![Bearbeiten](assets/icons/Edit.svg) **[!UICONTROL Edit]** um die Berechtigungen für die Rolle zu bearbeiten. Siehe [Rollen verwalten](https://helpx.adobe.com/de/enterprise/using/admin-console.html) für weitere Informationen.
 
 1. Stellen Sie sicher, dass Sie die folgenden Berechtigungen für die Rolle auswählen:
 
