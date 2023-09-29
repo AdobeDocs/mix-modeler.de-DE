@@ -2,10 +2,10 @@
 user-guide-title: Gemischter Modelle
 breadcrumb-title: Gemischter Modelle
 user-guide-description: Erfahren Sie, wie Sie gemischte Modelle verwenden.
-source-git-commit: 6b4744b1bd487b9e1c1b76f692bd86fbc236b6b1
+source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 27%
+source-wordcount: '66'
+ht-degree: 28%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 27%
    + [Datensätze](ingest-data/datasets.md)
 
 + [Anwendungsfälle](use-cases.md)
+
++ [Administration](administration.md)
 
 + Versionen {#releases}
    + [Neueste Version](releases/latest.md)
