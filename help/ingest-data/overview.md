@@ -2,9 +2,9 @@
 title: Daten erfassen
 description: Erfahren Sie, wie Sie Daten in Adobe Mix Model aufnehmen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: ae1c74ed2edf1e69e7ab77d16aba797921c14ad9
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 15%
 
 ---
@@ -12,16 +12,18 @@ ht-degree: 15%
 
 # Daten erfassen
 
-Adobe Mix Modeler arbeitet sowohl mit Daten auf Ereignisebene als auch mit aggregierten Daten zu Marketingmaßnahmen aus verschiedenen umschlossenen Gärten. Kunden können alle Arten von Daten verwenden, die in Adobe Experience Platform als Datensätze aufgenommen werden und auf ereignisbasierten XDM-Erlebnis-Schemas basieren.
+Adobe Mix Modeler arbeitet mit Daten auf Ereignisebene, aggregierten Daten zu Marketing-Maßnahmen aus verschiedenen installierten Gärten sowie Aggregat- oder Zusammenfassungsdaten aus anderen Quellen wie Offline-Werbung, internen Faktoren oder externen Faktoren.
+
+Kunden können jede Art von Daten verwenden, die in Adobe Experience Platform als Datensätze aufgenommen werden und auf Schemas basieren, indem sie XDM ExperienceEvent oder XDM Summary Metrics als Basisklasse verwenden.
 
 Beispiel:
 
 * Daten, die mit dem Adobe Analytics-Quell-Connector erfasst und in Datensätze umgewandelt wurden, die der Standardversion oder einer benutzerdefinierten Version des Adobe Analytics-Schemas entsprechen, oder alternativ
 * Daten, die mit dem Adobe Experience Platform Web SDK, Mobile SDK oder Edge Network Server API zur Erfassung von Kundeninteraktionen im Web, auf Mobilgeräten oder auf anderen Geräten erfasst werden,
-* Zusammenfassungsdaten aus verschiedenen angewalteten Garten-/Traffic-Quellen, basierend auf einem Schema, das die Klasse &quot;XDM-Zusammenfassungsmetriken&quot;mit der Feldergruppe &quot;Traffic- und Konversionszusammenfassung&quot;enthält,
-* Nicht-Marketing-Daten (z. B. makroökonomische Indikatoren), die für die Modellerstellung nützlich sind,
+* Aggregat von Daten aus eingeschlossenen Gärten (wie Facebook, YouTube), Traffic-Quellen oder Offline-Werbedaten,
+* Nicht-Marketing-Aggregat- oder Zusammenfassungsdaten mit internen oder externen Faktoren, die für die Modellerstellung nützlich sind.
 
-Sie können jede von Adobe Experience Platform unterstützte Art von Mechanismus verwenden, um Ihre Erlebnisereignisebene zu erfassen und Daten zu Marketing-Maßnahmen zu aggregieren. Zum Beispiel die Adobe Experience Platform-SDKs, APIs, Quell-Connectoren sowie Streaming- und Batch-Erfassung.
+Sie können jede Art von Mechanismus verwenden, der von Adobe Experience Platform unterstützt wird, um Ihre Erlebnisereignisebene zu erfassen, Marketing-Aufwandsdaten zu aggregieren und Daten aus anderen Quellen zu erfassen. Zum Beispiel die Adobe Experience Platform-SDKs, APIs, Quell-Connectoren sowie Streaming- und Batch-Erfassung.
 
 
 ## Leitlinien
@@ -78,7 +80,7 @@ Nachstehend finden Sie einige Beispiele für Daten, die in der Regel im Adobe Mi
 
 +++
 
-Um mit Daten im Adobe Mix Model zu arbeiten, benötigen Sie Daten, die in Datensätzen erfasst und nach Schemas in Adobe Experience Platform modelliert wurden. Die Adobe Mix Modeler-Oberfläche bietet einfachen Zugriff auf die Benutzeroberfläche von Schemas und Datensätzen.
+Um mit Daten im Adobe Mix Model zu arbeiten, benötigen Sie Daten, die in Datensätzen erfasst und nach Schemas in Adobe Experience Platform modelliert wurden. Die Adobe Mix Modeler-Oberfläche bietet einfachen Zugriff auf die Benutzeroberfläche von Experience Platform-Schemas und Datensätzen.
 
 >[!MORELIKETHIS]
 >

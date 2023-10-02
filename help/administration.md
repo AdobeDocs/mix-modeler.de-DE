@@ -1,7 +1,7 @@
 ---
 title: Administration
 description: Erfahren Sie, wie Sie Adobe Mix Modeler verwalten.
-source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%
@@ -35,9 +35,15 @@ In der Adobe Experience Cloud-Benutzeroberfläche
 
    * **[!UICONTROL Data Ingestion]**: Wählen Sie **[!UICONTROL View Sources]** und **[!UICONTROL Manage Sources]**.
 
+   <!--
+    * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
+    -->
+
    Die für die Rolle eingerichteten Berechtigungen sollten wie folgt aussehen:
 
    ![Berechtigungen](assets/permissions.png)
+
+   <!--![Permissions](assets/permissions-including-privacy.png)-->
 
    Auswählen **[!UICONTROL Save]** , um die Berechtigungen zu speichern.
 

@@ -2,10 +2,10 @@
 title: Daten harmonisieren
 description: Erfahren Sie, wie Sie Daten im Adobe Mix Model harmonisieren.
 feature: Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 18%
+source-wordcount: '804'
+ht-degree: 17%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 Die Daten im Adobe Mix Modeler unterscheiden sich je nach Datenquelle. Die Daten können wie folgt lauten:
 
-* aggregierte Daten, z. B. aus Datenquellen mit eingebautem Garten erfasst,
+* aggregierte Daten, z. B. erfasst aus Datenquellen von &quot;winstalled Garden&quot;oder Offline-Werbedaten (wie Ausgaben), die bei der Durchführung einer Werbekampagne, eines Ereignisses oder einer physischen Werbekampagne erfasst wurden,
 * Ereignisdaten, z. B. aus Erstanbieter-Datenquellen. Diese Ereignisdaten können Daten sein, die über den Adobe Analytics-Quell-Connector von Adobe Analytics oder über das Adobe Experience Platform Web oder Mobile SDK oder die Edge Network API erfasst werden, oder Daten, die über Quell-Connectoren erfasst werden.
 
 Der Harmonisierungsdienst von Adobe Mix Modeler gleicht die Aggregat- und Ereignisdaten in einer einheitlichen Datenansicht an. Diese Datenansicht ist die Quelle für die Pläne und Modelle in Adobe Mix Modeler.
