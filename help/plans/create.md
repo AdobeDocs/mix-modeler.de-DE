@@ -1,10 +1,10 @@
 ---
 title: Plan erstellen
-description: Erfahren Sie, wie Sie einen Plan im Adobe Mix Model erstellen.
+description: Erfahren Sie, wie Sie in Mix Modeler einen Plan erstellen.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 # Plan erstellen
 
-In Adobe Mix Modeler erstellen Sie einen Plan mithilfe der Planarbeitsfläche. Auf der Planarbeitsfläche können Sie die Details und Budgets Ihres Plans und das für Ihren Plan zu verwendende Modell einrichten. Nachdem Sie Details, Budget und Modell festgelegt haben, können Sie einen von AI empfohlenen Plan erstellen oder die Ausgaben nach Kanal bearbeiten.
+Im Mix Modeler erstellen Sie einen Plan mithilfe der Planarbeitsfläche. Auf der Planarbeitsfläche können Sie die Details und Budgets Ihres Plans und das für Ihren Plan zu verwendende Modell einrichten. Nachdem Sie Details, Budget und Modell festgelegt haben, können Sie einen von AI empfohlenen Plan erstellen oder die Ausgaben nach Kanal bearbeiten.
 
-Um einen Plan zu erstellen, klicken Sie im ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Benutzeroberfläche in Adobe Mix Model, wählen Sie **[!UICONTROL Open plan canvas]**.
+Um einen Plan zu erstellen, klicken Sie im ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Benutzeroberfläche in Mix Modeler auswählen **[!UICONTROL Open plan canvas]**.
 
 1. Im Bildschirm Planerstellung :
 

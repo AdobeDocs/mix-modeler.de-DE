@@ -1,9 +1,10 @@
 ---
 title: Administration
-description: Erfahren Sie, wie Sie Adobe Mix Modeler verwalten.
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+description: Erfahren Sie, wie Sie Mix Modeler verwalten.
+feature: Administration
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '154'
 ht-degree: 8%
 
 ---
@@ -11,9 +12,9 @@ ht-degree: 8%
 
 # Administration
 
-Verwenden Sie die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) um Adobe Mix Modeler-Produkte und -Benutzer zu verwalten.
+Verwenden Sie die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) um Mix Modeler-Produkte und -Benutzer zu verwalten.
 
-Damit Adobe Mix Modeler ordnungsgemäß funktioniert, müssen Sie die richtigen Berechtigungen festlegen.
+Damit Mix Modeler ordnungsgemäß funktioniert, müssen Sie die richtigen Berechtigungen festlegen.
 
 In der Adobe Experience Cloud-Benutzeroberfläche
 
@@ -47,4 +48,4 @@ In der Adobe Experience Cloud-Benutzeroberfläche
 
    Auswählen **[!UICONTROL Save]** , um die Berechtigungen zu speichern.
 
-1. In **[!UICONTROL Details]** Innerhalb **[!UICONTROL Role]**, fügen Sie die entsprechenden hinzu **[!UICONTROL Users]** und/oder **[!UICONTROL User groups]** , um Benutzern Zugriff auf Adobe Mix Modeler zu gewähren.
+1. In **[!UICONTROL Details]** Innerhalb **[!UICONTROL Role]**, fügen Sie die entsprechenden hinzu **[!UICONTROL Users]** und/oder **[!UICONTROL User groups]** , um Benutzern Zugriff auf Mix Modeler zu gewähren.

@@ -2,20 +2,20 @@
 user-guide-title: Gemischter Modelle
 breadcrumb-title: Gemischter Modelle
 user-guide-description: Erfahren Sie, wie Sie gemischte Modelle verwenden.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 28%
+source-wordcount: '63'
+ht-degree: 39%
 
 ---
 
 
-# Adobe Mix Model Guide {#using}
+# Handbuch zu Mix Modeler {#using}
 
-+ [Adobe Mix Model Guide](overview.md)
++ [Handbuch zu Mix Modeler](overview.md)
 
 + Erste Schritte {#get-started}
-   + [Was ist Adobe Mix Model?](get-started/about.md)
+   + [Was ist Mix Modeler?](get-started/about.md)
    + [Anwendungs-Workflow](get-started/workflow.md)
 
 + Dashboard {#dashboard}

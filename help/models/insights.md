@@ -1,8 +1,8 @@
 ---
 title: Model Insights
-description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Adobe Mix Modeler.
+description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Model Insights
 
-So zeigen Sie Modelleinblicke im ![Modelle](../assets/icons/FileData.svg) **[!UICONTROL Models]** -Schnittstelle in Adobe Mix Model:
+So zeigen Sie Modelleinblicke im ![Modelle](../assets/icons/FileData.svg) **[!UICONTROL Models]** -Schnittstelle in Mix Modeler:
 
 1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** Tabelle.
 
@@ -68,5 +68,7 @@ Auf der Registerkarte Modellqualität werden Widgets zur Messung angezeigt:
 * MAPE (Mean Absolute Percentage Error), einer der am häufigsten verwendeten KPIs zur Messung der Prognosegenauigkeit und zum Ausdruck des Prognosefehlers als Prozentsatz des tatsächlichen Werts.
 
 * RMSE (Root Mean Square Error): Zeigt den durchschnittlichen &quot;Fehler&quot;an, gewichtet nach dem Quadrat des Fehlers.
+
+![Modellqualität](../assets/model-quality.png)
 
 

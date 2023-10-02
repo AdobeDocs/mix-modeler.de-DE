@@ -1,10 +1,10 @@
 ---
 title: Pläne
-description: Erfahren Sie, wie Sie Pläne im Adobe Mix Model anzeigen, auswählen und bearbeiten können.
+description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und bearbeiten können.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # Pläne
 
-Pläne in Adobe Mix Modeler ermöglichen es Ihnen, Budgets nach Geschäftseinheit und Kanal zuzuweisen. Die Planungsfunktionalität ist in die Ergebnisse der trainierten Modelle auf der Grundlage Ihrer harmonisierten Daten integriert.
+Pläne in Mix Modeler ermöglichen es Ihnen, Budgets nach Geschäftseinheiten und  zuzuweisen. Die Planungsfunktionalität ist in die Ergebnisse der trainierten Modelle auf der Grundlage Ihrer harmonisierten Daten integriert.
 
 
 ## Pläne anzeigen
 
-Um eine Tabelle Ihrer aktuellen Pläne anzuzeigen, gehen Sie in die Adobe Mix Modeller-Oberfläche:
+So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche an:
 
 1. Auswählen ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** über die linke Leiste.
 

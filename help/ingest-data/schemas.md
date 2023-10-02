@@ -1,10 +1,10 @@
 ---
 title: Schemata
-description: Erfahren Sie, wie Sie die Schemas verwalten, die zur Aufnahme von Daten in Adobe Mix Model erforderlich sind.
+description: Erfahren Sie, wie Sie die Schemas verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 8%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 8%
 
 # Schemata
 
-So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Adobe Experience Platform erfassen und im Adobe Mix-Modeler verwenden möchten:
+So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Adobe Experience Platform erfassen und in Mix Modeler verwenden möchten:
 
-1. Wechseln Sie zur Adobe Mix Modeler-Oberfläche.
+1. Rufen Sie die Benutzeroberfläche des Mix Modelers auf.
 
 1. Auswählen ![Schemas](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, darunter **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ Siehe [Übersicht über die Benutzeroberfläche von Schemas](https://experiencel
 
 ## Aggregat- oder Zusammenfassungsdaten
 
-Es wird dringend empfohlen, die Klasse &quot;XDM-Zusammenfassungsmetriken&quot;als Grundlage des Schemas zu verwenden, das allen Aggregat- oder Zusammenfassungsdaten zugrunde liegt, die Sie in Experience Platform erfassen und in Adobe Mix Modeler verwenden möchten.
+Es wird dringend empfohlen, die Klasse &quot;XDM-Zusammenfassungsmetriken&quot;als Grundlage des Schemas zu verwenden, das allen Aggregat- oder Zusammenfassungsdaten zugrunde liegt, die Sie in Experience Platform erfassen und in Mix Modeler verwenden möchten.
 
 Verwenden Sie die Klasse &quot;XDM-Zusammenfassungsmetriken&quot;für:
 

@@ -1,10 +1,10 @@
 ---
 title: Modell erstellen
-description: Erfahren Sie, wie Sie ein Modell in Adobe Mix Model erstellen.
+description: Erfahren Sie, wie Sie in Mix Modeler ein Modell erstellen.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Modell erstellen
 
-So erstellen Sie ein Modell in der ![Modelle](../assets/icons/FileData.svg) **[!UICONTROL Models]** Benutzeroberfläche in Adobe Mix Model, wählen Sie **[!UICONTROL Guide me]**.
+So erstellen Sie ein Modell in der ![Modelle](../assets/icons/FileData.svg) **[!UICONTROL Models]** Benutzeroberfläche in Mix Modeler auswählen **[!UICONTROL Guide me]**.
 
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen schrittweisen Konfigurationsfluss für Modelle.
 
 1. Im **[!UICONTROL Setup]** step:
 
-   1. Modell eingeben **[!UICONTROL Name]**, beispielsweise `Demo model`. Geben Sie einen **[!UICONTROL Description]**, beispielsweise `Demo model to explore AI featues of Adobe Mix Modeler`.
+   1. Modell eingeben **[!UICONTROL Name]**, beispielsweise `Demo model`. Geben Sie einen **[!UICONTROL Description]**, beispielsweise `Demo model to explore AI featues of Mix Modeler`.
 
       ![Modellname und Beschreibung](../assets/model-name-description.png)
 
@@ -113,7 +113,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
    1. Im **[!UICONTROL Define training window]** Bereich, wählen Sie zwischen
 
-      * **[!UICONTROL Have Adobe Mix Modeler select a helpful training window]** und
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** und
 
       * **[!UICONTROL Manually input a training window]**. Wenn diese Option aktiviert ist, definieren Sie die Anzahl der Jahre in **[!UICONTROL Include events the following years prior to a conversion]**.
 

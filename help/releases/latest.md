@@ -1,18 +1,20 @@
 ---
-title: Aktuelle Versionshinweise zu Adobe Mix Model anzeigen
+title: Aktuelle Mix Modeler-Versionshinweise anzeigen
 description: Neueste Versionshinweise zu Mix-Modellen
-source-git-commit: 592d85cf9b1dfde8a9ca087d14445339fb64ecc7
+feature-set: Experience Cloud
+feature: Release Notes
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '179'
 ht-degree: 5%
 
 ---
 
-# Aktuelle Adobe Mix Modeler-Versionshinweise
+# Aktuelle Mix Modeler-Versionshinweise
 
 **Letzte Aktualisierung**: 4. Oktober 2023.
 
-Diese Versionshinweise beziehen sich auf die erste Version von Adobe Mix Modeler. Adobe Mix Modeler-Versionen basieren auf einem kontinuierlichen Versandmodell, das eine ungefähre monatliche Versionsrate ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
+Diese Versionshinweise beziehen sich auf die erste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Versandmodell, das eine ungefähre monatliche Versionsrate ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
 
 
 ## Neue oder aktualisierte Funktionen
@@ -29,8 +31,8 @@ Diese Versionshinweise beziehen sich auf die erste Version von Adobe Mix Modeler
 
 >[!MORELIKETHIS]
 >
->* [Einführung in Adobe Mix Modeler](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Dokumentation zu Adobe Mix Modeler Experience League](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+>* [Einführung in Mix Modeler](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Dokumentation zu Mix Modeler Experience League](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
 
 
 

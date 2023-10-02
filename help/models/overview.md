@@ -1,10 +1,10 @@
 ---
 title: Modelle
-description: Erfahren Sie, wie Sie Modelle im Adobe Mix Model konfigurieren und verwenden.
+description: Erfahren Sie, wie Sie Modelle in Mix Modeler konfigurieren und verwenden.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '346'
 ht-degree: 3%
 
 ---
@@ -12,15 +12,15 @@ ht-degree: 3%
 
 # Modelle
 
-Mit der Modellfunktion im Adobe Mix Modeler können Sie KI/ML-Modelle konfigurieren, trainieren und bewerten, die speziell auf Ihre Geschäftsziele abgestimmt sind und durch KI-gestütztes Transferlernen zwischen der Multitouch-Attribution und der Marketing-Mix-Modellierung unterstützt werden.
+Mit der Modellfunktion in Mix Modeler können Sie KI/ML-Modelle konfigurieren, trainieren und bewerten, die speziell auf Ihre Geschäftsziele abgestimmt sind und durch KI-gestütztes Transferlernen zwischen der Multitouch-Attribution und der Marketing-Mix-Modellierung unterstützt werden.
 
-Die Modelle basieren auf den harmonisierten Daten, die Sie im Rahmen des Adobe Mix Modeller-Anwendungs-Workflows erstellen.
+Die Modelle basieren auf den harmonisierten Daten, die Sie im Rahmen des Mix Modeler-Anwendungs-Workflows erstellen.
 
 Um ein Modell zu erstellen, verwenden Sie den schrittweisen Konfigurationsfluss des Modells Mix Model , der bei Auswahl von verfügbar ist. **[!UICONTROL Guide me]**. Siehe [Modell erstellen](create.md) für weitere Details.
 
 ## Modelle verwalten
 
-Um eine Tabelle Ihrer aktuellen Modelle anzuzeigen, gehen Sie in die Adobe Mix Model-Oberfläche:
+So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzeroberfläche an:
 
 1. Auswählen ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
 
@@ -64,14 +64,14 @@ So zeigen Sie weitere Details eines Modells an:
 
 >[!NOTE]
 >
->Diese Auswahl ist nur für erfolgreich trainierte Modelle verfügbar (Modelle mit dem Status Letzte Ausführung von Erfolg).
+>Diese Auswahl ist nur für erfolgreich trainierte Modelle verfügbar.
 >
 
-So zeigen Sie Einblicke in ein Modell in der Adobe Mix Model-Oberfläche an:
+So zeigen Sie Einblicke in ein Modell in der Mix Modeler-Oberfläche an:
 
 1. Auswählen ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
 
-1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** table
+1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** Tabelle.
 
 1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Model Insights]**. Sie werden zu [Model Insights](insights.md).
 

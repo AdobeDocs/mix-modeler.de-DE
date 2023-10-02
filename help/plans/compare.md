@@ -1,18 +1,18 @@
 ---
 title: Pläne vergleichen
-description: Erfahren Sie, wie Sie Pläne im Adobe Mix Model vergleichen.
+description: Erfahren Sie, wie Sie Pläne in Mix Modeler vergleichen können.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
 
 # Pläne vergleichen
 
-So vergleichen Sie Pläne in der Benutzeroberfläche der Adobe Mix-Modellierungspläne :
+So vergleichen Sie Mix Modeler-Pläne in der Benutzeroberfläche &quot;Pläne&quot;:
 
 * Auswählen ![Vergleichen](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. Wählen Sie unter Pläne vergleichen einen Plan für jeden **[!UICONTROL _Plan auswählen_]**.
 

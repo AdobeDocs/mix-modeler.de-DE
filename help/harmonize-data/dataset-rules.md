@@ -1,10 +1,10 @@
 ---
 title: Datensatzregeln
-description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Adobe Mix Model verwendet werden.
+description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Datensatzregeln
 
-Datensatzregeln helfen Ihnen bei der Zuordnung Ihrer harmonisierten Felder zu Feldern aus den Daten, die Sie in Adobe Mix Modeler erfasst haben.
+Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder zu Feldern aus den in Mix Modeler erfassten Daten.
 
 * Für aggregierte Daten, die Sie in Adobe Experience Platform erfasst haben, ordnen Sie eines oder mehrere der verfügbaren Datensatzfelder den entsprechenden harmonisierten Feldern zu.
 * Für Ereignisdaten können Sie ein oder mehrere harmonisierte Felder einzeln Feldern aus dem Datensatz zuordnen, entweder direkt oder unter Verwendung von Bedingungen.
@@ -20,7 +20,7 @@ Datensatzregeln helfen Ihnen bei der Zuordnung Ihrer harmonisierten Felder zu Fe
 
 ## Verwalten von Datensatzregeln und -zuordnungen
 
-Um eine Tabelle der verfügbaren Datensatzzuordnungen in der Adobe Mix Model-Oberfläche anzuzeigen:
+Um eine Tabelle der verfügbaren Datensatzzuordnungen anzuzeigen, gehen Sie in die Mix Modeler-Oberfläche:
 
 1. Auswählen ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
 
@@ -32,7 +32,7 @@ Die Tabellenspalten geben Details zu den Datensatz-Zuordnungen an:
 | ---------------------- | ----------|
 | Datensatz | Der Name des Datensatzes. |
 | Quelle | Die Quelle des Datensatzes, zu der Adobe Analytics, Erlebnisereignisse, Zusammenfassungen (Aggregate) oder Kundenerlebnisereignisse gehören können. |
-| Schema | Das Schema, dem der Datensatz entspricht. Sie können den Schemanamen schnell auswählen, um das Schema in einer neuen Registerkarte im Schema-Editor unter Adobe Mix Model - Schemas zu öffnen. |
+| Schema | Das Schema, dem der Datensatz entspricht. Sie können den Schemanamen schnell auswählen, um das Schema in einer neuen Registerkarte im Schema-Editor in Mix Modeler - Schemas zu öffnen. |
 | Granularität | Die Granularität der Daten im Datensatz. Mögliche Werte sind Täglich, Wöchentlich, Monatlich oder Jährlich. |
 | Beginn der Woche | Gibt an, welcher Wochentag als Beginn einer neuen Woche für den spezifischen Datensatz betrachtet wird. |
 | Zuletzt geändert | Daten und Uhrzeit der letzten Änderung der Datensatzzuordnung. |
@@ -41,7 +41,7 @@ Die Tabellenspalten geben Details zu den Datensatz-Zuordnungen an:
 
 ### Erstellen einer Datensatzzuordnung
 
-Um eine Datensatzzuordnung zu erstellen, finden Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Benutzeroberfläche in Adobe Mix Model, wählen Sie **[!UICONTROL Create Dataset Mapping]**.
+Um eine Datensatzzuordnung zu erstellen, finden Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Benutzeroberfläche in Mix Modeler auswählen **[!UICONTROL Create Dataset Mapping]**.
 
 Im **[!UICONTROL Create]** Bildschirm,
 
@@ -107,7 +107,7 @@ Wählen Sie zum Abschluss **[!UICONTROL Save]** , um die Zuordnung zu speichern,
 
 ### Datensatzzuordnung bearbeiten
 
-Um eine Datensatzzuordnung zu bearbeiten, wählen Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** -Schnittstelle in Adobe Mix Model:
+Um eine Datensatzzuordnung zu bearbeiten, wählen Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** -Schnittstelle in Mix Modeler:
 
 1. Auswählen ![Mehr](../assets/icons/More.svg) im **[!UICONTROL Dataset]** -Spalte für die Datensatzzuordnung, die Sie bearbeiten möchten.
 1. Wählen Sie im Kontextmenü die Option ![Bearbeiten](../assets/icons/Edit.svg) **[!UICONTROL Edit]** , um mit der Bearbeitung der Datensatzzuordnung zu beginnen. Siehe Abschnitt [Erstellen einer Datensatzzuordnung](#create-a-dataset-mapping) für weitere Details.
@@ -115,7 +115,7 @@ Um eine Datensatzzuordnung zu bearbeiten, wählen Sie im ![DataSearch](../assets
 
 ### Löschen von Datensatzzuordnungen
 
-Um eine Datensatzzuordnung zu löschen, finden Sie im Abschnitt ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** -Schnittstelle in Adobe Mix Model:
+Um eine Datensatzzuordnung zu löschen, finden Sie im Abschnitt ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** -Schnittstelle in Mix Modeler:
 
 1. Auswählen ![Mehr](../assets/icons/More.svg) im **[!UICONTROL Dataset]** -Spalte für die Datensatzzuordnung, die Sie löschen möchten.
 1. Wählen Sie im Kontextmenü die Option ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** , um die Datensatzzuordnung zu löschen.

@@ -1,10 +1,10 @@
 ---
 title: Daten erfassen
-description: Erfahren Sie, wie Sie Daten in Adobe Mix Model aufnehmen.
+description: Erfahren Sie, wie Sie Daten in Mix Modeler erfassen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '460'
 ht-degree: 15%
 
 ---
@@ -28,7 +28,7 @@ Sie können jede Art von Mechanismus verwenden, der von Adobe Experience Platfor
 
 ## Leitlinien
 
-Gehen Sie wie folgt vor, um Daten zur Verwendung mit Adobe Mix Modeller in Adobe Experience Platform aufzunehmen:
+Gehen Sie wie folgt vor, um Daten zur Verwendung mit Mix Modeler in Adobe Experience Platform aufzunehmen:
 
 * Die inkrementellen Daten, die zu den Datensätzen hinzugefügt werden, sollten sich nicht überschneiden.
 * Alle Daten aus einer einzigen Quelle sollten dieselbe Granularität aufweisen.
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um Daten zur Verwendung mit Adobe Mix Modeller in Adobe
 
 ## Beispiele
 
-Nachstehend finden Sie einige Beispiele für Daten, die in der Regel im Adobe Mix-Modeler verwendet werden, zusätzlich zu den standardmäßigen Erlebnisereignisdaten.
+Nachstehend finden Sie einige Beispiele für Daten, die in der Regel in Mix Modeler verwendet werden, neben den standardmäßigen Erlebnisereignisdaten.
 
 +++ Aggregieren von Daten zu Marketing-Maßnahmen
 
@@ -80,7 +80,8 @@ Nachstehend finden Sie einige Beispiele für Daten, die in der Regel im Adobe Mi
 
 +++
 
-Um mit Daten im Adobe Mix Model zu arbeiten, benötigen Sie Daten, die in Datensätzen erfasst und nach Schemas in Adobe Experience Platform modelliert wurden. Die Adobe Mix Modeler-Oberfläche bietet einfachen Zugriff auf die Benutzeroberfläche von Experience Platform-Schemas und Datensätzen.
+Um mit Daten in Mix Modeler zu arbeiten, benötigen Sie Daten, die in Datensätzen erfasst und nach Schemas in Adobe Experience Platform modelliert wurden. Die Mix Modeler-Oberfläche bietet einfachen Zugriff auf die Benutzeroberfläche von Schemas und Datensätzen.
+
 
 >[!MORELIKETHIS]
 >

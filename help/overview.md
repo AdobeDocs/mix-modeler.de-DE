@@ -1,19 +1,20 @@
 ---
-title: Übersicht über Adobe Mix Model
-description: Erfahren Sie, wie Sie mit Adobe Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
-source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
+title: Übersicht über Mix Modeler
+description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
+feature: Harmonized Data, Models, Plans
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
 
-# Adobe Mix Model-Handbuch
+# AdobeMix-Modellleitfaden
 
 ![Banner](assets/mix-modeler-banner.png)
 
-Dieses Handbuch zur technischen Dokumentation bietet Selbsthilfe für **Adobe Mix Model**. Adobe Mix Modeler ist eine Adobe Experience Cloud-Anwendung, die Kampagnen misst und die Planung ganzheitlich über alle Kanäle hinweg optimiert: bezahlt, verdient und besessen. Adobe Mix Modeler basiert auf Adobe Experience Platform und wird von Adobe Sensei unterstützt.
+Dieses Handbuch zur technischen Dokumentation bietet Selbsthilfe für **Adobe Mix Model**. Mix Modeler ist eine Adobe Experience Cloud-Anwendung, die Kampagnen ganzheitlich misst und die Planung über alle Kanäle hinweg optimiert: bezahlt, verdient und eigenverantwortlich. Mix Modeler basiert auf Adobe Experience Platform und wird von Adobe Sensei unterstützt.
 
 >[!AVAILABILITY]
 >
@@ -21,7 +22,7 @@ Dieses Handbuch zur technischen Dokumentation bietet Selbsthilfe für **Adobe Mi
 
 ## Erste Schritte
 
-* Was ist [Adobe Mix Model](get-started/about.md)?
+* Was ist [Mix-Modelle](get-started/about.md)?
 
 * Was ist ein typisches [Anwendungs-Workflow](get-started/workflow.md)?
 

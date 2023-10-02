@@ -1,10 +1,10 @@
 ---
 title: Übersicht über Pläne
-description: Erfahren Sie, wie Sie die Übersicht der Pläne in Adobe Mix Modeler verwenden.
+description: Erfahren Sie, wie Sie die Übersicht über die Pläne in Mix Modeler verwenden.
 feature: Dashboard, Plans, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-Auf der Registerkarte Pläne in der Übersicht über Adobe Mix-Modelle werden Widgets für [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] und [!UICONTROL KPI].
+Auf der Registerkarte Pläne in der Übersicht über Mix Modeler werden Widgets für [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] und [!UICONTROL KPI].
 
 Die für die Widgets angezeigten Daten werden bestimmt durch:
 

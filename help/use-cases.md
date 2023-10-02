@@ -1,18 +1,18 @@
 ---
-title: Anwendungsfälle für Adobe Mix-Modelle
-description: Anwendungsbeispiele für Adobe Mix Modeler.
+title: Anwendungsfälle für Mix Modeler
+description: Anwendungsfälle für Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
 
 
-# Anwendungsfälle für Adobe Mix-Modelle
+# Anwendungsfälle für Mix Modeler
 
-Adobe Mix Modeler ermöglicht die folgenden wichtigen Anwendungsfälle.
+Mix Modeler ermöglicht die folgenden wichtigen Anwendungsfälle.
 
 ## Inkrementelle Leistung von Omnichannel
 

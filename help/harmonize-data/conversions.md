@@ -1,10 +1,10 @@
 ---
 title: Konversionen
-description: Erfahren Sie, wie Sie Konversionen erstellen, die im Rahmen der Harmonisierung Ihrer Daten in Adobe Mix Modeler verwendet werden.
+description: Erfahren Sie, wie Sie Konversionen erstellen, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Conversions
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Sie definieren Marketing-Konversionen für die Attributionsanalyse.
 
 ## Konversionen verwalten
 
-Eine Tabelle der verfügbaren Konvertierungen finden Sie in der Adobe Mix Model-Oberfläche:
+Um eine Tabelle der verfügbaren Konvertierungen anzuzeigen, gehen Sie in die Mix Modeler-Oberfläche:
 
 1. Auswählen ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
 
@@ -38,7 +38,7 @@ Die Tabellenspalten geben Details zur Konvertierung an:
 
 ## Konvertierung hinzufügen
 
-Um eine Konversion hinzuzufügen, müssen Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** -Schnittstelle in Adobe Mix Model:
+Um eine Konversion hinzuzufügen, müssen Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** -Schnittstelle in Mix Modeler:
 
 1. Auswählen ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 

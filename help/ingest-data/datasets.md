@@ -1,20 +1,20 @@
 ---
 title: Datensätze
-description: Erfahren Sie, wie Sie die Datensätze verwalten, die für die Aufnahme von Daten in Adobe Mix Model erforderlich sind.
+description: Erfahren Sie, wie Sie die Datensätze verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: '63'
+ht-degree: 19%
 
 ---
 
 
 # Datensätze
 
-So verwalten Sie Datensätze, die die Daten enthalten, die Sie in Adobe Experience Platform erfassen und im Adobe Mix Model verwenden möchten:
+So verwalten Sie Datensätze, die die Daten enthalten, die Sie in Adobe Experience Platform erfassen und in Mix Modeler verwenden möchten:
 
-1. Wechseln Sie zur Adobe Mix Modeler-Oberfläche.
+1. Rufen Sie die Benutzeroberfläche des Mix Modelers auf.
 
 1. Auswählen ![Daten](../assets/icons/Data.svg) **[!UICONTROL Datasets]**, darunter **[!UICONTROL DATA MANAGEMENT]**.
 

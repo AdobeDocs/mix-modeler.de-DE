@@ -1,10 +1,10 @@
 ---
 title: Dashboard "Harmonisierte Datenübersicht"
-description: Erfahren Sie, wie Sie das Dashboard für die harmonisierte Datenübersicht in Adobe Mix Modeler verwenden.
+description: Erfahren Sie, wie Sie das Dashboard für die harmonisierte Datenübersicht in Mix Modeler verwenden.
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Überblick über harmonisierte Daten
 
-Die Registerkarte &quot;Harmonisierte Daten&quot;in der Übersicht über Adobe Mix-Modellierer bietet Einblicke in die harmonisierten Daten, die Sie für die Verwendung als Teil der erfassten Daten und der harmonisierten Dateneinrichtung konfiguriert haben.
+Die Registerkarte &quot;Harmonisierte Daten&quot;in der Übersicht über Mix Modeler bietet Einblicke in die harmonisierten Daten, die Sie für die Verwendung als Teil der erfassten Daten und der harmonisierten Dateneinrichtung konfiguriert haben.
 
 Die Übersicht zeigt vier KPI-Statuskarten-Widgets (oberste Zeile) und sechs weitere konfigurierbare Widgets.
 

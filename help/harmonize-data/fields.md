@@ -1,10 +1,10 @@
 ---
 title: Harmonisierte Felder
-description: Erfahren Sie, wie Sie Felder definieren, die im Rahmen der Harmonisierung Ihrer Daten in Adobe Mix Modeler verwendet werden sollen.
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: Erfahren Sie, wie Sie Felder definieren, die zur Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ Mithilfe von harmonisierten Feldern können Sie die Felder definieren, die Sie i
 
 ## Globale Harmonisierungsbereiche
 
-Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Adobe Mix Model sind:
+Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Mix Modeler sind:
 
 
 | Feldname | Anzeigename | Kategorie | Datentyp | Kommentar |
@@ -53,7 +53,7 @@ Sie können zusätzlich zu diesen global harmonisierten Feldern Ihre eigenen har
 
 ## Harmonisierte Felder verwalten
 
-Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Adobe Mix Model-Benutzeroberfläche:
+Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modeler-Benutzeroberfläche:
 
 1. Auswählen ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
 
@@ -81,7 +81,7 @@ Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Adobe Mix 
 
 ### Harmonisiertes Feld hinzufügen
 
-Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Adobe Mix-Modeler:
+Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
 1. Auswählen ![Hinzufügen](../assets/icons/AddCircle.svg)Feld hinzufügen.
 
@@ -107,7 +107,7 @@ Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](../assets
 
 Sie können nur zuvor erstellte harmonisierte Felder bearbeiten. Ein global harmonisiertes Feld kann nicht bearbeitet werden.
 
-So bearbeiten Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Adobe Mix-Modeler:
+So bearbeiten Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie bearbeiten möchten. Beispiel, **[!UICONTROL Region]**.
 
@@ -121,7 +121,7 @@ So bearbeiten Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataC
 
 Sie können nur zuvor erstellte harmonisierte Felder löschen. Ein globales harmonisiertes Feld kann nicht gelöscht werden.
 
-So löschen Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Adobe Mix-Modeler:
+So löschen Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
 1. Wählen Sie beispielsweise das harmonisierte Feld aus, das Sie löschen möchten **[!UICONTROL Region]**.
 

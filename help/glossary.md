@@ -1,15 +1,15 @@
 ---
-title: Adobe Mix Model Glossar
-description: Adobe Mix Model Glossar.
+title: Mix Modeler-Glossar
+description: Mix Modeler-Glossar.
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
 
-# Adobe Mix Model Glossar
+# Mix Modeler-Glossar
 
 Die folgende Terminologie und Abkürzungen werden in der Dokumentation verwendet:
 

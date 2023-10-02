@@ -1,10 +1,10 @@
 ---
 title: Plan bearbeiten
-description: Erfahren Sie, wie Sie einen Plan im Adobe Mix Model bearbeiten.
+description: Erfahren Sie, wie Sie einen Plan in Mix Modeler bearbeiten.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Plan bearbeiten
 
-Um einen Plan zu bearbeiten, klicken Sie im ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** -Schnittstelle in Adobe Mix Modeler, wählen Sie Ihren Plan nach seinem Namen.
+Um einen Plan zu bearbeiten, klicken Sie im ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** -Benutzeroberfläche in Mix Modeler verwenden, wählen Sie Ihren Plan anhand seines Namens aus.
 
 In [!UICONTROL Plan insights], werden Ihre Planeinblicke erstellt und zeigen die [!UICONTROL Model], die [!UICONTROL Data range], und [!UICONTROL Total budget] auf der der Plan beruht.
 
