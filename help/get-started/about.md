@@ -1,14 +1,14 @@
 ---
 title: Übersicht über Mix Modeler
-description: Verschaffen Sie sich einen Überblick über die Funktionen und Funktionen von Mix Modeler.
+description: Erhalten Sie einen Überblick über die Funktionen und Fähigkeiten von Mix Modeler.
 feature: Plans, Harmonized Data, Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
+source-git-commit: 4f47838707da2059788123f4b5abb5509e692413
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
-
 
 # Übersicht über Mix Modeler
 
@@ -45,12 +45,3 @@ Mix Modeler bietet die folgenden Funktionen:
 | **Erstellen und Vergleichen von Budgetszenarien** | Entwickeln Sie mehrere Budgetpläne und vergleichen Sie deren Auswirkungen, um optimale Entscheidungen für Ihr Unternehmen zu treffen. |
 
 {style="table-layout:auto"}
-
-
-
-
-
-
-
-
-
