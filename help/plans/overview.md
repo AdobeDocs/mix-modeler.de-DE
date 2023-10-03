@@ -2,13 +2,13 @@
 title: Pläne
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und bearbeiten können.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
 
 ---
-
 
 # Pläne
 
@@ -69,7 +69,8 @@ So vergleichen Sie Pläne:
 So löschen Sie Pläne:
 
 1. Wählen Sie einen oder mehrere Pläne aus der Tabelle aus.
-1. Auswählen ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** in der Aktionsleiste aus. Ihr Plan wird sofort gelöscht.
+1. Auswählen ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** in der Aktionsleiste aus.
 
-
-
+   >[!WARNING]
+   >
+   >   Die ausgewählten Pläne werden sofort gelöscht!

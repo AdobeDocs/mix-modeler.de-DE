@@ -1,14 +1,15 @@
 ---
 title: Mix Modeler-Handbuch
 description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
+short-description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
 feature: Harmonized Data, Models, Plans
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '112'
+ht-degree: 29%
 
 ---
-
 
 # Adobe Mix Model-Handbuch
 

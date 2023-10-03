@@ -2,17 +2,17 @@
 title: Schemata
 description: Erfahren Sie, wie Sie die Schemas verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 8%
 
 ---
 
-
 # Schemata
 
-So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Adobe Experience Platform erfassen und in Mix Modeler verwenden möchten:
+So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experience Platform erfassen und in Mix Modeler verwenden möchten:
 
 1. Rufen Sie die Benutzeroberfläche des Mix Modelers auf.
 
@@ -40,7 +40,7 @@ Ein Schema, das **[!DNL XDM Summary Metrics]** Die Basisklasse kann einfach sein
 
 ![Externes Factoryschema](../assets/external-factors-schema.png)
 
-Dieses einfache Schema kann zum Erfassen von Datensätzen verwendet werden, die Daten für Folgendes enthalten:
+Dieses einfache Schema kann zum Erfassen von Datensätzen verwendet werden, die Daten enthalten, beispielsweise für:
 
 - Konkurrierende Indexdaten
 

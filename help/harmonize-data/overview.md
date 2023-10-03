@@ -2,20 +2,20 @@
 title: Daten harmonisieren
 description: Erfahren Sie, wie Sie Daten in Mix Modeler harmonisieren.
 feature: Harmonized Data
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 18%
+source-wordcount: '801'
+ht-degree: 17%
 
 ---
-
 
 # Daten harmonisieren
 
 Die Daten im Mix Modeler unterscheiden sich je nach Datenquelle. Die Daten können wie folgt lauten:
 
-* aggregierte Daten, z. B. erfasst aus Datenquellen von &quot;winstalled Garden&quot;oder Offline-Werbedaten (wie Ausgaben), die bei der Durchführung einer Werbekampagne, eines Ereignisses oder einer physischen Werbekampagne erfasst wurden,
-* Ereignisdaten, z. B. aus Erstanbieter-Datenquellen. Diese Ereignisdaten können Daten sein, die über den Adobe Analytics-Quell-Connector von Adobe Analytics oder über das Adobe Experience Platform Web oder Mobile SDK oder die Edge Network API erfasst werden, oder Daten, die über Quell-Connectoren erfasst werden.
+* Aggregat- oder Zusammenfassungsdaten, z. B. aus Datenquellen für gebrauchte Gartenanlagen oder Offline-Werbedaten, die bei der Durchführung einer Werbekampagne, eines Ereignisses oder einer physischen Werbekampagne gesammelt wurden (z. B. Ausgaben);
+* Ereignisdaten, z. B. aus Erstanbieter-Datenquellen. Diese Ereignisdaten können Daten sein, die über den Adobe Analytics-Quell-Connector von Adobe Analytics oder über das Experience Platform Web- oder Mobile-SDK oder die Edge-Netzwerk-API erfasst werden, oder Daten, die über Quell-Connectoren erfasst werden.
 
 Der Harmonisierungsdienst von Mix Modeler gleicht die Aggregat- und Ereignisdaten in einer einheitlichen Datenansicht ab. Diese Datenansicht ist die Quelle für die Pläne und Modelle in Mix Modeler.
 
@@ -122,7 +122,7 @@ So zeigen Sie Ihre harmonisierten Daten in der Mix Modeler-Benutzeroberfläche a
 
    1. Um den Zeitraum, auf dem die Zusammenstellung harmonisierter Daten basiert, neu zu definieren, geben Sie einen Datumsbereich für **[!UICONTROL Date range]** oder Verwendung ![Kalender](../assets/icons/Calendar.svg) , um einen Datenbereich auszuwählen.
 
-   1. Um die für die harmonisierte Datentabelle angezeigten Spalten zu ändern, verwenden Sie ![Einstellungen](../assets/icons/Setting.svg) , um die **[!UICONTROL Column settings]** angezeigt.
+   1. Um die für die harmonisierte Datentabelle angezeigten Feldspalten zu ändern, verwenden Sie ![Einstellungen](../assets/icons/Setting.svg) , um die **[!UICONTROL Column settings]** angezeigt.
 
       1. Auswählen ![SelectBox](../assets/icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** und Verwendung ![Chevron rechts](../assets/icons/ChevronRight.svg) , um diese Spalten hinzuzufügen **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,5 +133,3 @@ So zeigen Sie Ihre harmonisierten Daten in der Mix Modeler-Benutzeroberfläche a
       1. Um die Reihenfolge der angezeigten Spalten zu ändern, können Sie eine Spalte verschieben in **[!UICONTROL SELECTED COLUMNS]** per Drag &amp; Drop nach oben und unten
 
    1. Auswählen **[!UICONTROL Submit]** , um die Änderungen an den Spalteneinstellungen einzureichen. Auswählen **[!UICONTROL Close]** , um alle von Ihnen vorgenommenen Änderungen abzubrechen.
-
-

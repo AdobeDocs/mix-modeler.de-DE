@@ -2,13 +2,13 @@
 title: Marketing-Touchpoints
 description: Erfahren Sie, wie Sie Marketing-Touchpoints erstellen, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Marketing Touch Points
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
 
 ---
-
 
 # Marketing-Touchpoints
 

@@ -2,19 +2,19 @@
 title: Harmonisierte Felder
 description: Erfahren Sie, wie Sie Felder definieren, die zur Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 11%
 
 ---
 
-
 # Harmonisierte Felder
 
 Harmonisierte Felder ermöglichen es Ihnen, Felder für konzeptionell dieselben Daten zu definieren, die aus verschiedenen Quellen stammen und jeweils eine eigene Definition dieser Daten enthalten. Beispielsweise kann eine Klickmetrik je nach Datenquelle anders definiert und benannt werden. Ein harmonisiertes Feld für Klicks ermöglicht es Ihnen, basierend auf diesen verschiedenen Klickdatenquellen eine gemeinsame Nomenklatur für eine Klickmetrik zu definieren.
 
-Mithilfe von harmonisierten Feldern können Sie die Felder definieren, die Sie im Rahmen des Daten-Workflows harmonisieren möchten. Die von Ihnen definierten Felder können zur Definition von Datensatzregeln, Marketing-Touchpoints und Konversion verwendet werden.
+Mithilfe von harmonisierten Feldern können Sie die Felder definieren, die Sie im Rahmen des Daten-Workflows harmonisieren möchten. Die von Ihnen definierten Felder können zum Definieren von Datensatzregeln, Marketing-Touchpoints und Konversionen verwendet werden.
 
 ## Globale Harmonisierungsbereiche
 
@@ -126,5 +126,3 @@ So löschen Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataChe
 1. Wählen Sie beispielsweise das harmonisierte Feld aus, das Sie löschen möchten **[!UICONTROL Region]**.
 
 1. Auswählen ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** aus dem **[!UICONTROL Edit harmonization values]** linker Bereich.
-
-

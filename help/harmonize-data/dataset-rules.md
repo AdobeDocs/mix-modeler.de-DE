@@ -2,13 +2,13 @@
 title: Datensatzregeln
 description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
 
 ---
-
 
 # Datensatzregeln
 
@@ -61,7 +61,7 @@ Im **[!UICONTROL Create]** Bildschirm,
 
       ![Erstellen von Datensatzregeln](../assets/dataset-create-summary.png)
 
-1. Wenn Sie einen Ereignistyp für einen Datensatz ausgewählt haben, klicken Sie im schattierten Feld unter **[!UICONTROL Map to harmonized fields]**:
+1. Wenn Sie einen Ereignistyp für einen Datensatz ausgewählt haben (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), in der schattierten Box darunter **[!UICONTROL Map to harmonized fields]**:
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Standard harmonized field]**.
 
@@ -132,4 +132,3 @@ So synchronisieren Sie Daten zwischen Ihren harmonisierten Daten und Zusammenfas
 1. Auswählen **[!UICONTROL Sync]** , um die Synchronisierung auf der Grundlage der definierten Datensatzregeln zwischen harmonisierten Daten und Daten in Datensätzen zu starten. Um die Synchronisierung abzubrechen, wählen Sie **[!UICONTROL Cancel]**.
 
    ![Daten synchronisieren](../assets/sync-data.png)
-
