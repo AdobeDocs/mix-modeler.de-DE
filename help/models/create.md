@@ -2,13 +2,13 @@
 title: Modell erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler ein Modell erstellen.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
-
 
 # Modell erstellen
 
@@ -127,9 +127,9 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       1. Wählen Sie die **[!UICONTROL Rule type]**.
 
-      1. Prozentsätze für jeden der unter **[!UICONTROL Name]**, wobei **[!UICONTROL Contribution proportion]** Spalte. Stellen Sie sicher, dass sich die Verteilung der Prozentsätze insgesamt auf 100 % erhöht.
+      1. Geben Sie Beitragsprozentsätze für jeden der Kanäle an, die unter **[!UICONTROL Name]**, wobei **[!UICONTROL Contribution proportion]** Spalte.
 
-      1. Sie können für jeden Kanal einen **[!UICONTROL Level of confidence]** in Prozent.
+      1. Bei Bedarf können Sie für jeden Kanal einen **[!UICONTROL Level of confidence]** in Prozent.
 
       1. Verwenden Sie bei Bedarf **[!UICONTROL Clear all]** , um alle Eingabewerte für die **[!UICONTROL Contribution proportion]** und **[!UICONTROL Level of confidence]** Spalten.
 
@@ -146,4 +146,3 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
    Auswählen **[!UICONTROL Back]** , um zum vorherigen Schritt zurückzukehren.
 
    Auswählen **[!UICONTROL Cancel]** , um die Modellkonfiguration abzubrechen.
-
