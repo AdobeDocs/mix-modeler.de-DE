@@ -3,16 +3,21 @@ title: Mix Modeler-Workflow
 description: Machen Sie sich mit dem typischen Workflow für Mix Modeler vertraut.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---
 
 # Mix Modeler-Workflow
 
-Ein typischer Workflow in Mix Modeler sieht wie folgt aus:
+In diesem Video erhalten Sie eine Einführung in den Benutzer-Workflow in Mix Modeler.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+
+
+Unter funktionalen Gesichtspunkten besteht ein typischer Workflow in Mix Modeler aus folgenden Aktivitäten:
 
 ![Alternativtext](../assets/ApplicationWorkflow.svg)
 

@@ -4,14 +4,18 @@ description: Erhalten Sie einen Überblick über die Funktionen und Fähigkeiten
 short-description: Erhalten Sie einen Überblick über die Funktionen und Fähigkeiten von Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Übersicht über Mix Modeler
+
+In diesem Video erhalten Sie einen schnellen Überblick über die Funktionen von Mix Modeler.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
 Mix Modeler basiert auf Adobe Sensei und ermöglicht es Marketing-Experten, Kampagnen zu messen und die Planung auf allen Kanälen ganzheitlich zu optimieren: bezahlt, verdient und eigenverantwortlich. Die einheitliche Methodik misst schrittweise sowohl auf Marketing- als auch auf aggregierter Ebene und gewährleistet gleichzeitig vollständig konsistente Ergebnisse.
 
