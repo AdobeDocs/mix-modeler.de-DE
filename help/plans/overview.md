@@ -3,10 +3,10 @@ title: Pläne
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und bearbeiten können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
@@ -14,8 +14,22 @@ ht-degree: 2%
 
 Pläne in Mix Modeler ermöglichen es Ihnen, Budgets nach Geschäftseinheiten und  zuzuweisen. Die Planungsfunktionalität ist in die Ergebnisse der trainierten Modelle auf der Grundlage Ihrer harmonisierten Daten integriert.
 
+In einem Plan werden die disziplinären Investitionen (z. B. Budgets) beschrieben, die ein Unternehmen im Laufe eines bestimmten Zeitrahmens im Dienste gemeinsamer KPI (z. B. Bestellungen, Umsatz) für Marketing-bezogene Projekte ausgeben möchte. Pläne können Ausgaben aus Kanälen wie bezahlte Werbung, gesponserte Web-Inhalte und Veranstaltungen umfassen.
 
-## Pläne anzeigen
+Ein Plan erfordert:
+
+- ein Modell,
+- einen Datenbereich,
+- einen Haushalt.
+
+Ein Plan kann optional Folgendes umfassen:
+
+- ein konfiguriertes Erkennungsfenster,
+- mehrere Flugdaten mit jeweils einem Zielbudget;
+- Mindest- und Höchstgrenzen für das Budget nach Kanal und Flugdatum.
+
+
+## Pläne verwalten
 
 So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche an:
 
@@ -40,6 +54,14 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche
 
 1. Verwendung ![Suche](../assets/icons/Search.svg) , um die Tabelle nach einem oder mehreren spezifischen Plänen zu durchsuchen und zu filtern.
 
+## Plan erstellen
+
+Verwenden Sie zum Erstellen eines Mix Modelers den Assistenten zur Erstellung eines Plans. Siehe [Plan erstellen](create.md) für weitere Details.
+
+
+## Plan bearbeiten
+
+Um einen Plan zu bearbeiten, wählen Sie den Namen des Plans aus der Tabelle aus. Siehe [Plan bearbeiten](edit.md) für weitere Informationen.
 
 ## Auswahl und Aktion für Pläne
 
