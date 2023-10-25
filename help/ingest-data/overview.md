@@ -3,16 +3,16 @@ title: Daten erfassen
 description: Erfahren Sie, wie Sie Daten in Mix Modeler erfassen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 15%
 
 ---
 
 # Daten erfassen
 
-Mix Modeler arbeitet mit Daten auf Ereignisebene, aggregierten Daten zu Marketing-Maßnahmen aus verschiedenen installierten Gärten sowie Aggregat- oder Zusammenfassungsdaten aus anderen Quellen wie Offline-Werbung, internen Faktoren oder externen Faktoren.
+Mix Modeler verwendet Daten auf Ereignisebene, aggregiert Daten zu Zusammenfassungen von Marketing-Maßnahmen aus verschiedenen installierten Gärten und aggregiert oder zusammenfassende Daten aus anderen Quellen, wie Offline-Werbung, interne Faktoren oder externe Faktoren.
 
 Kunden können beliebige Daten verwenden, die als Datensätze in Experience Platform aufgenommen werden und auf Schemas basieren, indem sie XDM ExperienceEvent oder XDM Summary Metrics als Basisklasse verwenden.
 
@@ -20,8 +20,8 @@ Beispiel:
 
 * Daten, die mit dem Adobe Analytics-Quell-Connector erfasst und in Datensätze umgewandelt wurden, die der Standardversion oder einer benutzerdefinierten Version des Adobe Analytics-Schemas entsprechen, oder alternativ
 * Daten, die mit dem Experience Platform Web SDK, Mobile SDK oder Edge Network Server API zur Erfassung von Kundeninteraktionen im Web, auf Mobilgeräten oder auf anderen Geräten erfasst werden,
-* Aggregat von Daten aus eingeschlossenen Gärten (wie Facebook, YouTube), Traffic-Quellen oder Offline-Werbedaten,
-* Nicht-Marketing-Aggregat- oder Zusammenfassungsdaten mit internen oder externen Faktoren, die für die Modellerstellung nützlich sind.
+* Aggregat- oder Zusammenfassungsdaten aus den umschlossenen Gärten (wie Facebook, YouTube), Traffic-Quellen oder Offline-Werbedaten,
+* Nicht-Marketing-Aggregat- oder Zusammenfassungsdaten, die interne oder externe Faktoren enthalten, die für die Modellerstellung nützlich sind.
 
 Sie können jede Art von Mechanismus verwenden, der von Experience Platform unterstützt wird, um Ihre Erlebnisereignisebene zu erfassen, Daten zu Marketing-Maßnahmen zu aggregieren und Daten aus anderen Quellen zu erfassen. Experience Platform-SDK, APIs, Quell-Connectoren sowie Streaming- und Batch-Erfassung.
 
