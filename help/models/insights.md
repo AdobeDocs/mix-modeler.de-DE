@@ -2,13 +2,13 @@
 title: Model Insights
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # Model Insights
 
@@ -27,36 +27,37 @@ Sie können den Datumsbereich ändern, auf dem die Widgets auf den einzelnen Reg
 
 Die Registerkarte Historische Übersicht zeigt Widgets für:
 
-* Konversion und Ausgaben nach Fiskalcharta und Produkt
+* Konversion und Ausgaben nach Fiscal Qtr und Produkt.
 
 * Ausgaben nach Kanal
 
-* Touchpoint-Ausgabe
+* Touchpoint-Ausgaben.
 
   Sie können einen alternativen ausgabenbasierten Kanal auswählen, der für dieses Widget angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 
-* Touchpoint-Lautstärke
+* Touchpoint-Lautstärke.
 
   Sie können einen alternativen volumenbasierten Kanal auswählen, der für dieses Widget angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 
-
-
 ![Modell - Historische Übersicht](../assets/model-historical-overview.png)
-
 
 ## Modelleinblicke
 
 Auf der Registerkarte Modelleinblicke werden Widgets für Folgendes angezeigt:
 
-* Beitrag nach Datum und Basismedien
+* Beitrag nach Datum und Basismedien Das gestapelte Diagramm ist geordnet: unten, links in der Mitte, links in der Mitte und rechts oben die Ausgabekanäle.
 
 * Beitrag nach Kanal
 
-* Marketing-Leistungszusammenfassung
+* Marketing-Leistungszusammenfassung.
+
+![Modell - Modelleinblicke](../assets/model-model-insights.png)
 
 Sie können den Mauszeiger über einzelne Diagrammelemente in jedem Widget bewegen, um ein Popover mit weiteren Details anzuzeigen.
 
-![Modell - Modelleinblicke](../assets/model-model-insights.png)
+Um eine CSV-Datei mit den Daten für das Widget herunterzuladen, wählen Sie ![Herunterladen](../assets/icons/Download.svg).
+
+
 
 
 ## Modellqualität
@@ -71,4 +72,4 @@ Auf der Registerkarte Modellqualität werden Widgets zur Messung angezeigt:
 
 ![Modellqualität](../assets/model-quality.png)
 
-
+Um eine CSV-Datei mit den Daten für das Widget herunterzuladen, wählen Sie ![Mehr](../assets/icons/More.svg) Wählen Sie im Widget und im Kontextmenü die Option ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.

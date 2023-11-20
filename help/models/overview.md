@@ -3,9 +3,9 @@ title: Modelle
 description: Erfahren Sie, wie Sie Modelle in Mix Modeler konfigurieren und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '501'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,10 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzerob
    |---|---|
    | Name | Name des Modells |
    | Beschreibung | Beschreibung des Modells |
-   | Konversionsereignisse | Die für das Modell ausgewählte Konversion. |
-   | Datensatz | Der Datensatz, den das Modell zum Trainieren und Bewerten verwendet. Dies ist standardmäßig der harmonisierte Datensatz. |
+   | Konversionsereignis | Die für das Modell ausgewählte Konversion. |
    | Ausführungshäufigkeit | Die Ausführungsfrequenz des Trainings des Modells. |
    | Letzte Ausführung | Datum und Uhrzeit der letzten Schulung des Modells. |
-   | Status der letzten Ausführung | Der Status des letzten Trainings des Modells. <br/><span style="color:green">●</span> Erfolg<br/><span style="color:orange">●</span> Schulungsfehler<br/> <span style="color:orange">●</span> Vorbereitung der Schulung <br/><span style="color:red">●</span> Fehlgeschlagen |
+   | Status | Der Status des letzten Trainings des Modells. <br/><span style="color:green">●</span> Erfolg<br/><span style="color:orange">●</span> Schulungsfehler<br/> <span style="color:orange">●</span> Vorbereitung der Schulung <br/><span style="color:red">●</span> Fehlgeschlagen |
 
    {style="table-layout:auto"}
 
@@ -73,9 +72,7 @@ So löschen Sie ein Modell:
 
 So zeigen Sie weitere Details eines Modells an:
 
-1. Wählen Sie den Namen des Modells aus, für das Sie weitere Details anzeigen möchten.
-
-1. Wählen Sie im Kontextmenü die Option **[!UICONTROL More]**. Details zum ausgewählten Modell finden Sie im rechten Bereich.
+1. Auswählen ![Info](../assets/icons/Info.svg) für ein Modell, um ein Popup mit Details anzuzeigen.
 
 
 
@@ -93,3 +90,20 @@ So zeigen Sie Einblicke in ein Modell in der Mix Modeler-Oberfläche an:
 1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** Tabelle.
 
 1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Model Insights]**. Sie werden zu [Model Insights](insights.md).
+
+
+### Neubewertung
+
+>[!NOTE]
+>
+>Diese Auswahl ist nur für erfolgreich trainierte Modelle verfügbar.
+>
+
+So bewerten Sie ein Modell in der Mix Modeler-Oberfläche neu:
+
+1. Auswählen ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
+
+1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** Tabelle.
+
+1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Re-score]**. Es kann einige Minuten dauern, bis ein aktualisierter Status für das Modell angezeigt wird.
+

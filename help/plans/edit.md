@@ -2,13 +2,13 @@
 title: Plan bearbeiten
 description: Erfahren Sie, wie Sie einen Plan in Mix Modeler bearbeiten.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Plan bearbeiten
 
@@ -16,13 +16,24 @@ Um einen Plan zu bearbeiten, klicken Sie im ![PLan](../assets/icons/FileChart.sv
 
 In [!UICONTROL Plan insights], werden Ihre Planeinblicke erstellt und zeigen die [!UICONTROL Model], die [!UICONTROL Data range], und [!UICONTROL Total budget] auf der der Plan beruht.
 
-Wenn Sie das Abrufen abgeschlossen haben, erhalten Sie einen Überblick über Ihren Plan mit Visualisierungen für [!UICONTROL Forecasted ROI] und [!UICONTROL Forecasted revenue].
+Nach Abschluss des Abrufs wird Ihnen ein Überblick über Ihren Plan angezeigt, der aus Folgendem besteht:
+
+- [!UICONTROL Forecasted paid channel ROI] Visualisierung
+- [!UICONTROL Forecasted revenue] Visualisierung
+- [!UICONTROL Data range breakdown] Plan-Tabelle mit Spalten für
+
+   - Kanal
+   - ROI
+   - CPA
+   - Umsatz
+   - Konversionsziel
+   - Ausgeben
+
+![Übersicht über einen Plan](../assets/overview-plan.png)
 
 1. Auswählen **[!UICONTROL Close]** , um zur Oberfläche Pläne zurückzukehren.
 
-1. (optional) Wählen Sie **[!UICONTROL Plan breakdown]** um eine Aufschlüsselungstabelle Ihres Plans anzuzeigen.
-
-   ![Übersicht über einen Plan](../assets/overview-plan.png)
+1. Um eine CSV-Datei herunterzuladen, die die Daten der Aufschlüsselung des Datumsbereichs enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. Um Ihren Plan zu bearbeiten, wählen Sie **[!UICONTROL Edit plan]**:
 
@@ -65,4 +76,3 @@ Wenn Sie das Abrufen abgeschlossen haben, erhalten Sie einen Überblick über Ih
 1. Um Ihre Planaktualisierungen abzubrechen, wählen Sie **[!UICONTROL Cancel]**.
 
    Im **[!UICONTROL No work will be saved]** Dialogfeld auswählen **[!UICONTROL Cancel]** um mit der Arbeit an Ihrem Plan fortzufahren oder **[!UICONTROL OK]** , um zur Benutzeroberfläche &quot;Pläne&quot;zurückzukehren.
-

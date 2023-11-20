@@ -3,9 +3,9 @@ title: Pläne
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und bearbeiten können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche
    | Spaltenname | Details |
    |---|---|
    | Name | Name des Plans |
-   | Beschreibung | Beschreibung des Modells |
    | Modell | Das als Grundlage für den Plan verwendete Modell. |
    | Datumsbereich | Der vollständige Datumsbereich für einen Plan. |
    | Budget | Das Gesamtbudget für einen Plan. |
@@ -62,6 +61,7 @@ Verwenden Sie zum Erstellen eines Mix Modelers den Assistenten zur Erstellung ei
 ## Plan bearbeiten
 
 Um einen Plan zu bearbeiten, wählen Sie den Namen des Plans aus der Tabelle aus. Siehe [Plan bearbeiten](edit.md) für weitere Informationen.
+
 
 ## Auswahl und Aktion für Pläne
 

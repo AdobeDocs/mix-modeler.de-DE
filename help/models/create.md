@@ -3,7 +3,7 @@ title: Modell erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler ein Modell erstellen.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modell erstellen
 
-So erstellen Sie ein Modell in der ![Modelle](../assets/icons/FileData.svg) **[!UICONTROL Models]** Benutzeroberfläche in Mix Modeler auswählen **[!UICONTROL Guide me]**.
+So erstellen Sie ein Modell in der ![Modelle](../assets/icons/FileData.svg) **[!UICONTROL Models]** Benutzeroberfläche in Mix Modeler auswählen **[!UICONTROL Open model canvas]**.
 
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen schrittweisen Konfigurationsfluss für Modelle.
 
@@ -24,7 +24,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
    1. Auswählen **[!UICONTROL Next]** , um mit dem nächsten Schritt fortzufahren. Auswählen **[!UICONTROL Cancel]** , um die Modellkonfiguration abzubrechen.
 
-1. Im **[!UICONTROL Configure]** step:
+1. Im **[!UICONTROL Configured]** step:
 
    1. Im **[!UICONTROL Conversion goal]** -Abschnitt innerhalb des Containers:
 
@@ -48,7 +48,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Um einen Marketing-Touchpoint-Container hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * Um einen Marketing-Touchpoint-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg) und wählen **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
+      * Um einen Marketing-Touchpoint-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg)und wählen Sie **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
 
         ![Modell - Marketing-Touchpoints-Schritt](../assets/model-marketing-touchpoint-step.png)
 
@@ -72,7 +72,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Um einen infrage kommenden Datenpopulations-Container hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Um einen geeigneten Datenpopulations-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg) und wählen **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
+      * Um einen geeigneten Datenpopulations-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg)und wählen Sie **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
 
         ![Modell - Berechtigte Datenpopulation](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Um einen weiteren Datensatz-Container mit externen Faktoren hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Um einen externen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg) und wählen **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
+      * Um einen externen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg)und wählen Sie **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
 
         ![Modell - Datensatz mit externen Faktoren](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Um einen weiteren internen Faktoren-Datensatz-Container hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Um einen zusätzlichen internen Faktoren-Datensatzcontainer zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg) und **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
+      * Um einen zusätzlichen internen Faktoren-Datensatzcontainer zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg), und **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
 
         ![Modell - Datensatz mit internen Faktoren](../assets/model-internal-factors-dataset-step.png)
 
