@@ -3,10 +3,10 @@ title: Schemata
 description: Erfahren Sie, wie Sie die Schemas verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 8%
+source-wordcount: '377'
+ht-degree: 5%
 
 ---
 
@@ -46,19 +46,19 @@ Dieses einfache Schema kann zum Erfassen von Datensätzen verwendet werden, die 
 
   | Zeitstempel | date_type | Faktor | value |
   |---|---|---|--:|
-  | 28.11.2020:00:00.000Z | Woche | Konkurrentenindex | 289.8 |
-  | 2020-12-05T00:00:00.000Z | Woche | Konkurrentenindex | 291.2 |
-  | 12.12.2020 T00:00:00.000Z | Woche | Konkurrentenindex | 280.07 |
+  | 28.11.2020:00:00.000Z | Woche | Konkurrentenindex | 289,8 |
+  | 2020-12-05T00:00:00.000Z | Woche | Konkurrentenindex | 291,2 |
+  | 12.12.2020 T00:00:00.000Z | Woche | Konkurrentenindex | 280,07 |
   | ... | ... | ... | ... |
 
 - Daten zu Feiertagszeiten
 
   | Zeitstempel | date_type | Faktor | value |
   |---|---|---|--:|
-  | 28.11.2020:00:00.000Z | Woche | all_days_flag | 0.0 |
-  | 2020-12-05T00:00:00.000Z | Woche | all_days_flag | 0.0 |
-  | 12.12.2020 T00:00:00.000Z | Woche | all_days_flag | 0.0 |
-  | 2020-12-19T00:00:00.000Z | Woche | all_days_flag | 0.0 |
+  | 28.11.2020:00:00.000Z | Woche | all_days_flag | 0,0 |
+  | 2020-12-05T00:00:00.000Z | Woche | all_days_flag | 0,0 |
+  | 12.12.2020 T00:00:00.000Z | Woche | all_days_flag | 0,0 |
+  | 2020-12-19T00:00:00.000Z | Woche | all_days_flag | 0,0 |
   | 26.12.2020:00:00.000Z | Woche | all_days_flag | 1,0 |
   | ... | ... | ... | ... |
 
@@ -68,3 +68,18 @@ Ein umfassenderes Beispiel für eine **[!DNL LumaPaidMarketingSchema]** mithilfe
 ![Zusammenfassungsschema](../assets/summary-schema.png)
 
 Angesichts der asynchronen Art der Profilerfassung wird bei der Erfassung von Aggregat- oder Zusammenfassungsdaten aus externen Quellen empfohlen, die Feldergruppe &quot;Prüfdetails des externen Quellsystems&quot;als Teil eines Schemas zu verwenden. Diese Feldergruppe definiert einen Satz von Prüfeigenschaften für externe Quellen.
+
+
+## Unterstützte Datentypen
+
+Derzeit unterstützt Mix Modeler eine Untergruppe von Experience Platform-Datentypen. Die folgenden grundlegenden Datentypen (Felder), aufgeführt in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), werden unterstützt:
+
+- Zeichenfolge
+- Ganzzahl
+- Double
+- Boolesch
+- Lang
+- Kurz
+- Byte
+- Datum
+- Datum-Uhrzeit
