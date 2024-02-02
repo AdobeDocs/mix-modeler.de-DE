@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen
 short-description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: fbfc1bbc4fbaacdaf264102f6914b5ecbd2625f9
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 18%
@@ -20,7 +20,7 @@ Dieses technische Handbuch bietet Hilfe zum Adobe **Mix Modeler**. Mix Modeler i
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="/help/overview.md"><img src="./assets/whatis-mm.png"></a>
+    <a href="/help/get-started/about.md"><img src="./assets/whatis-mm.png"></a>
     <div><strong>Schnellstart</strong><br/>Verschaffen Sie sich einen Überblick über den Workflow von Mix Modeler und erhalten Sie Einblicke in diesen.</div>
     </td>
     <td>
@@ -38,7 +38,7 @@ Dieses technische Handbuch bietet Hilfe zum Adobe **Mix Modeler**. Mix Modeler i
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/get-started/about.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
