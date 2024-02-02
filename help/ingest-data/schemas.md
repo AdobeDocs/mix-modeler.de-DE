@@ -3,7 +3,7 @@ title: Schemata
 description: Erfahren Sie, wie Sie die Schemas verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -16,7 +16,7 @@ So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experie
 
 1. Rufen Sie die Benutzeroberfläche des Mix Modelers auf.
 
-1. Auswählen ![Schemas](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, darunter **[!UICONTROL DATA MANAGEMENT]**.
+1. Auswählen ![Schemas](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, darunter **[!UICONTROL SETUP]**.
 
 Siehe [Übersicht über die Benutzeroberfläche von Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) für weitere Informationen.
 

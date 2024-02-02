@@ -2,13 +2,13 @@
 title: Konversionen
 description: Erfahren Sie, wie Sie Konversionen erstellen, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Conversions
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
+source-wordcount: '318'
+ht-degree: 1%
 
 ---
-
 
 # Konversionen
 
@@ -31,6 +31,7 @@ Die Tabellenspalten geben Details zur Konvertierung an:
 | Name | Der Name der Konvertierung. |
 | Umsatz | Die harmonisierte Datenmetrik zur Berechnung des Umsatzes. |
 | Konversionsmetrik | Die harmonisierte Datenmetrik, die als Konversionsmetrik für die Analyse verwendet werden soll. |
+| Kategorie | Die Konversionskategorie der Konversion. |
 | Erstellt | Datum und Uhrzeit der Erstellung der Konvertierung. |
 | Zuletzt geändert | Datum und Uhrzeit der letzten Änderung der Konversion. |
 
@@ -42,13 +43,13 @@ Um eine Konversion hinzuzufügen, müssen Sie im ![DataSearch](../assets/icons/D
 
 1. Auswählen ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
-1. Im **[!UICONTROL Create Conversion]** dialog:
+1. Im **[!UICONTROL Create conversion]** dialog:
 
    1. Geben Sie einen Namen für **[!UICONTROL Conversion]**, beispielsweise `Store Conversions`.
 
    1. Definieren Sie die **[!UICONTROL Conversion category]**.
 
-      1. Wählen Sie einen Wert aus **[!UICONTROL *Harmonisieren...*]**, beispielsweise `Conversion Type`.
+      1. Wählen Sie einen Wert aus **[!UICONTROL *Harmonisieren...*]**, beispielsweise `Conversion types`.
 
       1. Wert für den Operator auswählen ![Chevron](../assets/icons/ChevronDown.svg), beispielsweise **[!UICONTROL is]**.
 
@@ -63,3 +64,20 @@ Um eine Konversion hinzuzufügen, müssen Sie im ![DataSearch](../assets/icons/D
       ![Alternativtext](../assets/create-conversion.png)
 
 1. Nach der Erstellung wird die Konversion der Konversionstabelle hinzugefügt.
+
+
+## Konvertierung anzeigen
+
+So zeigen Sie eine Konversion an:
+
+1. Auswählen ![Mehr](../assets/icons/More.svg) wenn Sie den Mauszeiger über einen Konversionsnamen in der Tabelle bewegen.
+
+1. Auswählen ![Ansicht](../assets/icons/ViewDetail.svg) **Ansicht**. In einem Dialogfeld werden Details zur Konvertierung angezeigt. Siehe [Konvertierung hinzufügen](#add-a-conversion) für weitere Informationen. Auswählen **[!UICONTROL Cancel]** , um das Dialogfeld zu schließen.
+
+
+## Löschen von Konversionen
+
+So löschen Sie eine Konversion:
+
+1. Auswählen ![Löschen](../assets/icons/Delete.svg) **Löschen** wenn Sie den Mauszeiger über einen Konversionsnamen in der Tabelle bewegen.
+1. Im **[!UICONTROL Delete conversion]** Dialogfeld zur Dialogbestätigung auswählen **[!UICONTROL Delete]** , um die Konvertierung dauerhaft zu löschen.

@@ -3,9 +3,9 @@ title: Plan bearbeiten
 description: Erfahren Sie, wie Sie einen Plan in Mix Modeler bearbeiten.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ Nach Abschluss des Abrufs wird Ihnen ein Überblick über Ihren Plan angezeigt, 
 
 1. Auswählen **[!UICONTROL Close]** , um zur Oberfläche Pläne zurückzukehren.
 
+1. Auswählen **[!UICONTROL X]** oder **[!UICONTROL  %]** Informationen zu **[!UICONTROL View ROI]**.
+
 1. Um eine CSV-Datei herunterzuladen, die die Daten der Aufschlüsselung des Datumsbereichs enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. Um die Aufschlüsselung des Datumsbereichs nach Kanälen anzuzeigen, wählen Sie **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** oder **[!UICONTROL Non-paid channels]** aus dem **[!UICONTROL View]** auswählen.
 
 1. Um Ihren Plan zu bearbeiten, wählen Sie **[!UICONTROL Edit plan]**:
 
@@ -53,7 +57,7 @@ Nach Abschluss des Abrufs wird Ihnen ein Überblick über Ihren Plan angezeigt, 
 
          1. Ändern Sie die **[!UICONTROL Date range]** für einen oder mehrere der Datumsbereiche Ihres Plans festlegen, indem Sie entweder Datumsangaben eingeben oder einen Datumsbereich auswählen, indem Sie ![Kalender](../assets/icons/Calendar.svg).
 
-         1. Ändern Sie die **[!UICONTROL Budget]** einen oder mehrere der Datumsbereiche Ihres Plans festlegen.
+         1. Ändern Sie die **[!UICONTROL Budget]** für einen oder mehrere der Datumsbereiche Ihres Plans.
 
          Um zusätzliche Datumsbereiche hinzuzufügen, wählen Sie jeden mit dem Budget aus. ![CalendarAdd](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 

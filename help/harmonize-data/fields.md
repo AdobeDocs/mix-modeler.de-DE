@@ -3,10 +3,10 @@ title: Harmonisierte Felder
 description: Erfahren Sie, wie Sie Felder definieren, die zur Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 11%
+source-wordcount: '685'
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Mix Modeler s
 | mediatype | Medientyp | Dimension | Zeichenfolge |           |
 | net_sales | Nettoverkäufe | Metrik | Währung |           |
 | Bestellungen | Bestellungen | Metrik | Zahl |           |
-| sourcetype | Quellentyp | Dimension | Zeichenfolge |           |
+| sourcetype | Quelltyp | Dimension | Zeichenfolge |           |
 | ausgaben | Ausgeben | Metrik | Währung |           |
 | trafficSource | Traffic-Quelle | Dimension | Zeichenfolge |           |
 
@@ -57,7 +57,7 @@ Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modele
 
 1. Auswählen ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
 
-1. Auswählen **[!UICONTROL Fields]** aus der oberen Leiste. Sie sehen eine Tabelle der harmonisierten Felder.
+1. Auswählen **[!UICONTROL Fields]** aus der oberen Leiste. Sie sehen eine Tabelle der harmonisierten Felder. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil links](../assets/icons/ChevronLeft.svg) oder ![Pfeil nach rechts](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x _von_x_]** , um zwischen den Tabellenseiten zu wechseln.
 
    Die Tabellenspalten geben Details zu den harmonisierten Feldern an
 
@@ -66,10 +66,10 @@ Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modele
    | Feldname | Der Name des harmonisierten Felds. |
    | Anzeigename | Der Anzeigename des harmonisierten Felds. Dieser Anzeigename wird beim Definieren von Datensatzregeln, Marketing-Touchpoints und Konversionsdefinitionen verwendet. |
    | Kategorie | Gibt an, ob ein harmonisiertes Datenfeld ein [!UICONTROL Dimension], a [!UICONTROL Metric] oder [!UICONTROL Derived]. Eine abgeleitete Kategorie ist ein harmonisiertes Feld, das eine metrikbasierte Formeldefinition verwendet. |
-   | Inhaber | Gibt an, ob ein harmonisiertes Feld ein Standardfeld ist ([!UICONTROL Global]) oder von Ihnen definiert wird ([!UICONTROL Client]). |
    | Datentyp | Gibt den Datentyp ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]). |
-   | Erstellungsdatumszeit | Datum und Uhrzeit der Erstellung des harmonisierten Felds. |
-   | Datum/Uhrzeit der letzten Änderung | Daten und Zeitpunkt der letzten Änderung des harmonisierten Felds. |
+   | Erstellungsdatum | Datum und Uhrzeit der Erstellung des harmonisierten Felds. |
+   | Inhaber | Gibt an, ob ein harmonisiertes Feld ein Standardfeld ist ([!UICONTROL Global]) oder von Ihnen definiert wird ([!UICONTROL Client]). |
+   | Datum der letzten Änderung | Daten und Zeitpunkt der letzten Änderung des harmonisierten Felds. |
    | Formel | Gibt die Formel für ein harmonisiertes Feld basierend auf einer abgeleiteten Kategorie an. |
 
    {style="table-layout:auto"}
@@ -77,13 +77,11 @@ Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modele
 1. Verwenden Sie zum Suchen nach einem bestimmten harmonisierten Feld ![Suche](../assets/icons/Search.svg) **[!UICONTROL *Harmonisiertes Suchfeld *]**.
 
 
-
-
 ### Harmonisiertes Feld hinzufügen
 
 Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
-1. Auswählen ![Hinzufügen](../assets/icons/AddCircle.svg)Feld hinzufügen.
+1. Auswählen ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. Im **[!UICONTROL Create]** dialog:
 
@@ -105,13 +103,13 @@ Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](../assets
 
 ### Harmonisiertes Feld bearbeiten
 
-Sie können nur zuvor erstellte harmonisierte Felder bearbeiten. Ein global harmonisiertes Feld kann nicht bearbeitet werden.
+Sie können nur harmonisierte Felder bearbeiten, die Sie zuvor erstellt haben (Eigentümer ist Client). Ein global harmonisiertes Feld kann nicht bearbeitet werden.
 
 So bearbeiten Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
-1. Wählen Sie das harmonisierte Feld aus, das Sie bearbeiten möchten. Beispiel, **[!UICONTROL Region]**.
+1. Wählen Sie das harmonisierte Feld aus, das Sie bearbeiten möchten. Beispiel: **[!UICONTROL Region]**.
 
-1. Im **[!UICONTROL Edit harmonization values]** -Bereich, Werte ändern für **[!UICONTROL Display name]**, **[!UICONTROL Category]**, und **[!UICONTROL Data type]**.
+1. Im **[!UICONTROL Edit harmonization values]** -Bereich, Werte ändern für **[!UICONTROL Display name]**, **[!UICONTROL Category]**, und **[!UICONTROL Data type]**. Siehe [Harmonisiertes Feld hinzufügen](#add-a-harmonized-field) für weitere Informationen.
 
 1. Auswählen **[!UICONTROL Submit]** die Änderungen auf den harmonisierten Bereich anzuwenden.
 
@@ -119,10 +117,15 @@ So bearbeiten Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataC
 
 ### Harmonisiertes Feld löschen
 
-Sie können nur zuvor erstellte harmonisierte Felder löschen. Ein globales harmonisiertes Feld kann nicht gelöscht werden.
+Sie können nur harmonisierte Felder löschen, die Sie zuvor erstellt haben (Eigentümer ist Kunde). Ein globales harmonisiertes Feld kann nicht gelöscht werden.
 
 So löschen Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
 1. Wählen Sie beispielsweise das harmonisierte Feld aus, das Sie löschen möchten **[!UICONTROL Region]**.
 
 1. Auswählen ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** aus dem **[!UICONTROL Edit harmonization values]** linker Bereich.
+
+   >[!WARNING]
+   >
+   >   Das Feld wird sofort gelöscht.
+

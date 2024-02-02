@@ -3,10 +3,10 @@ title: Datensätze
 description: Erfahren Sie, wie Sie die Datensätze verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 19%
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
@@ -16,9 +16,9 @@ So verwalten Sie Datensätze, die die Daten enthalten, die Sie in Experience Pla
 
 1. Rufen Sie die Benutzeroberfläche des Mix Modelers auf.
 
-1. Auswählen ![Daten](../assets/icons/Data.svg) **[!UICONTROL Datasets]**, darunter **[!UICONTROL DATA MANAGEMENT]**.
+1. Auswählen ![Daten](../assets/icons/Data.svg) **[!UICONTROL Datasets]**, darunter **[!UICONTROL SETUP]**.
 
-Siehe [Handbuch zur Benutzeroberfläche von Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de) für weitere Informationen.
+Siehe [Handbuch zur Benutzeroberfläche von Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) für weitere Informationen.
 
 >[!MORELIKETHIS]
 >

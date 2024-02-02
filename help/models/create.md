@@ -3,9 +3,9 @@ title: Modell erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler ein Modell erstellen.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
    1. Auswählen **[!UICONTROL Next]** , um mit dem nächsten Schritt fortzufahren. Auswählen **[!UICONTROL Cancel]** , um die Modellkonfiguration abzubrechen.
 
-1. Im **[!UICONTROL Configured]** step:
+1. Im **[!UICONTROL Configure]** step:
 
    1. Im **[!UICONTROL Conversion goal]** -Abschnitt innerhalb des Containers:
 
       1. Geben Sie einen **[!UICONTROL Conversion name]** für die Konvertierung, beispielsweise `Conversion`
 
-      1. Wählen Sie eine Konversion aus **[!UICONTROL *Harmonisiertes Feld auswählen *]**, die die verfügbaren Konversionen enthält, die Sie als Teil von [Konversionen](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. Beispiel,**[!UICONTROL Online Conversion]**.
+      1. Wählen Sie eine Konversion aus **[!UICONTROL *Harmonisiertes Feld auswählen *]**, die die verfügbaren Konversionen enthält, die Sie als Teil von [Konversionen](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. Beispiel:**[!UICONTROL Online Conversion]**.
 
       1. Sie können ![Antwort](../assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** , um eine Konversion direkt aus der Modellkonfiguration zu erstellen.
 
@@ -72,7 +72,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Um einen infrage kommenden Datenpopulations-Container hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Um einen geeigneten Datenpopulations-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg)und wählen Sie **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
+      * Um einen geeigneten Datenpopulations-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg)und wählen Sie **[!UICONTROL Remove marketing touchpoint]** aus dem Kontextmenü aus.
 
         ![Modell - Berechtigte Datenpopulation](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Um einen weiteren Datensatz-Container mit externen Faktoren hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Um einen externen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg)und wählen Sie **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
+      * Um einen externen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg)und wählen Sie **[!UICONTROL Remove external factor]** aus dem Kontextmenü aus.
 
         ![Modell - Datensatz mit externen Faktoren](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Um einen weiteren internen Faktoren-Datensatz-Container hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Um einen zusätzlichen internen Faktoren-Datensatzcontainer zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg), und **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
+      * Um einen zusätzlichen internen Faktoren-Datensatzcontainer zu entfernen, wählen Sie im Container die Option ![Mehr](../assets/icons/More.svg), und **[!UICONTROL Remove internal factor]** aus dem Kontextmenü aus.
 
         ![Modell - Datensatz mit internen Faktoren](../assets/model-internal-factors-dataset-step.png)
 

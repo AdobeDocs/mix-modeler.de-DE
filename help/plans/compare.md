@@ -2,13 +2,13 @@
 title: Pläne vergleichen
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler vergleichen können.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
-
 
 # Pläne vergleichen
 
@@ -23,9 +23,9 @@ Die Oberfläche Pläne vergleichen zeigt Informationen und Widgets zu folgenden 
 * Plan
 * Datumsbereich
 * Modell
-* Budget
-* Mix-Typ
-* Aufschlüsselung der Ausgaben
+* Gesamtbudget
+* Kanalaufbau: **[!UICONTROL AI automated]** oder **[!UICONTROL Custom + AI]**
+* Geplante Ausgaben
 * Prognostizierter ROI
 * ROI-Verteilung
 * Vorhergesagte Rückkehr

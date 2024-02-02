@@ -3,10 +3,10 @@ title: Daten erfassen
 description: Erfahren Sie, wie Sie Daten in Mix Modeler erfassen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 15%
+source-wordcount: '459'
+ht-degree: 11%
 
 ---
 
@@ -44,11 +44,11 @@ Nachstehend finden Sie einige Beispiele für Daten, die üblicherweise in Mix Mo
 
 | Geo | Datum | Datum Typ | Kanal | Campaign | Klicken | Earned | Interaktion | Impression | Öffnen | Eigene | Gesendet |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
-| AMER | 2021-10-31 | day | E-MAIL | | 12752 | | | | | | 1132945 |
-| AMER | 2021-10-31 | day | FB | | 148844 | | | | | | |
-| AMER | 2021-10-31 | day | YT | | | | 2314452 | | | | |
-| JPN | 2021-10-21 | day | E-MAIL | | 21089 | | | | | | 3283626 |
-| JPN | 2021-10-21 | day | SOCIAL | | | | 621 | | | | |
+| AMER | 31.10.2021 | day | E-MAIL | | 12752 | | | | | | 1132945 |
+| AMER | 31.10.2021 | day | FB | | 148844 | | | | | | |
+| AMER | 31.10.2021 | day | YT | | | | 2314452 | | | | |
+| JPN | 21.10.2021 | day | E-MAIL | | 21089 | | | | | | 3283626 |
+| JPN | 21.10.2021 | day | SOCIAL | | | | 621 | | | | |
 
 {style="table-layout:auto"}
 
@@ -58,10 +58,10 @@ Nachstehend finden Sie einige Beispiele für Daten, die üblicherweise in Mix Mo
 
 | Geo | Datum | Datum Typ | Produkt | Verkaufte Einheiten | Umsatz |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 2021-09-13 | day | Kreativwirtschaft | 603 | 36537.68 |
-| EMEA | 2021-09-13 | day | Metaverse | 55 | 21704.37 |
-| JPN | 2022-05-30 | day | Pro Imaging | 487 | 64469.60 |
-| JPN | 2022-05-30 | day | Document Cloud | 642 | 100509.07 |
+| EMEA | 13.9.2021 | day | Kreativwirtschaft | 603 | 36537,68 |
+| EMEA | 13.9.2021 | day | Metaverse | 55 | 21704,37 |
+| JPN | 30.05.2022 | day | Pro Imaging | 487 | 64469,60 |
+| JPN | 30.05.2022 | day | Document Cloud | 642 | 100509,07 |
 
 {style="table-layout:auto"}
 
@@ -71,16 +71,16 @@ Nachstehend finden Sie einige Beispiele für Daten, die üblicherweise in Mix Mo
 
 | Daten | Datum Typ | Faktor | Wert |
 |---|:---:|:---:|:---|
-| 2020-08-02 | Woche | SPX | 3325.866 |
-| 2020-08-09 | Woche | SPX | 3364.158 |
-| 2020-08-16 | Woche | SPX | 3385.858 |
-| 2020-08-23 | Woche | SPX | 3497.965 |
+| 20.08.2020 | Woche | SPX | 3325,866 |
+| 08.09.2020 | Woche | SPX | 3364,158 |
+| 16.08.2020 | Woche | SPX | 3385,858 |
+| 23.08.2020 | Woche | SPX | 3497,965 |
 
 {style="table-layout:auto"}
 
 +++
 
-Um mit Daten in Mix Modeler zu arbeiten, benötigen Sie Daten, die in Datensätzen erfasst und nach Schemas im Experience Platform modelliert wurden. Die Mix Modeler-Oberfläche bietet einfachen Zugriff auf die Benutzeroberfläche von Schemas und Datensätzen.
+Um mit Daten in Mix Modeler zu arbeiten, benötigen Sie Daten, die in Datensätzen erfasst und nach Schemas im Experience Platform modelliert wurden. Die Mix Modeler-Oberfläche bietet einfachen Zugriff auf die Benutzeroberfläche von Experience Platform-Schemas und Datensätzen.
 
 
 >[!MORELIKETHIS]

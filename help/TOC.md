@@ -2,10 +2,10 @@
 user-guide-title: Handbuch zu Mix Modeler
 breadcrumb-title: Handbuch zu Mix Modeler
 user-guide-description: Erfahren Sie, wie Mix Modeler verwendet wird.
-source-git-commit: a16438f55c0f819c63a3252dbf1de7297ea23b35
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 54%
+source-wordcount: '75'
+ht-degree: 44%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 54%
    + [Übersicht](models/overview.md)
    + [Modell erstellen](models/create.md)
    + [Modelleinblicke](models/insights.md)
-   + [Bewertungsdaten](models/scoring-data.md)
+   + [Scoring-Daten](models/scoring-data.md)
 
 + Pläne {#plans}
    + [Übersicht](plans/overview.md)
@@ -41,6 +41,7 @@ ht-degree: 54%
    + [Datensatzregeln](harmonize-data/dataset-rules.md)
    + [Marketing-Touchpoints](harmonize-data/marketing-touchpoints.md)
    + [Konversionen](harmonize-data/conversions.md)
+   + [Gebrauchsbericht](harmonize-data/usage-report.md)
 
 + Daten erfassen {#ingest-data}
    + [Übersicht](ingest-data/overview.md)

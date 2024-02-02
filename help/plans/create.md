@@ -3,9 +3,9 @@ title: Plan erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler einen Plan erstellen.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Um einen Plan zu erstellen, klicken Sie im ![PLan](../assets/icons/FileChart.svg
 
       1. Geben Sie einen **[!UICONTROL Plan name]**, beispielsweise `Demo plan`. Geben Sie einen **[!UICONTROL Description]**, beispielsweise `Demo plan for Luma company`.
       1. Wählen Sie eine **[!UICONTROL Model]** von **[!UICONTROL _Wählen Sie eine Option aus._.]**.
-      1. Sie können ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** , um ein Modell direkt in der Planerstellung zu erstellen.
+      1. Sie können ![LinkOut](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** , um ein Modell direkt in der Planerstellung zu erstellen. Dadurch wird eine neue Registerkarte in Ihrem Browser geöffnet und die [Modelle](../models/overview.md) -Schnittstelle.
 
          ![Einrichtung planen](../assets/plan-setup.png)
 
@@ -51,7 +51,7 @@ Um einen Plan zu erstellen, klicken Sie im ![PLan](../assets/icons/FileChart.svg
 
    * Auswählen <img src="../assets/icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]** wenn Sie einen von AI empfohlenen Plan mit prognostiziertem ROI generieren möchten.
 
-     Wählen Sie **[!UICONTROL OK]** aus. Ihr Plan wird erstellt.
+     Auswählen **[!UICONTROL OK]**. Ihr Plan wird erstellt.
 
 
    * Auswählen ![TableEdit](../assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** wenn Sie das Kanalbudget bearbeiten möchten, bevor Sie einen Plan mit prognostiziertem ROI erstellen.
@@ -70,4 +70,4 @@ Um einen Plan zu erstellen, klicken Sie im ![PLan](../assets/icons/FileChart.svg
 
    1. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Create]** aus.
 
-   1. Im **[!UICONTROL Create plan]** Dialogfeld auswählen **[!UICONTROL Create plan]** um Ihren Plan zu erstellen. Auswählen **[!UICONTROL Cancel]** , um die Erstellung Ihres Plans abzubrechen.
+   1. Im **[!UICONTROL Create plan]** Dialogfeld auswählen **[!UICONTROL Create plan]** um Ihren Plan zu erstellen. Auswählen **[!UICONTROL Cancel]** , um die Erstellung Ihres Plans abzubrechen. A **[!UICONTROL No work is saved]** angezeigt, um zu bestätigen.

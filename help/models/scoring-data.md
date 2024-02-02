@@ -1,16 +1,16 @@
 ---
-title: Bewertungsdaten
+title: Scoring-Daten
 description: Erfahren Sie, wie die Scoring-Daten eines Modells in Mix Modeler beibehalten werden.
 feature: Models
-source-git-commit: 3596b83937b3f61ac453940f3a666d8aaf713679
+exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 10%
+source-wordcount: '247'
+ht-degree: 8%
 
 ---
 
-
-# Bewertungsdaten
+# Scoring-Daten
 
 Beim Scoring eines Modells werden die Scoring-Daten in einem Datensatz unter Experience Platform persistiert. Dieser Datensatz entspricht einem Schema, das für jedes Modell in Ihrer Mix Modeler-Instanz erstellt wurde.
 
@@ -40,3 +40,4 @@ Das Schema enthält eine Feldergruppe mit einem Objekt, das Details zu den Werte
 | **touchpointName** | Zeichenfolge | Name des Touchpoints, der beim Setup-Schritt der Touchpoint-Definition erstellt wurde. Derzeit ist der Touchpoint im Medienkanal definiert. |
 | **touchpointStartDate** | Datum | Startdatum des Touchpoint-Fensters. |
 
+Siehe [Schemas](../ingest-data/schemas.md) für weitere Informationen.

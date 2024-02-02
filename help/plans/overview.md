@@ -3,9 +3,9 @@ title: Pläne
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und bearbeiten können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche
    | Budget | Das Gesamtbudget für einen Plan. |
    | Vorhergesagte Rückkehr | Die prognostizierte Rentabilität eines Plans |
    | Prognostizierter ROI | Der prognostizierte ROI für einen Plan. |
-   | Status | Der Status eines Plans. |
+   | Status | Status eines Plans: <p><span style="color:red">●</span> Fehlgeschlagen, <p><span style="color:blue">●</span> Verarbeitung oder <p><span style="color:green">●</span> Abgeschlossen. |
 
    {style="table-layout:auto"}
 
@@ -78,6 +78,11 @@ So duplizieren Sie einen Plan:
 1. Wählen Sie einen einzelnen Plan aus der Tabelle aus.
 1. Auswählen ![Kopieren](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** in der Aktionsleiste aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
 
+Alternativ:
+
+1. Auswählen ![Mehr](../assets/icons/More.svg) für einen Plan in der Tabelle.
+1. Auswählen **[!UICONTROL Duplicate]** aus dem Kontextmenü aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
+
 ### Pläne vergleichen
 
 So vergleichen Sie Pläne:
@@ -92,6 +97,11 @@ So löschen Sie Pläne:
 
 1. Wählen Sie einen oder mehrere Pläne aus der Tabelle aus.
 1. Auswählen ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** in der Aktionsleiste aus.
+
+Alternativ:
+
+1. Auswählen ![Mehr](../assets/icons/More.svg) für einen Plan in der Tabelle.
+1. Auswählen **[!UICONTROL Delete]** aus dem Kontextmenü aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
 
    >[!WARNING]
    >
