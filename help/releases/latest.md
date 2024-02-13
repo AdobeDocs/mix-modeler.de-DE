@@ -4,9 +4,9 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 651f8e485f7dff0c4388aa3fdf26d93adb0d7d0f
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 | **Erweiterte Downloads** | Sie können jetzt [vollständige Modelleinblicke herunterladen](../models/insights.md) im Microsoft® Excel-Format | 31. Januar 2024 |
 | **Kurven für die Randantwort** | [Modelleinblicke](../models/insights.md) stellt ein zusätzliches Widget bereit, um marginale Reaktionskurven anzuzeigen. | 31. Januar 2024 |
 | **Voreinstellungen zur Datenzusammenführung** | Sie können [Datenzusammenführungseinstellungen](../harmonize-data/dataset-rules.md#data-merge-preferences) für Datensatzregeln für harmonisierte Datensätze. | 31. Januar 2024 |
-| **Gebrauchsbericht** | Die Benutzeroberfläche &quot;Harmonisierte Datensätze&quot;verfügt über eine zusätzliche [Gebrauchsbericht](../harmonize-data/usage-report.md) -Tab mit zusätzlichen Einblicken in die Verwendung von Modellen und Konversionen. | 31. Januar 202 |
+| **Gebrauchsbericht** | Die Benutzeroberfläche &quot;Harmonisierte Datensätze&quot;verfügt über eine zusätzliche [Gebrauchsbericht](../harmonize-data/usage-report.md) -Tab mit zusätzlichen Einblicken in die Verwendung von Modellen und Konversionen. | 31. Januar 2024 |
 | **Aktualisierte Benutzeroberfläche von Plan Insights** | Die Benutzeroberfläche &quot;Einblicke planen&quot;wurde aktualisiert und ermöglicht Ihnen die Auswahl der zu meldenden ROI und Kanäle. | 31. Januar 2024 |
 
 {style="table-layout:auto"}
