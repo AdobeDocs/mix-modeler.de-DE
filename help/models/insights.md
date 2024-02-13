@@ -3,9 +3,9 @@ title: Model Insights
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ Auf der Registerkarte Modelleinblicke werden Widgets für Folgendes angezeigt:
 
 * Marketing-Leistungszusammenfassung.
 
+* Kurven für die Randantwort.
+
 ![Modell - Modelleinblicke](../assets/model-model-insights.png)
 
 Sie können den Mauszeiger über einzelne Diagrammelemente in jedem Widget bewegen, um ein Popover mit weiteren Details anzuzeigen.
 
 Um eine CSV-Datei mit den Daten für das Widget herunterzuladen, wählen Sie ![Herunterladen](../assets/icons/Download.svg).
+
+Um vollständige Modelleinblicke-Daten im Microsoft® Excel-Format herunterzuladen, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 
