@@ -3,9 +3,9 @@ title: Datensatzregeln
 description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
@@ -54,11 +54,13 @@ Im **[!UICONTROL Create]** Bildschirm,
 
 1. Wenn Sie einen Datensatz von **[!UICONTROL Summary]** category:
 
+   1. Um festzulegen, ob Daten für den Datensatz aggregiert werden müssen oder vorhandene Daten ersetzt werden sollen, wählen Sie **[!UICONTROL Aggregation]** oder **[!UICONTROL Replacement]** für **[!UICONTROL Data restatement is by]**.
+
    1. Ordnen Sie jeden der **[!UICONTROL Available dataset fields]** entspricht **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. Wenn Sie ein Datensatzfeld nicht einem harmonisierten Feld zuordnen möchten, wählen Sie **[!UICONTROL -- None --]**.
 
    1. Wenn Sie ein neues harmonisiertes Feld benötigen, das nicht in der Liste verfügbar ist, wählen Sie **[!UICONTROL Create New]** Schaffung eines neuen harmonisierten Bereichs. Sie sehen das Dialogfeld, wie unter [Neues harmonisiertes Feld hinzufügen](fields.md#add-a-harmonized-field) um Ihnen die Möglichkeit zu geben, schnell ein neues harmonisiertes Feld hinzuzufügen.
 
-   1. Wenn die Zuordnung für alle Felder der Regel abgeschlossen ist, wählen Sie **[!UICONTROL Save as draft]** , um eine Entwurfsversion der Regel zu speichern, oder **[!UICONTROL Save]** , um die Regel zu speichern und zu aktivieren.  Auswählen **[!UICONTROL Cancel]** , um die Regelkonfiguration abzubrechen.
+   1. Wenn die Zuordnung für alle Felder der Regel abgeschlossen ist, wählen Sie **[!UICONTROL Save as draft]** , um eine Entwurfsversion der Regel zu speichern, oder **[!UICONTROL Save]** , um die Regel zu speichern und zu aktivieren. Auswählen **[!UICONTROL Cancel]** , um die Regelkonfiguration abzubrechen.
 
       ![Erstellen von Datensatzregeln](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ Im **[!UICONTROL Create]** Bildschirm,
 
 1. Auswählen ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** um zusätzliche Felder zu definieren.
 
-Wählen Sie zum Abschluss **[!UICONTROL Save as draft]** , um eine Entwurfsversion der Regel zu speichern, oder **[!UICONTROL Save]** , um die Regel zu speichern und zu aktivieren.  Auswählen **[!UICONTROL Cancel]** , um die Regelkonfiguration abzubrechen.
+Wählen Sie zum Abschluss **[!UICONTROL Save as draft]** , um eine Entwurfsversion der Regel zu speichern, oder **[!UICONTROL Save]** , um die Regel zu speichern und zu aktivieren. Auswählen **[!UICONTROL Cancel]** , um die Regelkonfiguration abzubrechen.
 
 
 ### Eine Datensatzregel bearbeiten
@@ -130,7 +132,7 @@ So synchronisieren Sie Daten zwischen Ihren harmonisierten Daten und Zusammenfas
 
 1. Aus dem **[!UICONTROL Sync data for dataset rules]** auswählen Sie entweder **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]** oder **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. Auswählen **[!UICONTROL Sync]** , um die Synchronisierung auf der Grundlage der definierten Datensatzregeln zwischen harmonisierten Daten und Daten in Datensätzen zu starten. Um die Synchronisierung abzubrechen, wählen Sie **[!UICONTROL Cancel]**.
+1. Um die Synchronisierung auf Grundlage der definierten Datensatzregeln zwischen harmonisierten Daten und Daten in Datensätzen zu starten, wählen Sie **[!UICONTROL Sync]**. Um die Synchronisierung abzubrechen, wählen Sie **[!UICONTROL Cancel]**.
 
    ![Daten synchronisieren](../assets/sync-data.png)
 

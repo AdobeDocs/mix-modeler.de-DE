@@ -3,9 +3,9 @@ title: Model Insights
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Die Registerkarte Historische Übersicht zeigt Widgets für:
 
 Auf der Registerkarte Modelleinblicke werden Widgets für Folgendes angezeigt:
 
-* Beitrag nach Datum und Basismedien Das gestapelte Diagramm ist geordnet: unten, links in der Mitte, links in der Mitte und rechts oben die Ausgabekanäle.
+* Beitrag nach Datum und Basismedien Das gestapelte Diagramm ist geordnet: unten, in der Mitte die Kanäle ohne Ausgaben und oben die Kanäle für die Ausgabe.
 
 * Beitrag nach Kanal
 
@@ -62,18 +62,29 @@ Um eine CSV-Datei mit den Daten für das Widget herunterzuladen, wählen Sie ![H
 Um vollständige Modelleinblicke-Daten im Microsoft® Excel-Format herunterzuladen, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-
-
 ## Modellqualität
 
-Auf der Registerkarte Modellqualität werden Widgets zur Messung angezeigt:
+![Modellqualitätsbeurteilung](/help/assets/model-quality-assessment.png)
+Auf der Registerkarte Modellqualität wird eine
 
-* R2 (R-squared), das angibt, wie gut die Daten zum Regressionsmodell passen (die Anpassungsgüte).
+* [!UICONTROL Model Assessment] Visualisierung, die Sie auf tatsächliche oder prognostizierte oder Restkonversionen aufschlüsseln können.
 
-* MAPE (Mean Absolute Percentage Error), einer der am häufigsten verwendeten KPIs zur Messung der Prognosegenauigkeit und zum Ausdruck des Prognosefehlers als Prozentsatz des tatsächlichen Werts.
+  Um die Visualisierung aufzuschlüsseln, wählen Sie **[!UICONTROL Actual vs. Predicted]** oder **[!UICONTROL Residuals]** aus dem **[!UICONTROL Breakdown]** Liste.
 
-* RMSE (Root Mean Square Error): Zeigt den durchschnittlichen &quot;Fehler&quot;an, gewichtet nach dem Quadrat des Fehlers.
+* [!UICONTROL Model fitting metrics] -Tabelle mit den folgenden Spalten für jede Konversionsmetrik:
 
-![Modellqualität](../assets/model-quality.png)
+   * Tatsächliche Konversion
 
-Um eine CSV-Datei mit den Daten für das Widget herunterzuladen, wählen Sie ![Mehr](../assets/icons/More.svg) Wählen Sie im Widget und im Kontextmenü die Option ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+   * Modellierte Konversion
+
+   * Restkonvertierung (Differenz zwischen tatsächlicher und modellierter Konversion)
+
+   * Modellqualitätswerte:
+
+      * R2 (R-squared), das angibt, wie gut die Daten zum Regressionsmodell passen (die Anpassungsgüte).
+
+      * MAPE (Mean Absolute Percentage Error), einer der am häufigsten verwendeten KPIs zur Messung der Prognosegenauigkeit und zum Ausdruck des Prognosefehlers als Prozentsatz des tatsächlichen Werts.
+
+      * RMSE (Root Mean Square Error): Zeigt den durchschnittlichen &quot;Fehler&quot;an, gewichtet nach dem Quadrat des Fehlers.
+
+  Um eine CSV-Datei herunterzuladen, die die Daten für die Tabelle enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg).

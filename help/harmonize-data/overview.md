@@ -3,10 +3,10 @@ title: Daten harmonisieren
 description: Erfahren Sie, wie Sie Daten in Mix Modeler harmonisieren.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 9%
+source-wordcount: '893'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ Die Daten im Mix Modeler unterscheiden sich je nach Datenquelle. Die Daten könn
 * Aggregat- oder Zusammenfassungsdaten, z. B. aus Datenquellen für gebrauchte Gartenanlagen oder Offline-Werbedaten, die bei der Durchführung einer Werbekampagne, eines Ereignisses oder einer physischen Werbekampagne gesammelt wurden (z. B. Ausgaben);
 * Ereignisdaten, z. B. aus Erstanbieter-Datenquellen. Diese Ereignisdaten können Daten sein, die über den Adobe Analytics-Quell-Connector von Adobe Analytics oder über das Experience Platform Web- oder Mobile-SDK oder die Edge-Netzwerk-API erfasst werden, oder Daten, die über Quell-Connectoren erfasst werden.
 
-Der Harmonisierungsdienst von Mix Modeler gleicht die Aggregat- und Ereignisdaten in einer einheitlichen Datenansicht ab. Diese Datenansicht ist zusammen mit internen und externen Faktordaten die Quelle für die Modelle in Mix Modeler.
+Der Harmonisierungsdienst von Mix Modeler gleicht die Aggregat- und Ereignisdaten in einer einheitlichen Datenansicht ab. Diese Datenansicht ist zusammen mit internen und externen Faktordaten die Quelle für die Modelle in Mix Modeler. Der Dienst verwendet die höchste Granularität für die verschiedenen Datensätze. Wenn beispielsweise ein Datensatz eine Granularität von monatlichen und die verbleibenden Datensätze eine wöchentliche und tägliche Granularität aufweisen, erstellt der Harmonisierungsdienst eine Datenansicht mit monatlicher Granularität.
 
 ## Beispiel für harmonisierte Daten
 
@@ -118,7 +118,7 @@ So zeigen Sie Ihre harmonisierten Daten in der Mix Modeler-Benutzeroberfläche a
 
 1. Auswählen ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** über die linke Leiste.
 
-1. Auswählen **[!UICONTROL Harmonized Data]** aus der oberen Leiste. Es wird eine Zusammenstellung Ihrer harmonisierten Daten basierend auf den von Ihnen definierten Feldern, Datensatzregeln, Marketing-Touchpoints und Konversionen angezeigt.
+1. Auswählen **[!UICONTROL Harmonized Data]** aus der oberen Leiste. Eine Zusammenstellung Ihrer harmonisierten Daten wird basierend auf den von Ihnen definierten Feldern, Datensatzregeln, Marketing-Touchpoints und Konversionen angezeigt.
 
    1. Um den Zeitraum, auf dem die Zusammenstellung harmonisierter Daten basiert, neu zu definieren, geben Sie einen Datumsbereich für **[!UICONTROL Date range]** oder Verwendung ![Kalender](../assets/icons/Calendar.svg) , um einen Datenbereich auszuwählen.
 
