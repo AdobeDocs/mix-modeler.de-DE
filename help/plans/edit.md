@@ -3,9 +3,9 @@ title: Plan bearbeiten
 description: Erfahren Sie, wie Sie einen Plan in Mix Modeler bearbeiten.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Nach Abschluss des Abrufs wird Ihnen ein Überblick über Ihren Plan angezeigt, 
 
 1. Um eine CSV-Datei herunterzuladen, die die Daten der Aufschlüsselung des Datumsbereichs enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Im Kontextmenü:
 
-   - Auswählen ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** für detaillierte Daten im CSV-Format oder
+   - Auswählen ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** für detaillierte Daten im CSV-Format.
    - Auswählen ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** für Zusammenfassungsdaten im CSV-Format.
 
    Detaillierte Daten sind detaillierte Daten, die nach Woche eingegeben werden. Zusammenfassungsdaten sind Daten, die vom Modell bereitgestellter Datumsbereich zugeordnet werden.
