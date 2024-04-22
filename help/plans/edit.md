@@ -3,9 +3,9 @@ title: Plan bearbeiten
 description: Erfahren Sie, wie Sie einen Plan in Mix Modeler bearbeiten.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
+source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Nach Abschluss des Abrufs wird Ihnen ein Überblick über Ihren Plan angezeigt, 
 
 1. Auswählen **[!UICONTROL X]** oder **[!UICONTROL  %]** Informationen zu **[!UICONTROL View ROI]**.
 
-1. Um eine CSV-Datei herunterzuladen, die die Daten der Aufschlüsselung des Datumsbereichs enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+1. Um eine CSV-Datei herunterzuladen, die die Daten der Aufschlüsselung des Datumsbereichs enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Wählen Sie im Kontextmenü die Option ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** für detaillierte Daten im CSV-Format oder ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** für Zusammenfassungsdaten im CSV-Format.
 
 1. Um die Aufschlüsselung des Datumsbereichs nach Kanälen anzuzeigen, wählen Sie **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** oder **[!UICONTROL Non-paid channels]** aus dem **[!UICONTROL View]** auswählen.
 
