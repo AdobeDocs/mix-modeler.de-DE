@@ -3,9 +3,9 @@ title: Plan bearbeiten
 description: Erfahren Sie, wie Sie einen Plan in Mix Modeler bearbeiten.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
+source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ Nach Abschluss des Abrufs wird Ihnen ein Überblick über Ihren Plan angezeigt, 
 
 1. Auswählen **[!UICONTROL X]** oder **[!UICONTROL  %]** Informationen zu **[!UICONTROL View ROI]**.
 
-1. Um eine CSV-Datei herunterzuladen, die die Daten der Aufschlüsselung des Datumsbereichs enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Wählen Sie im Kontextmenü die Option ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** für detaillierte Daten im CSV-Format oder ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** für Zusammenfassungsdaten im CSV-Format.
+1. Um eine CSV-Datei herunterzuladen, die die Daten der Aufschlüsselung des Datumsbereichs enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Im Kontextmenü:
+
+   - Auswählen ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** für detaillierte Daten im CSV-Format oder
+   - Auswählen ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** für Zusammenfassungsdaten im CSV-Format.
+
+   Detaillierte Daten sind detaillierte Daten, die nach Woche eingegeben werden. Zusammenfassungsdaten sind Daten, die vom Modell bereitgestellter Datumsbereich zugeordnet werden.
 
 1. Um die Aufschlüsselung des Datumsbereichs nach Kanälen anzuzeigen, wählen Sie **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** oder **[!UICONTROL Non-paid channels]** aus dem **[!UICONTROL View]** auswählen.
 
