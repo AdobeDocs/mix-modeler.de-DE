@@ -2,7 +2,7 @@
 title: Prüfung
 description: Erfahren Sie, wie Sie Mix Modeler prüfen.
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
@@ -50,3 +50,4 @@ So überprüfen Sie das Auditprotokoll in der Mix Modeler-Benutzeroberfläche:
 1. Um die im Aktivitätsprotokoll angezeigten Spalten zu ändern, wählen Sie ![Spalten](../assets/icons/ColumnSetting.svg) und im **[!UICONTROL Customize table]** wählen Sie die anzuzeigenden Spalten aus. Auswählen **[!UICONTROL Apply]** die Auswahl anwenden, **[!UICONTROL Cancel]** , um die Auswahl abzubrechen.
 
 1. Um das Prüfprotokoll herunterzuladen, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download log]**. Im **[!UICONTROL Download log]** Dialogfeld wählen Sie **[!UICONTROL CSV]** oder **[!UICONTROL JSON]** als Format festlegen und **[!UICONTROL Download]**.
+
