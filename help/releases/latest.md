@@ -4,10 +4,10 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,12 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 | Funktion | Beschreibung | Allgemeine Verfügbarkeit |
 |---|---|---|
 | **Voreinstellungen zur Datenzusammenführung** [!BADGE Beta] | [Voreinstellungen zur Datenzusammenführung](../harmonize-data/dataset-rules.md#data-merge-preferences) unterstützt Sie bei der Lösung von Konflikten, wenn Daten aus zusammengefassten und Ereignisdatenquellen zusammengeführt werden. | 29. Mai 2024 |
-| **Zugriffskontrolle auf Feldebene** | Bei der Definition von Datensatzregeln wird Experience Platform [attributbasierte Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) wird für eine [Feldebene](../harmonize-data/dataset-rules.md#field-level-access-control). | 29. Mai 2024 |
+
+{style="table-layout:auto"}
+
+<!--
+| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
+-->
 
 
 ## April 2024

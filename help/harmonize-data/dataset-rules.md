@@ -3,9 +3,9 @@ title: Datensatzregeln
 description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
@@ -153,9 +153,9 @@ Die Voreinstellungen für die Datenzusammenführung helfen bei der Lösung von K
 
 Um präzise Modellprognosen zu gewährleisten, können Sie Voreinstellungen für die Datenzusammenführung definieren:
 
-1. Auswählen ![Voreinstellungen zur Datenzusammenführung](../assets/icons/Merge.svg) [!BADGE Beta] **Voreinstellungen zur Datenzusammenführung**.
+1. Auswählen ![Voreinstellungen zur Datenzusammenführung](../assets/icons/Merge.svg) [!BADGE Beta].
 
-1. Im **[!UICONTROL Data merge preferences]** dialog:
+1. Im **[!UICONTROL Data merge preferences]** [!BADGE Beta]{type=Informative}
 
    ![Voreinstellungen zur Datenzusammenführung](../assets/data-merge-preferences.png)
 
@@ -168,12 +168,12 @@ Um präzise Modellprognosen zu gewährleisten, können Sie Voreinstellungen für
          1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einem bestimmten Kanal oder Konversionstyp.
          1. Auswählen **[!UICONTROL Summary]** oder **[!UICONTROL Event]** um anzugeben, ob Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und den gesamten oder ausgewählten Kanal) beim Zusammenführen von Daten bevorzugt werden.
 
-So fügen Sie einen oder mehrere zusätzliche Kanal- oder Konversionstypen hinzu:
+         So fügen Sie einen oder mehrere zusätzliche Kanal- oder Konversionstypen hinzu:
 
          1. Auswählen ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** oder ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus.
 
-Löschen eines Kanals oder Konversionstyps select ![Kreuz](../assets/icons/Close.svg).
+         Um einen Kanal oder Konvertierungstyp zu löschen, wählen Sie ![Kreuz](../assets/icons/Close.svg).
 
       1. Um spezifischere metrikbasierte Voreinstellungen hinzuzufügen, wiederholen Sie den vorherigen Schritt.
 
@@ -181,10 +181,13 @@ Löschen eines Kanals oder Konversionstyps select ![Kreuz](../assets/icons/Close
 
 1. Auswählen **[!UICONTROL Save]** , um die Voreinstellungen für die Datenzusammenführung zu speichern. Eine erneute Synchronisierung der Daten wird initiiert. <br/>Auswählen **[!UICONTROL Cancel]** abbrechen.
 
-## Zugriffskontrolle auf Feldebene
+<!--
+## Field-level access control
 
-Bei der Konfiguration von Datensatzregeln für harmonisierte Datensätze werden Experience Platform [attributbasierte Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) wird auf Feldebene erzwungen. Ein Feld ist eingeschränkt, wenn eine Beschriftung an ein Schemafeld angehängt und eine aktive Richtlinie aktiviert ist, die Ihnen den Zugriff auf dieses Feld verweigert. Das Ergebnis:
+When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
 
-* Sie sehen die Schemafelder nicht, die Ihnen beim Erstellen einer Datensatzregel vorbehalten sind.
-* Sie können die Zuordnung eines oder mehrerer für Sie eingeschränkter Schemafelder nicht anzeigen oder bearbeiten. Wenn Sie eine Datensatzregel mit solchen eingeschränkten Feldern bearbeiten oder anzeigen, wird der folgende Bildschirm angezeigt.
-  ![Aktion nicht erlaubt](../assets/action-not-permitted.png)
+* you do not see the schema fields that are restricted for you when you create a dataset rule, 
+* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
+  ![Action not permitted](../assets/action-not-permitted.png)
+
+-->
