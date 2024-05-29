@@ -4,18 +4,25 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '260'
 ht-degree: 6%
 
 ---
 
 # Aktuelle Mix Modeler-Versionshinweise
 
-**Letzte Aktualisierung**: 1. April 2024.
+**Letzte Aktualisierung**: 29. Mai 2024.
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Versandmodell, das eine ungefähre monatliche Versionsrate ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
+
+## Mai 2024
+
+| Funktion | Beschreibung | Allgemeine Verfügbarkeit |
+|---|---|---|
+| **Voreinstellungen zur Datenzusammenführung** [!BADGE Beta] | [Voreinstellungen zur Datenzusammenführung](../harmonize-data/dataset-rules.md#data-merge-preferences) unterstützt Sie bei der Lösung von Konflikten, wenn Daten aus zusammengefassten und Ereignisdatenquellen zusammengeführt werden. | 29. Mai 2024 |
+| **Zugriffskontrolle auf Feldebene** | Bei der Definition von Datensatzregeln wird Experience Platform [attributbasierte Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) wird für eine [Feldebene](../harmonize-data/dataset-rules.md#field-level-access-control). | 29. Mai 2024 |
 
 
 ## April 2024
@@ -42,4 +49,4 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 >[!MORELIKETHIS]
 >
 >* [Einführung in Mix Modeler](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Dokumentation zu Mix Modeler Experience League](https://experienceleague.adobe.com/en/docs/mix-modeler)
+>* [Dokumentation zu Mix Modeler Experience League](https://experienceleague.adobe.com/de/docs/mix-modeler)
