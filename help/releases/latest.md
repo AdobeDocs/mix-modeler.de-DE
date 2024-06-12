@@ -4,9 +4,9 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '285'
 ht-degree: 7%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 7%
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Versandmodell, das eine ungefähre monatliche Versionsrate ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
 
+## Juni 2024
+
+| Funktion | Beschreibung | Allgemeine Verfügbarkeit |
+|---|---|---|
+| **Zugriffskontrolle auf Feldebene** | Bei der Definition von Datensatzregeln wird Experience Platform [attributbasierte Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) wird für eine [Feldebene](../harmonize-data/dataset-rules.md#field-level-access-control). | 12. Juni 2024 |
+| P **Touchpoints für frühe Kenntnisse** | Nur Marketing-Touchpoints, angegeben im [!UICONTROL Configure] Schritt, der in der [[!UICONTROL Prior Knowledge]](../models/create.md) Abschnitt. | 12. Juni 2024 |
+
+{style="table-layout:auto"}
+
 ## Mai 2024
 
 | Funktion | Beschreibung | Allgemeine Verfügbarkeit |
@@ -25,9 +34,7 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 
 {style="table-layout:auto"}
 
-<!--
-| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
--->
+
 
 
 ## April 2024

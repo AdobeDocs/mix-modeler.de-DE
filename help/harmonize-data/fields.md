@@ -3,9 +3,9 @@ title: Harmonisierte Felder
 description: Erfahren Sie, wie Sie Felder definieren, die zur Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '687'
 ht-degree: 10%
 
 ---
@@ -35,10 +35,10 @@ Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Mix Modeler s
 | Datensatz | Datensatz | Dimension | Zeichenfolge |           |
 | date_type | Datum Typ | Dimension | Zeichenfolge | Tag, Woche |
 | email | Gesendete E-Mails | Metrik | Zahl |           |
-| event_date | Datum | Dimension | DateTime |           |
+| event_date | Datum | Dimension | Datum/Uhrzeit |           |
 | brutto_demand | Bruttonachfrage | Metrik | Währung |           |
 | Impressionen | Implikationen | Metrik | Zahl |           |
-| last_updated_date | Letztes Aktualisierungsdatum | Dimension | DateTime |           |
+| last_updated_date | Letztes Aktualisierungsdatum | Dimension | Datum/Uhrzeit |           |
 | linkvisitors | Besuche verknüpfen | Metrik | Zahl |           |
 | mediatype | Medientyp | Dimension | Zeichenfolge |           |
 | net_sales | Nettoverkäufe | Metrik | Währung |           |
@@ -66,7 +66,7 @@ Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modele
    | Feldname | Der Name des harmonisierten Felds. |
    | Anzeigename | Der Anzeigename des harmonisierten Felds. Dieser Anzeigename wird beim Definieren von Datensatzregeln, Marketing-Touchpoints und Konversionsdefinitionen verwendet. |
    | Kategorie | Gibt an, ob ein harmonisiertes Datenfeld ein [!UICONTROL Dimension], a [!UICONTROL Metric] oder [!UICONTROL Derived]. Eine abgeleitete Kategorie ist ein harmonisiertes Feld, das eine metrikbasierte Formeldefinition verwendet. |
-   | Datentyp | Gibt den Datentyp ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]). |
+   | Datentyp | Gibt den Datentyp ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | Erstellungsdatum | Datum und Uhrzeit der Erstellung des harmonisierten Felds. |
    | Inhaber | Gibt an, ob ein harmonisiertes Feld ein Standardfeld ist ([!UICONTROL Global]) oder von Ihnen definiert wird ([!UICONTROL Client]). |
    | Datum der letzten Änderung | Daten und Zeitpunkt der letzten Änderung des harmonisierten Felds. |
@@ -93,7 +93,7 @@ Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](../assets
 
    1. Wählen Sie eine **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** oder **[!UICONTROL DateTime]**, wenn die ausgewählte Kategorie Dimension ist.
+      - **[!UICONTROL String]** oder **[!UICONTROL Date time]**, wenn die ausgewählte Kategorie Dimension ist.
       - **[!UICONTROL Number]** oder **[!UICONTROL Currency]** wenn die ausgewählte Kategorie Metrik oder Abgeleitet ist.
 
    1. Auswählen **[!UICONTROL Submit]** um das harmonisierte Feld hinzuzufügen. Auswählen **[!UICONTROL Close]** das Dialogfeld zu schließen, ohne das harmonisierte Feld hinzuzufügen.
