@@ -3,10 +3,10 @@ title: Prüfungen
 description: Erfahren Sie, wie Sie über Mix Modeler auf Audits zugreifen können.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 28ab9273c1f606c8b685225f412d51ee305b5f31
+source-git-commit: c45f4e4412258f959726c49129c6b9b6fff48f4a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 7%
+source-wordcount: '315'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +37,15 @@ So überprüfen Sie das Auditprotokoll in der Mix Modeler-Benutzeroberfläche:
    | Mix Modeler-Modell | Erstellen | Zulassen oder Ablehnen |
    | Mix Modeler-Modell | Update | Zulassen oder Ablehnen |
    | Mix Modeler-Modell | Löschen | Zulassen oder Ablehnen |
+   | Mix Modeler-Modell | Neubewertung | Zulassen oder Ablehnen |
+   | Mix Modeler-Modell | Klonen | Zulassen oder Ablehnen |
+   | Mix Modeler-Modell | Zug/Zug | Zulassen oder Ablehnen |
+   | Mix Modeler-Modell | Herunterladen/Speichern von Metadaten | Zulassen oder Ablehnen |
+   | Mix Modeler-Abo | Erstellen | Zulassen oder Ablehnen |
+   | Mix Modeler-Abo | Update | Zulassen oder Ablehnen |
+   | Mix Modeler-Abo | Verknüpftes Modell ändern | Zulassen oder Ablehnen |
+   | Harmonisierung der Daten des Mix Modelers | Trigger synchronisieren | Zulassen oder Ablehnen |
+
 
 1. Wählen Sie einen Eintrag im Aktivitätsprotokoll aus, um einen Bereich für weitere Details zu öffnen.
 
