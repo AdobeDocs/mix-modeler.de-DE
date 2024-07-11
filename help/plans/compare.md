@@ -3,7 +3,7 @@ title: Pläne vergleichen
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler vergleichen können.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: eb7e964b96c87e74809d1e6182e45351a71ed13c
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 2%
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 So vergleichen Sie Mix Modeler-Pläne in der Benutzeroberfläche &quot;Pläne&quot;:
 
-* Auswählen ![Vergleichen](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. Wählen Sie unter Pläne vergleichen einen Plan für jeden **[!UICONTROL _Plan auswählen_]**.
+* Auswählen ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. Wählen Sie unter Pläne vergleichen einen Plan für jeden **[!UICONTROL _Plan auswählen_]**.
 
-* Alternativ können Sie zwei Pläne aus der Tabelle Pläne auswählen und in der Aktionsleiste die Option ![Vergleichen](../assets/icons/Compare.svg) **[!UICONTROL Compare]**.
+* Alternativ können Sie zwei Pläne aus der Tabelle Pläne auswählen und in der Aktionsleiste die Option ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
 
 Die Oberfläche Pläne vergleichen zeigt Informationen und Widgets zu folgenden Themen:
 
@@ -36,7 +36,7 @@ Dabei gilt:
 * CPA ist definiert als Ausgaben/Inkrementelle Konversion.
 
 
-![Pläne vergleichen](../assets/compare-plans.png)
+![Pläne vergleichen](/help/assets//compare-plans.png)
 
 Sie können den Mauszeiger über einzelne Diagrammelemente in jedem Widget bewegen, um ein Popover mit weiteren Details anzuzeigen.
 

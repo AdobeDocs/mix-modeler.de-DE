@@ -3,7 +3,7 @@ title: Harmonisierte Felder
 description: Erfahren Sie, wie Sie Felder definieren, die zur Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
@@ -24,10 +24,10 @@ Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Mix Modeler s
 | Feldname | Anzeigename | Kategorie | Datentyp | Kommentar |
 | ---------------------- | ---------------------- | --------- | --------- | --------- |
 | Marke | Marke | Dimension | Zeichenfolge |           |
-| Kampagne | Campaign | Dimension | Zeichenfolge |           |
+| Kampagne | Kampagne | Dimension | Zeichenfolge |           |
 | channel | Kanal | Dimension | Zeichenfolge |           |
 | channel_id | Kanal-ID | Dimension | Zeichenfolge |           |
-| channel_type_at_source | Kanaltyp bei Quelle | Dimension | Zeichenfolge |           |
+| channel_type_at_source | Kanaltyp bei Source | Dimension | Zeichenfolge |           |
 | channel | Kanal | Dimension | Zeichenfolge |           |
 | Klicks | Klicks | Metrik | Zahl |           |
 | conversiontype | Konversionstyp | Dimension | Zeichenfolge |           |
@@ -43,7 +43,7 @@ Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Mix Modeler s
 | mediatype | Medientyp | Dimension | Zeichenfolge |           |
 | net_sales | Nettoverkäufe | Metrik | Währung |           |
 | Bestellungen | Bestellungen | Metrik | Zahl |           |
-| sourcetype | Quelltyp | Dimension | Zeichenfolge |           |
+| sourcetype | Source-Typ | Dimension | Zeichenfolge |           |
 | ausgaben | Ausgeben | Metrik | Währung |           |
 | trafficSource | Traffic-Quelle | Dimension | Zeichenfolge |           |
 
@@ -55,9 +55,9 @@ Sie können zusätzlich zu diesen global harmonisierten Feldern Ihre eigenen har
 
 Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modeler-Benutzeroberfläche:
 
-1. Auswählen ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
+1. Auswählen ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
 
-1. Auswählen **[!UICONTROL Fields]** aus der oberen Leiste. Sie sehen eine Tabelle der harmonisierten Felder. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil links](../assets/icons/ChevronLeft.svg) oder ![Pfeil nach rechts](../assets/icons/ChevronRight.svg) at **[!UICONTROL Page _x _von_x_]** , um zwischen den Tabellenseiten zu wechseln.
+1. Auswählen **[!UICONTROL Fields]** aus der oberen Leiste. Sie sehen eine Tabelle der harmonisierten Felder. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil links](/help/assets//icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets//icons/ChevronRight.svg) at **[!UICONTROL Page _x _von_x_]** , um zwischen den Tabellenseiten zu wechseln.
 
    Die Tabellenspalten geben Details zu den harmonisierten Feldern an
 
@@ -74,14 +74,14 @@ Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modele
 
    {style="table-layout:auto"}
 
-1. Verwenden Sie zum Suchen nach einem bestimmten harmonisierten Feld ![Suche](../assets/icons/Search.svg) **[!UICONTROL *Harmonisiertes Suchfeld *]**.
+1. Verwenden Sie zum Suchen nach einem bestimmten harmonisierten Feld ![Suche](/help/assets//icons/Search.svg) **[!UICONTROL *Harmonisiertes Suchfeld *]**.
 
 
 ### Harmonisiertes Feld hinzufügen
 
-Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
+Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
-1. Auswählen ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Auswählen ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. Im **[!UICONTROL Create]** dialog:
 
@@ -98,14 +98,14 @@ Um ein harmonisiertes Feld hinzuzufügen, müssen Sie im ![DataSearch](../assets
 
    1. Auswählen **[!UICONTROL Submit]** um das harmonisierte Feld hinzuzufügen. Auswählen **[!UICONTROL Close]** das Dialogfeld zu schließen, ohne das harmonisierte Feld hinzuzufügen.
 
-      ![Erstellen eines Felds](../assets/create-field.png)
+      ![Erstellen eines Felds](/help/assets//create-field.png)
 
 
 ### Harmonisiertes Feld bearbeiten
 
 Sie können nur harmonisierte Felder bearbeiten, die Sie zuvor erstellt haben (Eigentümer ist Client). Ein global harmonisiertes Feld kann nicht bearbeitet werden.
 
-So bearbeiten Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
+So bearbeiten Sie ein harmonisiertes Feld im ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie bearbeiten möchten. Beispiel: **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ So bearbeiten Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataC
 
 1. Auswählen **[!UICONTROL Submit]** die Änderungen auf den harmonisierten Bereich anzuwenden.
 
-   ![Feld bearbeiten](../assets/edit-field.png)
+   ![Feld bearbeiten](/help/assets//edit-field.png)
 
 ### Harmonisiertes Feld löschen
 
 Sie können nur harmonisierte Felder löschen, die Sie zuvor erstellt haben (Eigentümer ist Kunde). Ein globales harmonisiertes Feld kann nicht gelöscht werden.
 
-So löschen Sie ein harmonisiertes Feld im ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
+So löschen Sie ein harmonisiertes Feld im ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** -Schnittstelle im Mix Modeler:
 
 1. Wählen Sie beispielsweise das harmonisierte Feld aus, das Sie löschen möchten **[!UICONTROL Region]**.
 
-1. Auswählen ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** aus dem **[!UICONTROL Edit harmonization values]** linker Bereich.
+1. Auswählen ![Löschen](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** aus dem **[!UICONTROL Edit harmonization values]** linker Bereich.
 
    >[!WARNING]
    >

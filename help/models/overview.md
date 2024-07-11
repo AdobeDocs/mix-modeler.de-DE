@@ -3,7 +3,7 @@ title: Modelle
 description: Erfahren Sie, wie Sie Modelle in Mix Modeler konfigurieren und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfiguration
 
 So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzeroberfläche an:
 
-1. Auswählen ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
+1. Auswählen ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
 
 1. Sie sehen eine Tabelle der aktuellen Modelle.
 
@@ -58,14 +58,14 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzerob
 
    {style="table-layout:auto"}
 
-1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](../assets/icons/ColumnSetting.svg) und Spalten ein-/ausschalten ![Überprüfen](../assets/icons/Checkmark.svg) oder aus.
+1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets//icons/ColumnSetting.svg) und Spalten ein-/ausschalten ![Überprüfen](/help/assets//icons/Checkmark.svg) oder aus.
 
 
 ### Details eines Modells anzeigen
 
 So zeigen Sie weitere Details eines Modells an:
 
-1. Auswählen ![Info](../assets/icons/Info.svg) für ein Modell, um ein Popup mit Details anzuzeigen.
+1. Auswählen ![Info](/help/assets//icons/Info.svg) für ein Modell, um ein Popup mit Details anzuzeigen.
 
 
 
@@ -73,7 +73,7 @@ So zeigen Sie weitere Details eines Modells an:
 
 So zeigen Sie Einblicke in ein Modell in der Mix Modeler-Oberfläche an:
 
-1. Auswählen ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
+1. Auswählen ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
 
 1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** Tabelle. Modelleinblicke sind nur für erfolgreich trainierte Modelle verfügbar.
 
@@ -85,7 +85,7 @@ So zeigen Sie Einblicke in ein Modell in der Mix Modeler-Oberfläche an:
 
 So bewerten Sie ein Modell in der Mix Modeler-Oberfläche neu:
 
-1. Auswählen ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
+1. Auswählen ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
 
 1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** Tabelle. Die Neubewertung ist nur für erfolgreich trainierte Modelle verfügbar.
 

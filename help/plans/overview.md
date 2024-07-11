@@ -3,7 +3,7 @@ title: Pläne
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und bearbeiten können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Ein Plan kann optional Folgendes umfassen:
 
 So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche an:
 
-1. Auswählen ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** über die linke Leiste.
+1. Auswählen ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** über die linke Leiste.
 
 1. Sie sehen eine Tabelle der aktuellen Pläne und ihres Status.
 
@@ -51,7 +51,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche
 
    {style="table-layout:auto"}
 
-1. Verwendung ![Suche](../assets/icons/Search.svg) , um die Tabelle nach einem oder mehreren spezifischen Plänen zu durchsuchen und zu filtern.
+1. Verwendung ![Suche](/help/assets//icons/Search.svg) , um die Tabelle nach einem oder mehreren spezifischen Plänen zu durchsuchen und zu filtern.
 
 ## Plan erstellen
 
@@ -67,20 +67,20 @@ Um einen Plan zu bearbeiten, wählen Sie den Namen des Plans aus der Tabelle aus
 
 Sie können einen oder mehrere Pläne auswählen, um die Aktionsleiste Pläne anzuzeigen. In der Symbolleiste können Sie Pläne löschen, vergleichen oder duplizieren.
 
-Um alle Auswahlen in der Tabelle Pläne zu entfernen, wählen Sie ![Schließen](../assets/icons/Close.svg) in der Aktionsleiste
+Um alle Auswahlen in der Tabelle Pläne zu entfernen, wählen Sie ![Schließen](/help/assets//icons/Close.svg) in der Aktionsleiste
 
-![Aktionssymbolleiste für Pläne](../assets/plans-action-bar.png)
+![Aktionssymbolleiste für Pläne](/help/assets//plans-action-bar.png)
 
 ### Plan duplizieren
 
 So duplizieren Sie einen Plan:
 
 1. Wählen Sie einen einzelnen Plan aus der Tabelle aus.
-1. Auswählen ![Kopieren](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** in der Aktionsleiste aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
+1. Auswählen ![Kopieren](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** in der Aktionsleiste aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
 
 Alternativ:
 
-1. Auswählen ![Mehr](../assets/icons/More.svg) für einen Plan in der Tabelle.
+1. Auswählen ![Mehr](/help/assets//icons/More.svg) für einen Plan in der Tabelle.
 1. Auswählen **[!UICONTROL Duplicate]** aus dem Kontextmenü aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
 
 ### Pläne vergleichen
@@ -88,7 +88,7 @@ Alternativ:
 So vergleichen Sie Pläne:
 
 1. Wählen Sie zwei Pläne aus der Tabelle aus.
-1. Auswählen ![Vergleichen](../assets/icons/Compare.svg) **[!UICONTROL Compare]** in der Aktionsleiste aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
+1. Auswählen ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** in der Aktionsleiste aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
 
 
 ### Pläne löschen
@@ -96,11 +96,11 @@ So vergleichen Sie Pläne:
 So löschen Sie Pläne:
 
 1. Wählen Sie einen oder mehrere Pläne aus der Tabelle aus.
-1. Auswählen ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** in der Aktionsleiste aus.
+1. Auswählen ![Löschen](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** in der Aktionsleiste aus.
 
 Alternativ:
 
-1. Auswählen ![Mehr](../assets/icons/More.svg) für einen Plan in der Tabelle.
+1. Auswählen ![Mehr](/help/assets//icons/More.svg) für einen Plan in der Tabelle.
 1. Auswählen **[!UICONTROL Delete]** aus dem Kontextmenü aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
 
    >[!WARNING]

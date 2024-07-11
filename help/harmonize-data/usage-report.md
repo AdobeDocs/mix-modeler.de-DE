@@ -4,19 +4,19 @@ description: Erfahren Sie, wie Ihre harmonisierten Daten in Modellen (für Train
 feature: Harmonized Data
 hide: true
 hidefromtoc: true
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
-
 # Gebrauchsbericht
 
 So zeigen Sie einen Nutzungsbericht zu Ihren harmonisierten Daten an:
 
-1. Auswählen ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
+1. Auswählen ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
 
 1. Auswählen **[!UICONTROL Usage report]** aus der oberen Leiste.
 

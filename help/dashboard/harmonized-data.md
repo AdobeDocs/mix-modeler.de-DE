@@ -3,7 +3,7 @@ title: Dashboard "Harmonisierte Datenübersicht"
 description: Erfahren Sie, wie Sie das Dashboard für die harmonisierte Datenübersicht in Mix Modeler verwenden.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -16,21 +16,21 @@ Die Registerkarte &quot;Harmonisierte Daten&quot;in der Übersicht über Mix Mod
 
 Die Übersicht zeigt vier KPI-Statuskarten-Widgets (oberste Zeile) und sechs weitere konfigurierbare Widgets.
 
-Um den Datumsbereich für die Anzeige von Daten in Widgets zu ändern, geben Sie ein Start- und ein Enddatum manuell ein oder wählen Sie einen Zeitraum mithilfe von ![Kalender](../assets/icons/Calendar.svg).
+Um den Datumsbereich für die Anzeige von Daten in Widgets zu ändern, geben Sie ein Start- und ein Enddatum manuell ein oder wählen Sie einen Zeitraum mithilfe von ![Kalender](/help/assets//icons/Calendar.svg).
 
 ## Datenfilter
 
-Sie können die für alle Widgets angezeigten Daten filtern, indem Sie die ![Filter](../assets/icons/Filter.svg) **[!UICONTROL Category Filters]** -Bereich.
+Sie können die für alle Widgets angezeigten Daten filtern, indem Sie die ![Filter](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]** -Bereich.
 
 Wählen Sie für jede Kategorie einen oder mehrere Filter aus (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, und **[!UICONTROL Traffic Source]**).
 
 Die ausgewählten Filter werden über den Widgets unter **[!UICONTROL FILTERING BY:]**.
 
-1. Um einen einzelnen Filter zu entfernen, wählen Sie ![Schließen](../assets/icons/Close.svg) im Filter, aufgeführt unter **[!UICONTROL FILTERING BY:]**.
+1. Um einen einzelnen Filter zu entfernen, wählen Sie ![Schließen](/help/assets//icons/Close.svg) im Filter, aufgeführt unter **[!UICONTROL FILTERING BY:]**.
 
 1. Sie können alle Filter schnell löschen mithilfe von **[!UICONTROL Clear All]**.
 
-![Überblick über harmonisierte Daten](../assets/harmonized-data-overview.png)
+![Überblick über harmonisierte Daten](/help/assets//harmonized-data-overview.png)
 
 
 ## Widget konfigurieren
@@ -39,7 +39,7 @@ Sie können jedes Widget konfigurieren.
 
 * Im Widget zur KPI-Statuskarte:
 
-   1. Auswählen ![Bearbeiten](../assets/icons/Edit.svg) und ![Bearbeiten](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** aus dem Kontextmenü aus.
+   1. Auswählen ![Bearbeiten](/help/assets//icons/Edit.svg) und ![Bearbeiten](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** aus dem Kontextmenü aus.
 
    1. Im **[!UICONTROL KPI status card]** dialog:
 
@@ -49,21 +49,21 @@ Sie können jedes Widget konfigurieren.
 
 * Auf den anderen konfigurierbaren Widgets:
 
-   1. Auswählen ![Bearbeiten](../assets/icons/Edit.svg) und ![Bearbeiten](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** aus dem Kontextmenü aus.
+   1. Auswählen ![Bearbeiten](/help/assets//icons/Edit.svg) und ![Bearbeiten](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** aus dem Kontextmenü aus.
 
    1. Im **[!UICONTROL Edit Data]** dialog:
 
       1. Wählen Sie eine Metrik aus **[!UICONTROL Select a metric]**, beispielsweise **[!UICONTROL Impressions]**.
       1. Wählen Sie eine Kategorie aus **[!UICONTROL Select category]**, beispielsweise **[!UICONTROL Media types]**.
       1. (optional) Wählen Sie eine zweite Kategorie aus **[!UICONTROL Select second category (optional)]**, beispielsweise **[!UICONTROL Traffic sources]**.
-      1. Auswählen ![Uhr](../assets/icons/Clock.svg) **[!UICONTROL Time]** oder ![Rechner](../assets/icons/Calculator.svg) **[!UICONTROL Total]** als Analysetyp unter **[!UICONTROL Select analysis type]**.
+      1. Auswählen ![Uhr](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** oder ![Rechner](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** als Analysetyp unter **[!UICONTROL Select analysis type]**.
 
-         Wenn Sie ![Uhr](../assets/icons/Clock.svg) **[!UICONTROL Time]**, können Sie die Zeitfrequenz festlegen. Auswählen **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** oder **[!UICONTROL Quarterly]** von **[!UICONTROL Select time frequency]**.
+         Wenn Sie ![Uhr](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**, können Sie die Zeitfrequenz festlegen. Auswählen **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** oder **[!UICONTROL Quarterly]** von **[!UICONTROL Select time frequency]**.
 
          Sie sehen eine aktualisierte Vorschau Ihrer aktuellen Auswahl in der [!UICONTROL Preview Area] und Ihr aktuelles Widget darunter [!UICONTROL Current].
 
-         ![Harmonisiertes Daten-Widget bearbeiten](../assets/edit-harmonized-data-widget.png)
+         ![Harmonisiertes Daten-Widget bearbeiten](/help/assets//edit-harmonized-data-widget.png)
 
-         Wenn die Vorschau nicht gerendert werden kann, weil keine Daten verfügbar sind, wird ![Datenfehler](../assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
+         Wenn die Vorschau nicht gerendert werden kann, weil keine Daten verfügbar sind, wird ![Datenfehler](/help/assets//icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
       1. Auswählen **[!UICONTROL Apply]** , um die Änderungen auf das Widget anzuwenden. Auswählen **[!UICONTROL Cancel]** , um alle Änderungen am aktuellen Widget abzubrechen.

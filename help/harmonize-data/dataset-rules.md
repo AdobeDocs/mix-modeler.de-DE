@@ -3,7 +3,7 @@ title: Datensatzregeln
 description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a066cdff03eade86b09f03209a08ebfa2ab32e8e
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder 
 
 So zeigen Sie eine Tabelle der verfügbaren Datensatzregeln in der Mix Modeler-Oberfläche an:
 
-1. Auswählen ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
+1. Auswählen ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** über die linke Leiste.
 
 1. Auswählen **[!UICONTROL Dataset rules]** aus der oberen Leiste. Sie sehen eine Tabelle der Datensatzregeln.
 
@@ -32,7 +32,7 @@ Die Tabellenspalten geben Details zu den Datensatzregeln an:
 | ---------------------- | ----------|
 | Datensatz | Der Name des Datensatzes. |
 | Quelle | Die Quelle des Datensatzes: Adobe Analytics, Erlebnisereignisse, Zusammenfassung (Aggregat) oder Consumer Experience Events. |
-| Schema | Das Schema, dem der Datensatz entspricht. Sie können den Schemanamen schnell auswählen, um das Schema in einer neuen Registerkarte im Schema-Editor in ![Schema](../assets/icons/Schemas.svg) [Schemas](../ingest-data/schemas.md). |
+| Schema | Das Schema, dem der Datensatz entspricht. Sie können den Schemanamen schnell auswählen, um das Schema in einer neuen Registerkarte im Schema-Editor in ![Schema](/help/assets//icons/Schemas.svg) [Schemas](../ingest-data/schemas.md). |
 | Granularität | Die Granularität der Daten im Datensatz. Mögliche Werte sind Täglich, Wöchentlich, Monatlich oder Jährlich. |
 | Beginn der Woche | Gibt an, welcher Wochentag als Beginn einer neuen Woche für den spezifischen Datensatz betrachtet wird. |
 | Status | Der Status des Felds: <p><span style="color:gray">●</span> Entwurf oder <p><span style="color:green">●</span> Aktiv |
@@ -42,7 +42,7 @@ Die Tabellenspalten geben Details zu den Datensatzregeln an:
 
 ### Erstellen einer Datensatzregel
 
-So erstellen Sie eine Datensatzregel in der ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Benutzeroberfläche in Mix Modeler auswählen **[!UICONTROL Create a dataset rule]** im **[!UICONTROL Dataset rules configuration]** Assistent.
+So erstellen Sie eine Datensatzregel in der ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Benutzeroberfläche in Mix Modeler auswählen **[!UICONTROL Create a dataset rule]** im **[!UICONTROL Dataset rules configuration]** Assistent.
 
 Im **[!UICONTROL Create]** Bildschirm,
 
@@ -62,7 +62,7 @@ Im **[!UICONTROL Create]** Bildschirm,
 
    1. Wenn die Zuordnung für alle Felder der Regel abgeschlossen ist, wählen Sie **[!UICONTROL Save as draft]** , um eine Entwurfsversion der Regel zu speichern, oder **[!UICONTROL Save]** , um die Regel zu speichern und zu aktivieren. Auswählen **[!UICONTROL Cancel]** , um die Regelkonfiguration abzubrechen.
 
-      ![Erstellen von Datensatzregeln](../assets/dataset-create-summary.png)
+      ![Erstellen von Datensatzregeln](/help/assets//dataset-create-summary.png)
 
 1. Wenn Sie einen Datensatz der Ereigniskategorie ausgewählt haben (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), in das Feld unter **[!UICONTROL Map to harmonized fields]**:
 
@@ -84,9 +84,9 @@ Im **[!UICONTROL Create]** Bildschirm,
 
          1. Um explizit Werte festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann nach einer bestimmten **[!UICONTROL *AEP-Datensatzfeld *]**ob **[!UICONTROL Exists]**oder **[!UICONTROL Not Exists]**oder ob **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**oder **[!UICONTROL Ends With]**einen Wert, der unter**[!UICONTROL * Eingabewert eingeben *]**.
 
-         1. Um eine weitere Groß-/Kleinschreibung hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+         1. Um eine weitere Groß-/Kleinschreibung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add case]**, um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. Um eine Groß-/Kleinschreibung oder Bedingung zu löschen, wählen Sie ![Schließen](../assets/icons/Close.svg) im entsprechenden Container.
+         1. Um eine Groß-/Kleinschreibung oder Bedingung zu löschen, wählen Sie ![Schließen](/help/assets//icons/Close.svg) im entsprechenden Container.
 
          1. Um festzulegen, ob eine oder alle Bedingungen für einen Fall gelten sollen, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]**.
 
@@ -101,27 +101,27 @@ Im **[!UICONTROL Create]** Bildschirm,
          * `Black Friday` wenn die **[!UICONTROL marketing.campaignName]** is `_black_friday` oder `BlackFriday`.
          * auf den Wert der **[!UICONTROL marketing.campaignName]** in allen anderen Fällen.
 
-        ![Ereignis der Datensatzregel](../assets/dataset-create-event.png)
+        ![Ereignis der Datensatzregel](/help/assets//dataset-create-event.png)
 
-1. Auswählen ![Hinzufügen](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** um zusätzliche Felder zu definieren.
+1. Auswählen ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]** um zusätzliche Felder zu definieren.
 
 Wählen Sie zum Abschluss **[!UICONTROL Save as draft]** , um eine Entwurfsversion der Regel zu speichern, oder **[!UICONTROL Save]** , um die Regel zu speichern und zu aktivieren. Auswählen **[!UICONTROL Cancel]** , um die Regelkonfiguration abzubrechen.
 
 
 ### Eine Datensatzregel bearbeiten
 
-So bearbeiten Sie eine Datensatzregel in der ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** -Schnittstelle in Mix Modeler:
+So bearbeiten Sie eine Datensatzregel in der ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** -Schnittstelle in Mix Modeler:
 
-1. Auswählen ![Mehr](../assets/icons/More.svg) im **[!UICONTROL Dataset]** -Spalte für die Datensatzregel, die Sie bearbeiten möchten.
-1. Wählen Sie im Kontextmenü die Option ![Bearbeiten](../assets/icons/Edit.svg) **[!UICONTROL Edit]** , um mit der Bearbeitung der Datensatzregel zu beginnen. Siehe Abschnitt [Erstellen einer Datensatzregel](#create-a-dataset-rule) für weitere Details.
+1. Auswählen ![Mehr](/help/assets//icons/More.svg) im **[!UICONTROL Dataset]** -Spalte für die Datensatzregel, die Sie bearbeiten möchten.
+1. Wählen Sie im Kontextmenü die Option ![Bearbeiten](/help/assets//icons/Edit.svg) **[!UICONTROL Edit]** , um mit der Bearbeitung der Datensatzregel zu beginnen. Siehe Abschnitt [Erstellen einer Datensatzregel](#create-a-dataset-rule) für weitere Details.
 
 
 ### Eine Datensatzregel löschen
 
-So löschen Sie eine Datensatzregel in der ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** -Schnittstelle in Mix Modeler:
+So löschen Sie eine Datensatzregel in der ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** -Schnittstelle in Mix Modeler:
 
-1. Auswählen ![Mehr](../assets/icons/More.svg) im **[!UICONTROL Dataset]** -Spalte für die Datensatzregel, die Sie löschen möchten.
-1. Wählen Sie im Kontextmenü die Option ![Löschen](../assets/icons/Delete.svg) **[!UICONTROL Delete]** , um die Datensatzregel zu löschen. Sie werden zur Bestätigung aufgefordert. Auswählen **[!UICONTROL Delete]** , um die ausgewählte Datensatzregel dauerhaft zu löschen.
+1. Auswählen ![Mehr](/help/assets//icons/More.svg) im **[!UICONTROL Dataset]** -Spalte für die Datensatzregel, die Sie löschen möchten.
+1. Wählen Sie im Kontextmenü die Option ![Löschen](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** , um die Datensatzregel zu löschen. Sie werden zur Bestätigung aufgefordert. Auswählen **[!UICONTROL Delete]** , um die ausgewählte Datensatzregel dauerhaft zu löschen.
 
 
 ## Daten synchronisieren
@@ -137,7 +137,7 @@ So synchronisieren Sie Daten zwischen Ihren harmonisierten Daten und Zusammenfas
 
 1. Um die Synchronisierung auf Grundlage der definierten Datensatzregeln zwischen harmonisierten Daten und Daten in Datensätzen zu starten, wählen Sie **[!UICONTROL Sync]**. Um die Synchronisierung abzubrechen, wählen Sie **[!UICONTROL Cancel]**.
 
-   ![Daten synchronisieren](../assets/sync-data.png)
+   ![Daten synchronisieren](/help/assets//sync-data.png)
 
 
 ## Voreinstellungen zur Datenzusammenführung
@@ -153,31 +153,31 @@ Die Voreinstellungen für die Datenzusammenführung helfen bei der Lösung von K
 
 Um präzise Modellprognosen zu gewährleisten, können Sie Voreinstellungen für die Datenzusammenführung definieren:
 
-1. Auswählen ![Voreinstellungen zur Datenzusammenführung](../assets/icons/Merge.svg) [!BADGE Beta].
+1. Auswählen ![Voreinstellungen zur Datenzusammenführung](/help/assets//icons/Merge.svg) [!BADGE Beta].
 
 1. Im **[!UICONTROL Data merge preferences]** [!BADGE Beta]{type=Informative}
 
-   ![Voreinstellungen zur Datenzusammenführung](../assets/data-merge-preferences.png)
+   ![Voreinstellungen zur Datenzusammenführung](/help/assets//data-merge-preferences.png)
 
    * Wählen Sie eine **[!UICONTROL Default metric preference]**. Die ausgewählte Standardmetrik-Voreinstellung wird angewendet, wenn während der Harmonisierung mehrere Datenquellen ein Metrikfeld für einen bestimmten Kanal aktualisieren. Die Voreinstellung wird auf Sandbox-Ebene angewendet, es sei denn, sie wird für bestimmte metrikbasierte Voreinstellungen überschrieben. Sie können zwischen **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** und **[!UICONTROL Sum of summmary and event data]**.
 
    * So fügen Sie bestimmte metrikbasierte Voreinstellungen hinzu:
 
-      1. Auswählen ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+      1. Auswählen ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
          1. Wählen Sie eine Metrik aus der **[!UICONTROL *Metrikauswahl *]**Liste.
          1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einem bestimmten Kanal oder Konversionstyp.
          1. Auswählen **[!UICONTROL Summary]** oder **[!UICONTROL Event]** um anzugeben, ob Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und den gesamten oder ausgewählten Kanal) beim Zusammenführen von Daten bevorzugt werden.
 
          So fügen Sie einen oder mehrere zusätzliche Kanal- oder Konversionstypen hinzu:
 
-         1. Auswählen ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** oder ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. Auswählen ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a channel]** oder ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus.
 
-         Um einen Kanal oder Konvertierungstyp zu löschen, wählen Sie ![Kreuz](../assets/icons/Close.svg).
+         Um einen Kanal oder Konvertierungstyp zu löschen, wählen Sie ![Kreuz](/help/assets//icons/Close.svg).
 
       1. Um spezifischere metrikbasierte Voreinstellungen hinzuzufügen, wiederholen Sie den vorherigen Schritt.
 
-   * Um eine vorhandene spezifische metrikbasierte Voreinstellung zu löschen, wählen Sie ![Löschen](../assets/icons/Delete.svg).
+   * Um eine vorhandene spezifische metrikbasierte Voreinstellung zu löschen, wählen Sie ![Löschen](/help/assets//icons/Delete.svg).
 
 1. Auswählen **[!UICONTROL Save]** , um die Voreinstellungen für die Datenzusammenführung zu speichern. Eine erneute Synchronisierung der Daten wird initiiert. <br/>Auswählen **[!UICONTROL Cancel]** abbrechen.
 
@@ -188,4 +188,4 @@ Bei der Konfiguration von Datensatzregeln für harmonisierte Datensätze werden 
 
 * Sie sehen die Schemafelder nicht, die Ihnen beim Erstellen einer Datensatzregel vorbehalten sind.
 * Sie können die Zuordnung eines oder mehrerer für Sie eingeschränkter Schemafelder nicht anzeigen oder bearbeiten. Wenn Sie eine Datensatzregel mit solchen eingeschränkten Feldern bearbeiten oder anzeigen, wird der folgende Bildschirm angezeigt.
-  ![Aktion nicht erlaubt](../assets/action-not-permitted.png)
+  ![Aktion nicht erlaubt](/help/assets//action-not-permitted.png)

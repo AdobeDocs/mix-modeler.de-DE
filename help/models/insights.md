@@ -3,7 +3,7 @@ title: Model Insights
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: b503abc710bf3688c1b8219ddd2d242932916501
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Model Insights
 
-So zeigen Sie Modelleinblicke im ![Modelle](../assets/icons/FileData.svg) **[!UICONTROL Models]** -Schnittstelle in Mix Modeler:
+So zeigen Sie Modelleinblicke im ![Modelle](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** -Schnittstelle in Mix Modeler:
 
 1. Aus dem **[!UICONTROL Models]** -Tabelle den Namen eines Modells auswählen, das über eine **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]**.
 
 1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Model Insights]**.
 
-![Registerkarte &quot;Modelleinblicke&quot;](../assets/model-insights-tabbar.png)
+![Registerkarte &quot;Modelleinblicke&quot;](/help/assets//model-insights-tabbar.png)
 
 Sie sehen, wann das angegebene Modell zuletzt aktualisiert wurde, und Widgets werden mit vier Registerkarten angezeigt: [Modelleinblicke](#model-insights), [Attribution](#attribution), [Diagnose](#diagnostics), und [Historische Übersicht](#historical-overview).
 
-Sie können den Datumsbereich ändern, auf dem die Widgets auf den einzelnen Registerkarten basieren. Geben Sie einen Datumsbereich ein oder wählen Sie ![Kalender](../assets/icons/Calendar.svg) , um einen Datumsbereich auszuwählen.
+Sie können den Datumsbereich ändern, auf dem die Widgets auf den einzelnen Registerkarten basieren. Geben Sie einen Datumsbereich ein oder wählen Sie ![Kalender](/help/assets//icons/Calendar.svg) , um einen Datumsbereich auszuwählen.
 
 ## [!UICONTROL Model insights]
 
@@ -37,13 +37,13 @@ Auf der Registerkarte Modelleinblicke werden Widgets für Folgendes angezeigt:
 * Kurven für die Randantwort.
   <br/>Wählen Sie einen Kanal aus dem **[!UICONTROL Channel]** Dropdown-Liste, um das Widget für einen bestimmten Kanal zu aktualisieren.
 
-![Modell - Modelleinblicke](../assets/model-insights-insights.png)
+![Modell - Modelleinblicke](/help/assets//model-insights-insights.png)
 
 Sie können den Mauszeiger über einzelne Diagrammelemente in jedem Widget bewegen, um ein Popover mit weiteren Details anzuzeigen.
 
-Um eine CSV-Datei mit den Daten für das Widget herunterzuladen, wählen Sie ![Herunterladen](../assets/icons/Download.svg).
+Um eine CSV-Datei mit den Daten für das Widget herunterzuladen, wählen Sie ![Herunterladen](/help/assets//icons/Download.svg).
 
-Um vollständige Modelleinblicke-Daten im Microsoft® Excel-Format herunterzuladen, wählen Sie ![Herunterladen](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
+Um vollständige Modelleinblicke-Daten im Microsoft® Excel-Format herunterzuladen, wählen Sie ![Herunterladen](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
 
 ## [!UICONTROL Attribution]
 
@@ -63,7 +63,7 @@ Siehe [Mehrkontaktattribution](../get-started/about.md#multi-touch-attribution) 
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem **[!UICONTROL Attribution Model]** Dropdown-Liste. Die ausgewählten Attributionsmodelle gelten für alle Widgets auf der Registerkarte Attribution .
 
-![Attribution](../assets/model-insights-attribution.png)
+![Attribution](/help/assets//model-insights-attribution.png)
 
 Die granularen Ereigniswerte für die Mix Modeler-Mehrkontaktattribution richten sich an den Gesamtwerten und ROIs der Mix Modeler. Diese Bewertungen werden auch als Datensätze in Experience Platform bereitgestellt.
 
@@ -79,7 +79,7 @@ Um ein Popup mit Details für ein Attributionsmodell anzuzeigen, bewegen Sie den
 
 Die [!UICONTROL Daily trends], [!UICONTROL Weekly trends]oder [!UICONTROL Monthly trends] -Widget zeigt für die ausgewählten Attributionsmodelle die täglichen, wöchentlichen oder monatlichen Konversionstrends an.
 
-Um den Zeitraum auszuwählen, wählen Sie **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** oder **[!UICONTROL Monthly trends]** von ![Mehr](../assets/icons/More.svg).
+Um den Zeitraum auszuwählen, wählen Sie **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** oder **[!UICONTROL Monthly trends]** von ![Mehr](/help/assets//icons/More.svg).
 
 Um Details anzuzeigen, bewegen Sie den Mauszeiger über die Datenzeile eines bestimmten Attributionsmodells, um ein Popover anzuzeigen, das die Gesamtanzahl der Konversionen für diese Daten anzeigt.
 
@@ -87,7 +87,7 @@ Um Details anzuzeigen, bewegen Sie den Mauszeiger über die Datenzeile eines bes
 
 Die [!UICONTROL Breakdown] Widget ist eine Aufschlüsselung nach Kanal oder Touchpoint der Konversionen für jedes der ausgewählten Attributionsmodelle. Dieses Widget kann hilfreich sein, um Entscheidungen über die Effektivität der einzelnen Kanäle oder Touchpoints zu treffen.
 
-Wählen Sie den Aufschlüsselungstyp aus. **[!UICONTROL Breakdown by channel]** oder **[!UICONTROL Breakdown by touchpoint]** von ![Mehr](../assets/icons/More.svg).
+Wählen Sie den Aufschlüsselungstyp aus. **[!UICONTROL Breakdown by channel]** oder **[!UICONTROL Breakdown by touchpoint]** von ![Mehr](/help/assets//icons/More.svg).
 
 Um Details anzuzeigen, bewegen Sie den Mauszeiger über eines der Diagrammelemente.
 
@@ -97,7 +97,7 @@ Das Widget Top-Kampagnen zeigt eine Tabelle der Top-Kampagnen mit Spalten für K
 
 Um die Tabelle in aufsteigender ↑ oder absteigender Reihenfolge ↓ für Kanal, Medientyp oder Inkrementelle Konversionen zu sortieren, wählen Sie die Spaltenüberschrift aus und schalten Sie die Sortierung um.
 
-Um die Tabelle in einem separaten Dialogfeld zu erweitern, wählen Sie **[!UICONTROL Expand]** von ![Mehr](../assets/icons/More.svg).
+Um die Tabelle in einem separaten Dialogfeld zu erweitern, wählen Sie **[!UICONTROL Expand]** von ![Mehr](/help/assets//icons/More.svg).
 
 Im erweiterten Dialogfeld Top-Kampagnen wird dieselbe Tabelle mit Zusatzspalten für
 
@@ -166,17 +166,17 @@ Auf der Registerkarte Diagnose werden Widgets für folgende Aufgaben angezeigt:
 
       * RMSE (Root Mean Square Error): Zeigt den durchschnittlichen Fehler an, der nach dem Quadrat des Fehlers gewichtet wird.
 
-  Um eine CSV-Datei herunterzuladen, die die Daten für die Tabelle enthält, wählen Sie ![Herunterladen](../assets/icons/Download.svg).
+  Um eine CSV-Datei herunterzuladen, die die Daten für die Tabelle enthält, wählen Sie ![Herunterladen](/help/assets//icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness] -Tabelle, die das Ergebnis des algorithmischen Attribution AI-Modells darstellt. Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Auswählen **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](../assets/icons/InfoOutline.svg) für weitere Details.
+* [!UICONTROL Touchpoint effectiveness] -Tabelle, die das Ergebnis des algorithmischen Attribution AI-Modells darstellt. Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Auswählen **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets//icons/InfoOutline.svg) für weitere Details.
 
-  Die Visualisierung zeigt in absteigender Reihenfolge [!UICONTROL Efficiency measure] ![Absteigende Reihenfolge](../assets/icons/SortOrderDown.svg)für jeden Touchpoint:
+  Die Visualisierung zeigt in absteigender Reihenfolge [!UICONTROL Efficiency measure] ![Absteigende Reihenfolge](/help/assets//icons/SortOrderDown.svg)für jeden Touchpoint:
 
    * [!UICONTROL Paths touched]: visualisiert den Prozentsatz der Pfade, die Konversionen erzielen, und den Prozentsatz der Pfade, die keine Konversion erzielen. Bei einem Touchpoint sehen Sie mehr zugeordnete Konversionen, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zur Konversion führen, mit dem Prozentsatz der Pfade, die dies tun *not* zur Konversion führen.
    * [!UICONTROL Efficiency measure]: Wird durch das algorithmische Attributionsmodell generiert, zeigt die Effizienzmessung die relative Bedeutung eines Touchpoints zur Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
    * [!UICONTROL Total volume]: Die aggregierte Anzahl der Touchpoints eines Benutzers. Die Anzahl umfasst Touchpoints, die auf einem Pfad angezeigt werden, der Konversionen erreicht, sowie Pfade *not* , was zu einer Konversion führt.
 
-![Diagnose](../assets/model-insights-diagnostics.png)
+![Diagnose](/help/assets//model-insights-diagnostics.png)
 
 
 ## [!UICONTROL Historical overview]
@@ -195,4 +195,4 @@ Die Registerkarte Historische Übersicht zeigt Widgets für:
 
   Sie können einen alternativen volumenbasierten Kanal auswählen, der für dieses Widget angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 
-![Modell - Historische Übersicht](../assets/model-insights-historical-overview.png)
+![Modell - Historische Übersicht](/help/assets//model-insights-historical-overview.png)
