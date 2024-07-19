@@ -14,9 +14,9 @@ ht-degree: 2%
 
 So vergleichen Sie Mix Modeler-Pläne in der Benutzeroberfläche &quot;Pläne&quot;:
 
-* Auswählen ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. Wählen Sie unter Pläne vergleichen einen Plan für jeden **[!UICONTROL _Plan auswählen_]**.
+* Wählen Sie ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]** aus. Wählen Sie unter Pläne vergleichen einen Plan für jeden **[!UICONTROL _Plan auswählen_]** aus.
 
-* Alternativ können Sie zwei Pläne aus der Tabelle Pläne auswählen und in der Aktionsleiste die Option ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
+* Alternativ können Sie zwei Pläne aus der Tabelle Pläne auswählen und in der Aktionsleiste ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** auswählen.
 
 Die Oberfläche Pläne vergleichen zeigt Informationen und Widgets zu folgenden Themen:
 
@@ -24,7 +24,7 @@ Die Oberfläche Pläne vergleichen zeigt Informationen und Widgets zu folgenden 
 * Datumsbereich
 * Modell
 * Gesamtbudget
-* Kanalbudgetierung: **[!UICONTROL AI automated]** oder **[!UICONTROL Custom + AI]**
+* Kanalbudgeting: **[!UICONTROL AI automated]** oder **[!UICONTROL Custom + AI]**
 * Geplante Ausgaben
 * Prognostizierter ROI (ROI) oder CPA (Kosten pro Aktion)
 * Aufschlüsselung nach ROI (RoI) oder CPA (Kosten pro Aktion)
@@ -40,4 +40,4 @@ Dabei gilt:
 
 Sie können den Mauszeiger über einzelne Diagrammelemente in jedem Widget bewegen, um ein Popover mit weiteren Details anzuzeigen.
 
-Auswählen **[!UICONTROL Close]** , um zur Übersicht über Pläne zurückzukehren.
+Wählen Sie **[!UICONTROL Close]** aus, um zur Übersicht über Pläne zurückzukehren.

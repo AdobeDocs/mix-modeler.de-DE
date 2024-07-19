@@ -12,23 +12,23 @@ ht-degree: 2%
 
 # Administration
 
-Verwenden Sie die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) um Mix Modeler-Produkte und -Benutzer zu verwalten.
+Verwenden Sie den [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html), um Mix Modeler und Benutzer zu verwalten.
 
 Damit Mix Modeler ordnungsgemäß funktioniert, müssen Sie die richtigen Berechtigungen festlegen.
 
 In der Adobe Experience Cloud-Benutzeroberfläche:
 
-1. Auswählen **[!UICONTROL Permissions]** von der linken Leiste unter **[!UICONTROL ADMINISTRATION]**.
+1. Wählen Sie in der linken Leiste unter **[!UICONTROL ADMINISTRATION]** die Option &quot;**[!UICONTROL Permissions]**&quot;.
 
-1. Auswählen ![Benutzer](/help/assets/icons/User.svg) **[!UICONTROL Roles]** aus dem linken Bereich.
+1. Wählen Sie im linken Bereich ![Benutzer](/help/assets/icons/User.svg) **[!UICONTROL Roles]** aus.
 
-1. Wählen Sie eine vorhandene Rolle aus oder erstellen Sie eine Rolle mithilfe von **[!UICONTROL Create role]** (zum Beispiel: **Mix Modeler**). Wenn Sie eine vorhandene Rolle auswählen, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** um die Berechtigungen für die Rolle zu bearbeiten. Siehe [Rollen verwalten](https://helpx.adobe.com/de/enterprise/using/admin-console.html) für weitere Informationen.
+1. Wählen Sie eine vorhandene Rolle aus oder erstellen Sie eine Rolle mit **[!UICONTROL Create role]** (z. B. **Mix Modeler**). Wenn Sie eine vorhandene Rolle auswählen, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** aus, um die Berechtigungen für die Rolle zu bearbeiten. Weitere Informationen finden Sie unter [Rollen verwalten](https://helpx.adobe.com/de/enterprise/using/admin-console.html) .
 
 1. Stellen Sie sicher, dass Sie eine oder mehrere Sandboxes für die Rolle ausgewählt haben.
 
-1. Fügen Sie die **Adobe Mix Modeler** Ressource in die Liste der Ressourcen für die Rolle.
+1. Fügen Sie die Ressource **Adobe Mix Modeler** zur Liste der Ressourcen für die Rolle hinzu.
 
-1. Stellen Sie sicher, dass Sie die richtige **[!UICONTROL Adobe Mix Modeler]** -Berechtigungen für die Rolle, die Sie konfigurieren. Sie können eine oder mehrere der folgenden Rollen auswählen:
+1. Stellen Sie sicher, dass Sie die richtigen **[!UICONTROL Adobe Mix Modeler]** -Berechtigungen für die Rolle auswählen, die Sie konfigurieren. Sie können eine oder mehrere der folgenden Rollen auswählen:
 
    - **[!UICONTROL View Adobe Mix Modeler Harmonized Data]**
    - **[!UICONTROL Manage Adobe Mix Modeler Harmonized Data]**
@@ -52,6 +52,6 @@ In der Adobe Experience Cloud-Benutzeroberfläche:
 
    <!--![Permissions](assets/permissions-including-privacy.png)-->
 
-   Auswählen **[!UICONTROL Save]** , um die Berechtigungen zu speichern.
+   Wählen Sie **[!UICONTROL Save]** aus, um die Berechtigungen zu speichern.
 
-1. In **[!UICONTROL Details]** Innerhalb **[!UICONTROL Role]**, fügen Sie die entsprechenden hinzu **[!UICONTROL Users]** oder **[!UICONTROL User groups]** , um Benutzern Zugriff auf Mix Modeler zu gewähren.
+1. Fügen Sie in **[!UICONTROL Details]** innerhalb von **[!UICONTROL Role]** die entsprechenden **[!UICONTROL Users]** oder **[!UICONTROL User groups]** hinzu, um Benutzern Zugriff auf Mix Modeler zu gewähren.

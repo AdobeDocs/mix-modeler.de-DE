@@ -35,13 +35,13 @@ Ein Modell kann optional Folgendes enthalten:
 
 ## Modell erstellen
 
-Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfigurationsfluss des geführten Mix Modelers, der bei Auswahl von **[!UICONTROL Open model canvas]**. Siehe [Modell erstellen](create.md) für weitere Details.
+Verwenden Sie zum Erstellen eines Modells den schrittweisen Konfigurationsfluss des geführten Mix Modelers, der bei Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere Informationen finden Sie unter [Erstellen eines Modells](create.md) .
 
 ## Modelle verwalten
 
 So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzeroberfläche an:
 
-1. Auswählen ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
+1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Sie sehen eine Tabelle der aktuellen Modelle.
 
@@ -54,18 +54,18 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzerob
    | Konversionsereignis | Die für das Modell ausgewählte Konversion. |
    | Ausführungshäufigkeit | Die Ausführungsfrequenz des Trainings des Modells. |
    | Letzte Ausführung | Datum und Uhrzeit der letzten Schulung des Modells. |
-   | Status | Der Status des letzten Trainings des Modells. <br/><span style="color:green">●</span> Erfolg<br/><span style="color:orange">●</span> Schulungsfehler<br/> <span style="color:orange">●</span> Vorbereitung der Schulung <br/><span style="color:red">●</span> Fehlgeschlagen <br/><span style="color:gray">●</span> _ (wenn ein letzter Lauf in Verarbeitung ist) |
+   | Status | Der Status des letzten Trainings des Modells. <br/><span style="color:green"></span> Erfolg<br/><span style="color:orange"> </span> Schulungsproblem<br/> <span style="color:orange"></span> Warten auf Training <br/><span style="color:red"></span> Fehlgeschlagen <br/><span style="color:gray"></span> _ (wenn ein letzter Lauf in Verarbeitung ist) |
 
    {style="table-layout:auto"}
 
-1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets//icons/ColumnSetting.svg) und Spalten ein-/ausschalten ![Überprüfen](/help/assets//icons/Checkmark.svg) oder aus.
+1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets//icons/ColumnSetting.svg) aus und schalten Sie die Spalten auf ![Aktivieren](/help/assets//icons/Checkmark.svg) oder aus.
 
 
 ### Details eines Modells anzeigen
 
 So zeigen Sie weitere Details eines Modells an:
 
-1. Auswählen ![Info](/help/assets//icons/Info.svg) für ein Modell, um ein Popup mit Details anzuzeigen.
+1. Wählen Sie ![Info](/help/assets//icons/Info.svg) für ein Modell aus, um ein Popup mit Details anzuzeigen.
 
 
 
@@ -73,11 +73,11 @@ So zeigen Sie weitere Details eines Modells an:
 
 So zeigen Sie Einblicke in ein Modell in der Mix Modeler-Oberfläche an:
 
-1. Auswählen ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
+1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** Tabelle. Modelleinblicke sind nur für erfolgreich trainierte Modelle verfügbar.
+1. Wählen Sie den Namen eines Modells mit dem Wert **[!UICONTROL Last run status]** von <span style="color:green"></span> aus. **[!UICONTROL Success]** aus der Tabelle **[!UICONTROL Models]**. Modelleinblicke sind nur für erfolgreich trainierte Modelle verfügbar.
 
-1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Model Insights]**. Sie werden zu [Model Insights](insights.md).
+1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus. Sie werden zu [Model Insights](insights.md) umgeleitet.
 
 
 ### Neubewertung
@@ -85,11 +85,11 @@ So zeigen Sie Einblicke in ein Modell in der Mix Modeler-Oberfläche an:
 
 So bewerten Sie ein Modell in der Mix Modeler-Oberfläche neu:
 
-1. Auswählen ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** über die linke Leiste.
+1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie den Namen eines Modells mit einer **[!UICONTROL Last run status]** von <span style="color:green">●</span> **[!UICONTROL Success]** aus dem **[!UICONTROL Models]** Tabelle. Die Neubewertung ist nur für erfolgreich trainierte Modelle verfügbar.
+1. Wählen Sie den Namen eines Modells mit dem Wert **[!UICONTROL Last run status]** von <span style="color:green"></span> aus. **[!UICONTROL Success]** aus der Tabelle **[!UICONTROL Models]**. Die Neubewertung ist nur für erfolgreich trainierte Modelle verfügbar.
 
-1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Re-score]**. Es kann einige Minuten dauern, bis ein aktualisierter Status für das Modell angezeigt wird.
+1. Wählen Sie im Kontextmenü **[!UICONTROL Re-score]** aus. Es kann einige Minuten dauern, bis ein aktualisierter Status für das Modell angezeigt wird.
 
 
 ### Modell löschen
@@ -98,7 +98,7 @@ So löschen Sie ein Modell:
 
 1. Wählen Sie den Namen des Modells aus, das Sie löschen möchten.
 
-1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Delete]** , um das Modell zu löschen.
+1. Wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus, um das Modell zu löschen.
 
    >[!WARNING]
    >

@@ -42,7 +42,7 @@ Nachstehend finden Sie einige Beispiele für Daten, die üblicherweise in Mix Mo
 
 +++ Aggregieren von Daten zu Marketing-Maßnahmen
 
-| Geo | Datum | Datum Typ | Kanal | Campaign | Klicken | Earned | Interaktion | Impression | Öffnen | Eigene | Gesendet |
+| Geo | Datum | Datum Typ | Kanal | Kampagne | Klicken | Earned | Interaktion | Impression | Öffnen | Eigene | Gesendet |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
 | AMER | 31.10.2021 | day | E-MAIL | | 12752 | | | | | | 1132945 |
 | AMER | 31.10.2021 | day | FB | | 148844 | | | | | | |

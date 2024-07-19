@@ -82,7 +82,7 @@ ht-degree: 8%
 
 ## Algorithmus {#algorithm}
 
-![Algorithmus](/help/assets/icons/Algorithm.svg)
+![Algorithm](/help/assets/icons/Algorithm.svg)
 
 ## Alias {#alias}
 
@@ -178,11 +178,11 @@ ht-degree: 8%
 
 ## PfeilRight {#arrowright}
 
-![PfeilRight](/help/assets/icons/ArrowRight.svg)
+![ArrowRight](/help/assets/icons/ArrowRight.svg)
 
 ## ArrowUp {#arrowup}
 
-![ArrowUp](/help/assets/icons/ArrowUp.svg)
+![arrowUp](/help/assets/icons/ArrowUp.svg)
 
 ## ArrowUpRight {#arrowupright}
 
@@ -194,7 +194,7 @@ ht-degree: 8%
 
 ## Artikel {#article}
 
-![Artikel](/help/assets/icons/Article.svg)
+![Article](/help/assets/icons/Article.svg)
 
 ## Asset {#asset}
 
@@ -242,7 +242,7 @@ ht-degree: 8%
 
 ## attachmentExclude {#attachmentexclude}
 
-![attachmentExclude](/help/assets/icons/AttachmentExclude.svg)
+![AttachmentExclude](/help/assets/icons/AttachmentExclude.svg)
 
 ## Attribut {#attribute}
 
@@ -270,7 +270,7 @@ ht-degree: 8%
 
 ## Becher {#beaker}
 
-![Becher](/help/assets/icons/Beaker.svg)
+![Beaker](/help/assets/icons/Beaker.svg)
 
 ## BeakerCheck {#beakercheck}
 
@@ -294,7 +294,7 @@ ht-degree: 8%
 
 ## Blume {#blower}
 
-![Blume](/help/assets/icons/Blower.svg)
+![Blower](/help/assets/icons/Blower.svg)
 
 ## Blur {#blur}
 
@@ -326,7 +326,7 @@ ht-degree: 8%
 
 ## Boolesch {#boolean}
 
-![Boolesch](/help/assets/icons/Boolean.svg)
+![Boolean](/help/assets/icons/Boolean.svg)
 
 ## Rahmen {#border}
 
@@ -334,7 +334,7 @@ ht-degree: 8%
 
 ## Feld {#box}
 
-![Feld](/help/assets/icons/Box.svg)
+![Kasten](/help/assets/icons/Box.svg)
 
 ## BoxAdd {#boxadd}
 
@@ -358,15 +358,15 @@ ht-degree: 8%
 
 ## Verzweigung 1 {#branch1}
 
-![Verzweigung 1](/help/assets/icons/Branch1.svg)
+![Branch1](/help/assets/icons/Branch1.svg)
 
 ## Branch2 {#branch2}
 
-![Branch2](/help/assets/icons/Branch2.svg)
+![Verzweigung2](/help/assets/icons/Branch2.svg)
 
 ## Branch3 {#branch3}
 
-![Branch3](/help/assets/icons/Branch3.svg)
+![Verzweigung3](/help/assets/icons/Branch3.svg)
 
 ## BranchCircle {#branchcircle}
 
@@ -386,7 +386,7 @@ ht-degree: 8%
 
 ## Briefing {#briefcase}
 
-![Briefing](/help/assets/icons/Briefcase.svg)
+![Briefkasten](/help/assets/icons/Briefcase.svg)
 
 ## Durchsuchen {#browse}
 
@@ -398,11 +398,11 @@ ht-degree: 8%
 
 ## Fehler {#bug}
 
-![Fehler](/help/assets/icons/Bug.svg)
+![Bug](/help/assets/icons/Bug.svg)
 
 ## Erstellen {#building}
 
-![Erstellen](/help/assets/icons/Building.svg)
+![Building](/help/assets/icons/Building.svg)
 
 ## BulkEditUser {#bulkedituser}
 
@@ -410,7 +410,7 @@ ht-degree: 8%
 
 ## Schaltfläche {#button}
 
-![Schaltfläche](/help/assets/icons/Button.svg)
+![Button](/help/assets/icons/Button.svg)
 
 ## CCLibrary {#cclibrary}
 
@@ -478,7 +478,7 @@ ht-degree: 8%
 
 ## Kapital {#capital}
 
-![Kapital](/help/assets/icons/Capital.svg)
+![Großbuchstaben](/help/assets/icons/Capital.svg)
 
 ## Captcha {#captcha}
 
@@ -490,7 +490,7 @@ ht-degree: 8%
 
 ## Karte {#card}
 
-![Karte](/help/assets/icons/Card.svg)
+![Card](/help/assets/icons/Card.svg)
 
 ## Kanal {#channel}
 
@@ -510,7 +510,7 @@ ht-degree: 8%
 
 ## Kontrollkästchen {#checkmark}
 
-![Kontrollkästchen](/help/assets/icons/Checkmark.svg)
+![Prüfzeichen](/help/assets/icons/Checkmark.svg)
 
 ## CheckmarkCircle {#checkmarkcircle}
 
@@ -558,7 +558,7 @@ ht-degree: 8%
 
 ## Uhr {#clock}
 
-![Uhr](/help/assets/icons/Clock.svg)
+![Uhren](/help/assets/icons/Clock.svg)
 
 ## ClockCheck {#clockcheck}
 
@@ -570,7 +570,7 @@ ht-degree: 8%
 
 ## Schließen {#close}
 
-![Schließen](/help/assets/icons/Close.svg)
+![close](/help/assets/icons/Close.svg)
 
 ## CloseCaption {#closecaption}
 
@@ -666,7 +666,7 @@ ht-degree: 8%
 
 ## Kompas {#compas}
 
-![Kompas](/help/assets/icons/Compas.svg)
+![Compas](/help/assets/icons/Compas.svg)
 
 ## Bedingung {#condition}
 
@@ -674,7 +674,7 @@ ht-degree: 8%
 
 ## KonfidenzFour {#confidencefour}
 
-![KonfidenzFour](/help/assets/icons/ConfidenceFour.svg)
+![ConfidenceFour](/help/assets/icons/ConfidenceFour.svg)
 
 ## ConfidenceOne {#confidenceone}
 
@@ -682,11 +682,11 @@ ht-degree: 8%
 
 ## Konfidenz 3 {#confidencethree}
 
-![Konfidenz 3](/help/assets/icons/ConfidenceThree.svg)
+![ConfidenceThree](/help/assets/icons/ConfidenceThree.svg)
 
 ## Konfidenz 2 {#confidencetwo}
 
-![Konfidenz 2](/help/assets/icons/ConfidenceTwo.svg)
+![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg)
 
 ## Kontrast {#contrast}
 
@@ -714,7 +714,7 @@ ht-degree: 8%
 
 ## CropLightning {#croplightning}
 
-![CropLightning](/help/assets/icons/CropLightning.svg)
+![Zuschneiden des Blitzes](/help/assets/icons/CropLightning.svg)
 
 ## CropRotate {#croprotate}
 
@@ -722,7 +722,7 @@ ht-degree: 8%
 
 ## Schatten {#crosshair}
 
-![Schatten](/help/assets/icons/Crosshair.svg)
+![Crosshair](/help/assets/icons/Crosshair.svg)
 
 ## Kuratieren {#curate}
 
@@ -806,7 +806,7 @@ ht-degree: 8%
 
 ## Delegieren {#delegate}
 
-![Delegieren](/help/assets/icons/Delegate.svg)
+![Delegate](/help/assets/icons/Delegate.svg)
 
 ## Löschen {#delete}
 
@@ -818,11 +818,11 @@ ht-degree: 8%
 
 ## Demografie {#demographic}
 
-![Demografie](/help/assets/icons/Demographic.svg)
+![Demografisch](/help/assets/icons/Demographic.svg)
 
 ## Auswahl deaktivieren {#deselect}
 
-![Auswahl deaktivieren](/help/assets/icons/Deselect.svg)
+![Auswahl aufheben](/help/assets/icons/Deselect.svg)
 
 ## DeselectCircular {#deselectcircular}
 
@@ -890,7 +890,7 @@ ht-degree: 8%
 
 ## Horizontal verteilen {#distributehorizontally}
 
-![Horizontal verteilen](/help/assets/icons/DistributeHorizontally.svg)
+![DistributeHorizontally](/help/assets/icons/DistributeHorizontally.svg)
 
 ## DistributeLeftEdge {#distributeleftedge}
 
@@ -918,11 +918,11 @@ ht-degree: 8%
 
 ## Vertikal verteilen {#distributevertically}
 
-![Vertikal verteilen](/help/assets/icons/DistributeVertically.svg)
+![DistributeVertical](/help/assets/icons/DistributeVertically.svg)
 
 ## Dividieren {#divide}
 
-![Dividieren](/help/assets/icons/Divide.svg)
+![divide](/help/assets/icons/Divide.svg)
 
 ## DividePath {#dividepath}
 
@@ -930,7 +930,7 @@ ht-degree: 8%
 
 ## Dokument {#document}
 
-![Dokument](/help/assets/icons/Document.svg)
+![Document](/help/assets/icons/Document.svg)
 
 ## DocumentFragment {#documentfragment}
 
@@ -972,9 +972,9 @@ ht-degree: 8%
 
 ![DragHandle](/help/assets/icons/DragHandle.svg)
 
-## Draw {#draw}
+## Zeichnen {#draw}
 
-![Draw](/help/assets/icons/Draw.svg)
+![zeichnen](/help/assets/icons/Draw.svg)
 
 ## Dropdown {#dropdown}
 
@@ -982,7 +982,7 @@ ht-degree: 8%
 
 ## Duplizieren {#duplicate}
 
-![Duplizieren](/help/assets/icons/Duplicate.svg)
+![Duplicate](/help/assets/icons/Duplicate.svg)
 
 ## Bearbeiten {#edit}
 
@@ -1006,7 +1006,7 @@ ht-degree: 8%
 
 ## Bildungswesen {#education}
 
-![Bildungswesen](/help/assets/icons/Education.svg)
+![Erziehung](/help/assets/icons/Education.svg)
 
 ## Effekt {#effect}
 
@@ -1014,7 +1014,7 @@ ht-degree: 8%
 
 ## Effizient {#efficient}
 
-![Effizient](/help/assets/icons/Efficient.svg)
+![effizient](/help/assets/icons/Efficient.svg)
 
 ## Ellipse {#ellipse}
 
@@ -1082,7 +1082,7 @@ ht-degree: 8%
 
 ## Enterprise {#enterprise}
 
-![Unternehmen](/help/assets/icons/Enterprise.svg)
+![Enterprise](/help/assets/icons/Enterprise.svg)
 
 ## Löschen {#erase}
 
@@ -1146,7 +1146,7 @@ ht-degree: 8%
 
 ## Schnell {#fast}
 
-![Schnell](/help/assets/icons/Fast.svg)
+![Fast](/help/assets/icons/Fast.svg)
 
 ## FastForward {#fastforward}
 
@@ -1346,7 +1346,7 @@ ht-degree: 8%
 
 ## Blitzlicht {#flashlight}
 
-![Blitzlicht](/help/assets/icons/Flashlight.svg)
+![Flashlight](/help/assets/icons/Flashlight.svg)
 
 ## FlashlightOff {#flashlightoff}
 
@@ -1358,11 +1358,11 @@ ht-degree: 8%
 
 ## Horizontal spiegeln {#fliphorizontal}
 
-![Horizontal spiegeln](/help/assets/icons/FlipHorizontal.svg)
+![FlipHorizontal](/help/assets/icons/FlipHorizontal.svg)
 
 ## Vertikal spiegeln {#flipvertical}
 
-![Vertikal spiegeln](/help/assets/icons/FlipVertical.svg)
+![FlipVertical](/help/assets/icons/FlipVertical.svg)
 
 ## Ordner {#folder}
 
@@ -1430,7 +1430,7 @@ ht-degree: 8%
 
 ## ForPlacementOnly {#forplacementonly}
 
-![ForPlacementOnly](/help/assets/icons/ForPlacementOnly.svg)
+![FürPlacementOnly](/help/assets/icons/ForPlacementOnly.svg)
 
 ## Prognose {#forecast}
 
@@ -1442,11 +1442,11 @@ ht-degree: 8%
 
 ## Weiterleiten {#forward}
 
-![Weiterleiten](/help/assets/icons/Forward.svg)
+![Forward](/help/assets/icons/Forward.svg)
 
 ## Vollbild {#fullscreen}
 
-![Vollbild](/help/assets/icons/FullScreen.svg)
+![FullScreen](/help/assets/icons/FullScreen.svg)
 
 ## FullScreenExit {#fullscreenexit}
 
@@ -1462,7 +1462,7 @@ ht-degree: 8%
 
 ## Seite 1 {#gauge1}
 
-![Seite 1](/help/assets/icons/Gauge1.svg)
+![Seite1](/help/assets/icons/Gauge1.svg)
 
 ## Gage2 {#gauge2}
 
@@ -1510,7 +1510,7 @@ ht-degree: 8%
 
 ## Globus {#globe}
 
-![Globus](/help/assets/icons/Globe.svg)
+![global](/help/assets/icons/Globe.svg)
 
 ## GlobeCheck {#globecheck}
 
@@ -1522,11 +1522,11 @@ ht-degree: 8%
 
 ## GlobeEnter {#globeenter}
 
-![GlobeEnter](/help/assets/icons/GlobeEnter.svg)
+![globalEnter](/help/assets/icons/GlobeEnter.svg)
 
 ## GlobeExit {#globeexit}
 
-![GlobeExit](/help/assets/icons/GlobeExit.svg)
+![globalExit](/help/assets/icons/GlobeExit.svg)
 
 ## GlobeGrid {#globegrid}
 
@@ -1534,15 +1534,15 @@ ht-degree: 8%
 
 ## GlobalOutline {#globeoutline}
 
-![GlobalOutline](/help/assets/icons/GlobeOutline.svg)
+![GlobeOutline](/help/assets/icons/GlobeOutline.svg)
 
 ## GlobeRemove {#globeremove}
 
-![GlobeRemove](/help/assets/icons/GlobeRemove.svg)
+![globalRemove](/help/assets/icons/GlobeRemove.svg)
 
 ## GlobeSearch {#globesearch}
 
-![GlobeSearch](/help/assets/icons/GlobeSearch.svg)
+![globalSearch](/help/assets/icons/GlobeSearch.svg)
 
 ## GlobeStrike {#globestrike}
 
@@ -1554,7 +1554,7 @@ ht-degree: 8%
 
 ## Regierung {#government}
 
-![Regierung](/help/assets/icons/Government.svg)
+![Government](/help/assets/icons/Government.svg)
 
 ## Verlauf {#gradient}
 
@@ -1706,7 +1706,7 @@ ht-degree: 8%
 
 ## heilen {#heal}
 
-![heilen](/help/assets/icons/Heal.svg)
+![heial](/help/assets/icons/Heal.svg)
 
 ## Herz {#heart}
 
@@ -1726,7 +1726,7 @@ ht-degree: 8%
 
 ## Geschichte {#history}
 
-![Geschichte](/help/assets/icons/History.svg)
+![Verlauf](/help/assets/icons/History.svg)
 
 ## Startseite {#home}
 
@@ -1818,7 +1818,7 @@ ht-degree: 8%
 
 ## Individuum {#individual}
 
-![Individuum](/help/assets/icons/Individual.svg)
+![Individual](/help/assets/icons/Individual.svg)
 
 ## Info {#info}
 
@@ -1894,7 +1894,7 @@ ht-degree: 8%
 
 ## Kennzeichnung {#label}
 
-![Titel](/help/assets/icons/Label.svg)
+![Beschriftung](/help/assets/icons/Label.svg)
 
 ## LabelExclude {#labelexclude}
 
@@ -1910,7 +1910,7 @@ ht-degree: 8%
 
 ## Ebene {#layer}
 
-![Ebene](/help/assets/icons/Layer.svg)
+![Layer](/help/assets/icons/Layer.svg)
 
 ## LayersBackward {#layersbackward}
 
@@ -1930,7 +1930,7 @@ ht-degree: 8%
 
 ## Lernen {#learn}
 
-![Lernen](/help/assets/icons/Learn.svg)
+![Learn](/help/assets/icons/Learn.svg)
 
 ## LeftRight {#leftright}
 
@@ -1938,7 +1938,7 @@ ht-degree: 8%
 
 ## hell {#light}
 
-![hell](/help/assets/icons/Light.svg)
+![Light](/help/assets/icons/Light.svg)
 
 ## Linie {#line}
 
@@ -1962,7 +1962,7 @@ ht-degree: 8%
 
 ## LinkGlobe {#linkglobe}
 
-![LinkGlobe](/help/assets/icons/LinkGlobe.svg)
+![LinkGlobal](/help/assets/icons/LinkGlobe.svg)
 
 ## LinkNav {#linknav}
 
@@ -2034,7 +2034,7 @@ ht-degree: 8%
 
 ## MagicWand {#magicwand}
 
-![MagicWand](/help/assets/icons/MagicWand.svg)
+![Zauberstab](/help/assets/icons/MagicWand.svg)
 
 ## Vergrößern {#magnify}
 
@@ -2070,7 +2070,7 @@ ht-degree: 8%
 
 ## Maximieren {#maximize}
 
-![Maximieren](/help/assets/icons/Maximize.svg)
+![Maximize](/help/assets/icons/Maximize.svg)
 
 ## Maßnahme {#measure}
 
@@ -2106,7 +2106,7 @@ ht-degree: 8%
 
 ## Geld {#money}
 
-![Geld](/help/assets/icons/Money.svg)
+![Money](/help/assets/icons/Money.svg)
 
 ## Überwachung {#monitoring}
 
@@ -2122,7 +2122,7 @@ ht-degree: 8%
 
 ## MehrKreis {#morecircle}
 
-![MehrKreis](/help/assets/icons/MoreCircle.svg)
+![MehrCircle](/help/assets/icons/MoreCircle.svg)
 
 ## MoreSmall {#moresmall}
 
@@ -2162,7 +2162,7 @@ ht-degree: 8%
 
 ## Mehrfach {#multiple}
 
-![Mehrere](/help/assets/icons/Multiple.svg)
+![multiple](/help/assets/icons/Multiple.svg)
 
 ## MultipleAdd {#multipleadd}
 
@@ -2254,11 +2254,11 @@ ht-degree: 8%
 
 ## Einrichtung {#organisation}
 
-![Einrichtung](/help/assets/icons/Organisation.svg)
+![Organisation](/help/assets/icons/Organisation.svg)
 
 ## Organisieren {#organize}
 
-![Organisieren](/help/assets/icons/Organize.svg)
+![Organize](/help/assets/icons/Organize.svg)
 
 ## OutlinePath {#outlinepath}
 
@@ -2338,7 +2338,7 @@ ht-degree: 8%
 
 ## Anhalten {#pause}
 
-![Anhalten](/help/assets/icons/Pause.svg)
+![Pause](/help/assets/icons/Pause.svg)
 
 ## PauseCircle {#pausecircle}
 
@@ -2394,7 +2394,7 @@ ht-degree: 8%
 
 ## Plug-in {#plug}
 
-![Plug-in](/help/assets/icons/Plug.svg)
+![Plug](/help/assets/icons/Plug.svg)
 
 ## Polygon {#polygon}
 
@@ -2406,7 +2406,7 @@ ht-degree: 8%
 
 ## PopIn {#popin}
 
-![PopIn](/help/assets/icons/PopIn.svg)
+![popIn](/help/assets/icons/PopIn.svg)
 
 ## Hochformat {#portrait}
 
@@ -2414,7 +2414,7 @@ ht-degree: 8%
 
 ## Voreinstellung {#preset}
 
-![Voreinstellung](/help/assets/icons/Preset.svg)
+![Vorgabe](/help/assets/icons/Preset.svg)
 
 ## Vorschau {#preview}
 
@@ -2450,7 +2450,7 @@ ht-degree: 8%
 
 ## Eigenschaften {#propertie}
 
-![Eigenschaften](/help/assets/icons/Propertie.svg)
+![Eigenschaft](/help/assets/icons/Propertie.svg)
 
 ## PropertiesCopy {#propertiescopy}
 
@@ -2474,7 +2474,7 @@ ht-degree: 8%
 
 ## PublishSchedule {#publishschedule}
 
-![PublishSchedule](/help/assets/icons/PublishSchedule.svg)
+![Veröffentlichungszeitplan](/help/assets/icons/PublishSchedule.svg)
 
 ## PushNotification {#pushnotification}
 
@@ -2722,11 +2722,11 @@ ht-degree: 8%
 
 ## Sitz {#seat}
 
-![Sitz](/help/assets/icons/Seat.svg)
+![Platz](/help/assets/icons/Seat.svg)
 
 ## SeatAdd {#seatadd}
 
-![SeatAdd](/help/assets/icons/SeatAdd.svg)
+![setAdd](/help/assets/icons/SeatAdd.svg)
 
 ## Segment {#segment}
 
@@ -2738,7 +2738,7 @@ ht-degree: 8%
 
 ## Auswählen {#select}
 
-![Auswählen](/help/assets/icons/Select.svg)
+![Select](/help/assets/icons/Select.svg)
 
 ## SelectAdd {#selectadd}
 
@@ -2774,7 +2774,7 @@ ht-degree: 8%
 
 ## Auswahl {#selection}
 
-![Auswahl](/help/assets/icons/Selection.svg)
+![Selection](/help/assets/icons/Selection.svg)
 
 ## SelectionChecked {#selectionchecked}
 
@@ -2818,7 +2818,7 @@ ht-degree: 8%
 
 ## Freigeben {#share}
 
-![Freigeben](/help/assets/icons/Share.svg)
+![Share](/help/assets/icons/Share.svg)
 
 ## ShareAndroid {#shareandroid}
 
@@ -2842,7 +2842,7 @@ ht-degree: 8%
 
 ## Schild {#shield}
 
-![Schild](/help/assets/icons/Shield.svg)
+![Shield](/help/assets/icons/Shield.svg)
 
 ## Schiff {#ship}
 
@@ -2886,7 +2886,7 @@ ht-degree: 8%
 
 ## Momentaufnahme {#snapshot}
 
-![Momentaufnahme](/help/assets/icons/Snapshot.svg)
+![Snapshot](/help/assets/icons/Snapshot.svg)
 
 ## SocialNetwork {#socialnetwork}
 
@@ -2906,11 +2906,11 @@ ht-degree: 8%
 
 ## Rechtschreibprüfung {#spellcheck}
 
-![Rechtschreibprüfung](/help/assets/icons/Spellcheck.svg)
+![spellcheck](/help/assets/icons/Spellcheck.svg)
 
 ## Rotation {#spin}
 
-![Rotation](/help/assets/icons/Spin.svg)
+![drehen](/help/assets/icons/Spin.svg)
 
 ## SplitView {#splitview}
 
@@ -2926,7 +2926,7 @@ ht-degree: 8%
 
 ## Staging {#stage}
 
-![Staging](/help/assets/icons/Stage.svg)
+![Stage](/help/assets/icons/Stage.svg)
 
 ## Stempel {#stamp}
 
@@ -2934,7 +2934,7 @@ ht-degree: 8%
 
 ## Star {#star}
 
-![Star](/help/assets/icons/Star.svg)
+![Stern](/help/assets/icons/Star.svg)
 
 ## StarOutline {#staroutline}
 
@@ -2942,7 +2942,7 @@ ht-degree: 8%
 
 ## Staub {#starburst}
 
-![Staub](/help/assets/icons/Starburst.svg)
+![Starburst](/help/assets/icons/Starburst.svg)
 
 ## StepBackward {#stepbackward}
 
@@ -2962,7 +2962,7 @@ ht-degree: 8%
 
 ## Anhalten {#stop}
 
-![Anhalten](/help/assets/icons/Stop.svg)
+![Stopp](/help/assets/icons/Stop.svg)
 
 ## StoppCircle {#stopcircle}
 
@@ -2970,11 +2970,11 @@ ht-degree: 8%
 
 ## Stopwatch {#stopwatch}
 
-![Stopwatch](/help/assets/icons/Stopwatch.svg)
+![Stoppwatch](/help/assets/icons/Stopwatch.svg)
 
 ## Straighten {#straighten}
 
-![Straighten](/help/assets/icons/Straighten.svg)
+![gerade](/help/assets/icons/Straighten.svg)
 
 ## StraightenOutline {#straightenoutline}
 
@@ -3018,7 +3018,7 @@ ht-degree: 8%
 
 ## Synchronisieren {#sync}
 
-![Synchronisieren](/help/assets/icons/Sync.svg)
+![Sync](/help/assets/icons/Sync.svg)
 
 ## SyncRemove {#syncremove}
 
@@ -3026,7 +3026,7 @@ ht-degree: 8%
 
 ## Tabelle {#table}
 
-![Verzeichnis](/help/assets/icons/Table.svg)
+![Tabelle](/help/assets/icons/Table.svg)
 
 ## TableAdd {#tableadd}
 
@@ -3118,7 +3118,7 @@ ht-degree: 8%
 
 ## Targeting {#targeted}
 
-![Targeting](/help/assets/icons/Targeted.svg)
+![Targeted](/help/assets/icons/Targeted.svg)
 
 ## TaskList {#tasklist}
 
@@ -3150,7 +3150,7 @@ ht-degree: 8%
 
 ## TestProfile {#testprofile}
 
-![TestProfile](/help/assets/icons/TestProfile.svg)
+![Testprofil](/help/assets/icons/TestProfile.svg)
 
 ## Text {#text}
 
@@ -3322,7 +3322,7 @@ ht-degree: 8%
 
 ## Zug {#train}
 
-![Zug](/help/assets/icons/Train.svg)
+![Trainieren](/help/assets/icons/Train.svg)
 
 ## TransferToPlatform {#transfertoplatform}
 
@@ -3334,7 +3334,7 @@ ht-degree: 8%
 
 ## Überfüllen {#trap}
 
-![Überfüllen](/help/assets/icons/Trap.svg)
+![Falle](/help/assets/icons/Trap.svg)
 
 ## TreeCollapse {#treecollapse}
 
@@ -3366,7 +3366,7 @@ ht-degree: 8%
 
 ## Trophie {#trophy}
 
-![Trophie](/help/assets/icons/Trophy.svg)
+![Pokalschrank](/help/assets/icons/Trophy.svg)
 
 ## Typ {#type}
 
@@ -3378,7 +3378,7 @@ ht-degree: 8%
 
 ## Unterstreichen {#underline}
 
-![Unterstreichen](/help/assets/icons/Underline.svg)
+![Unterstrichen](/help/assets/icons/Underline.svg)
 
 ## Rückgängig {#undo}
 
@@ -3386,7 +3386,7 @@ ht-degree: 8%
 
 ## Gruppierung aufheben {#ungroup}
 
-![Gruppierung aufheben](/help/assets/icons/Ungroup.svg)
+![Ungroup](/help/assets/icons/Ungroup.svg)
 
 ## Verknüpfung aufheben {#unlink}
 
@@ -3394,7 +3394,7 @@ ht-degree: 8%
 
 ## Zusammenführen {#unmerge}
 
-![Zusammenführen](/help/assets/icons/Unmerge.svg)
+![Unmerge](/help/assets/icons/Unmerge.svg)
 
 ## UnresolvedComment {#unresolvedcomment}
 
@@ -3602,7 +3602,7 @@ ht-degree: 8%
 
 ## Webseiten {#webpages}
 
-![Webseiten](/help/assets/icons/WebPages.svg)
+![WebPages](/help/assets/icons/WebPages.svg)
 
 ## WebPage {#webpage}
 

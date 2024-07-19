@@ -34,9 +34,9 @@ Der schrittweise Ansatz für diesen Anwendungsfall lautet:
 
 | Schritt | Details |
 |---|---|
-| Erfassen | Identifizieren und erfassen Sie Datenquellen unter gemeinsamen Schemata. <br/>Anwenden bestehender Investitionen in Adobe Analytics oder Customer Journey Analytics auf die schnelle Bereitstellung. |
-| Konfigurieren | Flexible Modelle mithilfe eines KI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele konfigurieren<br/>Automatische Sicherstellung der Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transfer-Lernen. |
-| Analyse | Verstehen Sie eindeutig den ROI des gesamten Marketing und einzelner Kanäle/Subkanäle.<br/>Verstehen Sie eindeutig, welche Touchpoints die inkrementellen Konversionen am besten fördern. |
+| Erfassen | Identifizieren und erfassen Sie Datenquellen unter gemeinsamen Schemata. <br/>Vorhandene Investitionen in Adobe Analytics oder Customer Journey Analytics auf die schnelle Bereitstellung anwenden. |
+| Konfigurieren | Konfigurieren Sie flexible Modelle mithilfe eines KI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele<br/>Sichern Sie automatisch Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transfer-Lernen. |
+| Analyse | Verstehen Sie eindeutig den ROI des gesamten Marketing und einzelner Kanäle/Subkanäle.<br/>Klar verstehen, welche Touchpoints die inkrementellen Konversionen am besten fördern. |
 
 {style="table-layout:auto"}
 
@@ -75,7 +75,7 @@ Der schrittweise Ansatz für diesen Anwendungsfall lautet:
 |---|---|
 | Konfigurieren | Passen Sie einfach Messmodelle an Ihre Geschäftsziele an.<br/>Definieren Sie Parameter in wenigen Klicks ohne erforderliche Kodierung: z. B. Kanäle, Geografie, Verkaufszyklen, Lagern, interne und externe Geschäftsfaktoren und mehr. |
 | Zug | Trainieren Sie konfigurierte KI/ML-Modelle in , um die beste Anpassung an Eingabedaten zu erfahren und so die präzisesten Ergebnisse zu erzielen. |
-| Optimieren | Erhalten Sie automatisierte, optimierte Budgetzuweisungen basierend auf Modellprognosen.<br/>Mithilfe einer intuitiven Benutzeroberfläche können Sie mehrere Budgetszenarien mit wenigen Klicks entwickeln und vergleichen. |
+| Optimieren | Erhalten Sie automatisierte, optimierte Budgetzuweisungen basierend auf Modellprognosen.<br/>Entwickeln und vergleichen Sie mithilfe einer intuitiven Benutzeroberfläche mehrere Budgetszenarien mit wenigen Klicks. |
 
 {style="table-layout:auto"}
 
@@ -154,7 +154,7 @@ Der schrittweise Ansatz für diesen Anwendungsfall lautet:
 | Schritt | Details |
 |---|---|
 | Modell | Konfigurieren und trainieren Sie ein KI-/ML-Modell, um konsistente MTA-Touchpoint-Ergebnisse und MMM-Aggregatergebnisse zu erhalten. |
-| Analyse | Exportieren Sie inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics- oder externe BI-Tools.<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Werten. |
+| Analyse | Exportieren Sie inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics- oder externe BI-Tools.<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Bewertungen. |
 | Aktion | Erstellen und aktivieren Sie mithilfe von Real-time Customer Data Platform Suchvorgänge für die wichtigsten Verbrauchersegmente.<br/>Entwickeln datengesteuerter Marketingstrategien nach Kundensegmenten für zukünftige Kampagnen. |
 
 {style="table-layout:auto"}

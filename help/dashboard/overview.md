@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Das Übersichts-Dashboard in Mix Modeler bietet Ihnen die Möglichkeit, über verschiedene konfigurierbare Widgets einen Überblick über Ihre harmonisierten Daten und Pläne zu erhalten.
 
-Um auf die Übersicht zuzugreifen, wählen Sie ![Startseite](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** über die linke Leiste in der Mix Modeler-Benutzeroberfläche.
+Um auf die Übersicht zuzugreifen, wählen Sie in der linken Leiste in der Mix Modeler-Oberfläche die Option ![Startseite](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** aus.
 
 Hier erhalten Sie weitere Informationen zu:
 

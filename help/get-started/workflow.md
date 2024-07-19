@@ -19,16 +19,16 @@ In diesem Video erhalten Sie eine Einführung in den Benutzer-Workflow in Mix Mo
 
 Ein typischer Workflow in Mix Modeler besteht aus folgenden Aktivitäten:
 
-![Alternativtext](/help/assets//ApplicationWorkflow.svg)
+![ALT-Text](/help/assets//ApplicationWorkflow.svg)
 
 |  | Aktivität | Beschreibung |
 |---|---|---|
-| ![Daten](/help/assets//icons/Data.svg){width="100"} | [**Daten erfassen**](../ingest-data/overview.md) | Erfassen Sie Ereignisdaten von der Experience Platform (z. B. Adobe Analytics, Web SDK, andere Quellen), aggregierte Daten von Marketingkanälen (z. B. Fernsehen, umschlossene Gärten, E-Mail, eigene und betriebene Aktivitäten), Daten externer Faktoren von Kunden (z. B. Preisänderungen im Abonnementdienst) und interne Faktoren (z. B. Urlaubspläne). |
+| ![Daten](/help/assets//icons/Data.svg){width="100"} | [**Aufnehmen von Daten**](../ingest-data/overview.md) | Erfassen Sie Ereignisdaten von der Experience Platform (z. B. Adobe Analytics, Web SDK, andere Quellen), aggregierte Daten von Marketingkanälen (z. B. Fernsehen, umschlossene Gärten, E-Mail, eigene und betriebene Aktivitäten), Daten externer Faktoren von Kunden (z. B. Preisänderungen im Abonnementdienst) und interne Faktoren (z. B. Urlaubspläne). |
 | ![DataCheck](/help/assets//icons/DataCheck.svg){width="100"} | [**Daten harmonisieren**](../harmonize-data/overview.md) | Konfigurieren Sie Zuordnungsregeln und Konfliktlösungsregeln, um die verschiedenen Marketing-Datensätze zusammenzuführen, die zum Messen und Planen der Kampagnenleistung in Mix Modeler erforderlich sind. |
 | ![FileConfig](/help/assets//icons/FileGear.svg){width="100"} | [**Modelle konfigurieren**](../models/create.md) | Konfigurieren Sie Modellinstanzen mit Marketing-Touchpoints (z. B. Kanälen), Konversionsdefinitionen und internen und externen Faktoren. |
 | ![FileData](/help/assets//icons/FileData.svg){width="100"} | [**Trainings- und Bewertungsmodelle**](../models/overview.md) | Erstellen Sie aggregierte Werte und Werte auf Ereignisebene mithilfe von maschinellem Lernen, Training und Scoring. |
-| ![FileChart](/help/assets//icons/FileChart.svg){width="100"} | [**Erstellen von Plänen**](../plans/overview.md) | Bestimmen Sie anhand der Ergebnisse der Modelle des Mix Modelers die bestmögliche Zuordnung von Marketing-Fonds, um ein Geschäftsziel zu erreichen. |
-| ![Dashboard](/help/assets//icons/Dashboard.svg){width="100"} | [**Übersichts-Dashboard**](../dashboard/overview.md) | Erhalten Sie mithilfe verschiedener konfigurierbarer Widgets Einblicke in harmonisierte Daten, Modelle und Pläne. |
+| ![FileChart](/help/assets//icons/FileChart.svg){width="100"} | [**Pläne erstellen**](../plans/overview.md) | Bestimmen Sie anhand der Ergebnisse der Modelle des Mix Modelers die bestmögliche Zuordnung von Marketing-Fonds, um ein Geschäftsziel zu erreichen. |
+| ![Dashboard](/help/assets//icons/Dashboard.svg){width="100"} | [**Dashboard &quot;Überblick&quot;**](../dashboard/overview.md) | Erhalten Sie mithilfe verschiedener konfigurierbarer Widgets Einblicke in harmonisierte Daten, Modelle und Pläne. |
 
 {style="table-layout:auto"}
 

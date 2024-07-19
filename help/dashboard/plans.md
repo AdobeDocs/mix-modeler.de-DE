@@ -17,12 +17,12 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-Auf der Registerkarte Pläne in der Übersicht über Mix Modeler werden Widgets für [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] und [!UICONTROL KPI].
+Auf der Registerkarte Pläne in der Übersicht über Mix Modeler werden Widgets für [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] und [!UICONTROL KPI] angezeigt.
 
 Die für die Widgets angezeigten Daten werden bestimmt durch:
 
-* Der Plan. Wählen Sie einen Plan aus **[!UICONTROL Plan name]** mithilfe der **[!UICONTROL _Wählen Sie eine Option..._]**.
+* Der Plan. Wählen Sie einen Plan aus **[!UICONTROL Plan name]** mit der Option **[!UICONTROL _Auswählen einer Option..._]** aus.
 
-* Der angegebene Datumszeitraum. Um den Datumsbereich zu ändern, geben Sie manuell ein Start- und ein Enddatum ein oder wählen Sie einen Datumsbereich mithilfe von ![Kalender](/help/assets//icons/Calendar.svg).
+* Der angegebene Datumszeitraum. Um den Datumsbereich zu ändern, geben Sie manuell ein Start- und ein Enddatum ein oder wählen Sie einen Datumsbereich mithilfe von ![Kalender](/help/assets//icons/Calendar.svg) aus.
 
 

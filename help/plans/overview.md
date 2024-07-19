@@ -33,7 +33,7 @@ Ein Plan kann optional Folgendes umfassen:
 
 So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche an:
 
-1. Auswählen ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** über die linke Leiste.
+1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** aus.
 
 1. Sie sehen eine Tabelle der aktuellen Pläne und ihres Status.
 
@@ -47,48 +47,48 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche
    | Budget | Das Gesamtbudget für einen Plan. |
    | Vorhergesagte Rückkehr | Die prognostizierte Rentabilität eines Plans |
    | Prognostizierter ROI | Der prognostizierte ROI für einen Plan. |
-   | Status | Status eines Plans: <p><span style="color:red">●</span> Fehlgeschlagen, <p><span style="color:blue">●</span> Verarbeitung oder <p><span style="color:green">●</span> Abgeschlossen. |
+   | Status | Status eines Plans: <p><span style="color:red"></span> Fehlgeschlagen, <p><span style="color:blue"></span> Verarbeitung oder <p><span style="color:green"></span> Complete. |
 
    {style="table-layout:auto"}
 
-1. Verwendung ![Suche](/help/assets//icons/Search.svg) , um die Tabelle nach einem oder mehreren spezifischen Plänen zu durchsuchen und zu filtern.
+1. Verwenden Sie ![Suche](/help/assets//icons/Search.svg) , um die Tabelle nach einem oder mehreren spezifischen Plänen zu suchen und zu filtern.
 
 ## Plan erstellen
 
-Verwenden Sie zum Erstellen eines Mix Modelers den Assistenten zur Erstellung eines Plans. Siehe [Plan erstellen](create.md) für weitere Details.
+Verwenden Sie zum Erstellen eines Mix Modelers den Assistenten zur Erstellung eines Plans. Weitere Informationen finden Sie unter [Erstellen eines Plans](create.md) .
 
 
 ## Plan bearbeiten
 
-Um einen Plan zu bearbeiten, wählen Sie den Namen des Plans aus der Tabelle aus. Siehe [Plan bearbeiten](edit.md) für weitere Informationen.
+Um einen Plan zu bearbeiten, wählen Sie den Namen des Plans aus der Tabelle aus. Weitere Informationen finden Sie unter [Bearbeiten eines Plans](edit.md) .
 
 
 ## Auswahl und Aktion für Pläne
 
 Sie können einen oder mehrere Pläne auswählen, um die Aktionsleiste Pläne anzuzeigen. In der Symbolleiste können Sie Pläne löschen, vergleichen oder duplizieren.
 
-Um alle Auswahlen in der Tabelle Pläne zu entfernen, wählen Sie ![Schließen](/help/assets//icons/Close.svg) in der Aktionsleiste
+Um alle Auswahlen in der Tabelle Pläne zu entfernen, wählen Sie in der Aktionsleiste ![Schließen](/help/assets//icons/Close.svg) aus.
 
-![Aktionssymbolleiste für Pläne](/help/assets//plans-action-bar.png)
+![Aktionsleiste &quot;Pläne&quot;](/help/assets//plans-action-bar.png)
 
 ### Plan duplizieren
 
 So duplizieren Sie einen Plan:
 
 1. Wählen Sie einen einzelnen Plan aus der Tabelle aus.
-1. Auswählen ![Kopieren](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** in der Aktionsleiste aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
+1. Wählen Sie in der Aktionsleiste ![Kopieren](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** aus. Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem ursprünglichen Plannamen mit **[!UICONTROL (Copy)]** besteht.
 
 Alternativ:
 
-1. Auswählen ![Mehr](/help/assets//icons/More.svg) für einen Plan in der Tabelle.
-1. Auswählen **[!UICONTROL Duplicate]** aus dem Kontextmenü aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
+1. Wählen Sie ![Mehr](/help/assets//icons/More.svg) für einen Plan in der Tabelle aus.
+1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Duplicate]** aus. Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem ursprünglichen Plannamen mit **[!UICONTROL (Copy)]** besteht.
 
 ### Pläne vergleichen
 
 So vergleichen Sie Pläne:
 
 1. Wählen Sie zwei Pläne aus der Tabelle aus.
-1. Auswählen ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** in der Aktionsleiste aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
+1. Wählen Sie in der Aktionsleiste ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** aus. Sie sehen die **[!UICONTROL Compare plans]** -Benutzeroberfläche.
 
 
 ### Pläne löschen
@@ -96,12 +96,12 @@ So vergleichen Sie Pläne:
 So löschen Sie Pläne:
 
 1. Wählen Sie einen oder mehrere Pläne aus der Tabelle aus.
-1. Auswählen ![Löschen](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** in der Aktionsleiste aus.
+1. Wählen Sie in der Aktionsleiste ![Löschen](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** aus.
 
 Alternativ:
 
-1. Auswählen ![Mehr](/help/assets//icons/More.svg) für einen Plan in der Tabelle.
-1. Auswählen **[!UICONTROL Delete]** aus dem Kontextmenü aus. Ein neuer Plan mit einem Namen, der sich aus dem ursprünglichen Plan zusammensetzt und dem **[!UICONTROL (Copy)]** wird oben in der Tabelle hinzugefügt.
+1. Wählen Sie ![Mehr](/help/assets//icons/More.svg) für einen Plan in der Tabelle aus.
+1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Delete]** aus. Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem ursprünglichen Plannamen mit **[!UICONTROL (Copy)]** besteht.
 
    >[!WARNING]
    >

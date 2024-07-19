@@ -71,10 +71,10 @@ Ein Beispiel für einen Erlebnisereignis-Datensatz (Web SDK-Ereignisse) vom Kund
 
 | Zeitstempel | Identity-Namespace | ID | Kanal | Klicks |
 |--- |--- |--- |--- |---:|
-| 01-01-2022 00:01:01 000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-01-2022 00:01:01 000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-08-2022 00:01:01 000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
-| 01-08-2022 00:01:01 000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
 
 {style="table-layout:auto"}
 
@@ -104,34 +104,34 @@ Sie möchten einen harmonisierten Datensatz erstellen, dessen Granularität auf 
 
 ## Harmonisierte Daten einrichten
 
-So erstellen Sie einen harmonisierten Datensatz, wie in der vereinfachten [example](#an-example-of-harmonized-data)müssen Sie die folgenden Schritte ausführen:
+Um einen harmonisierten Datensatz zu erstellen, müssen Sie wie im vereinfachten [Beispiel](#an-example-of-harmonized-data) folgende Schritte ausführen:
 
-1. Zusätzliche Definition [harmonisierte Felder](fields.md) die Sie über die bereits verfügbaren harmonisierten globalen Felder hinaus verwenden möchten.
-1. Einrichten [Datensatzregeln](dataset-rules.md) , um Felder aus Ihrem Aggregat- oder Erlebnisereignis-Datensatz harmonisierten Feldern zuzuordnen.
-1. Definieren [Marketing-Touchpoints](marketing-touchpoints.md) unter Verwendung der von Ihnen definierten standardmäßigen und zusätzlichen harmonisierten Felder.
-1. Definieren [Konversionen](conversions.md) unter Verwendung der von Ihnen definierten standardmäßigen und zusätzlichen harmonisierten Felder.
+1. Definieren Sie zusätzliche [harmonisierte Felder](fields.md) , die Sie über die bereits verfügbaren globalen harmonisierten Felder hinaus verwenden möchten.
+1. Richten Sie [Datensatzregeln](dataset-rules.md) ein, um Felder aus Ihrem Aggregat- oder Erlebnisereignis-Datensatz harmonisierten Feldern zuzuordnen.
+1. Definieren Sie [Marketing-Touchpoints](marketing-touchpoints.md) mithilfe der von Ihnen definierten standardmäßigen und zusätzlichen harmonisierten Felder.
+1. Definieren Sie [Konversionen](conversions.md) mithilfe der von Ihnen definierten standardmäßigen und zusätzlichen harmonisierten Felder.
 
 
 ## Harmonisierte Daten anzeigen
 
 So zeigen Sie Ihre harmonisierten Daten in der Mix Modeler-Benutzeroberfläche an:
 
-1. Auswählen ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** über die linke Leiste.
+1. Wählen Sie ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** in der linken Leiste aus.
 
-1. Auswählen **[!UICONTROL Harmonized Data]** aus der oberen Leiste. Eine Zusammenstellung Ihrer harmonisierten Daten wird basierend auf den von Ihnen definierten Feldern, Datensatzregeln, Marketing-Touchpoints und Konversionen angezeigt.
+1. Wählen Sie in der oberen Leiste **[!UICONTROL Harmonized Data]** aus. Eine Zusammenstellung Ihrer harmonisierten Daten wird basierend auf den von Ihnen definierten Feldern, Datensatzregeln, Marketing-Touchpoints und Konversionen angezeigt.
 
-   1. Um den Zeitraum, auf dem die Zusammenstellung harmonisierter Daten basiert, neu zu definieren, geben Sie einen Datumsbereich für **[!UICONTROL Date range]** oder Verwendung ![Kalender](/help/assets//icons/Calendar.svg) , um einen Datenbereich auszuwählen.
+   1. Um den Zeitraum, auf dem die Zusammenstellung harmonisierter Daten basiert, neu zu definieren, geben Sie einen Datumsbereich für **[!UICONTROL Date range]** ein oder wählen Sie mit ![Kalender](/help/assets//icons/Calendar.svg) einen Datenbereich aus.
 
-   1. Um die für die harmonisierte Datentabelle angezeigten Feldspalten zu ändern, verwenden Sie ![Einstellungen](/help/assets//icons/Setting.svg) , um die **[!UICONTROL Column settings]** angezeigt.
+   1. Um die für die harmonisierte Datentabelle angezeigten Feldspalten zu ändern, verwenden Sie ![Einstellungen](/help/assets//icons/Setting.svg) , um das Dialogfeld **[!UICONTROL Column settings]** zu öffnen.
 
-      1. Auswählen ![SelectBox](/help/assets//icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** und Verwendung ![Chevron rechts](/help/assets//icons/ChevronRight.svg) , um diese Spalten hinzuzufügen **[!UICONTROL SELECTED COLUMNS]**.
+      1. Wählen Sie ![SelectBox](/help/assets//icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** aus und verwenden Sie ![Chevron right](/help/assets//icons/ChevronRight.svg) , um diese Spalten zu **[!UICONTROL SELECTED COLUMNS]** hinzuzufügen.
 
-      1. Auswählen ![SelectBox](/help/assets//icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL SELECTED COLUMNS]** und Verwendung ![Chevron links](/help/assets//icons/ChevronLeft.svg) , um die ausgewählten Spalten zu entfernen und diese Spalten zurück an **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Wählen Sie ![SelectBox](/help/assets//icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL SELECTED COLUMNS]** aus und verwenden Sie ![Chevron left](/help/assets//icons/ChevronLeft.svg) , um die ausgewählten Spalten zu entfernen und diese Spalten wieder zurück zu **[!UICONTROL AVAILABLE COLUMNS]** zu bringen.
 
-      1. Wählen Sie eine Spalte aus **[!UICONTROL DEFAULT SORT]** und umschalten zwischen **[!UICONTROL Ascending]** oder **[!UICONTROL Descending]**.
+      1. Wählen Sie eine Spalte aus **[!UICONTROL DEFAULT SORT]** aus und schalten Sie zwischen **[!UICONTROL Ascending]** oder **[!UICONTROL Descending]** um.
 
-      1. Um die Reihenfolge der angezeigten Spalten zu ändern, können Sie eine Spalte verschieben in **[!UICONTROL SELECTED COLUMNS]** durch Ziehen und Ablegen nach oben und unten.
+      1. Um die Reihenfolge der angezeigten Spalten zu ändern, können Sie eine Spalte in **[!UICONTROL SELECTED COLUMNS]** durch Ziehen und Ablegen nach oben und unten verschieben.
 
-   1. Auswählen **[!UICONTROL Submit]** , um die Änderungen an den Spalteneinstellungen einzureichen. Auswählen **[!UICONTROL Close]** , um alle von Ihnen vorgenommenen Änderungen abzubrechen.
+   1. Wählen Sie **[!UICONTROL Submit]** aus, um die Änderungen an den Spalteneinstellungen einzureichen. Wählen Sie **[!UICONTROL Close]** aus, um alle von Ihnen vorgenommenen Änderungen abzubrechen.
 
-1. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil links](/help/assets//icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets//icons/ChevronRight.svg) at **[!UICONTROL Page _x _von_x_]** , um zwischen Seiten zu wechseln.
+1. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil nach links](/help/assets//icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets//icons/ChevronRight.svg) bei **[!UICONTROL Page _x _von_x_]** , um zwischen den Seiten zu wechseln.

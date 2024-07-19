@@ -12,106 +12,106 @@ ht-degree: 0%
 
 # Modell erstellen
 
-So erstellen Sie ein Modell in der ![Modelle](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** Benutzeroberfläche in Mix Modeler auswählen **[!UICONTROL Open model canvas]**.
+Um ein Modell zu erstellen, wählen Sie in der Benutzeroberfläche ![Modelle](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** im Mix Modeler **[!UICONTROL Open model canvas]** aus.
 
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen schrittweisen Konfigurationsfluss für Modelle.
 
-1. Im **[!UICONTROL Setup]** step:
+1. Im Schritt **[!UICONTROL Setup]** :
 
-   1. Modell eingeben **[!UICONTROL Name]**, beispielsweise `Demo model`. Geben Sie einen **[!UICONTROL Description]**, beispielsweise `Demo model to explore AI featues of Mix Modeler`.
+   1. Geben Sie Ihr Modell **[!UICONTROL Name]** ein, z. B. `Demo model`. Geben Sie einen **[!UICONTROL Description]** ein, z. B. `Demo model to explore AI featues of Mix Modeler`.
 
       ![Modellname und Beschreibung](/help/assets//model-name-description.png)
 
-   1. Auswählen **[!UICONTROL Next]** , um mit dem nächsten Schritt fortzufahren. Auswählen **[!UICONTROL Cancel]** , um die Modellkonfiguration abzubrechen.
+   1. Wählen Sie **[!UICONTROL Next]** aus, um mit dem nächsten Schritt fortzufahren. Wählen Sie **[!UICONTROL Cancel]** aus, um die Modellkonfiguration abzubrechen.
 
-1. Im **[!UICONTROL Configure]** step:
+1. Im Schritt **[!UICONTROL Configure]** :
 
-   1. Im **[!UICONTROL Conversion goal]** -Abschnitt innerhalb des Containers:
+   1. Im Abschnitt **[!UICONTROL Conversion goal]** innerhalb des Containers:
 
-      1. Geben Sie einen **[!UICONTROL Conversion name]** für die Konvertierung, beispielsweise `Conversion`
+      1. Geben Sie einen **[!UICONTROL Conversion name]** für die Konvertierung ein, z. B. `Conversion`
 
-      1. Wählen Sie eine Konversion aus **[!UICONTROL *Harmonisiertes Feld auswählen *]**, die die verfügbaren Konversionen enthält, die Sie als Teil von [Konversionen](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. Beispiel:**[!UICONTROL Online Conversion]**.
+      1. Wählen Sie eine Konvertierung aus **[!UICONTROL *Harmonisiertes Feld auswählen *]**, das die verfügbaren Konversionen enthält, die Sie als Teil von [Konversionen](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets] definiert haben. Beispiel:**[!UICONTROL Online Conversion]**.
 
-      1. Sie können ![Antwort](/help/assets//icons/Reply.svg) **[!UICONTROL Create new conversion]** , um eine Konversion direkt aus der Modellkonfiguration zu erstellen.
+      1. Sie können ![Antwort](/help/assets//icons/Reply.svg) **[!UICONTROL Create new conversion]** auswählen, um eine Konversion direkt aus der Modellkonfiguration zu erstellen.
 
          ![Modell - Konvertierungsschritt](/help/assets//model-conversion-step.png)
 
-   1. Im **[!UICONTROL Marketing touchpoints]** angezeigt, sehen Sie eine Reihe von Marketing-Touchpoint-Containern, die den Marketing-Touchpoints entsprechen, die Sie als Teil von [Marketing-Touchpoints](../harmonize-data/marketing-touchpoints.md) in [!UICONTROL Harmonized datasets].
+   1. Im Abschnitt **[!UICONTROL Marketing touchpoints]** sehen Sie eine Reihe von Marketing-Touchpoint-Containern, die den Marketing-Touchpoints entsprechen, die Sie in [!UICONTROL Harmonized datasets] als Teil von [Marketing-Touchpoints](../harmonize-data/marketing-touchpoints.md) definiert haben.
 
       * Für jeden Behälter:
 
-         1. Sie können **[!UICONTROL Marketing touchpoint name]**.
+         1. Sie können die **[!UICONTROL Marketing touchpoint name]** ändern.
 
-         1. Wählen Sie einen Marketing-Touchpoint aus **[!UICONTROL _Marketing-Touchpoint_]**.
+         1. Wählen Sie einen Marketing-Touchpoint aus **[!UICONTROL _Marketing-Touchpoint auswählen_]**.
 
-         1. Sie können ![Antwort](/help/assets//icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** , um einen Marketing-Touchpoint direkt in der Modellkonfiguration zu erstellen.
+         1. Sie können ![Antwort](/help/assets//icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** auswählen, um einen Marketing-Touchpoint direkt in der Modellkonfiguration zu erstellen.
 
-      * Um einen Marketing-Touchpoint-Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
+      * Um einen Marketing-Touchpoint-Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]** aus.
 
-      * Um einen Marketing-Touchpoint-Container zu entfernen, wählen Sie im Container die Option ![Mehr](/help/assets//icons/More.svg)und wählen Sie **[!UICONTROL Remove container]** aus dem Kontextmenü aus.
+      * Um einen Marketing-Touchpoint-Container zu entfernen, wählen Sie im Container ![Mehr](/help/assets//icons/More.svg) und dann im Kontextmenü die Option **[!UICONTROL Remove container]** aus.
 
-        ![Modell - Marketing-Touchpoints-Schritt](/help/assets//model-marketing-touchpoint-step.png)
+        ![Modell - Marketing-Touchpoints-step](/help/assets//model-marketing-touchpoint-step.png)
 
-   1. Standardmäßig wird ein Ergebnis für alle Daten in Ihrer harmonisierten Ansicht generiert. Um nur eine Teilmenge der Population zu bewerten, definieren Sie einen oder mehrere Filter mithilfe von Containern im **[!UICONTROL Eligible data population]** Abschnitt.
+   1. Standardmäßig wird ein Ergebnis für alle Daten in Ihrer harmonisierten Ansicht generiert. Um nur eine Teilmenge der Population zu bewerten, definieren Sie einen oder mehrere Filter mithilfe von Containern im Abschnitt **[!UICONTROL Eligible data population]** .
 
       * Definieren Sie für jeden Container ein oder mehrere Ereignisse.
 
          1. Für jedes Ereignis:
 
-            1. Wählen Sie eine Metrik oder Dimension aus **[!UICONTROL _Harmonisiertes Feld auswählen_]**.
+            1. Wählen Sie eine Metrik oder Dimension aus **[!UICONTROL _Harmonisiertes Feld auswählen_]** aus.
 
             1. Wählen Sie den entsprechenden Operator aus: **[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** oder **[!UICONTROL is not in]**.
 
-            1. Wert eingeben oder auswählen unter **[!UICONTROL _Wert eingeben oder auswählen_]**.
+            1. Geben Sie unter **[!UICONTROL _Wert eingeben oder auswählen_]** einen Wert ein.
 
-         1. Um ein zusätzliches Ereignis zum Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add event]**.
+         1. Um dem Container ein zusätzliches Ereignis hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add event]** aus.
 
-         1. Um ein Ereignis aus dem Container zu entfernen, wählen Sie ![Schließen](/help/assets//icons/Close.svg).
+         1. Um ein Ereignis aus dem Container zu entfernen, wählen Sie ![Schließen](/help/assets//icons/Close.svg) aus.
 
-         1. Um nach allen oder mehreren im Container definierten Ereignissen zu filtern, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]**. Die Bezeichnung ändert sich entsprechend von **[!UICONTROL Include ... Or ...]** nach **[!UICONTROL Include ... And ...]**.
+         1. Um nach allen oder mehreren im Container definierten Ereignissen zu filtern, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]** aus. Die Bezeichnung ändert sich entsprechend von **[!UICONTROL Include ... Or ...]** in **[!UICONTROL Include ... And ...]**.
 
-      * Um einen infrage kommenden Datenpopulations-Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+      * Um einen geeigneten Datenpopulationsbehälter hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add eligible population]** aus.
 
-      * Um einen geeigneten Datenpopulations-Container zu entfernen, wählen Sie im Container die Option ![Mehr](/help/assets//icons/More.svg)und wählen Sie **[!UICONTROL Remove marketing touchpoint]** aus dem Kontextmenü aus.
+      * Um einen geeigneten Datenpopulations-Container zu entfernen, wählen Sie im Container ![Mehr](/help/assets//icons/More.svg) und dann im Kontextmenü die Option **[!UICONTROL Remove marketing touchpoint]** aus.
 
         ![Modell - Berechtigte Datenpopulation](/help/assets//model-eligible-data-population-step.png)
 
-   1. Verwenden Sie einen oder mehrere Behälter im **[!UICONTROL External factors dataset]** Abschnitt.
+   1. Um Ihrem Modell Datensätze mit externen Faktoren hinzuzufügen, verwenden Sie einen oder mehrere Behälter im Abschnitt **[!UICONTROL External factors dataset]** .
 
       * Für jeden Behälter:
 
-         1. Geben Sie einen **[!UICONTROL Factor name]** at **[!UICONTROL _Faktor eingeben_]**.
+         1. Geben Sie einen **[!UICONTROL Factor name]** bei **[!UICONTROL _Faktor eingeben_]** ein.
 
-         1. Datensatz auswählen aus **[!UICONTROL _Datensatz auswählen_]**. Sie können ![Daten](/help/assets//icons/Data.svg) , um Datensätze zu verwalten. Siehe [Datensätze](../ingest-data/datasets.md) für weitere Informationen.
+         1. Wählen Sie einen Datensatz aus **[!UICONTROL _Datensatz auswählen_]**. Sie können ![Daten](/help/assets//icons/Data.svg) auswählen, um Datensätze zu verwalten. Weitere Informationen finden Sie unter [Datensätze](../ingest-data/datasets.md) .
 
-      * Um einen weiteren Datensatz-Container mit externen Faktoren hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
+      * Um einen weiteren Datensatz-Container mit externen Faktoren hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add external factor]** aus.
 
-      * Um einen externen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container die Option ![Mehr](/help/assets//icons/More.svg)und wählen Sie **[!UICONTROL Remove external factor]** aus dem Kontextmenü aus.
+      * Um einen externen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container ![Mehr](/help/assets//icons/More.svg) und dann im Kontextmenü die Option **[!UICONTROL Remove external factor]** aus.
 
         ![Modell - Datensatz mit externen Faktoren](/help/assets//model-external-factors-dataset-step.png)
 
 
-   1. Verwenden Sie einen oder mehrere Behälter im **[!UICONTROL Internal factors dataset]** Abschnitt.
+   1. Um Ihrem Modell Datensätze mit internen Faktoren hinzuzufügen, verwenden Sie einen oder mehrere Behälter im Abschnitt **[!UICONTROL Internal factors dataset]** .
 
       * Für jeden Behälter:
 
-         1. Geben Sie einen **[!UICONTROL Factor name]** at **[!UICONTROL _Faktor eingeben_]**.
+         1. Geben Sie einen **[!UICONTROL Factor name]** bei **[!UICONTROL _Faktor eingeben_]** ein.
 
-         1. Datensatz auswählen aus **[!UICONTROL _Datensatz auswählen_]**. Sie können ![Daten](/help/assets//icons/Data.svg) , um Datensätze zu verwalten. Siehe [Datensätze](../ingest-data/datasets.md) für weitere Informationen.
+         1. Wählen Sie einen Datensatz aus **[!UICONTROL _Datensatz auswählen_]**. Sie können ![Daten](/help/assets//icons/Data.svg) auswählen, um Datensätze zu verwalten. Weitere Informationen finden Sie unter [Datensätze](../ingest-data/datasets.md) .
 
-      * Um einen weiteren internen Faktoren-Datensatz-Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
+      * Um einen weiteren internen Faktoren-Datensatz-Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add internal factor]** aus.
 
-      * Um einen zusätzlichen internen Faktoren-Datensatzcontainer zu entfernen, wählen Sie im Container die Option ![Mehr](/help/assets//icons/More.svg), und **[!UICONTROL Remove internal factor]** aus dem Kontextmenü aus.
+      * Um einen zusätzlichen internen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container ![Mehr](/help/assets//icons/More.svg) und **[!UICONTROL Remove internal factor]** aus dem Kontextmenü aus.
 
-        ![Modell - Datensatz mit internen Faktoren](/help/assets//model-internal-factors-dataset-step.png)
+        ![Modell - Interner Faktor-Datensatz](/help/assets//model-internal-factors-dataset-step.png)
 
-   1. Geben Sie einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**.
+   1. Um das Lookback-Fenster für das Modell zu definieren, geben Sie einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** ein.
 
-   1. Auswählen **[!UICONTROL Next]** , um mit dem nächsten Schritt fortzufahren. Wenn mehr Konfiguration erforderlich ist, wird in einem roten Entwurf und Text beschrieben, welche zusätzliche Konfiguration erforderlich ist. <br/>Auswählen **[!UICONTROL Back]** , um zum vorherigen Schritt zurückzukehren. <br/>Auswählen **[!UICONTROL Cancel]** , um die Modellkonfiguration abzubrechen.
+   1. Wählen Sie **[!UICONTROL Next]** aus, um mit dem nächsten Schritt fortzufahren. Wenn mehr Konfiguration erforderlich ist, wird in einem roten Entwurf und Text beschrieben, welche zusätzliche Konfiguration erforderlich ist. <br/>Wählen Sie **[!UICONTROL Back]** aus, um zum vorherigen Schritt zurückzukehren. <br/>Wählen Sie **[!UICONTROL Cancel]** aus, um die Modellkonfiguration abzubrechen.
 
-1. Im **[!UICONTROL Advanced]** step:
+1. Im Schritt **[!UICONTROL Advanced]** :
 
-   1. Im **[!UICONTROL Define training window]** Bereich, wählen Sie zwischen
+   1. Wählen Sie im Abschnitt **[!UICONTROL Define training window]** zwischen
 
       * **[!UICONTROL Have Mix Modeler select a helpful training window]** und
 
@@ -119,30 +119,30 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
         ![Modell - Trainings-Fenster definieren](/help/assets//model-define-training-window.png)
 
-   1. Im **[!UICONTROL Spend share]** Abschnitt:
+   1. Im Abschnitt **[!UICONTROL Spend share]** :
 
-      * Wenn Sie historische Marketing-Investment-Verhältnisse verwenden möchten, um das Modell über geringe Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**.
+      * Wenn Sie historische Marketing-Investment-Verhältnisse verwenden möchten, um das Modell zu informieren, wenn die Marketing-Daten gering sind, aktivieren Sie **[!UICONTROL Allow spend share]**.
 
-   1. Im **[!UICONTROL Prior knowledge]** Abschnitt:
+   1. Im Abschnitt **[!UICONTROL Prior knowledge]** :
 
       1. Wählen Sie die **[!UICONTROL Rule type]**.
 
-      1. Geben Sie Beitragsprozentsätze für jeden der Kanäle an, die unter **[!UICONTROL Name]**, wobei **[!UICONTROL Contribution proportion]** Spalte.
+      1. Geben Sie mithilfe der Spalte **[!UICONTROL Contribution proportion]** Beitragsprozentsätze für jeden der unter **[!UICONTROL Name]** aufgelisteten Kanäle an.
 
-      1. Bei Bedarf können Sie für jeden Kanal einen **[!UICONTROL Level of confidence]** in Prozent.
+      1. Gegebenenfalls können Sie für jeden Kanal einen **[!UICONTROL Level of confidence]** Prozentsatz hinzufügen.
 
-      1. Verwenden Sie bei Bedarf **[!UICONTROL Clear all]** , um alle Eingabewerte für die **[!UICONTROL Contribution proportion]** und **[!UICONTROL Level of confidence]** Spalten.
+      1. Verwenden Sie bei Bedarf **[!UICONTROL Clear all]** , um alle Eingabewerte für die Spalten **[!UICONTROL Contribution proportion]** und **[!UICONTROL Level of confidence]** zu löschen.
 
          ![Modell - Vorkenntnisse](/help/assets//model-prior-knowledge-step.png)
 
-1. Auswählen **[!UICONTROL Finish]** , um die Modellkonfiguration abzuschließen.
+1. Wählen Sie **[!UICONTROL Finish]** aus, um die Modellkonfiguration abzuschließen.
 
-   * Im **[!UICONTROL Create instance?]** Dialogfeld auswählen **[!UICONTROL Ok]** um den ersten Satz von Trainings- und Scoring-Läufen sofort Trigger. Ihr Modell wird mit dem Status aufgeführt <span style="color:orange">●</span> **[!UICONTROL Awaiting training]**.
+   * Wählen Sie im Dialogfeld **[!UICONTROL Create instance?]** die Option **[!UICONTROL Ok]** aus, um den ersten Satz von Trainings- und Scoring-Läufen sofort Trigger. Ihr Modell wird mit dem Status <span style="color:orange"></span> aufgeführt **[!UICONTROL Awaiting training]**.
 
-     Auswählen **[!UICONTROL Cancel]** abbrechen.
+     Wählen Sie **[!UICONTROL Cancel]** aus, um abzubrechen.
 
    * Wenn mehr Konfiguration erforderlich ist, wird in einem roten Entwurf und Text beschrieben, welche zusätzliche Konfiguration erforderlich ist.
 
-   Auswählen **[!UICONTROL Back]** , um zum vorherigen Schritt zurückzukehren.
+   Wählen Sie **[!UICONTROL Back]** aus, um zum vorherigen Schritt zurückzukehren.
 
-   Auswählen **[!UICONTROL Cancel]** , um die Modellkonfiguration abzubrechen.
+   Wählen Sie **[!UICONTROL Cancel]** aus, um die Modellkonfiguration abzubrechen.

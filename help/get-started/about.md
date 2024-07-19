@@ -35,7 +35,7 @@ Um diese Funktion zu nutzen, kombiniert Mix Modeler Folgendes:
 
 Das bidirektionale AI/ML-Transfer-Lernen vereinheitlicht die Ergebnisse der Marketing-Mix-Modellierung (MMM) und Multi-Touch-Attribution (MTA), um in einer Cookie-losen Welt für konsistente Ergebnisse bei Messung und Planung zu sorgen.
 
-![Bidirektionales Transferlernen](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
+![Bidirektionales Übertragungslernen](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Funktionen
@@ -45,7 +45,7 @@ Mix Modeler bietet die folgenden Funktionen:
 | Funktion | Beschreibung |
 |---|---|
 | **Inkrementelle Leistung messen** | Erfahren Sie mehr über den inkrementellen ROI und die Auswirkungen von Marketing auf Geschäftsziele oder taktische Kampagnenziele. |
-| **Ergebnisse über MTA und MTA vereinheitlichen** | Konfidenzere Entscheidungen durch die Vereinheitlichung von Marketing-Mix-Modellierungs- (MMM-) und Multi-Touch-Attributionsmodellen (MTA) durch Transfer-Lernen. |
+| **Ergebnisse über MMM und MTA vereinheitlichen** | Konfidenzere Entscheidungen durch die Vereinheitlichung von Marketing-Mix-Modellierungs- (MMM-) und Multi-Touch-Attributionsmodellen (MTA) durch Transfer-Lernen. |
 | **Optimale Zuordnung von Budgets** | Ermitteln Sie eine optimale Budgetzuweisung basierend auf den Marketing-Ausgaben und den Auswirkungen auf die Ziele. |
 | **Erstellen und Vergleichen von Budgetszenarien** | Entwickeln Sie mehrere Budgetpläne und vergleichen Sie deren Auswirkungen, um optimale Entscheidungen für Ihr Unternehmen zu treffen. |
 
@@ -93,6 +93,6 @@ In den folgenden Anwendungsfällen können Sie die Multi-Touch-Attributionsfunkt
 * Attribution auf der Ereignisebene des vollständigen Trichters: Verstehen Sie die Auswirkungen des Marketings auf die gesamte Journey des Kunden. Beispielsweise kostenlose Kontoanmeldung für bezahlte Konversionen und darüber hinaus.
 * Partnerbewertungen: Evaluieren Sie die Effektivität von Agenturen und Partnern basierend auf Attributionsergebnissen.
 
-Siehe [Model Insights - Attribution](../models/insights.md#attribution) Informationen zum Zugriff auf die mehrkontaktbasierten Attributionseinblicke in Mix Modeler.
+Siehe [Modell-Einblicke - Attribution](../models/insights.md#attribution) für den Zugriff auf die mehrkontaktbasierten Attributionseinblicke in Mix Modeler.
 
 

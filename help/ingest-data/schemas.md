@@ -16,9 +16,9 @@ So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experie
 
 1. Rufen Sie die Benutzeroberfläche des Mix Modelers auf.
 
-1. Auswählen ![Schemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, darunter **[!UICONTROL SETUP]**.
+1. Wählen Sie ![Schemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]** unter **[!UICONTROL SETUP]** aus.
 
-Siehe [Übersicht über die Benutzeroberfläche von Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) für weitere Informationen.
+Weitere Informationen finden Sie in der [Übersicht über die Benutzeroberfläche von Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) .
 
 ## Aggregat- oder Zusammenfassungsdaten
 
@@ -36,9 +36,9 @@ Verwenden Sie die Klasse &quot;XDM-Zusammenfassungsmetriken&quot;für:
 >
 >Die Schemadefinition muss mindestens ein numerisches Feld enthalten (unter Verwendung von Integer, Double, Boolean oder einem anderen numerischen Typ), um die erforderlichen Metriken für die erfassten Daten zu unterstützen.
 
-Ein Schema, das **[!DNL XDM Summary Metrics]** Die Basisklasse kann einfach sein, wie in der **[!DNL ExternalFactorSummarySchema]** unten.
+Ein Schema, das die **[!DNL XDM Summary Metrics]** -Basisklasse verwendet, kann einfach sein, wie in **[!DNL ExternalFactorSummarySchema]** unten dargestellt.
 
-![Externes Factoryschema](/help/assets//external-factors-schema.png)
+![Schema externer Faktoren](/help/assets//external-factors-schema.png)
 
 Dieses einfache Schema kann zum Erfassen von Datensätzen verwendet werden, die Daten enthalten, beispielsweise für:
 
@@ -46,24 +46,24 @@ Dieses einfache Schema kann zum Erfassen von Datensätzen verwendet werden, die 
 
   | Zeitstempel | date_type | Faktor | value |
   |---|---|---|--:|
-  | 28.11.2020:00:00.000Z | Woche | Konkurrentenindex | 289,8 |
+  | 2020-11-28T00:00:00.000Z | Woche | Konkurrentenindex | 289,8 |
   | 2020-12-05T00:00:00.000Z | Woche | Konkurrentenindex | 291,2 |
-  | 12.12.2020 T00:00:00.000Z | Woche | Konkurrentenindex | 280,07 |
+  | 2020-12-12T00:00:00.000Z | Woche | Konkurrentenindex | 280,07 |
   | ... | ... | ... | ... |
 
 - Daten zu Feiertagszeiten
 
   | Zeitstempel | date_type | Faktor | value |
   |---|---|---|--:|
-  | 28.11.2020:00:00.000Z | Woche | all_days_flag | 0,0 |
+  | 2020-11-28T00:00:00.000Z | Woche | all_days_flag | 0,0 |
   | 2020-12-05T00:00:00.000Z | Woche | all_days_flag | 0,0 |
-  | 12.12.2020 T00:00:00.000Z | Woche | all_days_flag | 0,0 |
+  | 2020-12-12T00:00:00.000Z | Woche | all_days_flag | 0,0 |
   | 2020-12-19T00:00:00.000Z | Woche | all_days_flag | 0,0 |
-  | 26.12.2020:00:00.000Z | Woche | all_days_flag | 1,0 |
+  | 2020-12-26T00:00:00.000Z | Woche | all_days_flag | 1,0 |
   | ... | ... | ... | ... |
 
 
-Ein umfassenderes Beispiel für eine **[!DNL LumaPaidMarketingSchema]** mithilfe der **[!DNL XDM Summary Metrics]** als Basisklasse. Das Schema verwendet dedizierte Feldergruppen (mit Farben kommentiert) für Metriken (**[!DNL AMMMetrics]**), Dimensionen (**[!DNL AMMDimensions]**) und anderen kundenspezifischen Informationen (**[!DNL CustomerSpecific]**).
+Unten finden Sie ein umfassenderes Beispiel für eine **[!DNL LumaPaidMarketingSchema]**, die die **[!DNL XDM Summary Metrics]** als Basisklasse verwendet. Das Schema verwendet dedizierte Feldergruppen (mit Farben kommentiert) für Metriken (**[!DNL AMMMetrics]**), Dimensionen (**[!DNL AMMDimensions]**) und andere kundenspezifische Informationen (**[!DNL CustomerSpecific]**).
 
 ![Zusammenfassungsschema](/help/assets//summary-schema.png)
 
@@ -72,7 +72,7 @@ Angesichts der asynchronen Art der Profilerfassung wird bei der Erfassung von Ag
 
 ## Unterstützte Datentypen
 
-Derzeit unterstützt Mix Modeler eine Untergruppe von Experience Platform-Datentypen. Die folgenden grundlegenden Datentypen (Felder), aufgeführt in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), werden unterstützt:
+Derzeit unterstützt Mix Modeler eine Untergruppe von Experience Platform-Datentypen. Die folgenden grundlegenden Datentypen (Felder), die in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type) erwähnt werden, werden unterstützt:
 
 - Zeichenfolge
 - Ganzzahl

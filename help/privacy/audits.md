@@ -16,9 +16,9 @@ Verwenden Sie die Audit-Benutzeroberfläche, die Teil des in die Mix Modeler-Ben
 
 So überprüfen Sie das Auditprotokoll in der Mix Modeler-Benutzeroberfläche:
 
-1. Auswählen ![Aufgabenliste](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** von **[!UICONTROL PRIVACY]**.
+1. Wählen Sie ![Aufgabenliste](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** aus **[!UICONTROL PRIVACY]** aus.
 
-1. In **[!UICONTROL Audits]**, können Sie die **[!UICONTROL Activity log]**. Das Aktivitätsprotokoll enthält Einträge für die folgenden Mix Modeler-Kategorien, -Aktionen und -Status.
+1. In **[!UICONTROL Audits]** können Sie den **[!UICONTROL Activity log]** finden. Das Aktivitätsprotokoll enthält Einträge für die folgenden Mix Modeler-Kategorien, -Aktionen und -Status.
 
    | Kategorie | Aktion | Status |
    |---|---|---|
@@ -49,11 +49,11 @@ So überprüfen Sie das Auditprotokoll in der Mix Modeler-Benutzeroberfläche:
 
 1. Wählen Sie einen Eintrag im Aktivitätsprotokoll aus, um einen Bereich für weitere Details zu öffnen.
 
-   ![Mix Modeler Audit](/help/assets/mix-modeler-audit.png)
+   ![Mix Modeler-Audit](/help/assets/mix-modeler-audit.png)
 
-1. Filtern nach **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** oder **[!UICONTROL Date]** Bereich, auswählen ![Filter](/help/assets/icons/Filter.svg).
+1. Um nach dem Bereich **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** oder **[!UICONTROL Date]** zu filtern, wählen Sie ![Filter](/help/assets/icons/Filter.svg) aus.
 
-1. Um die im Aktivitätsprotokoll angezeigten Spalten zu ändern, wählen Sie ![Spalten](/help/assets/icons/ColumnSetting.svg) und im **[!UICONTROL Customize table]** wählen Sie die anzuzeigenden Spalten aus. Auswählen **[!UICONTROL Apply]** die Auswahl anwenden, **[!UICONTROL Cancel]** , um die Auswahl abzubrechen.
+1. Um die im Aktivitätsprotokoll angezeigten Spalten zu ändern, wählen Sie ![Spalten](/help/assets/icons/ColumnSetting.svg) aus und wählen Sie im Dialogfeld **[!UICONTROL Customize table]** die anzuzeigenden Spalten aus. Wählen Sie &quot;**[!UICONTROL Apply]**&quot;, um die Auswahl anzuwenden, &quot;**[!UICONTROL Cancel]**&quot;, um die Auswahl abzubrechen.
 
-1. Um das Prüfprotokoll herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. Im **[!UICONTROL Download log]** Dialogfeld wählen Sie **[!UICONTROL CSV]** oder **[!UICONTROL JSON]** als Format festlegen und **[!UICONTROL Download]**.
+1. Um das Prüfprotokoll herunterzuladen, wählen Sie ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download log]** aus. Wählen Sie im Dialogfeld **[!UICONTROL Download log]** entweder **[!UICONTROL CSV]** oder **[!UICONTROL JSON]** als Format und dann **[!UICONTROL Download]** aus.
 
