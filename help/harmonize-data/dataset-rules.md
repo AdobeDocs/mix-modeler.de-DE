@@ -3,9 +3,9 @@ title: Datensatzregeln
 description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Um eine Datensatzregel zu löschen, gehen Sie in der Oberfläche ![DataSearch](/
 
 ## Daten synchronisieren
 
-So synchronisieren Sie Daten zwischen Ihren harmonisierten Daten und Zusammenfassungs- und / oder Ereignis-Datensätzen, indem Sie die gesamte Logik in Ihren Datensatzregeln befolgen:
+So synchronisieren Sie Daten zwischen Ihren harmonisierten Daten und Zusammenfassungs- und / oder Ereignis-Datensätzen, während Sie die Logik in Ihren Datensatzregeln anwenden:
 
 1. Wählen Sie **[!UICONTROL Sync data]** aus.
 
@@ -159,7 +159,7 @@ Um präzise Modellprognosen zu gewährleisten, können Sie Voreinstellungen für
 
    ![Voreinstellungen für die Datenzusammenführung](/help/assets//data-merge-preferences.png)
 
-   * Wählen Sie einen **[!UICONTROL Default metric preference]** aus. Die ausgewählte Standardmetrik-Voreinstellung wird angewendet, wenn während der Harmonisierung mehrere Datenquellen ein Metrikfeld für einen bestimmten Kanal aktualisieren. Die Voreinstellung wird auf Sandbox-Ebene angewendet, es sei denn, sie wird für bestimmte metrikbasierte Voreinstellungen überschrieben. Sie können zwischen **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** und **[!UICONTROL Sum of summmary and event data]** wählen.
+   * Wählen Sie einen **[!UICONTROL Default metric preference]** aus. Die ausgewählte Standardmetrik-Voreinstellung wird angewendet, wenn während der Harmonisierung mehrere Datenquellen ein Metrikfeld für einen bestimmten Kanal aktualisieren. Die Voreinstellung wird auf Sandbox-Ebene angewendet, es sei denn, sie wird für bestimmte metrikbasierte Voreinstellungen überschrieben. Sie können zwischen **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** und **[!UICONTROL Sum of summary and event data]** wählen.
 
    * So fügen Sie bestimmte metrikbasierte Voreinstellungen hinzu:
 
@@ -181,11 +181,13 @@ Um präzise Modellprognosen zu gewährleisten, können Sie Voreinstellungen für
 
 1. Wählen Sie **[!UICONTROL Save]** aus, um die Voreinstellungen für die Datenzusammenführung zu speichern. Eine erneute Synchronisierung der Daten wird initiiert. <br/>Wählen Sie **[!UICONTROL Cancel]** aus, um abzubrechen.
 
+## Quelldatensatz löschen
 
-## Zugriffskontrolle auf Feldebene
+Wenn Sie einen Quelldatensatz löschen, der in Ihren harmonisierten Daten verwendet wird, werden die zugrunde liegenden Einträge in diesem Quelldatensatz aus dem [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md) entfernt. Die Datensatzregel mit dem gelöschten Quelldatensatz verbleibt jedoch in der Konfigurationsliste der Datensatzregel mit dem Symbol ![DataRemove](/help/assets/icons/DataRemove.svg) , das angibt, dass der Quelldatensatz gelöscht wurde. Weitere Informationen erhalten Sie:
 
-Beim Konfigurieren von Datensatzregeln für harmonisierte Datensätze wird die Experience Platform [attributbasierte Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) auf Feldebene durchgesetzt. Ein Feld ist eingeschränkt, wenn eine Beschriftung an ein Schemafeld angehängt und eine aktive Richtlinie aktiviert ist, die Ihnen den Zugriff auf dieses Feld verweigert. Das Ergebnis:
+* Wählen Sie ![Mehr](/help/assets/icons/More.svg) und ![Vorschau](/help/assets/icons/Preview.svg) **[!UICONTROL View]** aus dem Kontextmenü aus.
+Das Dialogfeld &quot;**[!UICONTROL Dataset rule mapping - Fields]**&quot;zeigt Informationen zum gelöschten Quelldatensatz und zu den Feldern an, die in der Konfiguration der Datensatzregel verwendet werden.
 
-* Sie sehen die Schemafelder nicht, die Ihnen beim Erstellen einer Datensatzregel vorbehalten sind.
-* Sie können die Zuordnung eines oder mehrerer für Sie eingeschränkter Schemafelder nicht anzeigen oder bearbeiten. Wenn Sie eine Datensatzregel mit solchen eingeschränkten Feldern bearbeiten oder anzeigen, wird der folgende Bildschirm angezeigt.
-  ![Aktion nicht erlaubt](/help/assets//action-not-permitted.png)
+Wenn Sie zur **[!UICONTROL Dataset rules]** -Konfiguration zurückkehren, wird ein Dialogfeld angezeigt, in dem erklärt wird, dass mindestens ein Quelldatensatz gelöscht wurde. Die harmonisierten Daten wirken sich auf die nächste Ad-hoc- oder geplante Synchronisation aus. Überprüfen Sie die Konfiguration Ihrer Datensatzregel.
+
+Die harmonisierten Daten werden bei der nächsten Ad-hoc-Synchronisierung oder geplanten Synchronisation ohne die gelöschten Quelldaten aktualisiert. Sie werden jedoch weiterhin in Warndialogfeldern aufgefordert, die Datensatzregel basierend auf dem gelöschten Quelldatensatz zu löschen. Mit diesem Warnhinweis können Benutzer die betroffenen Felder im gelöschten Datensatz anzeigen und auswerten. Und um die Auswirkungen auf Marketing-Touchpoints oder Konversionen zu ermitteln, die in beliebigen Modellen verwendet werden können. Nachdem Sie diese Auswirkungen überprüft und abgemildert haben, sollten Sie die Datensatzregel aus der Konfigurationsliste der Datensatzregel löschen.

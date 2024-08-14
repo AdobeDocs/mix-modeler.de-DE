@@ -3,9 +3,9 @@ title: Model Insights
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ So zeigen Sie Modelleinblicke in der Benutzeroberfläche ![Modelle](/help/assets
 
 ![Tab-Leiste &quot;Modelleinblicke&quot;](/help/assets//model-insights-tabbar.png)
 
-Sie sehen, wann das angegebene Modell zuletzt aktualisiert wurde und Widgets mit vier Registerkarten angezeigt werden: [Modelleinblicke](#model-insights), [Attribution](#attribution), [Diagnose](#diagnostics) und [Historische Übersicht](#historical-overview).
+Sie sehen, wann das angegebene Modell zuletzt aktualisiert wurde und Widgets mit vier Registerkarten angezeigt werden: [Modelleinblicke](#model-insights), [Attribution](#attribution), [Faktoren](#factors), [Diagnose](#diagnostics) und [Historische Übersicht](#historical-overview).
 
 Sie können den Datumsbereich ändern, auf dem die Widgets auf den einzelnen Registerkarten basieren. Geben Sie einen Datumsbereich ein oder wählen Sie ![Kalender](/help/assets//icons/Calendar.svg) aus, um einen Datumsbereich auszuwählen.
 
@@ -34,7 +34,7 @@ Auf der Registerkarte Modelleinblicke werden Widgets für Folgendes angezeigt:
 
 * Marketing-Leistungszusammenfassung.
 
-* Kurven für die Randantwort.
+* Kurven für die Randantwort.  Sowohl die Kurve als auch die entsprechenden Werte werden basierend auf dem ausgewählten Datenbereich berechnet. Darüber hinaus zeigt dieses Widget den Punkt eines marginalen Umbruchs und den Punkt eines rückläufigen Ertrags.
   <br/>Wählen Sie einen Kanal aus der Dropdownliste **[!UICONTROL Channel]** aus, um das Widget für einen bestimmten Kanal zu aktualisieren.
 
 ![Modell - Modelleinblicke](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ Für jeden Konversionspfad sehen Sie Folgendes:
 * für jeden Kanal den Prozentsatz des Beitrags des Attributionsmodells und
 * die Summe dieser Beitragsprozentsätze des Kanalattributionsmodells.
 
+## **[!UICONTROL Factors]**
+
+Die Registerkarte &quot;Faktoren&quot;zeigt Einblicke zu externen Faktoren an.
+
+![Faktoren](/help/assets/factors.png)
+
+Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Download](/help/assets//icons/Download.svg) aus.
+
+Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** angezeigt.
 
 ## [!UICONTROL Diagnostics]
 

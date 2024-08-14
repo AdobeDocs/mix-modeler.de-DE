@@ -3,16 +3,16 @@ title: Modelle
 description: Erfahren Sie, wie Sie Modelle in Mix Modeler konfigurieren und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
 
 # Modelle
 
-Mit der Modellfunktion in Mix Modeler können Sie KI/ML-Modelle konfigurieren, trainieren und bewerten, die speziell auf Ihre Geschäftsziele abgestimmt sind und durch KI-gestütztes Transferlernen zwischen der Multitouch-Attribution und der Marketing-Mix-Modellierung unterstützt werden.
+Mit der Modellfunktion in Mix Modeler können Sie KI-/ML-Modelle konfigurieren, trainieren und bewerten, die für Ihre Geschäftsziele spezifisch sind. Das Training und Scoring unterstützt das KI-gestützte Transfer-Lernen zwischen der Multitouch-Attribution und der Marketing-Mix-Modellierung.
 
 Die Modelle basieren auf den harmonisierten Daten, die Sie im Rahmen des Mix Modeler-Anwendungs-Workflows erstellen.
 
@@ -20,17 +20,17 @@ Ein Modell in Mix Modeler ist ein Modell für maschinelles Lernen, das verwendet
 
 Ein Modell erfordert:
 
-* eine Konversion,
-* einen oder mehrere Marketing-Touchpoints (Kanäle), die aus Zusammenfassungsdaten, Marketing-Touchpoint-Daten (Ereignisdaten) oder beidem bestehen,
-* ein konfigurierbares Lookback-Fenster für
-* ein konfigurierbares Schulungsfenster.
+* Eine Konversion.
+* Ein oder mehrere Marketing-Touchpoints (Kanäle), die aus Zusammenfassungsdaten, Marketing-Touchpoint-Daten (Ereignisdaten) oder beidem bestehen.
+* Ein konfigurierbares Lookback-Fenster.
+* Ein konfigurierbares Schulungsfenster.
 
 Ein Modell kann optional Folgendes enthalten:
 
-* externe Faktoren,
-* interne Faktoren,
-* so genannte &quot;Priors&quot;(Wahrscheinlichkeitsverteilung, die Wissen oder Unsicherheit über Daten vor oder vor der Beobachtung dieser Daten darstellt), die frühere Konversionen nach Kanälen indiziert,
-* Ausgabeanteil, der den relativen Ausgabenanteil als Proxy verwendet, wenn die Marketingdaten gering sind.
+* Externe Faktoren.
+* Interne Faktoren.
+* Frühere Kenntnisse von Marketing-Beiträgen aus anderen Quellen, z. B. Erfahrungen von Interessenträgern aus der Vergangenheit, schrittweise Tests und andere Modelle.
+* Ausgabenfreigabe, die den relativen Ausgabenanteil als Proxy verwendet, wenn die Marketing-Daten gering sind.
 
 
 ## Modell erstellen
@@ -54,51 +54,96 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzerob
    | Konversionsereignis | Die für das Modell ausgewählte Konversion. |
    | Ausführungshäufigkeit | Die Ausführungsfrequenz des Trainings des Modells. |
    | Letzte Ausführung | Datum und Uhrzeit der letzten Schulung des Modells. |
-   | Status | Der Status des letzten Trainings des Modells. <br/><span style="color:green"></span> Erfolg<br/><span style="color:orange"> </span> Schulungsproblem<br/> <span style="color:orange"></span> Warten auf Training <br/><span style="color:red"></span> Fehlgeschlagen <br/><span style="color:gray"></span> _ (wenn ein letzter Lauf in Verarbeitung ist) |
+   | Status | Der Status des letzten Trainings des Modells. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Erfolg<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Schulungsproblem<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Warten auf Schulung <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Fehlgeschlagen <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (wenn ein letzter Lauf ausgeführt wird) |
 
    {style="table-layout:auto"}
 
 1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets//icons/ColumnSetting.svg) aus und schalten Sie die Spalten auf ![Aktivieren](/help/assets//icons/Checkmark.svg) oder aus.
 
+Sie können die folgenden Aktionen für ein bestimmtes Modell ausführen.
 
-### Details eines Modells anzeigen
+### Details anzeigen
 
 So zeigen Sie weitere Details eines Modells an:
+
+1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Wählen Sie ![Info](/help/assets//icons/Info.svg) für ein Modell aus, um ein Popup mit Details anzuzeigen.
 
 
 
+### Duplizieren
+
+Sie können ein Modell schnell duplizieren.
+
+1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Duplicate]**.
+
+
 ### Modelleinblicke
 
-So zeigen Sie Einblicke in ein Modell in der Mix Modeler-Oberfläche an:
+Die Modelleinblicke-Funktion ist nur für erfolgreich trainierte und bewertete Modelle verfügbar. So zeigen Sie die Einblicke eines Modells an:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie den Namen eines Modells mit dem Wert **[!UICONTROL Last run status]** von <span style="color:green"></span> aus. **[!UICONTROL Success]** aus der Tabelle **[!UICONTROL Models]**. Modelleinblicke sind nur für erfolgreich trainierte Modelle verfügbar.
+1. Wählen Sie den Modellnamen aus.
 
-1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus. Sie werden zu [Model Insights](insights.md) umgeleitet.
-
-
-### Neubewertung
+Sie werden zu [Model Insights](insights.md) umgeleitet.
 
 
-So bewerten Sie ein Modell in der Mix Modeler-Oberfläche neu:
+### Umzug
+
+Das erneute Trainieren eines Modells ist nur auf erfolgreich trainierten Modellen verfügbar. So trainieren Sie ein Modell neu:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie den Namen eines Modells mit dem Wert **[!UICONTROL Last run status]** von <span style="color:green"></span> aus. **[!UICONTROL Success]** aus der Tabelle **[!UICONTROL Models]**. Die Neubewertung ist nur für erfolgreich trainierte Modelle verfügbar.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Train]**. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** aus der blauen Aktionsleiste.
 
-1. Wählen Sie im Kontextmenü **[!UICONTROL Re-score]** aus. Es kann einige Minuten dauern, bis ein aktualisierter Status für das Modell angezeigt wird.
+   Wählen Sie im Dialogfeld **[!UICONTROL Train model]** die Option aus, um:
+
+   * **[!UICONTROL Train model with last 2 years of marketing data]** oder
+   * **[!UICONTROL Train model using specific date range of data]**.
+Geben Sie den Datumsbereich an. Sie können den ![Kalender](/help/assets/icons/Calendar.svg) verwenden, um einen Datumsbereich auszuwählen. Sie müssen einen Datenbereich mit mindestens einem Jahr auswählen.
+
+   ![Modell erneut trainieren](../assets/re-train-model.png)
+
+1. Wählen Sie **[!UICONTROL Train]** aus, um das Modell neu zu trainieren.
+
+
+### Punktzahl oder Neubewertung
+
+
+Sie können ein Modell inkrementell auf Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. So bewerten oder bewerten Sie ein Modell neu:
+
+1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Score]**. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** aus der blauen Aktionsleiste.
+
+   Wählen Sie im Dialogfeld **[!UICONTROL Score marketing data]** die Option aus, um:
+
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**, um Ihr Modell schrittweise anhand neuer Marketing-Daten zu bewerten, oder
+   * **[!UICONTROL Score specific date range of marketing data]** , um für einen bestimmten Datumsbereich eine Neubewertung vorzunehmen.
+Geben Sie den Datumsbereich an. Sie können den ![Kalender](/help/assets/icons/Calendar.svg) verwenden, um einen Datumsbereich auszuwählen.
+
+   ![Modell erneut trainieren](../assets/re-score-model.png)
+
+1. Wählen Sie **[!UICONTROL Score]** aus. Wenn Sie ein Modell mithilfe eines bestimmten Datenbereichs neu bewerten, wird ein Dialogfeld &quot;**[!UICONTROL Existing model is replaced]**&quot;angezeigt, in dem Sie aufgefordert werden, zu bestätigen, dass das Modell durch neue Werte für den ausgewählten Datumsbereich ersetzt werden soll. Wählen Sie **[!UICONTROL Replace model]** zur Bestätigung aus.
 
 
 ### Modell löschen
 
 So löschen Sie ein Modell:
 
-1. Wählen Sie den Namen des Modells aus, das Sie löschen möchten.
+1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus, um das Modell zu löschen.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Delete]**. Wählen Sie alternativ ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** aus der blauen Aktionsleiste.
+
+So löschen Sie mehrere Modelle:
+
+1. Auswählen mehrerer Modelle.
+
+1. Wählen Sie in der blauen Aktionsleiste ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** aus, um die Modelle zu löschen.
 
    >[!WARNING]
    >
