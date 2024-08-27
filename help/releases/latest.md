@@ -4,10 +4,10 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f75aa1e24506dbb107a519337b0163a93b196ca7
+source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 7%
+source-wordcount: '437'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +21,11 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 
 | Funktion | Beschreibung | Allgemeine Verfügbarkeit |
 |---|---|---|
-| **[!UICONTROL Ad-hoc training and scoring]** | Sie können ein Modell [retrain](/help/models/overview.md#re-train), [score (für neue Marketing-Daten) oder eine Neubewertung](/help/models/overview.md#score-or-re-score) über die Modelloberfläche initiieren. | 13. August 2024 |
-| **[!UICONTROL Policy enforcement]** | Experience Platform-Richtlinien werden beim Konfigurieren von Datensatzregeln und beim Ändern von Bezeichnungen an den zugrunde liegenden Daten, die in Mix Modeler verwendet werden, durchgesetzt. Weitere Informationen finden Sie unter [Richtlinien](../data-governance/policies.md) . | 13. August 2024 |
+| **Beitragseinblicke des Faktors** | In [!UICONTROL Model insights] bietet die Registerkarte [[!UICONTROL Factors]](/help/models/insights.md#factors) Einblicke zu externen Fakten. | 20. August 2024 |
+| **Kurven der Randantwort** | Das Widget [ marginale Antwortkurven](/help/models/insights.md#model-insights-1) in Modelleinblicken aktualisiert jetzt die Kurve und die entsprechenden Werte basierend auf Änderungen im ausgewählten Datenbereich. Darüber hinaus zeigt das Widget den Punkt eines marginalen Umbruchs und den Punkt eines rückläufigen Ertrags an. | 20. August 2024 |
+| **Ad-hoc-Training und -Scoring** | Sie können ein Modell [retrain](/help/models/overview.md#re-train), [score (für neue Marketing-Daten) oder eine Neubewertung](/help/models/overview.md#score-or-re-score) über die Modelloberfläche initiieren. | 13. August 2024 |
+| **Richtliniendurchsetzung** | Experience Platform-Richtlinien werden beim Konfigurieren von Datensatzregeln und beim Ändern von Bezeichnungen an den zugrunde liegenden Daten, die in Mix Modeler verwendet werden, durchgesetzt. Weitere Informationen finden Sie unter [Richtlinien](../data-governance/policies.md) . | 13. August 2024 |
 | **Datenhygiene** | Beim Löschen von Quelldaten werden die Hygienevorschriften für Daten beachtet. Siehe [Löschen eines Quelldatensatzes](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13. August 2024 |
-
-
-
-<!--| **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 13, 2024 |
-| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) widget in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the widget shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |-->
-
 
 ## Juni 2024
 
