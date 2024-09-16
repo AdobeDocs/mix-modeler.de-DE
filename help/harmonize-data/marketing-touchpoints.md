@@ -3,7 +3,7 @@ title: Marketing-Touchpoints
 description: Erfahren Sie, wie Sie Marketing-Touchpoints erstellen, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 1%
@@ -20,9 +20,9 @@ Sie definieren Marketing-Touchpoints, um Sie bei der Attributionsanalyse zu unte
 
 So zeigen Sie eine Tabelle der verfügbaren Marketing-Touchpoints in der Mix Modeler-Oberfläche an:
 
-1. Wählen Sie ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** in der linken Leiste aus.
+1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
-1. Wählen Sie in der oberen Leiste **[!UICONTROL Marketing touchpoint]** aus. Es wird eine Tabelle der Marketing-Touchpoints angezeigt. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil nach links](/help/assets//icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets//icons/ChevronRight.svg) bei **[!UICONTROL Page _x _von_x_]** , um zwischen den Seiten der Tabelle zu wechseln.
+1. Wählen Sie in der oberen Leiste **[!UICONTROL Marketing touchpoint]** aus. Es wird eine Tabelle der Marketing-Touchpoints angezeigt. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil nach links](/help/assets/icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets/icons/ChevronRight.svg) bei **[!UICONTROL Page _x _von_x_]** , um zwischen den Seiten der Tabelle zu wechseln.
 
 Die Tabellenspalten geben Details zum Marketing-Touchpoint an:
 
@@ -39,9 +39,9 @@ Die Tabellenspalten geben Details zum Marketing-Touchpoint an:
 
 ## Marketing-Touchpoint hinzufügen
 
-Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** in Mix Modeler wie folgt vor:
+Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** in Mix Modeler wie folgt vor:
 
-1. Wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) Marketing-Touchpoint hinzufügen aus.
+1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) Marketing-Touchpoint hinzufügen aus.
 
 1. Im Dialogfeld **[!UICONTROL Marketing touchpoint]** .
 
@@ -51,7 +51,7 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläch
 
       1. Wählen Sie einen Wert aus **[!UICONTROL *Harmonisiertes Element auswählen *]**, z. B.**[!UICONTROL Brand]**.
 
-      1. Wählen Sie einen Wert für den Operator ![Chevron](/help/assets//icons/ChevronDown.svg) aus, z. B. **[!UICONTROL is]**.
+      1. Wählen Sie einen Wert für den Operator ![Chevron](/help/assets/icons/ChevronDown.svg) aus, z. B. **[!UICONTROL is]**.
 
       1. Wählen Sie einen Wert aus **[!UICONTROL *Wert auswählen *]**oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
 
@@ -59,7 +59,7 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläch
 
    1. Wählen Sie ein harmonisiertes Feld aus &quot;**[!UICONTROL Touchpoint spend]**&quot;, z. B. &quot;**[!UICONTROL Cost]**&quot;.
 
-      ![Marketing-Touchpoint](/help/assets//create-touchpoint.png)
+      ![Marketing-Touchpoint](/help/assets/create-touchpoint.png)
 
    1. Um den Marketing-Touchpoint zu erstellen, wählen Sie **[!UICONTROL Create]** aus. Um die Erstellung eines Marketing-Touchpoints abzubrechen, wählen Sie **[!UICONTROL Cancel]** aus.
 
@@ -70,15 +70,15 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläch
 
 Anzeigen eines Marketing-Touchpoints:
 
-1. Wählen Sie ![Mehr](/help/assets//icons/More.svg) aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
 
-1. Wählen Sie ![Ansicht](/help/assets//icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden Sie unter [Hinzufügen eines Marketing-Touchpoints](#add-a-marketing-touchpoint) . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden Sie unter [Hinzufügen eines Marketing-Touchpoints](#add-a-marketing-touchpoint) . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
 
 ## Marketing-Touchpoint löschen
 
 So löschen Sie einen Marketing-Touchpoint:
 
-1. Wählen Sie ![Löschen](/help/assets//icons/Delete.svg) **Löschen** aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
+1. Wählen Sie ![Löschen](/help/assets/icons/Delete.svg) **Löschen** aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
 1. Wählen Sie im Bestätigungsdialogfeld **[!UICONTROL Delete touchpoint]** die Option **[!UICONTROL Delete]** aus, um den Marketing-Touchpoint dauerhaft zu löschen.
 

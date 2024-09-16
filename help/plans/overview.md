@@ -3,7 +3,7 @@ title: Pläne
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und bearbeiten können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Ein Plan kann optional Folgendes umfassen:
 
 So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche an:
 
-1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** aus.
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** aus.
 
 1. Sie sehen eine Tabelle der aktuellen Pläne und ihres Status.
 
@@ -51,7 +51,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Mix Modeler-Oberfläche
 
    {style="table-layout:auto"}
 
-1. Verwenden Sie ![Suche](/help/assets//icons/Search.svg) , um die Tabelle nach einem oder mehreren spezifischen Plänen zu suchen und zu filtern.
+1. Verwenden Sie ![Suche](/help/assets/icons/Search.svg) , um die Tabelle nach einem oder mehreren spezifischen Plänen zu suchen und zu filtern.
 
 ## Plan erstellen
 
@@ -67,20 +67,20 @@ Um einen Plan zu bearbeiten, wählen Sie den Namen des Plans aus der Tabelle aus
 
 Sie können einen oder mehrere Pläne auswählen, um die Aktionsleiste Pläne anzuzeigen. In der Symbolleiste können Sie Pläne löschen, vergleichen oder duplizieren.
 
-Um alle Auswahlen in der Tabelle Pläne zu entfernen, wählen Sie in der Aktionsleiste ![Schließen](/help/assets//icons/Close.svg) aus.
+Um alle Auswahlen in der Tabelle Pläne zu entfernen, wählen Sie in der Aktionsleiste ![Schließen](/help/assets/icons/Close.svg) aus.
 
-![Aktionsleiste &quot;Pläne&quot;](/help/assets//plans-action-bar.png)
+![Aktionsleiste &quot;Pläne&quot;](/help/assets/plans-action-bar.png)
 
 ### Plan duplizieren
 
 So duplizieren Sie einen Plan:
 
 1. Wählen Sie einen einzelnen Plan aus der Tabelle aus.
-1. Wählen Sie in der Aktionsleiste ![Kopieren](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** aus. Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem ursprünglichen Plannamen mit **[!UICONTROL (Copy)]** besteht.
+1. Wählen Sie in der Aktionsleiste ![Kopieren](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** aus. Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem ursprünglichen Plannamen mit **[!UICONTROL (Copy)]** besteht.
 
 Alternativ:
 
-1. Wählen Sie ![Mehr](/help/assets//icons/More.svg) für einen Plan in der Tabelle aus.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan in der Tabelle aus.
 1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Duplicate]** aus. Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem ursprünglichen Plannamen mit **[!UICONTROL (Copy)]** besteht.
 
 ### Pläne vergleichen
@@ -88,7 +88,7 @@ Alternativ:
 So vergleichen Sie Pläne:
 
 1. Wählen Sie zwei Pläne aus der Tabelle aus.
-1. Wählen Sie in der Aktionsleiste ![Vergleichen](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** aus. Sie sehen die **[!UICONTROL Compare plans]** -Benutzeroberfläche.
+1. Wählen Sie in der Aktionsleiste ![Vergleichen](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]** aus. Sie sehen die **[!UICONTROL Compare plans]** -Benutzeroberfläche.
 
 
 ### Pläne löschen
@@ -96,11 +96,11 @@ So vergleichen Sie Pläne:
 So löschen Sie Pläne:
 
 1. Wählen Sie einen oder mehrere Pläne aus der Tabelle aus.
-1. Wählen Sie in der Aktionsleiste ![Löschen](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** aus.
+1. Wählen Sie in der Aktionsleiste ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** aus.
 
 Alternativ:
 
-1. Wählen Sie ![Mehr](/help/assets//icons/More.svg) für einen Plan in der Tabelle aus.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan in der Tabelle aus.
 1. Wählen Sie im Kontextmenü die Option **[!UICONTROL Delete]** aus. Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem ursprünglichen Plannamen mit **[!UICONTROL (Copy)]** besteht.
 
    >[!WARNING]

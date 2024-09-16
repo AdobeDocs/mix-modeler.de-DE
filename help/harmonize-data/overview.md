@@ -3,7 +3,7 @@ title: Daten harmonisieren
 description: Erfahren Sie, wie Sie Daten in Mix Modeler harmonisieren.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 8%
@@ -116,17 +116,17 @@ Um einen harmonisierten Datensatz zu erstellen, müssen Sie wie im vereinfachten
 
 So zeigen Sie Ihre harmonisierten Daten in der Mix Modeler-Benutzeroberfläche an:
 
-1. Wählen Sie ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** in der linken Leiste aus.
+1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** in der linken Leiste aus.
 
 1. Wählen Sie in der oberen Leiste **[!UICONTROL Harmonized Data]** aus. Eine Zusammenstellung Ihrer harmonisierten Daten wird basierend auf den von Ihnen definierten Feldern, Datensatzregeln, Marketing-Touchpoints und Konversionen angezeigt.
 
-   1. Um den Zeitraum, auf dem die Zusammenstellung harmonisierter Daten basiert, neu zu definieren, geben Sie einen Datumsbereich für **[!UICONTROL Date range]** ein oder wählen Sie mit ![Kalender](/help/assets//icons/Calendar.svg) einen Datenbereich aus.
+   1. Um den Zeitraum, auf dem die Zusammenstellung harmonisierter Daten basiert, neu zu definieren, geben Sie einen Datumsbereich für **[!UICONTROL Date range]** ein oder wählen Sie mit ![Kalender](/help/assets/icons/Calendar.svg) einen Datenbereich aus.
 
-   1. Um die für die harmonisierte Datentabelle angezeigten Feldspalten zu ändern, verwenden Sie ![Einstellungen](/help/assets//icons/Setting.svg) , um das Dialogfeld **[!UICONTROL Column settings]** zu öffnen.
+   1. Um die für die harmonisierte Datentabelle angezeigten Feldspalten zu ändern, verwenden Sie ![Einstellungen](/help/assets/icons/Setting.svg) , um das Dialogfeld **[!UICONTROL Column settings]** zu öffnen.
 
-      1. Wählen Sie ![SelectBox](/help/assets//icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** aus und verwenden Sie ![Chevron right](/help/assets//icons/ChevronRight.svg) , um diese Spalten zu **[!UICONTROL SELECTED COLUMNS]** hinzuzufügen.
+      1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** aus und verwenden Sie ![Chevron right](/help/assets/icons/ChevronRight.svg) , um diese Spalten zu **[!UICONTROL SELECTED COLUMNS]** hinzuzufügen.
 
-      1. Wählen Sie ![SelectBox](/help/assets//icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL SELECTED COLUMNS]** aus und verwenden Sie ![Chevron left](/help/assets//icons/ChevronLeft.svg) , um die ausgewählten Spalten zu entfernen und diese Spalten wieder zurück zu **[!UICONTROL AVAILABLE COLUMNS]** zu bringen.
+      1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL SELECTED COLUMNS]** aus und verwenden Sie ![Chevron left](/help/assets/icons/ChevronLeft.svg) , um die ausgewählten Spalten zu entfernen und diese Spalten wieder zurück zu **[!UICONTROL AVAILABLE COLUMNS]** zu bringen.
 
       1. Wählen Sie eine Spalte aus **[!UICONTROL DEFAULT SORT]** aus und schalten Sie zwischen **[!UICONTROL Ascending]** oder **[!UICONTROL Descending]** um.
 
@@ -134,4 +134,4 @@ So zeigen Sie Ihre harmonisierten Daten in der Mix Modeler-Benutzeroberfläche a
 
    1. Wählen Sie **[!UICONTROL Submit]** aus, um die Änderungen an den Spalteneinstellungen einzureichen. Wählen Sie **[!UICONTROL Close]** aus, um alle von Ihnen vorgenommenen Änderungen abzubrechen.
 
-1. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil nach links](/help/assets//icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets//icons/ChevronRight.svg) bei **[!UICONTROL Page _x _von_x_]** , um zwischen den Seiten zu wechseln.
+1. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil nach links](/help/assets/icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets/icons/ChevronRight.svg) bei **[!UICONTROL Page _x _von_x_]** , um zwischen den Seiten zu wechseln.

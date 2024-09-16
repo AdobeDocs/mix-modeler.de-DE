@@ -3,7 +3,7 @@ title: Schemata
 description: Erfahren Sie, wie Sie die Schemas verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -16,7 +16,7 @@ So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experie
 
 1. Rufen Sie die Benutzeroberfläche des Mix Modelers auf.
 
-1. Wählen Sie ![Schemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]** unter **[!UICONTROL SETUP]** aus.
+1. Wählen Sie ![Schemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]** unter **[!UICONTROL SETUP]** aus.
 
 Weitere Informationen finden Sie in der [Übersicht über die Benutzeroberfläche von Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de) .
 
@@ -38,7 +38,7 @@ Verwenden Sie die Klasse &quot;XDM-Zusammenfassungsmetriken&quot;für:
 
 Ein Schema, das die **[!DNL XDM Summary Metrics]** -Basisklasse verwendet, kann einfach sein, wie in **[!DNL ExternalFactorSummarySchema]** unten dargestellt.
 
-![Schema externer Faktoren](/help/assets//external-factors-schema.png)
+![Schema externer Faktoren](/help/assets/external-factors-schema.png)
 
 Dieses einfache Schema kann zum Erfassen von Datensätzen verwendet werden, die Daten enthalten, beispielsweise für:
 
@@ -65,7 +65,7 @@ Dieses einfache Schema kann zum Erfassen von Datensätzen verwendet werden, die 
 
 Unten finden Sie ein umfassenderes Beispiel für eine **[!DNL LumaPaidMarketingSchema]**, die die **[!DNL XDM Summary Metrics]** als Basisklasse verwendet. Das Schema verwendet dedizierte Feldergruppen (mit Farben kommentiert) für Metriken (**[!DNL AMMMetrics]**), Dimensionen (**[!DNL AMMDimensions]**) und andere kundenspezifische Informationen (**[!DNL CustomerSpecific]**).
 
-![Zusammenfassungsschema](/help/assets//summary-schema.png)
+![Zusammenfassungsschema](/help/assets/summary-schema.png)
 
 Angesichts der asynchronen Art der Profilerfassung wird bei der Erfassung von Aggregat- oder Zusammenfassungsdaten aus externen Quellen empfohlen, die Feldergruppe &quot;Prüfdetails für das externe Source-System&quot;als Teil eines Schemas zu verwenden. Diese Feldergruppe definiert einen Satz von Prüfeigenschaften für externe Quellen.
 

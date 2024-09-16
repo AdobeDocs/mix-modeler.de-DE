@@ -3,20 +3,20 @@ title: Modelle
 description: Erfahren Sie, wie Sie Modelle in Mix Modeler konfigurieren und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '805'
 ht-degree: 1%
 
 ---
 
 # Modelle
 
-Mit der Modellfunktion in Mix Modeler können Sie KI-/ML-Modelle konfigurieren, trainieren und bewerten, die für Ihre Geschäftsziele spezifisch sind. Das Training und Scoring unterstützt das KI-gestützte Transfer-Lernen zwischen der Multitouch-Attribution und der Marketing-Mix-Modellierung.
+Mit der Modellfunktion in Mix Modeler können Sie Modelle konfigurieren, trainieren und bewerten, die für Ihre Geschäftsziele spezifisch sind. Das Training und Scoring unterstützt das KI-gestützte Transfer-Lernen zwischen der Multitouch-Attribution und der Marketing-Mix-Modellierung.
 
 Die Modelle basieren auf den harmonisierten Daten, die Sie im Rahmen des Mix Modeler-Anwendungs-Workflows erstellen.
 
-Ein Modell in Mix Modeler ist ein Modell für maschinelles Lernen, das verwendet wird, um ein bestimmtes Ergebnis basierend auf den Investitionen eines Marketingexperten zu messen und/oder vorherzusagen. Marketing-Touchpoints und Daten der Zusammenfassungsebene können als Eingabe verwendet werden. Mit Mix Modeler können Sie Varianten von Modellen basierend auf verschiedenen Variablensätzen von Variablen, Dimensionen und Ergebnissen erstellen, z. B. Umsatz, verkaufte Einheiten und Leads.
+Ein Modell in Mix Modeler ist ein Modell für maschinelles Lernen, das verwendet wird, um ein bestimmtes Ergebnis basierend auf den Investitionen eines Marketingexperten zu messen und vorherzusagen. Marketing-Touchpoints und Daten der Zusammenfassungsebene können als Eingabe verwendet werden. Mit Mix Modeler können Sie Varianten von Modellen basierend auf verschiedenen Variablensätzen von Variablen, Dimensionen und Ergebnissen erstellen, z. B. Umsatz, verkaufte Einheiten und Leads.
 
 Ein Modell erfordert:
 
@@ -41,7 +41,7 @@ Verwenden Sie zum Erstellen eines Modells den schrittweisen Konfigurationsfluss 
 
 So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzeroberfläche an:
 
-1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Sie sehen eine Tabelle der aktuellen Modelle.
 
@@ -58,7 +58,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzerob
 
    {style="table-layout:auto"}
 
-1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets//icons/ColumnSetting.svg) aus und schalten Sie die Spalten auf ![Aktivieren](/help/assets//icons/Checkmark.svg) oder aus.
+1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets/icons/ColumnSetting.svg) aus und schalten Sie die Spalten auf ![Aktivieren](/help/assets/icons/Checkmark.svg) oder aus.
 
 Sie können die folgenden Aktionen für ein bestimmtes Modell ausführen.
 
@@ -66,9 +66,9 @@ Sie können die folgenden Aktionen für ein bestimmtes Modell ausführen.
 
 So zeigen Sie weitere Details eines Modells an:
 
-1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie ![Info](/help/assets//icons/Info.svg) für ein Modell aus, um ein Popup mit Details anzuzeigen.
+1. Wählen Sie ![Info](/help/assets/icons/Info.svg) für ein Modell aus, um ein Popup mit Details anzuzeigen.
 
 
 
@@ -76,16 +76,18 @@ So zeigen Sie weitere Details eines Modells an:
 
 Sie können ein Modell schnell duplizieren.
 
-1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Duplicate]**.
 
 
 ### Modelleinblicke
 
-Die Modelleinblicke-Funktion ist nur für erfolgreich trainierte und bewertete Modelle verfügbar. So zeigen Sie die Einblicke eines Modells an:
+Die Modelleinblicke-Funktion ist nur für erfolgreich trainierte und bewertete Modelle verfügbar.
 
-1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+So zeigen Sie die Einblicke eines Modells an:
+
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Wählen Sie den Modellnamen aus.
 
@@ -94,9 +96,16 @@ Sie werden zu [Model Insights](insights.md) umgeleitet.
 
 ### Umzug
 
-Das erneute Trainieren eines Modells ist nur auf erfolgreich trainierten Modellen verfügbar. So trainieren Sie ein Modell neu:
 
-1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+Das erneute Trainieren eines Modells ist nur auf erfolgreich trainierten Modellen verfügbar.
+
+Ziehen Sie in Erwägung, ein Modell neu zu trainieren, wenn Sie:
+
+* Neue inkrementelle Marketing- und Faktordaten einschließen. Beispielsweise hat sich im letzten Quartal die Marktdynamik verändert oder Ihre Marketing-Datenverteilung hat sich erheblich geändert.
+
+So trainieren Sie ein Modell neu:
+
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Train]**. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** aus der blauen Aktionsleiste.
 
@@ -114,9 +123,16 @@ Geben Sie den Datumsbereich an. Sie können den ![Kalender](/help/assets/icons/C
 ### Punktzahl oder Neubewertung
 
 
-Sie können ein Modell inkrementell auf Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. So bewerten oder bewerten Sie ein Modell neu:
+Sie können ein Modell inkrementell auf Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten.
 
-1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+Sie sollten ein Modell erneut bewerten, wenn Sie:
+
+* Korrektur falscher Marketing-Daten. Beispielsweise haben die jüngsten Paid-Search-Daten, die Sie in die Schulung und Auswertung des Modells einbezogen haben, eine Woche an Daten verpasst.
+* Verwenden Sie neue inkrementelle Marketing-Daten, die durch Aktualisierungen der Datensätze verfügbar geworden sind, die Sie als Teil Ihrer harmonisierten Daten konfiguriert haben.
+
+So bewerten oder bewerten Sie ein Modell neu:
+
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Score]**. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** aus der blauen Aktionsleiste.
 
@@ -135,7 +151,7 @@ Geben Sie den Datumsbereich an. Sie können den ![Kalender](/help/assets/icons/C
 
 So löschen Sie ein Modell:
 
-1. Wählen Sie in der linken Leiste ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** aus.
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Delete]**. Wählen Sie alternativ ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** aus der blauen Aktionsleiste.
 

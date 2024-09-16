@@ -2,7 +2,8 @@
 title: Zugriffssteuerungen
 description: Erfahren Sie, wie Sie Zugriffssteuerungen in Mix Modeler konfigurieren.
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 32%
@@ -31,5 +32,4 @@ Beim Konfigurieren von Datensatzregeln für harmonisierte Datensätze wird die E
 
 * Sie sehen die Schemafelder nicht, die Ihnen beim Erstellen einer Datensatzregel vorbehalten sind.
 * Sie können die Zuordnung eines oder mehrerer für Sie eingeschränkter Schemafelder nicht anzeigen oder bearbeiten. Wenn Sie eine Datensatzregel mit solchen eingeschränkten Feldern bearbeiten oder anzeigen, wird der folgende Bildschirm angezeigt.
-  ![Aktion nicht erlaubt](/help/assets//action-not-permitted.png)
-
+  ![Aktion nicht erlaubt](/help/assets/action-not-permitted.png)

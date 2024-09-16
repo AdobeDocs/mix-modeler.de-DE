@@ -4,7 +4,7 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 6%
@@ -22,7 +22,7 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 | Funktion | Beschreibung | Allgemeine Verfügbarkeit |
 |---|---|---|
 | **Beitragseinblicke des Faktors** | In [!UICONTROL Model insights] bietet die Registerkarte [[!UICONTROL Factors]](/help/models/insights.md#factors) Einblicke zu externen Fakten. | 20. August 2024 |
-| **Kurven der Randantwort** | Das Widget [ marginale Antwortkurven](/help/models/insights.md#model-insights-1) in Modelleinblicken aktualisiert jetzt die Kurve und die entsprechenden Werte basierend auf Änderungen im ausgewählten Datenbereich. Darüber hinaus zeigt das Widget den Punkt eines marginalen Umbruchs und den Punkt eines rückläufigen Ertrags an. | 20. August 2024 |
+| **Kurven der Randantwort** | Die Visualisierung der [Grenzwertkurven für Antworten](/help/models/insights.md#model-insights-1) in Modelleinblicken aktualisiert jetzt die Kurve und die entsprechenden Werte basierend auf Änderungen im ausgewählten Datenbereich. Darüber hinaus zeigt die Visualisierung den Punkt eines marginalen Umbruchs und den Punkt eines rückläufigen Ertrags an. | 20. August 2024 |
 | **Ad-hoc-Training und -Scoring** | Sie können ein Modell [retrain](/help/models/overview.md#re-train), [score (für neue Marketing-Daten) oder eine Neubewertung](/help/models/overview.md#score-or-re-score) über die Modelloberfläche initiieren. | 13. August 2024 |
 | **Richtliniendurchsetzung** | Experience Platform-Richtlinien werden beim Konfigurieren von Datensatzregeln und beim Ändern von Bezeichnungen an den zugrunde liegenden Daten, die in Mix Modeler verwendet werden, durchgesetzt. Weitere Informationen finden Sie unter [Richtlinien](../data-governance/policies.md) . | 13. August 2024 |
 | **Datenhygiene** | Beim Löschen von Quelldaten werden die Hygienevorschriften für Daten beachtet. Siehe [Löschen eines Quelldatensatzes](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13. August 2024 |
@@ -62,7 +62,7 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 | Funktion | Beschreibung | Allgemeine Verfügbarkeit |
 |---|---|---|
 | **Erweiterte Downloads** | Sie können [ vollständige Modelleinblicke herunterladen](../models/insights.md) im Microsoft® Excel-Format | 31. Januar 2024 |
-| **Kurven der Randantwort** | [Modelleinblicke](../models/insights.md) bieten ein zusätzliches Widget, um marginale Antwortkurven anzuzeigen. | 31. Januar 2024 |
+| **Kurven der Randantwort** | [Modelleinblicke](../models/insights.md) bieten eine zusätzliche Visualisierung, um marginale Reaktionskurven anzuzeigen. | 31. Januar 2024 |
 | **Voreinstellungen für die Datenzusammenführung** | Sie können [Voreinstellungen für die Datenzusammenführung](../harmonize-data/dataset-rules.md#data-merge-preferences) für Datensatzregeln für harmonisierte Datensätze definieren. | 31. Januar 2024 |
 | **Gebrauchsbericht** | Die Benutzeroberfläche &quot;Harmonisierte Datensätze&quot;verfügt über eine zusätzliche Registerkarte mit dem [Nutzungsbericht](../harmonize-data/usage-report.md) , die zusätzliche Einblicke in die Verwendung von Modellen und Konversionen bietet. | 31. Januar 2024 |
 | **Aktualisierte Benutzeroberfläche für Einblicke planen** | Die Benutzeroberfläche &quot;Einblicke planen&quot;wurde aktualisiert und ermöglicht Ihnen die Auswahl der zu meldenden ROI und Kanäle. | 31. Januar 2024 |

@@ -3,7 +3,7 @@ title: Harmonisierte Felder
 description: Erfahren Sie, wie Sie Felder definieren, die zur Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
@@ -23,29 +23,29 @@ Die standardmäßig verfügbaren globalen Harmonisierungsfelder in Mix Modeler s
 
 | Feldname | Anzeigename | Kategorie | Datentyp | Kommentar |
 | ---------------------- | ---------------------- | --------- | --------- | --------- |
-| Marke | Marke | Dimension | Zeichenfolge |           |
-| Kampagne | Kampagne | Dimension | Zeichenfolge |           |
-| channel | Kanal | Dimension | Zeichenfolge |           |
-| channel_id | Kanal-ID | Dimension | Zeichenfolge |           |
-| channel_type_at_source | Kanaltyp bei Source | Dimension | Zeichenfolge |           |
-| channel | Kanal | Dimension | Zeichenfolge |           |
+| Marke | Marke | Dimension | String |           |
+| Kampagne | Kampagne | Dimension | String |           |
+| channel | Kanal | Dimension | String |           |
+| channel_id | Kanal-ID | Dimension | String |           |
+| channel_type_at_source | Kanaltyp bei Source | Dimension | String |           |
+| channel | Kanal | Dimension | String |           |
 | Klicks | Klicks | Metrik | Zahl |           |
-| conversiontype | Konversionstyp | Dimension | Zeichenfolge |           |
+| conversiontype | Konversionstyp | Dimension | String |           |
 | Kosten | Kosten | Metrik | Währung |           |
-| Datensatz | Datensatz | Dimension | Zeichenfolge |           |
-| date_type | Datum Typ | Dimension | Zeichenfolge | Tag, Woche |
+| Datensatz | Datensatz | Dimension | String |           |
+| date_type | Datum Typ | Dimension | String | Tag, Woche |
 | email | Gesendete E-Mails | Metrik | Zahl |           |
 | event_date | Datum | Dimension | Datum/Uhrzeit |           |
 | brutto_demand | Bruttonachfrage | Metrik | Währung |           |
 | Impressionen | Implikationen | Metrik | Zahl |           |
 | last_updated_date | Letztes Aktualisierungsdatum | Dimension | Datum/Uhrzeit |           |
 | linkvisitors | Besuche verknüpfen | Metrik | Zahl |           |
-| mediatype | Medientyp | Dimension | Zeichenfolge |           |
+| mediatype | Medientyp | Dimension | String |           |
 | net_sales | Nettoverkäufe | Metrik | Währung |           |
 | Bestellungen | Bestellungen | Metrik | Zahl |           |
-| sourcetype | Source-Typ | Dimension | Zeichenfolge |           |
+| sourcetype | Source-Typ | Dimension | String |           |
 | ausgaben | Ausgeben | Metrik | Währung |           |
-| trafficSource | Traffic-Quelle | Dimension | Zeichenfolge |           |
+| trafficSource | Traffic-Quelle | Dimension | String |           |
 
 {style="table-layout:auto"}
 
@@ -55,9 +55,9 @@ Sie können zusätzlich zu diesen global harmonisierten Feldern Ihre eigenen har
 
 Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modeler-Benutzeroberfläche:
 
-1. Wählen Sie ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** in der linken Leiste aus.
+1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
-1. Wählen Sie in der oberen Leiste **[!UICONTROL Fields]** aus. Sie sehen eine Tabelle der harmonisierten Felder. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil nach links](/help/assets//icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets//icons/ChevronRight.svg) bei **[!UICONTROL Page _x _von_x_]** , um zwischen den Seiten der Tabelle zu wechseln.
+1. Wählen Sie in der oberen Leiste **[!UICONTROL Fields]** aus. Sie sehen eine Tabelle der harmonisierten Felder. Wenn weitere Seiten verfügbar sind, verwenden Sie ![Pfeil nach links](/help/assets/icons/ChevronLeft.svg) oder ![Pfeil nach rechts](/help/assets/icons/ChevronRight.svg) bei **[!UICONTROL Page _x _von_x_]** , um zwischen den Seiten der Tabelle zu wechseln.
 
    Die Tabellenspalten geben Details zu den harmonisierten Feldern an
 
@@ -74,14 +74,14 @@ Eine Tabelle der verfügbaren harmonisierten Felder finden Sie in der Mix Modele
 
    {style="table-layout:auto"}
 
-1. Um nach einem bestimmten harmonisierten Feld zu suchen, verwenden Sie ![Suche](/help/assets//icons/Search.svg) **[!UICONTROL *Harmonisiertes Suchfeld *]**.
+1. Um nach einem bestimmten harmonisierten Feld zu suchen, verwenden Sie ![Suche](/help/assets/icons/Search.svg) **[!UICONTROL *Harmonisiertes Suchfeld *]**.
 
 
 ### Harmonisiertes Feld hinzufügen
 
-Um ein harmonisiertes Feld hinzuzufügen, gehen Sie in die Benutzeroberfläche ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** des Mix Modelers:
+Um ein harmonisiertes Feld hinzuzufügen, gehen Sie in die Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** des Mix Modelers:
 
-1. Wählen Sie ![Hinzufügen](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]** aus.
+1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** aus.
 
 1. Im Dialogfeld **[!UICONTROL Create]** :
 
@@ -98,14 +98,14 @@ Um ein harmonisiertes Feld hinzuzufügen, gehen Sie in die Benutzeroberfläche !
 
    1. Wählen Sie **[!UICONTROL Submit]** aus, um das harmonisierte Feld hinzuzufügen. Wählen Sie **[!UICONTROL Close]** aus, um das Dialogfeld zu schließen, ohne das harmonisierte Feld hinzuzufügen.
 
-      ![Erstellen eines Felds](/help/assets//create-field.png)
+      ![Erstellen eines Felds](/help/assets/create-field.png)
 
 
 ### Harmonisiertes Feld bearbeiten
 
 Sie können nur harmonisierte Felder bearbeiten, die Sie zuvor erstellt haben (Eigentümer ist Client). Ein global harmonisiertes Feld kann nicht bearbeitet werden.
 
-So bearbeiten Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** im Mix Modeler:
+So bearbeiten Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** im Mix Modeler:
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie bearbeiten möchten. Beispiel: **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ So bearbeiten Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearc
 
 1. Wählen Sie **[!UICONTROL Submit]** aus, um die Änderungen auf das harmonisierte Feld anzuwenden.
 
-   ![Bearbeiten eines Felds](/help/assets//edit-field.png)
+   ![Bearbeiten eines Felds](/help/assets/edit-field.png)
 
 ### Harmonisiertes Feld löschen
 
 Sie können nur harmonisierte Felder löschen, die Sie zuvor erstellt haben (Eigentümer ist Kunde). Ein globales harmonisiertes Feld kann nicht gelöscht werden.
 
-So löschen Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** im Mix Modeler:
+So löschen Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** im Mix Modeler:
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie löschen möchten, z. B. **[!UICONTROL Region]**.
 
-1. Wählen Sie ![Löschen](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** aus dem linken Bereich **[!UICONTROL Edit harmonization values]**.
+1. Wählen Sie ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** aus dem linken Bereich **[!UICONTROL Edit harmonization values]**.
 
    >[!WARNING]
    >
