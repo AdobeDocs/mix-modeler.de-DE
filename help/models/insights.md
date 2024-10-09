@@ -3,9 +3,9 @@ title: Model Insights
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 09ec757a37725d4b41231076bd99432bffd6d555
+source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Sie können den Datumsbereich ändern, auf dem die Visualisierungen auf den einz
 
 ## [!UICONTROL Model insights]
 
-Auf der Registerkarte Modelleinblicke werden Visualisierungen für [Beitrag nach Datum und Basismedien](#contribution-by-date-and-base-media), [Beitrag nach Kanal](#contribution-by-channel), [Marketing-Leistungszusammenfassung](#marketing-performance-summary) und [Marginale Antwortrendkurven](#marginal-response-curves) angezeigt.
+Auf der Registerkarte Modelleinblicke werden Visualisierungen für [Beitrag nach Datum und Basismedien](#contribution-by-date-and-base-media), [Beitrag nach Kanal](#contribution-by-channel), [Marketing-Leistungszusammenfassung](#marketing-performance-summary) und [Marginale Antwortrendkurven](#marginal-response-curves) angezeigt. Die Registerkarte enthält auch eine Tabelle mit der Aufschlüsselung nach Touchpoints ](#touchppint-breakdown).[
 
 ![Modell - Modelleinblicke](/help/assets/model-insights-insights.png)
 
@@ -45,11 +45,11 @@ Das gestapelte Diagramm ist geordnet: unten, in der Mitte die Kanäle ohne Ausga
 
 Die Ringvisualisierung zeigt eine Verteilung des Beitrags nach Kanal.
 
-### Marketing-Leistungszusammenfassung.
+### Marketing-Leistungszusammenfassung
 
 Ein horizontales Balkendiagramm, das die ROI-Leistung nach Kanal anzeigt.
 
-### Kurven für die Randantwort.
+### Kurven für die Randantwort
 
 Das Liniendiagramm visualisiert und vergleicht die marginalen Renditen, die durch die Investition in Ihre Marketing-Kanäle generiert wurden.  Und identifiziert den Break-even-Punkt, an dem der inkrementelle Gewinn geringer ist als Ihre inkrementellen Ausgaben. Daher hilft Ihnen diese Visualisierung dabei zu verstehen, wann Ihre Marketing-Investition weniger wirkungsvoll wird.
 
@@ -60,6 +60,27 @@ So ändern Sie den Kanal:
 * Wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL Channel]** aus, um die Visualisierung für einen bestimmten Kanal zu aktualisieren.
 
 
+### Touchpoint-Verteilung
+
+Die Aufschlüsselungstabelle für Touchpoints zeigt die Touchpoint-Aufschlüsselungen für alle oder ausgewählte Kanäle wöchentlich an.
+
+![Touchpoint-Aufschlüsselung](../assets/touchpoint-breakdown.png)
+
+Die folgenden Spalten sind verfügbar:
+
+| Spalte | Beschreibung |
+|---|---|
+| **[!UICONTROL Date range]** | Die Woche, über die ein Bericht erstellt werden soll. |
+| **[!UICONTROL Touchpoint]** | Der spezifische Touchpoint-Kanal. |
+| **[!UICONTROL ROI]** | Der Prozentsatz von (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | Der Umsatz für den Datumsbereich. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | Die Konversionen für den Datumsbereich. |
+| **[!UICONTROL Spend]** | Die Ausgaben für den Datenbereich. |
+
+Um einen bestimmten Kanal oder alle Kanäle auszuwählen, wählen Sie aus dem Dropdown-Menü **[!UICONTROL View]** aus.
+
+Um den Inhalt der Touchpoint-Aufschlüsselungstabelle herunterzuladen, wählen Sie ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** aus.
 
 ## [!UICONTROL Attribution]
 

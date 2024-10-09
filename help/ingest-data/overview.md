@@ -3,7 +3,7 @@ title: Daten erfassen
 description: Erfahren Sie, wie Sie Daten in Mix Modeler erfassen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Daten erfassen
 
-Mix Modeler verwendet Daten auf Ereignisebene, aggregiert Daten zu Zusammenfassungen von Marketing-Maßnahmen aus verschiedenen installierten Gärten und aggregiert oder zusammenfassende Daten aus anderen Quellen, wie Offline-Werbung, interne Faktoren oder externe Faktoren.
+Mix Modeler verwendet Daten auf Ereignisebene, aggregierte oder zusammenfassende Marketing-Aufwandsdaten aus verschiedenen installierten Gärten sowie Aggregat- oder Zusammenfassungsdaten aus anderen Quellen wie Offline-Werbung, interne Faktoren oder externe Faktoren.
 
 Kunden können beliebige Daten verwenden, die als Datensätze in Experience Platform aufgenommen werden und auf Schemas basieren, indem sie XDM ExperienceEvent oder XDM Summary Metrics als Basisklasse verwenden.
 
