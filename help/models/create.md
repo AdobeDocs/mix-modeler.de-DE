@@ -3,9 +3,9 @@ title: Modell erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler ein Modell erstellen.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: d1de86d51b3e9914eb06b40aa2a26949a9b56cb0
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -26,33 +26,35 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
 1. Im Schritt **[!UICONTROL Configure]** :
 
-   1. Im Abschnitt **[!UICONTROL Conversion goal]** innerhalb des Containers:
+   1. Im Abschnitt **[!UICONTROL Conversion goal]** :
 
-      1. Geben Sie einen **[!UICONTROL Conversion name]** für die Konvertierung ein, z. B. `Conversion`
+      ![Modell - Konvertierungsschritt](/help/assets/model-conversion-step.png)
 
-      1. Wählen Sie eine Konvertierung aus **[!UICONTROL *Harmonisiertes Feld auswählen *]**, das die verfügbaren Konversionen enthält, die Sie als Teil von [Konversionen](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets] definiert haben. Beispiel:**[!UICONTROL Online Conversion]**.
+      1. Wählen Sie im Dropdown-Menü **[!UICONTROL Conversion]** eine Konversion aus. Die verfügbaren Konversionen sind die Konversionen, die Sie als Teil von [Konversionen](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets] definiert haben. Beispiel: **[!UICONTROL Online Conversion]**.
 
-      1. Sie können ![Antwort](/help/assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** auswählen, um eine Konversion direkt aus der Modellkonfiguration zu erstellen.
+      1. Sie können ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** auswählen, um eine Konversion direkt aus der Modellkonfiguration zu erstellen.
 
-         ![Modell - Konvertierungsschritt](/help/assets/model-conversion-step.png)
 
-   1. Im Abschnitt **[!UICONTROL Marketing touchpoints]** sehen Sie eine Reihe von Marketing-Touchpoint-Containern, die den Marketing-Touchpoints entsprechen, die Sie in [!UICONTROL Harmonized datasets] als Teil von [Marketing-Touchpoints](../harmonize-data/marketing-touchpoints.md) definiert haben.
 
-      * Für jeden Behälter:
+   1. Im Abschnitt **[!UICONTROL Marketing touchpoints]** können Sie einen oder mehrere Marketing-Touchpoints auswählen, die den Marketing-Touchpoints entsprechen, die Sie in [!UICONTROL Harmonized datasets] als Teil von [Marketing-Touchpoints](../harmonize-data/marketing-touchpoints.md) definiert haben.
 
-         1. Sie können die **[!UICONTROL Marketing touchpoint name]** ändern.
 
-         1. Wählen Sie einen Marketing-Touchpoint aus **[!UICONTROL _Marketing-Touchpoint auswählen_]**.
+      ![Modell - Marketing-Touchpoint-Schritt](/help/assets/model-marketing-touchpoint-step.png)
 
-         1. Sie können ![Antwort](/help/assets/icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** auswählen, um einen Marketing-Touchpoint direkt in der Modellkonfiguration zu erstellen.
+      1. Wählen Sie einen oder mehrere Marketing-Touchpoints aus dem Dropdown-Menü **[!UICONTROL Touchpoint include]** aus.
 
-      * Um einen Marketing-Touchpoint-Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]** aus.
+         * Sie können ![CrossSize75](/help/assets/icons/CrossSize75.svg) verwenden, um einen Touchpoint zu entfernen.
+         * Sie können **[!UICONTROL Clear all]** verwenden, um alle Touchpoints zu entfernen.
 
-      * Um einen Marketing-Touchpoint-Container zu entfernen, wählen Sie im Container ![Mehr](/help/assets/icons/More.svg) und dann im Kontextmenü die Option **[!UICONTROL Remove container]** aus.
+      1. Sie können ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a touchpoint]** auswählen, um einen Marketing-Touchpoint direkt in der Modellkonfiguration zu erstellen.
 
-        ![Modell - Marketing-Touchpoints-step](/help/assets/model-marketing-touchpoint-step.png)
+      >[!NOTE]
+      >
+      >Sie können das Modell nicht mit Touchpoints einrichten, die überlappende Daten aufweisen, und es muss mindestens einen Touchpoint mit Ausgaben vorhanden sein.
 
    1. Standardmäßig wird ein Ergebnis für alle Daten in Ihrer harmonisierten Ansicht generiert. Um nur eine Teilmenge der Population zu bewerten, definieren Sie einen oder mehrere Filter mithilfe von Containern im Abschnitt **[!UICONTROL Eligible data population]** .
+
+      ![Modell - Berechtigte Datenpopulation](/help/assets/model-eligible-data-population-step.png)
 
       * Definieren Sie für jeden Container ein oder mehrere Ereignisse.
 
@@ -66,7 +68,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
          1. Um dem Container ein zusätzliches Ereignis hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]** aus.
 
-         1. Um ein Ereignis aus dem Container zu entfernen, wählen Sie ![Schließen](/help/assets/icons/Close.svg) aus.
+         1. Um ein Ereignis aus dem Container zu entfernen, wählen Sie ![Schließen](/help/assets/icons/CrossSize75.svg) aus.
 
          1. Um nach allen oder mehreren im Container definierten Ereignissen zu filtern, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]** aus. Die Bezeichnung ändert sich entsprechend von **[!UICONTROL Include ... Or ...]** in **[!UICONTROL Include ... And ...]**.
 
@@ -74,36 +76,44 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Um einen geeigneten Datenpopulations-Container zu entfernen, wählen Sie im Container ![Mehr](/help/assets/icons/More.svg) und dann im Kontextmenü die Option **[!UICONTROL Remove marketing touchpoint]** aus.
 
-        ![Modell - Berechtigte Datenpopulation](/help/assets/model-eligible-data-population-step.png)
 
-   1. Um Ihrem Modell Datensätze mit externen Faktoren hinzuzufügen, verwenden Sie einen oder mehrere Behälter im Abschnitt **[!UICONTROL External factors dataset]** .
+
+   1. Um Ihrem Modell Datensätze mit externen Faktoren hinzuzufügen, verwenden Sie einen oder mehrere Behälter im Abschnitt **[!UICONTROL External factors dataset]** . Ein Beispiel für externe Faktoren sind S&amp;P-Indizes.
+
+      ![Modell - Datensatz mit externen Faktoren](/help/assets/model-external-factors-dataset-step.png)
 
       * Für jeden Behälter:
 
-         1. Geben Sie einen **[!UICONTROL Factor name]** bei **[!UICONTROL _Faktor eingeben_]** ein.
+         1. Geben Sie einen **[!UICONTROL External factor name]** ein, z. B. `External Factors`.
 
-         1. Wählen Sie einen Datensatz aus **[!UICONTROL _Datensatz auswählen_]**. Sie können ![Daten](/help/assets/icons/Data.svg) auswählen, um Datensätze zu verwalten. Weitere Informationen finden Sie unter [Datensätze](../ingest-data/datasets.md) .
+         1. Wählen Sie einen Datensatz aus dem Dropdown-Menü **[!UICONTROL Dataset]** aus. Sie können ![Daten](/help/assets/icons/Data.svg) auswählen, um Datensätze zu verwalten. Weitere Informationen finden Sie unter [Datensätze](../ingest-data/datasets.md) .
+
+         1. Wählen Sie eine Option aus dem Dropdownmenü **[!UICONTROL Impact on conversion]** aus: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**.
 
       * Um einen weiteren Datensatz-Container mit externen Faktoren hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]** aus.
 
-      * Um einen externen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container ![Mehr](/help/assets/icons/More.svg) und dann im Kontextmenü die Option **[!UICONTROL Remove external factor]** aus.
-
-        ![Modell - Datensatz mit externen Faktoren](/help/assets/model-external-factors-dataset-step.png)
+      * Um einen externen Faktoren-Datensatz-Container zu entfernen, wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus.
 
 
-   1. Um Ihrem Modell Datensätze mit internen Faktoren hinzuzufügen, verwenden Sie einen oder mehrere Behälter im Abschnitt **[!UICONTROL Internal factors dataset]** .
+
+
+   1. Um Ihrem Modell Datensätze mit internen Faktoren hinzuzufügen, verwenden Sie einen oder mehrere Behälter im Abschnitt **[!UICONTROL Internal factors dataset]** . Ein Beispiel für interne Faktoren sind E-Mail-Marketing-Daten.
+
+      ![Modell - Interner Faktor-Datensatz](/help/assets/model-internal-factors-dataset-step.png)
 
       * Für jeden Behälter:
 
-         1. Geben Sie einen **[!UICONTROL Factor name]** bei **[!UICONTROL _Faktor eingeben_]** ein.
+         1. Geben Sie einen **[!UICONTROL Internal factor name]** ein, z. B. `Email Marketing Data`.
 
          1. Wählen Sie einen Datensatz aus **[!UICONTROL _Datensatz auswählen_]**. Sie können ![Daten](/help/assets/icons/Data.svg) auswählen, um Datensätze zu verwalten. Weitere Informationen finden Sie unter [Datensätze](../ingest-data/datasets.md) .
 
+         1. Wählen Sie eine Option aus dem Dropdownmenü **[!UICONTROL Impact on conversion]** aus: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**.
+
       * Um einen weiteren internen Faktoren-Datensatz-Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]** aus.
 
-      * Um einen zusätzlichen internen Faktoren-Datensatz-Container zu entfernen, wählen Sie im Container ![Mehr](/help/assets/icons/More.svg) und **[!UICONTROL Remove internal factor]** aus dem Kontextmenü aus.
+      * Um einen internen Faktoren-Datensatz-Container zu entfernen, wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus.
 
-        ![Modell - Interner Faktor-Datensatz](/help/assets/model-internal-factors-dataset-step.png)
+
 
    1. Um das Lookback-Fenster für das Modell zu definieren, geben Sie einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** ein.
 
@@ -123,9 +133,15 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       * Wenn Sie historische Marketing-Investment-Verhältnisse verwenden möchten, um das Modell zu informieren, wenn die Marketing-Daten gering sind, aktivieren Sie **[!UICONTROL Allow spend share]**.
 
+   1. Im Abschnitt **[!UICONTROL MTA enabled]** :
+
+      * Um MTA-Funktionen für den erstellten Modus zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Nach der Aktivierung
+
    1. Im Abschnitt **[!UICONTROL Prior knowledge]** :
 
-      1. Wählen Sie die **[!UICONTROL Rule type]**.
+      ![Modell - Vorkenntnisse](/help/assets/model-prior-knowledge-step.png)
+
+      1. Wählen Sie die **[!UICONTROL Rule type]** aus, die standardmäßig **[!UICONTROL Absolute values]** ist.
 
       1. Geben Sie mithilfe der Spalte **[!UICONTROL Contribution proportion]** Beitragsprozentsätze für jeden der unter **[!UICONTROL Name]** aufgelisteten Kanäle an.
 
@@ -133,11 +149,11 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
       1. Verwenden Sie bei Bedarf **[!UICONTROL Clear all]** , um alle Eingabewerte für die Spalten **[!UICONTROL Contribution proportion]** und **[!UICONTROL Level of confidence]** zu löschen.
 
-         ![Modell - Vorkenntnisse](/help/assets/model-prior-knowledge-step.png)
 
-1. Wählen Sie **[!UICONTROL Finish]** aus, um die Modellkonfiguration abzuschließen.
 
-   * Wählen Sie im Dialogfeld **[!UICONTROL Create instance?]** die Option **[!UICONTROL Ok]** aus, um den ersten Satz von Trainings- und Scoring-Läufen sofort Trigger. Ihr Modell wird mit dem Status <span style="color:orange"></span> aufgeführt **[!UICONTROL Awaiting training]**.
+1. Wählen Sie **[!UICONTROL Finish]** aus, um Ihre Modellkonfiguration abzuschließen.
+
+   * Wählen Sie im Dialogfeld **[!UICONTROL Create instance?]** die Option **[!UICONTROL Ok]** aus, um den ersten Satz von Trainings- und Scoring-Läufen sofort Trigger. Ihr Modell wird mit dem Status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]** aufgeführt.
 
      Wählen Sie **[!UICONTROL Cancel]** aus, um abzubrechen.
 
