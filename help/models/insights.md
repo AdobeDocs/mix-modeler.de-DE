@@ -3,9 +3,9 @@ title: Model Insights
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ Das gestapelte Diagramm ist geordnet: unten, in der Mitte die Kanäle ohne Ausga
 
 Die Ringvisualisierung zeigt eine Verteilung des Beitrags nach Kanal.
 
-### Marketing-Leistungszusammenfassung
+### Marketing-Leistungszusammenfassung.
 
 Ein horizontales Balkendiagramm, das die ROI-Leistung nach Kanal anzeigt.
 
-### Kurven für die Randantwort
+### Kurven für die Randantwort.
 
 Das Liniendiagramm visualisiert und vergleicht die marginalen Renditen, die durch die Investition in Ihre Marketing-Kanäle generiert wurden.  Und identifiziert den Break-even-Punkt, an dem der inkrementelle Gewinn geringer ist als Ihre inkrementellen Ausgaben. Daher hilft Ihnen diese Visualisierung dabei zu verstehen, wann Ihre Marketing-Investition weniger wirkungsvoll wird.
 
@@ -60,31 +60,17 @@ So ändern Sie den Kanal:
 * Wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL Channel]** aus, um die Visualisierung für einen bestimmten Kanal zu aktualisieren.
 
 
-### Touchpoint-Verteilung
-
-Die Aufschlüsselungstabelle für Touchpoints zeigt die Touchpoint-Aufschlüsselungen für alle oder ausgewählte Kanäle wöchentlich an.
-
-![Touchpoint-Aufschlüsselung](../assets/touchpoint-breakdown.png)
-
-Die folgenden Spalten sind verfügbar:
-
-| Spalte | Beschreibung |
-|---|---|
-| **[!UICONTROL Date range]** | Die Woche, über die ein Bericht erstellt werden soll. |
-| **[!UICONTROL Touchpoint]** | Der spezifische Touchpoint-Kanal. |
-| **[!UICONTROL ROI]** | Der Prozentsatz von (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
-| **[!UICONTROL Revenue]** | Der Umsatz für den Datumsbereich. |
-| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
-| **[!UICONTROL Conversions]** | Die Konversionen für den Datumsbereich. |
-| **[!UICONTROL Spend]** | Die Ausgaben für den Datenbereich. |
-
-Um einen bestimmten Kanal oder alle Kanäle auszuwählen, wählen Sie aus dem Dropdown-Menü **[!UICONTROL View]** aus.
-
-Um den Inhalt der Touchpoint-Aufschlüsselungstabelle herunterzuladen, wählen Sie ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** aus.
 
 ## [!UICONTROL Attribution]
 
-Mithilfe des Tabs [!UICONTROL Attribution] können Sie die Effektivität von Touchpoints und Marketing-Kampagnen verstehen, die über Daten auf Ereignisebene verfügen. Die folgenden Attributionsmodelle werden unterstützt:
+>[!NOTE]
+>
+>Die Registerkarte Attribution ist nur für MTA-fähige Modelle verfügbar.
+
+
+Mithilfe des Tabs [!UICONTROL Attribution] können Sie die Effektivität von Touchpoints und Marketing-Kampagnen verstehen, die über Daten auf Ereignisebene verfügen.  Siehe [Erstellen eines Modells](create.md).
+
+Die folgenden Attributionsmodelle werden unterstützt:
 
 * Basierend auf dem ausgewählten Modell im Mix Modeler:
    * Algorithmus - Beeinflusst

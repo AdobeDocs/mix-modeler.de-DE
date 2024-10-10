@@ -3,9 +3,9 @@ title: Modell erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler ein Modell erstellen.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 2fbf24f6ac72e24070d6c294bc25c112aeb8bdac
+source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
    1. Im Abschnitt **[!UICONTROL MTA enabled]** :
 
-      * Um MTA-Funktionen für den erstellten Modus zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Nach der Aktivierung sind Einblicke in die Mehrfachkontakt-Attribution verfügbar, sobald Sie Ihr Modell über die Registerkarte [Attribution](insights.md#attribution) in [Modelleinblicke](insights.md) trainiert und bewertet haben.
+      * Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind nach dem Training und der Bewertung Ihres Modells mehrkontaktbasierte Attributionseinblicke verfügbar. Weitere Informationen finden Sie auf der Registerkarte [Attribution](insights.md#attribution) in [Modelleinblicke](insights.md).
 
    1. Im Abschnitt **[!UICONTROL Prior knowledge]** :
 
