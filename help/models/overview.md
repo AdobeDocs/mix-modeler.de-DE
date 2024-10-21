@@ -3,9 +3,9 @@ title: Modelle
 description: Erfahren Sie, wie Sie Modelle in Mix Modeler konfigurieren und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -62,25 +62,6 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzerob
 
 Sie können die folgenden Aktionen für ein bestimmtes Modell ausführen.
 
-### Details anzeigen
-
-So zeigen Sie weitere Details eines Modells an:
-
-1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
-
-1. Wählen Sie ![Info](/help/assets/icons/Info.svg) für ein Modell aus, um ein Popup mit Details anzuzeigen.
-
-
-
-### Duplizieren
-
-Sie können ein Modell schnell duplizieren.
-
-1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
-
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Duplicate]**.
-
-
 ### Modelleinblicke
 
 Die Modelleinblicke-Funktion ist nur für erfolgreich trainierte und bewertete Modelle verfügbar.
@@ -92,6 +73,52 @@ So zeigen Sie die Einblicke eines Modells an:
 1. Wählen Sie den Modellnamen aus.
 
 Sie werden zu [Model Insights](insights.md) umgeleitet.
+
+
+### Details anzeigen
+
+So zeigen Sie weitere Details eines Modells an:
+
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
+
+1. Wählen Sie ![Info](/help/assets/icons/Info.svg) für ein Modell aus, um ein Popup mit Details anzuzeigen.
+
+
+### Duplizieren
+
+Sie können ein Modell schnell duplizieren.
+
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
+
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Duplicate]**.
+
+
+### Bearbeiten
+
+Sie können den Namen, die Beschreibung und die Planung von Schulungen und Auswertungen eines Modells bearbeiten.
+
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
+
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Edit]**.
+
+   Im Dialogfeld **[!UICONTROL Edit model]** :
+
+   * Geben Sie eine neue **[!UICONTROL Name]** und eine neue **[!UICONTROL Description]** ein.
+
+   * Aktivieren Sie **[!UICONTROL Status]**, um die Planung zu aktivieren. Sie können die Planung nur für trainierte und bewertete Modelle aktivieren.
+
+      1. Wählen Sie einen **[!UICONTROL Scoring frequency]** aus:
+
+         * **[!UICONTROL Daily]**: Geben Sie einen gültigen Zeitpunkt ein (z. B. `05:22 pm`) oder verwenden Sie ![Clock](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Uhrzeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü &quot;Ausführen auf&quot;aus und geben Sie einen gültigen Zeitpunkt ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+
+      1. Wählen Sie eine **[!UICONTROL Training frequency]** aus dem Dropdown-Menü aus: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** oder **[!UICONTROL None]**.
+
+     ![Modell bearbeiten](../assets/model-edit.png)
+
+1. Wählen Sie **[!UICONTROL Save]** aus.
+
 
 
 ### Umzug

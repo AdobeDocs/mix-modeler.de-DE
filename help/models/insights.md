@@ -3,9 +3,9 @@ title: Model Insights
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. historische Übersicht, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -253,3 +253,27 @@ Die Registerkarte Historische Übersicht zeigt Visualisierungen für:
   Sie können einen alternativen volumenbasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]** aus.
 
 ![Modell - Historische Übersicht](/help/assets/model-insights-historical-overview.png)
+
+## **[!UICONTROL Edit]**
+
+Sie können den Namen, die Beschreibung und die Planung der Schulung und Auswertung des Modells bearbeiten.
+
+1. Wählen Sie ![Bearbeiten](/help/assets/icons/Edit.svg) Bearbeiten
+
+1. Im Dialogfeld **[!UICONTROL Edit model]** :
+
+   * Geben Sie eine neue **[!UICONTROL Name]** und eine neue **[!UICONTROL Description]** ein.
+
+   * Aktivieren Sie **[!UICONTROL Status]**, um die Planung zu aktivieren. Sie können die Planung nur für trainierte und bewertete Modelle aktivieren.
+
+      1. Wählen Sie einen **[!UICONTROL Scoring frequency]** aus:
+
+         * **[!UICONTROL Daily]**: Geben Sie einen gültigen Zeitpunkt ein (z. B. `05:22 pm`) oder verwenden Sie ![Clock](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Uhrzeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü &quot;Ausführen auf&quot;aus und geben Sie einen gültigen Zeitpunkt ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+
+      1. Wählen Sie eine **[!UICONTROL Training frequency]** aus dem Dropdown-Menü aus: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** oder **[!UICONTROL None]**.
+
+     ![Modell bearbeiten](../assets/model-edit.png)
+
+1. Wählen Sie **[!UICONTROL Save]** aus.

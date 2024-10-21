@@ -3,9 +3,9 @@ title: Modell erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler ein Modell erstellen.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
+source-git-commit: 91dec8849d0d6fe52974024d09012d9c40d36cec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -121,14 +121,6 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
 
 1. Im Schritt **[!UICONTROL Advanced]** :
 
-   1. Wählen Sie im Abschnitt **[!UICONTROL Define training window]** zwischen
-
-      * **[!UICONTROL Have Mix Modeler select a helpful training window]** und
-
-      * **[!UICONTROL Manually input a training window]**. Wenn diese Option aktiviert ist, definieren Sie die Anzahl der Jahre in **[!UICONTROL Include events the following years prior to a conversion]**.
-
-        ![Modell - Trainings-Fenster definieren](/help/assets/model-define-training-window.png)
-
    1. Im Abschnitt **[!UICONTROL Spend share]** :
 
       * Wenn Sie historische Marketing-Investment-Verhältnisse verwenden möchten, um das Modell zu informieren, wenn die Marketing-Daten gering sind, aktivieren Sie **[!UICONTROL Allow spend share]**.
@@ -150,6 +142,30 @@ Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benu
       1. Verwenden Sie bei Bedarf **[!UICONTROL Clear all]** , um alle Eingabewerte für die Spalten **[!UICONTROL Contribution proportion]** und **[!UICONTROL Level of confidence]** zu löschen.
 
 
+1. Im Schritt **[!UICONTROL Schedule]** :
+
+   1. Im Abschnitt **[!UICONTROL Schedule]** können Sie das Trainieren und Scoring von Modellen planen.
+
+      ![Planungsmodell](../assets/model-schedule.png)
+
+      So planen Sie die Modellbewertung und -schulung:
+
+      1. Aktivieren Sie **[!UICONTROL Enable scheduled model scoring and training]**.
+      1. Wählen Sie einen **[!UICONTROL Scoring frequency]** aus:
+
+         * **[!UICONTROL Daily]**: Geben Sie einen gültigen Zeitpunkt ein (z. B. `05:22 pm`) oder verwenden Sie ![Clock](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Uhrzeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü &quot;Ausführen auf&quot;aus und geben Sie einen gültigen Zeitpunkt ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+
+      1. Wählen Sie eine **[!UICONTROL Training frequency]** aus dem Dropdown-Menü aus: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** oder **[!UICONTROL None]**.
+
+   1. Wählen Sie im Abschnitt **[!UICONTROL Define training window]** zwischen:
+
+      ![Modell - Trainings-Fenster definieren](/help/assets/model-define-training-window.png)
+
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** und
+
+      * **[!UICONTROL Manually input a training window]**. Wenn diese Option aktiviert ist, definieren Sie die Anzahl der Jahre in **[!UICONTROL Include events the following years prior to a conversion]**.
 
 1. Wählen Sie **[!UICONTROL Finish]** aus, um Ihre Modellkonfiguration abzuschließen.
 

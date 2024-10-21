@@ -4,10 +4,10 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 8%
+source-wordcount: '497'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,7 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 
 | Funktion | Beschreibung | Allgemeine Verfügbarkeit |
 |---|---|---|
+| **Planen von Training und Scoring** | Sie können das Training und Scoring eines Modells planen, wenn Sie [ein Modell erstellen](/help/models/create.md) und ein Modell über [Modell-Insight](/help/models/insights.md#edit) oder das [Kontextmenü eines Modells](/help/models/overview.md#edit) in der Modelltabelle bearbeiten. | 21. Oktober 2024 |
 | **Touchpoint-Aufschlüsselungstabelle** | In [!UICONTROL Models] bietet die Registerkarte [[!UICONTROL Model insights]](/help/models/insights.md#factors) jetzt eine zusätzliche Tabelle mit der [Touchpoint-Aufschlüsselung](../models/insights.md#touchpoint-breakdown). | 1. Oktober 2024 |
 
 ## August 2024
