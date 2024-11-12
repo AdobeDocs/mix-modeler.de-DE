@@ -3,9 +3,9 @@ title: Daten erfassen
 description: Erfahren Sie, wie Sie Daten in Mix Modeler erfassen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
+source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '463'
 ht-degree: 11%
 
 ---
@@ -42,13 +42,13 @@ Nachstehend finden Sie einige Beispiele für Daten, die üblicherweise in Mix Mo
 
 +++ Aggregieren von Daten zu Marketing-Maßnahmen
 
-| Geo | Datum | Datum Typ | Kanal | Kampagne | Klicken | Earned | Interaktion | Impression | Öffnen | Eigene | Gesendet |
-|---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
-| AMER | 31.10.2021 | day | E-MAIL | | 12752 | | | | | | 1132945 |
-| AMER | 31.10.2021 | day | FB | | 148844 | | | | | | |
-| AMER | 31.10.2021 | day | YT | | | | 2314452 | | | | |
-| JPN | 21.10.2021 | day | E-MAIL | | 21089 | | | | | | 3283626 |
-| JPN | 21.10.2021 | day | SOCIAL | | | | 621 | | | | |
+| Geo | Datum | Datum Typ | Kanal | Campaign | Klicken | Earned | Interaktion | Impression | Öffnen | Eigene | Gesendet | Ausgeben |
+|---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
+| AMER | 31.10.2021 | day | E-MAIL | | 12752 | | | | | | 1132945 | |
+| AMER | 31.10.2021 | day | FB | | 148844 | | | | | | | 42111 |
+| AMER | 31.10.2021 | day | YT | | | | 2314452 | | | | | 10540 |
+| JPN | 21.10.2021 | day | E-MAIL | | 21089 | | | | | | 3283626 | |
+| JPN | 21.10.2021 | day | SOCIAL | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 
