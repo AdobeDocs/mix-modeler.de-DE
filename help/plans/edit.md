@@ -12,76 +12,76 @@ ht-degree: 0%
 
 # Plan bearbeiten
 
-Um einen Plan zu bearbeiten, wählen Sie in der Benutzeroberfläche ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** im Mix Modeler Ihren Plan anhand seines Namens aus.
+Um einen Plan zu bearbeiten, wählen Sie in der ![PLan](/help/assets/icons/FileChart.svg)-**[!UICONTROL Plans]** in Mix Modeler Ihren Plan anhand seines Namens aus.
 
-In [!UICONTROL Plan insights] werden Ihre Planeinblicke erstellt und die [!UICONTROL Model], die [!UICONTROL Data range] und die [!UICONTROL Total budget] angezeigt, auf denen der Plan basiert.
+[!UICONTROL Plan insights] werden Ihre Planeinblicke erstellt, die die [!UICONTROL Model], die [!UICONTROL Data range] und die [!UICONTROL Total budget] zeigen, auf denen der Plan basiert.
 
-Nach Abschluss des Abrufs wird Ihnen ein Überblick über Ihren Plan angezeigt, der aus Folgendem besteht:
+Nach dem Abrufen erhalten Sie einen Überblick über Ihren Plan, der aus folgenden Elementen besteht:
 
-- [!UICONTROL Forecasted paid channel ROI] Visualisierung
-- [!UICONTROL Forecasted revenue] Visualisierung
+- Visualisierung [!UICONTROL Forecasted paid channel ROI]
+- Visualisierung [!UICONTROL Forecasted revenue]
 - [!UICONTROL Data range breakdown] Tabelle des Plans mit Spalten für
 
    - Kanal
    - ROI
    - CPA
-   - Umsatz
+   - Einnahmen
    - Konversionsziel
-   - Ausgeben
+   - Ausgaben
 
-![Übersicht über einen Plan](/help/assets/overview-plan.png)
+![Überblick über einen Plan](/help/assets/overview-plan.png)
 
-1. Wählen Sie **[!UICONTROL Close]** aus, um zur Oberfläche Pläne zurückzukehren.
+1. Wählen Sie **[!UICONTROL Close]** aus, um zur Benutzeroberfläche „Pläne“ zurückzukehren.
 
-1. Wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** für die Vorgehensweise **[!UICONTROL View ROI]** aus.
+1. Wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** aus, wie **[!UICONTROL View ROI]** werden soll.
 
-1. Um eine CSV-Datei herunterzuladen, die die Daten der Aufschlüsselung des Datumsbereichs enthält, wählen Sie ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]** aus. Im Kontextmenü:
+1. Um eine CSV-Datei mit den Daten der Aufschlüsselung des Datumsbereichs herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Über das Kontextmenü:
 
-   - Wählen Sie ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** für detaillierte Daten im CSV-Format.
-   - Wählen Sie ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Summary CSV]** für Zusammenfassungsdaten im CSV-Format.
+   - Wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus, um detaillierte Daten im CSV-Format **[!UICONTROL Detailed CSV]**.
+   - Wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus, um Zusammenfassungsdaten im CSV-Format **[!UICONTROL Summary CSV]**.
 
-   Detaillierte Daten sind detaillierte Daten, die nach Woche eingegeben werden. Zusammenfassungsdaten sind Daten, die vom Modell bereitgestellter Datumsbereich zugeordnet werden.
+   Detaillierte Daten sind granulare Daten, die nach Woche eingegeben werden. Zusammenfassungsdaten sind Daten, die anhand des vom Modell bereitgestellten Datumsbereichs eingegeben werden.
 
-1. Um die Aufschlüsselung des Datumsbereichs nach Kategorie der Kanäle anzuzeigen, wählen Sie **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** oder **[!UICONTROL Non-paid channels]** aus der Auswahl **[!UICONTROL View]** aus.
+1. Um die Aufschlüsselung des Datumsbereichs nach Kategorie der Kanäle anzuzeigen, wählen Sie **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** oder **[!UICONTROL Non-paid channels]** aus der **[!UICONTROL View]** Auswahl aus.
 
 1. Um Ihren Plan zu bearbeiten, wählen Sie **[!UICONTROL Edit plan]** aus:
 
-   1. Verwenden Sie im Abschnitt **[!UICONTROL Spend selection]** für jeden Budgetdatumsbereich den ![Chevron](/help/assets/icons/ChevronRight.svg) , um die Ansicht für die Kanalverteilung für diesen Datenbereich zu öffnen.
+   1. Verwenden Sie im **[!UICONTROL Spend selection]** Abschnitt für jeden Budgetdatumsbereich den ![Chevron](/help/assets/icons/ChevronRight.svg), um die Kanalverteilungsansicht für diesen Datenbereich zu öffnen.
 
-   1. Um die Budgets für jeden Kanal zu ändern, ändern Sie die Werte für **[!UICONTROL Min]** und **[!UICONTROL Max]** oder verwenden Sie die Regler.
+   1. Um die Budgets für jeden Kanal zu ändern, ändern Sie die Werte für **[!UICONTROL Min]** und **[!UICONTROL Max]** oder verwenden Sie die Schieberegler.
 
-   1. Um zwischen Währungs- oder Prozenteingabe umzuschalten, wählen Sie **[!UICONTROL $]** oder **[!UICONTROL %]** für **[!UICONTROL View spend by]** aus.
+   1. Um zwischen Eingabe von Währung oder Prozentsatz umzuschalten, wählen Sie **[!UICONTROL $]** oder **[!UICONTROL %]** für **[!UICONTROL View spend by]** aus.
 
-      ![Ausgabenauswahl](/help/assets/spend-selection.png)
+      ![Auswahl der Ausgaben](/help/assets/spend-selection.png)
 
    1. Um die Details Ihres Plans zu bearbeiten, wählen Sie **[!UICONTROL Edit details]** aus:
 
       1. Ändern Sie gegebenenfalls im Abschnitt **[!UICONTROL Setup]** die **[!UICONTROL Plan name]** und die **[!UICONTROL Description]**.
 
-      1. Im Abschnitt **[!UICONTROL Budget]** :
+      1. Im **[!UICONTROL Budget]** Abschnitt:
 
-         1. Ändern Sie die **[!UICONTROL Date range]** für einen oder mehrere Datumsbereiche Ihres Plans, indem Sie entweder Datumsangaben eingeben oder einen Datumsbereich mit ![Kalender](/help/assets/icons/Calendar.svg) auswählen.
+         1. Ändern Sie die **[!UICONTROL Date range]** für einen oder mehrere Datumsbereiche Ihres Plans, entweder durch Eingabe von Datumsangaben oder Auswahl eines Datumsbereichs mithilfe von ![Kalender](/help/assets/icons/Calendar.svg).
 
-         1. Ändern Sie die **[!UICONTROL Budget]** für einen oder mehrere der Datumsbereiche Ihres Plans.
+         1. Ändern Sie die **[!UICONTROL Budget]** für einen oder mehrere Datumsbereiche Ihres Plans.
 
-         Um weitere Datumsbereiche hinzuzufügen, wählen Sie mit jedem Budget ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** aus.
+         Um zusätzliche Datumsbereiche mit jeweils ihrem Budget hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
-         Um einen Datumsbereich und das zugehörige Budget zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg) aus.
+         Um einen Datumsbereich und das zugehörige Budget zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg).
 
-         So legen Sie ein Höchstbudget fest:
+         So definieren Sie ein maximales Budget:
 
          1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
-         1. Geben Sie den Höchstbetrag an. Der Betrag sollte dem Gesamtbudget entsprechen oder darüber liegen, der für die Datumsbereiche angegeben wurde.
+         1. Geben Sie den Betrag des maximalen Budgets an. Der Betrag sollte gleich oder höher als der Gesamtbetrag der für die Datumsbereiche angegebenen Budgets sein.
 
       1. Wählen Sie **[!UICONTROL Next]** aus, um zum Abschnitt **[!UICONTROL Spend]** zurückzukehren. Wählen Sie **[!UICONTROL Cancel]** aus, um zur Übersicht über Ihre Pläne zurückzukehren.
 
-         ![Planungsdetails](/help/assets/plan-details.png)
+         ![Plandetails](/help/assets/plan-details.png)
 
 
-1. Wählen Sie nach Abschluss der Bearbeitung Ihres Plans **[!UICONTROL Edit]** aus.
+1. Wenn Sie die Bearbeitung des Plans abgeschlossen haben, klicken Sie auf **[!UICONTROL Edit]**.
 
-   Wählen Sie im Dialogfeld **[!UICONTROL All changes are final]** die Option **[!UICONTROL OK]** aus, um die aktuelle Ausgabenverteilung sowie die ROI- und Umsatzprognosen des Plans zu aktualisieren. Wählen Sie **[!UICONTROL Cancel]** aus, um die Aktualisierung Ihres Plans abzubrechen.
+   Wählen Sie im Dialogfeld &quot;**[!UICONTROL All changes are final]**&quot; die Option &quot;**[!UICONTROL OK]**&quot;, um die aktuelle Ausgabenzuweisung sowie den ROI und die Umsatzprognosen des Plans zu aktualisieren. Wählen Sie **[!UICONTROL Cancel]** aus, um die Aktualisierung Ihres Plans abzubrechen.
 
-1. Um Ihre Planaktualisierungen abzubrechen, wählen Sie **[!UICONTROL Cancel]** aus.
+1. Um die Aktualisierungen Ihres Plans abzubrechen, wählen Sie **[!UICONTROL Cancel]** aus.
 
-   Wählen Sie im Dialogfeld **[!UICONTROL No work will be saved]** die Option **[!UICONTROL Cancel]** aus, um Ihren Plan weiter zu bearbeiten, oder wählen Sie **[!UICONTROL OK]** aus, um zur Oberfläche &quot;Pläne&quot;zurückzukehren.
+   Wählen Sie im Dialogfeld **[!UICONTROL No work will be saved]** die Option **[!UICONTROL Cancel]** aus, um mit der Arbeit an Ihrem Plan fortzufahren, oder wählen Sie **[!UICONTROL OK]** aus, um zur Benutzeroberfläche „Pläne“ zurückzukehren.

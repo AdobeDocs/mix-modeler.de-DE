@@ -27,7 +27,7 @@ ht-degree: 47%
    + [Übersicht](/help/models/overview.md)
    + [Modell erstellen](/help/models/create.md)
    + [Modelleinblicke](/help/models/insights.md)
-   + [Scoring-Daten](/help/models/scoring-data.md)
+   + [Bewertungsdaten](/help/models/scoring-data.md)
 
 + Pläne {#plans}
    + [Übersicht](/help/plans/overview.md)
@@ -35,20 +35,20 @@ ht-degree: 47%
    + [Plan bearbeiten](/help/plans/edit.md)
    + [Pläne vergleichen](/help/plans/compare.md)
 
-+ Daten harmonisieren {#harmonize-data}
++ {#harmonize-data} harmonisieren
    + [Übersicht](/help/harmonize-data/overview.md)
    + [Felder](/help/harmonize-data/fields.md)
    + [Datensatzregeln](/help/harmonize-data/dataset-rules.md)
    + [Marketing-Touchpoints](/help/harmonize-data/marketing-touchpoints.md)
    + [Konversionen](/help/harmonize-data/conversions.md)
-   + [Gebrauchsbericht](/help/harmonize-data/usage-report.md)
+   + [Verwendungsbericht](/help/harmonize-data/usage-report.md)
 
-+ Daten erfassen {#ingest-data}
++ Aufnehmen von {#ingest-data}
    + [Übersicht](/help/ingest-data/overview.md)
    + [Schemata](/help/ingest-data/schemas.md)
    + [Datensätze](/help/ingest-data/datasets.md)
 
-+ Data Governance {#data-governance}
++ Data Governance-{#data-governance}
    + [Übersicht](/help/data-governance/overview.md)
    + [Zugangssteuerung](/help/data-governance/access-controls.md)
    + [Audit-Protokolle](/help/data-governance/audit-logs.md)

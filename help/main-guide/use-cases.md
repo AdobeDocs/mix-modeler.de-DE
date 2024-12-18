@@ -14,79 +14,79 @@ ht-degree: 3%
 
 Mix Modeler ermöglicht die folgenden wichtigen Anwendungsfälle.
 
-## Inkrementelle Leistung von Omnichannel
+## Inkrementelle Omni-Channel-Leistung
 
-In diesem Anwendungsfall können Sie die Wirkung des Marketings über alle gebührenpflichtigen, verdienten und eigenen Kanäle hinweg messen.
+In diesem Anwendungsbeispiel wird gezeigt, wie Sie die Wirkung von Marketing auf allen Paid-Channel-Kanälen, Earned Channel und Owned-Channel messen können.
 
 +++ Details
 
 ### Challenges
 
-Die Herausforderungen, die diese Anwendungsbeispiele angehen, sind:
+Die Herausforderungen, die sich durch diese Anwendungsfälle ergeben, sind:
 
-* Schwierigkeiten bei der Messung der inkrementellen Journey-Performance durch silolierte Kundendaten, Signalverlust und winterte Gärten.
-* Inkonsistenz der Einblicke aus getrennten MMM- und MTA-Methoden, wodurch das Vertrauen in die Ergebnisse verringert wird.
-* Eingeschränkte Kenntnisse darüber, welche Marketing-Kanäle und Taktiken zum Erfolg führen.
+* Inkrementelle Performance durch isolierte Kunden-Journey-Daten, Signalverlust und ummauerte Gärten lässt sich nur schwer messen.
+* Inkonsistenzen in den Insights aus getrennten MMM- und MTA-Methoden, was das Vertrauen in die Ergebnisse verringert.
+* Eingeschränktes Verständnis dafür, welche Marketing-Kanäle und -Taktiken den Erfolg fördern.
 
-### Ansatz
+### Annäherung
 
-Der schrittweise Ansatz für diesen Anwendungsfall lautet:
+Der schrittweise Ansatz für diesen Anwendungsfall ist:
 
 | Schritt | Details |
 |---|---|
-| Erfassen | Identifizieren und erfassen Sie Datenquellen unter gemeinsamen Schemata. <br/>Vorhandene Investitionen in Adobe Analytics oder Customer Journey Analytics auf die schnelle Bereitstellung anwenden. |
-| Konfigurieren | Konfigurieren Sie flexible Modelle mithilfe eines KI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele<br/>Sichern Sie automatisch Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transfer-Lernen. |
-| Analyse | Verstehen Sie eindeutig den ROI des gesamten Marketing und einzelner Kanäle/Subkanäle.<br/>Klar verstehen, welche Touchpoints die inkrementellen Konversionen am besten fördern. |
+| Erfassen | Identifizieren und Aufnehmen von Datenquellen unter allgemeinen Schemata. <br/>Wenden Sie bestehende Investitionen in Adobe Analytics oder Customer Journey Analytics auf eine Fast-Track-Bereitstellung an. |
+| Konfigurieren | Konfigurieren Sie flexible Modelle mithilfe eines AI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele. <br/> Sie automatisch die Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transferlernen. |
+| Analyse | Verstehen Sie den ROI des gesamten Marketings und der einzelnen Kanäle/Unterkanäle.<br/>Verstehen Sie, welche Touchpoints am besten für inkrementelle Konversionen geeignet sind. |
 
 {style="table-layout:auto"}
 
 
 ### Wirkung
 
-Eine erfolgreiche Implementierung dieser Verwendung kann die folgenden Auswirkungen haben:
+Eine erfolgreiche Implementierung dieser Anwendung kann die folgenden Auswirkungen haben:
 
-* Integrieren Sie aggregierte Daten, Touchpoint-Daten und exogene Variablen, um eine möglichst umfassende Messeansicht zu erhalten.
-* Verwenden Sie eine AI-as-a-Service-Lösung, um schnell Modelle für den Erfolg mit Zugriff auf Modelltransparenz zu erstellen, um ein höheres Maß an Vertrauen zu erreichen.
-* Stärkung des Vertrauens in strategische und taktische Entscheidungsprozesse durch Abstimmung der Ergebnisse auf Zusammenfassungs- und Touchpoint-Ebene.
+* Integrieren Sie aggregierte Daten, Touchpoint-Daten und exogene Variablen, um die umfassendste Ansicht der Messung zu erhalten.
+* Verwenden Sie eine KI-as-a-Service-Lösung, um schnell Modelle zur Steigerung des Erfolgs mit Zugriff auf Modelltransparenz zu erstellen, um ein gewisses Maß an Konfidenz zu erzielen.
+* Erhöhen Sie das Vertrauen in die strategische und taktische Entscheidungsfindung durch die Abstimmung der Ergebnisse auf Zusammenfassungs- und Touchpoint-Ebene.
 
 +++
 
 
-## Erstellen von Marketingplänen zur Optimierung des ROI
+## Marketing-Pläne zur Optimierung des ROI erstellen
 
-In diesem Anwendungsfall werden benutzerfreundliche, KI-fähige Optimierungs- und Szenario-Planungswerkzeuge verwendet, um den ROI zu maximieren.
+In diesem Anwendungsbeispiel werden benutzerfreundliche KI-optimierte Tools zur Szenarienplanung verwendet, um den ROI zu maximieren.
 
 +++ Details
 
 ### Challenges
 
-Die Herausforderungen, die diese Anwendungsbeispiele angehen, sind:
+Die Herausforderungen, die sich durch diese Anwendungsfälle ergeben, sind:
 
-* Erstellen Sie datengesteuerte Marketinginvestitionspläne, die auf Effizienzkurven basieren und sich nicht auf das Bauchgefühl verlassen.
-* Maximieren Sie Ergebnisse über mehrere Standorte, Geschäftsbereiche und Kanäle hinweg gleichzeitig.
+* Erstellen Sie datengesteuerte Marketing-Investitionspläne, die auf Effizienzkurven basieren und nicht auf dem Bauchgefühl basieren.
+* Maximieren Sie Ergebnisse über mehrere Regionen, Geschäftsbereiche und Kanäle hinweg gleichzeitig.
 * Lange Iterationszyklen zum Erstellen und Vergleichen mehrerer Budgetszenarien mit hohem manuellen Aufwand.
 
 
-### Ansatz
+### Annäherung
 
-Der schrittweise Ansatz für diesen Anwendungsfall lautet:
+Der schrittweise Ansatz für diesen Anwendungsfall ist:
 
 | Schritt | Details |
 |---|---|
-| Konfigurieren | Passen Sie einfach Messmodelle an Ihre Geschäftsziele an.<br/>Definieren Sie Parameter in wenigen Klicks ohne erforderliche Kodierung: z. B. Kanäle, Geografie, Verkaufszyklen, Lagern, interne und externe Geschäftsfaktoren und mehr. |
-| Zug | Trainieren Sie konfigurierte KI/ML-Modelle in , um die beste Anpassung an Eingabedaten zu erfahren und so die präzisesten Ergebnisse zu erzielen. |
-| Optimieren | Erhalten Sie automatisierte, optimierte Budgetzuweisungen basierend auf Modellprognosen.<br/>Entwickeln und vergleichen Sie mithilfe einer intuitiven Benutzeroberfläche mehrere Budgetszenarien mit wenigen Klicks. |
+| Konfigurieren | Einfaches Anpassen von Messmodellen an Ihre Geschäftsziele<br/>Parameter mit wenigen Klicks definieren, keine Codierung erforderlich: z. B. Kanäle, Regionen, Verkaufszyklen, Verzögerungen, interne und externe Geschäftsfaktoren und mehr. |
+| trainieren | Trainieren Sie konfigurierte KI-/ML-Modelle für , um die beste Anpassung an Eingabedaten zu erlernen und die genauesten Ergebnisse zu erzielen. |
+| Optimieren | Erhalten Sie automatisierte optimierte Budgetzuweisungen basierend auf Modellprognosen.<br/>Mit einer intuitiven Benutzeroberfläche können Sie mit wenigen Klicks mehrere Budgetszenarien entwickeln und vergleichen. |
 
 {style="table-layout:auto"}
 
 
 ### Wirkung
 
-Eine erfolgreiche Implementierung dieser Verwendung kann die folgenden Auswirkungen haben:
+Eine erfolgreiche Implementierung dieser Anwendung kann die folgenden Auswirkungen haben:
 
-* Erstellen Sie Marketinginvestitionspläne, die den ROI über mehrere Ziele und Prioritäten hinweg maximieren.
-* Nutzen Sie inkrementelle ROI-Kurven, um Möglichkeiten zur Budgetverlagerung zu identifizieren.
-* Nutzen Sie schnell und mit demokratisierten Selbstbedienungs-Tools monatliche oder wöchentliche Prognosen.
+* Erstellen Sie Marketing-Investitionspläne, die den ROI über mehrere Ziele und Prioritäten hinweg maximieren.
+* Verwenden Sie inkrementelle ROI-Kurven, um Möglichkeiten zur Budgetverschiebung zu identifizieren.
+* Schnelle Erstellung monatlicher oder wöchentlicher Prognosen mithilfe demokratisierter Self-Service-Tools.
 
 +++
 
@@ -132,40 +132,40 @@ Successful implementation of this use can have the following impact:
 
 -->
 
-## taktische Einblicke über Adobe-Apps hinweg aktivieren
+## Taktische Einblicke in Adobe-Anwendungen aktivieren
 
-In diesem Anwendungsfall erhalten Sie strategische, schrittweise Einblicke in Kundensegmente und Journey durch den Zugriff auf Touchpoint-Bewertungen.
+In diesem Anwendungsbeispiel erhalten Sie strategische inkrementelle Einblicke in Kundensegmente und Journey durch den Zugriff auf Touchpoint-Bewertungen.
 
 +++ Details
 
 ### Challenges
 
-Die Herausforderungen, die diese Anwendungsbeispiele angehen, sind:
+Die Herausforderungen, die sich durch diese Anwendungsfälle ergeben, sind:
 
-* Allein Top-Down-Lösungen können bei der Ermittlung detaillierter Schlüsseloptimierungsmöglichkeiten fehlen.
-* Die Ergebnisse von Messmodellen sind überwältigend, übermäßig beschreibend und führen nicht einfach zu Einblicken oder Aktionen.
-* Ad-hoc-Analysen können nicht durchgeführt werden, um Einblicke zu gewinnen, da Modelle nicht transparent sind und granulare Ergebnisse nicht verfügbar sind.
+* Top-down-Lösungen allein können es verpassen, granulare wichtige Optimierungsmöglichkeiten zu identifizieren.
+* Die Ergebnisse von Messmodellen sind überwältigend, übermäßig beschreibend und führen nicht leicht zu Einblicken oder Aktionen.
+* Ad-hoc-Analysen können nicht durchgeführt werden, um Erkenntnisse zu gewinnen, da Modelle nicht transparent sind und keine granularen Scores verfügbar sind.
 
 
-### Ansatz
+### Annäherung
 
-Der schrittweise Ansatz für diesen Anwendungsfall lautet:
+Der schrittweise Ansatz für diesen Anwendungsfall ist:
 
 | Schritt | Details |
 |---|---|
-| Modell | Konfigurieren und trainieren Sie ein KI-/ML-Modell, um konsistente MTA-Touchpoint-Ergebnisse und MMM-Aggregatergebnisse zu erhalten. |
-| Analyse | Exportieren Sie inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics- oder externe BI-Tools.<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Bewertungen. |
-| Aktion | Erstellen und aktivieren Sie mithilfe von Real-time Customer Data Platform Suchvorgänge für die wichtigsten Verbrauchersegmente.<br/>Entwickeln datengesteuerter Marketingstrategien nach Kundensegmenten für zukünftige Kampagnen. |
+| Modell | Konfigurieren und trainieren Sie ein KI-/ML-Modell, um konsistente MTA-Touchpoint-Bewertungen und MMM-Aggregatergebnisse zu erhalten. |
+| Analyse | Inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics- oder externe BI-Tools exportieren<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Bewertungen. |
+| Aktion | Erstellen und aktivieren Sie Lookalikes für die besten Kundensegmente mithilfe von Real-time Customer Data Platform.<br/>Entwickeln Sie datengesteuerte Marketing-Strategien nach Kundensegmenten für zukünftige Kampagnen. |
 
 {style="table-layout:auto"}
 
 
 ### Wirkung
 
-Eine erfolgreiche Implementierung dieser Verwendung kann die folgenden Auswirkungen haben:
+Eine erfolgreiche Implementierung dieser Anwendung kann die folgenden Auswirkungen haben:
 
-* Entwicklung eines Verständnisses für inkrementelles Kundenverhalten und Marketingtaktiken, um strategische Prioritäten für das Marketing und die gesamte Organisation zu setzen.
-* Maximieren Sie den ROI, indem Sie schnell Trends erkennen, die sich auf Kunden und Ihr Unternehmen auswirken, um strategische Antworten zu entwickeln.
+* Entwickeln Sie ein Verständnis für inkrementelles Kundenverhalten und Marketing-Taktiken, um strategische Prioritäten für Marketing und Marketing im gesamten Unternehmen zu ermitteln.
+* Maximieren Sie den ROI, indem Sie Trends, die sich auf Kunden und Ihr Unternehmen auswirken, schnell erkennen und strategische Antworten entwickeln.
 
 
 +++

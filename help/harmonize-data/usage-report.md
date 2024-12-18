@@ -1,6 +1,6 @@
 ---
-title: Gebrauchsbericht
-description: Erfahren Sie, wie Ihre harmonisierten Daten in Modellen (für Training und Scoring) und Konversionen verwendet werden.
+title: Verwendungsbericht
+description: Erfahren Sie, wie Ihre harmonisierten Daten in Modellen (zum Trainieren und Bewerten) und Konversionen verwendet werden.
 feature: Harmonized Data
 hide: true
 hidefromtoc: true
@@ -12,16 +12,16 @@ ht-degree: 0%
 
 ---
 
-# Gebrauchsbericht
+# Verwendungsbericht
 
-So zeigen Sie einen Nutzungsbericht zu Ihren harmonisierten Daten an:
+So zeigen Sie einen Nutzungsbericht Ihrer harmonisierten Daten an:
 
-1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** in der linken Leiste aus.
+1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
-1. Wählen Sie in der oberen Leiste **[!UICONTROL Usage report]** aus.
+1. Wählen Sie **[!UICONTROL Usage report]** in der oberen Leiste aus.
 
-Der Nutzungsbericht zeigt:
+Der Verwendungsbericht zeigt Folgendes an:
 
-* eine Tabelle mit den **[!UICONTROL # of Models]** , die harmonisierte Daten verwendet haben.
+* eine Tabelle mit den **[!UICONTROL # of Models]**, die harmonisierte Daten verwendet haben.
 
-* eine Tabelle mit den **[!UICONTROL # of Conversions (last 5 years)]** , die die harmonisierten Daten verwendet haben. Um die Granularität der Tabelle auszuwählen, wählen Sie **[!UICONTROL Year]** oder **[!UICONTROL Month]** aus dem Feld **[!UICONTROL View by selection]** aus.
+* eine Tabelle mit den **[!UICONTROL # of Conversions (last 5 years)]**, die die harmonisierten Daten verwendet haben. Um die Granularität der Tabelle auszuwählen, wählen Sie **[!UICONTROL Year]** oder **[!UICONTROL Month]** aus der **[!UICONTROL View by selection]** aus.

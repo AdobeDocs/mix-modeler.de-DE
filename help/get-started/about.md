@@ -17,25 +17,25 @@ In diesem Video erhalten Sie einen schnellen Überblick über die Funktionen von
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
-Mix Modeler basiert auf Adobe Sensei und ermöglicht es Marketing-Experten, Kampagnen zu messen und die Planung auf allen Kanälen ganzheitlich zu optimieren: bezahlt, verdient und eigenverantwortlich. Die einheitliche Methodik misst schrittweise sowohl auf Marketing- als auch auf aggregierter Ebene und gewährleistet gleichzeitig vollständig konsistente Ergebnisse.
+Mix Modeler basiert auf Adobe Sensei und ermöglicht es Marketing-Experten, Kampagnen zu messen und die Planung ganzheitlich über alle Kanäle hinweg zu optimieren: Paid, Earned und Owned. Seine einheitliche Methodik misst schrittweise sowohl auf Marketing-Touchpoints als auch auf aggregierter Ebene und stellt dabei vollständig konsistente Ergebnisse sicher.
 
-Mix Modeler bietet die inkrementelle Auswirkung aller Marketing-Aktivitäten auf Geschäfts- und Kampagnenergebnisse durch eine ganzheitliche (End-to-End) Messungsanwendung für digitales und Offline-Marketing.
+Mix Modeler bietet die inkrementelle Auswirkung aller Marketing-Aktivitäten auf Geschäfts- und Kampagnenergebnisse durch eine ganzheitliche (End-to-End) Messanwendung für Digital- und Offline-Marketing.
 
-Mix Modeler bietet die folgenden Arten von optimierten und umsetzbaren Einblicken auf strategischer und taktischer Ebene, sodass Sie Folgendes besser verstehen können:
+Mix Modeler bietet die folgenden Arten optimierter und umsetzbarer Einblicke auf strategischer und taktischer Ebene, sodass Sie Folgendes besser verstehen können:
 
-* Marketing-Ausgaben und daraus resultierende Leistung über verschiedene Kanäle hinweg und
-* empfohlene Investitionsniveaus zur Erreichung künftiger Geschäftsziele.
+* Marketingausgaben und die daraus resultierende Leistung über verschiedene Kanäle hinweg und
+* Empfohlene Investitionsniveaus zur Erreichung zukünftiger Geschäftsziele.
 
 
-Um diese Funktion zu nutzen, kombiniert Mix Modeler Folgendes:
+Um diese Funktion zu erfüllen, kombiniert Mix Modeler Folgendes:
 
-* Daten auf der unteren Ebene (Ereignisebene) und Daten von oben nach unten (auf aggregierter Ebene),
-* externe Marktfaktoren und interne Faktoren und
-* Prognosemethoden und Transfer von maschinellem Lernen.
+* Daten von unten nach oben (Ereignisebene) und Daten von oben nach unten (Aggregatebene),
+* externe Marktfaktoren und interne Faktoren sowie
+* Methoden des prädiktiven und maschinellen Lernens.
 
-Das bidirektionale AI/ML-Transfer-Lernen vereinheitlicht die Ergebnisse der Marketing-Mix-Modellierung (MMM) und Multi-Touch-Attribution (MTA), um in einer Cookie-losen Welt für konsistente Ergebnisse bei Messung und Planung zu sorgen.
+Der bidirektionale KI/ML-Transfer vereinheitlicht Ergebnisse der Marketing-Mix-Modellierung (MMM) und der Multi-Touch-Attribution (MTA), um konsistente Ergebnisse für die Messung und Planung in einer Welt ohne Cookies zu gewährleisten.
 
-![Bidirektionales Übertragungslernen](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![Bidirektionales Transferlernen](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## Funktionen
@@ -44,10 +44,10 @@ Mix Modeler bietet die folgenden Funktionen:
 
 | Funktion | Beschreibung |
 |---|---|
-| **Inkrementelle Leistung messen** | Erfahren Sie mehr über den inkrementellen ROI und die Auswirkungen von Marketing auf Geschäftsziele oder taktische Kampagnenziele. |
-| **Ergebnisse über MMM und MTA vereinheitlichen** | Konfidenzere Entscheidungen durch die Vereinheitlichung von Marketing-Mix-Modellierungs- (MMM-) und Multi-Touch-Attributionsmodellen (MTA) durch Transfer-Lernen. |
-| **Optimale Zuordnung von Budgets** | Ermitteln Sie eine optimale Budgetzuweisung basierend auf den Marketing-Ausgaben und den Auswirkungen auf die Ziele. |
-| **Erstellen und Vergleichen von Budgetszenarien** | Entwickeln Sie mehrere Budgetpläne und vergleichen Sie deren Auswirkungen, um optimale Entscheidungen für Ihr Unternehmen zu treffen. |
+| **Messen der inkrementellen Leistung** | Machen Sie sich mit dem inkrementellen ROI und der Wirkung von Marketing im Rahmen von Geschäftszielen oder taktischen Kampagnenzielen vertraut. |
+| **Vereinheitlichung der Ergebnisse für MMM und MTA** | Treffen Sie zuversichtlichere Entscheidungen durch die Vereinheitlichung von Marketing-Mix-Modellierungs- (MMM) und Multi-Touch-Attributionsmodellen (MTA) über Transferlernen. |
+| **Budgets optimal zuweisen** | Identifizieren Sie eine optimale Budgetzuweisung basierend auf den Marketingausgaben und der Wirkung auf die Ziele. |
+| **Budgetszenarien erstellen und vergleichen** | Entwickeln Sie mehrere Budgetpläne und vergleichen Sie deren Auswirkungen, um optimale Entscheidungen für Ihr Unternehmen zu treffen. |
 
 {style="table-layout:auto"}
 
@@ -56,43 +56,43 @@ Mix Modeler bietet die folgenden Funktionen:
 >[Grundlegendes zum Mix Modeler-Workflow](workflow.md)
 
 
-### Marketing Mix-Modellierung (MMM)
+### Marketing-Mix-Modellierung (MMM)
 
-Die Marketing-Mix-Modellierung in Mix Modeler ist eine datenschutzfreundliche maschinelle Lernanalyse, mit der die inkrementellen Auswirkungen verschiedener Marketing-Taktiken und Geschäftsfaktoren auf Konversionsmetriken gemessen werden. Dies hilft Unternehmen und Marketern,
+Die Marketing-Mix-Modellierung in Mix Modeler ist eine datenschutzfreundliche maschinelle Lernanalyse, mit der die inkrementelle Auswirkung verschiedener Marketing-Taktiken und Geschäftsfaktoren auf Konversionsmetriken gemessen wird. Es hilft Unternehmen und Marketern zu verstehen
 
 * die Wirksamkeit ihrer Marketingstrategien,
 * die Auswirkungen von Geschäftsfaktoren auf das Kundenverhalten und
-* was den ROI und die Konversionen antreibt.
+* was den ROI und die Konversionen bestimmt.
 
-Diese umfassende Analyse ermöglicht es Unternehmen, Marketing-Budgets strategisch über verschiedene Geschäftsbereiche, Regionen, Kanäle und Kampagnen hinweg zuzuweisen, und bietet gleichzeitig prädiktive Einblicke in die geschäftlichen Auswirkungen künftiger Ereignisse.
+Diese umfassende Analyse ermöglicht es Unternehmen, Marketing-Budgets strategisch auf verschiedene Geschäftsbereiche, Regionen, Kanäle und Kampagnen zu verteilen und gleichzeitig prädiktive Einblicke in die geschäftlichen Auswirkungen zukünftiger Ereignisse zu gewähren.
 
-Die Marketing-Mix-Modellierungsfunktionen von Mix Modeler sind von grundlegender Bedeutung für die Lösung der folgenden Anwendungsfälle:
+Die Marketing-Mix-Modellierungsfunktionen von Mix Modeler sind grundlegend für die Lösung der folgenden Anwendungsfälle:
 
-* Ausführliche Berichte: Ermöglichen es Führungskräften, die echten inkrementellen Auswirkungen des Marketing zu verstehen, sowohl insgesamt als auch nach Kanal, Region, SKU usw.
-* Strategische Planung: Informieren Sie sich über langfristige Marketingstrategien und legen Sie realistische Ziele und Benchmarks für zukünftige Kampagnen fest.
-* Umfassende Messung: Ganzheitliche Analyse, wie verschiedene Marketing- und Geschäftsfaktoren interagieren und zum Gesamtumsatz und zur Performance beitragen
-* Szenario-Analyse: Ermöglichen es Unternehmen, verschiedene Marketing-Szenarien und -Strategien zu simulieren und ihre Ergebnisse vorherzusagen
+* Berichterstattung für Führungskräfte: Ermöglichen Sie Führungskräften, die wahren inkrementellen Auswirkungen von Marketing zu verstehen, sowohl als Ganzes als auch nach Kanal, Region, SKU usw.
+* Strategische Planung: Informieren Sie sich über langfristige Marketing-Strategien und setzen Sie sich realistische Ziele und Benchmarks für zukünftige Kampagnen
+* Umfassende Messung: Ganzheitliche Analyse der Interaktion und des Beitrags verschiedener Marketing- und Geschäftsfaktoren zu Gesamtumsatz und Leistung
+* Szenarioanalyse: Ermöglicht es Unternehmen, verschiedene Marketing-Szenarien und -Strategien zu simulieren und deren Ergebnisse vorherzusagen
 
 
 ### Multi-Touch-Attribution (MTA)
 
-Die Multi-Touch-Attribution in Mix Modeler ist eine optionale maschinelle Lernanalyse, die Sie nutzen können, um Gutschriften an Touchpoints auf Ereignisebene zuzuordnen, die zu Konversionsereignissen führen. Diese Attribution wird von Marketingexperten verwendet, um die Marketing-Auswirkungen jedes einzelnen Marketing-Touchpoints über nachverfolgbare Journey hinweg zu quantifizieren. Bei diesen Touchpoints der digitalen Marketingkampagne handelt es sich in der Regel um Display-Anzeigenklicks, E-Mail-Sendungen, E-Mail-Öffnungen und Paid-Search-Klicks. Die Multitouch-Attribution kann die meisten Offline-Touchpoints wie Druckwerbung, Werbeplakate oder TV-Werbung und Geschäftsfaktoren nicht messen. Diese Touchpoints verfügen nur über Zusammenfassungsdaten, die nicht an Journey zugeordnet werden können.
+Die Multi-Touch-Attribution in Mix Modeler ist eine optionale maschinelle Lernanalyse, die Sie nutzen können, um Touchpoints auf Ereignisebene zuzuordnen, die zu Konversionsereignissen führen. Diese Attribution wird von Marketing-Fachleuten verwendet, um die Marketing-Auswirkungen jedes einzelnen Marketing-Touchpoints auf alle nachverfolgbaren Kunden-Journey zu quantifizieren. Diese Touchpoints für digitale Marketing-Kampagnen bestehen normalerweise aus Anzeigenklicks, E-Mail-Sendungen, E-Mail-Öffnungen und Klicks auf Paid Search. Die Multi-Touch-Attribution kann die meisten Offline-Touchpoints wie Print-Anzeigen, Reklametafeln oder TV-Werbespots und Geschäftsfaktoren nicht messen. Diese Touchpoints verfügen nur über Daten auf Zusammenfassungsebene, die nicht mit Kunden-Journey verknüpft werden können.
 
-Die Multi-Touch-Attribution von Mix Modeler unterstützt zwei Bewertungskategorien:
+Die Multi-Touch-Attribution von Mix Modeler unterstützt zwei Kategorien von Scores:
 
-* Algorithmische Bewertungen, die inkrementelle und beeinflusste Bewertungen enthalten:
-   * Das beeinflusste Ergebnis ist der Anteil der Konversion, für den jeder Marketing-Touchpoint verantwortlich ist.
-   * Das inkrementelle Ergebnis ist der Betrag der direkt durch einen Marketing-Touchpoint verursachten marginalen Auswirkungen. Dieser Wert entfernt die Grundlinie (den Konversionsanteil, der ohne Marketingaktivitäten erreicht wurde) aus dem beeinflussten Ergebnis.
+* Algorithmische Scores, einschließlich inkrementeller und beeinflusster Scores:
+   * Der beeinflusste Wert ist der Anteil der Konversion, für den jeder Marketing-Touchpoint verantwortlich ist.
+   * Der inkrementelle Score ist der Betrag der marginalen Auswirkungen, die direkt durch einen Marketing-Touchpoint verursacht werden. Dieser Score entfernt die Grundlinie (den Teil der Konversion, der ohne Marketing-Aktivitäten erzielt wurde) aus dem beeinflussten Score.
 
-* Regelbasierte Werte, darunter Erstkontakt, Letztkontakt, Linear, U-förmig und Zeitverfall.
+* Regelbasierte Werte, einschließlich Erstkontakt, Letztkontakt, Linear, U-förmig und Zeitverfall.
 
-In den folgenden Anwendungsfällen können Sie die Multi-Touch-Attributionsfunktion von Mix Modeler verwenden:
+Sie können die Multi-Touch-Attributionsfunktion von Mix Modeler in folgenden Anwendungsfällen verwenden:
 
-* Zuordnung des Kampagnenbudgets: Informieren Sie Entscheidungen über die Budgetzuweisung für alle Marketing-Kanäle.
-* Kampagnenoptimierung: Verstehen Sie in jedem Kanal, welche Kampagnen, Kreativinhalte und Suchbegriffe für welche SKUs oder Geos besser funktionieren. Auf diese Weise können Sie sich jeden Kanal ansehen, sodass das Marketing-Team seine Taktiken optimieren kann.
-* Attribution auf der Ereignisebene des vollständigen Trichters: Verstehen Sie die Auswirkungen des Marketings auf die gesamte Journey des Kunden. Beispielsweise kostenlose Kontoanmeldung für bezahlte Konversionen und darüber hinaus.
-* Partnerbewertungen: Evaluieren Sie die Effektivität von Agenturen und Partnern basierend auf Attributionsergebnissen.
+* Budgetzuweisung für Kampagnen: Informieren Sie über Budgetzuweisungsentscheidungen im gesamten Marketing-Kanal.
+* Kampagnenoptimierung: Verstehen Sie in jedem Kanal, welche Kampagnen, Kreativen und Keywords besser für welche SKUs oder Geos funktionieren. Auf diese Weise können Sie jeden Kanal betrachten, damit das Marketing-Team seine Taktiken optimieren kann.
+* Attribution auf Ereignisebene mit vollem Trichter: Machen Sie sich mit der Wirkung von Marketing auf die gesamte Kunden-Journey vertraut. Beispielsweise die kostenlose Kontoanmeldung für die gebührenpflichtige Konversion und darüber hinaus.
+* Partnerbewertungen: Bewertung der Effektivität von Agenturen und Partnern auf der Grundlage von Attributionsergebnissen.
 
-Siehe [Modell-Einblicke - Attribution](../models/insights.md#attribution) für den Zugriff auf die mehrkontaktbasierten Attributionseinblicke in Mix Modeler.
+Unter [Modelleinblicke - Attribution](../models/insights.md#attribution) erfahren Sie, wie Sie in Mix Modeler auf die Multi-Touch-Attributionseinblicke zugreifen können.
 
 

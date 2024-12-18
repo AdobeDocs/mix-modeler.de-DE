@@ -1,6 +1,6 @@
 ---
 title: Modelle
-description: Erfahren Sie, wie Sie Modelle in Mix Modeler konfigurieren und verwenden.
+description: Erfahren Sie, wie Sie -Modelle in Mix Modeler konfigurieren und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
@@ -12,106 +12,106 @@ ht-degree: 1%
 
 # Modelle
 
-Mit der Modellfunktion in Mix Modeler können Sie Modelle konfigurieren, trainieren und bewerten, die für Ihre Geschäftsziele spezifisch sind. Das Training und Scoring unterstützt das KI-gestützte Transfer-Lernen zwischen der Multitouch-Attribution und der Marketing-Mix-Modellierung.
+Mit der Modellfunktion in Mix Modeler können Sie Modelle konfigurieren, trainieren und bewerten, die speziell auf Ihre Geschäftsziele zugeschnitten sind. Das Training und Scoring unterstützt KI-gestütztes Transferlernen zwischen Multitouch-Attribution und Marketing-Mix-Modellierung.
 
-Die Modelle basieren auf den harmonisierten Daten, die Sie im Rahmen des Mix Modeler-Anwendungs-Workflows erstellen.
+Die Modelle basieren auf den harmonisierten Daten, die Sie im Rahmen des Mix Modeler-Programm-Workflows erstellen.
 
-Ein Modell in Mix Modeler ist ein Modell für maschinelles Lernen, das verwendet wird, um ein bestimmtes Ergebnis basierend auf den Investitionen eines Marketingexperten zu messen und vorherzusagen. Marketing-Touchpoints und Daten der Zusammenfassungsebene können als Eingabe verwendet werden. Mit Mix Modeler können Sie Varianten von Modellen basierend auf verschiedenen Variablensätzen von Variablen, Dimensionen und Ergebnissen erstellen, z. B. Umsatz, verkaufte Einheiten und Leads.
+Ein Modell in Mix Modeler ist ein maschinelles Lernmodell, das verwendet wird, um ein bestimmtes Ergebnis basierend auf den Investitionen eines Marketing-Experten zu messen und vorherzusagen. Marketing-Touchpoints und Daten auf Zusammenfassungsebene können als Eingabe verwendet werden. Mit Mix Modeler können Sie Varianten von Modellen erstellen, die auf verschiedenen Variablensätzen, Dimensionen und Ergebnissen basieren, z. B. Umsatz, verkaufte Einheiten, Leads.
 
 Ein Modell erfordert:
 
 * Eine Konversion.
-* Ein oder mehrere Marketing-Touchpoints (Kanäle), die aus Zusammenfassungsdaten, Marketing-Touchpoint-Daten (Ereignisdaten) oder beidem bestehen.
+* Ein oder mehrere Marketing-Touchpoints (Kanäle), die aus Daten auf Zusammenfassungsebene, Marketing-Touchpoint-Daten (Ereignisdaten) oder beidem bestehen.
 * Ein konfigurierbares Lookback-Fenster.
-* Ein konfigurierbares Schulungsfenster.
+* Ein konfigurierbares Trainings-Fenster.
 
 Ein Modell kann optional Folgendes enthalten:
 
 * Externe Faktoren.
 * Interne Faktoren.
-* Frühere Kenntnisse von Marketing-Beiträgen aus anderen Quellen, z. B. Erfahrungen von Interessenträgern aus der Vergangenheit, schrittweise Tests und andere Modelle.
-* Ausgabenfreigabe, die den relativen Ausgabenanteil als Proxy verwendet, wenn die Marketing-Daten gering sind.
+* Vorkenntnisse von Marketing-Beiträgen aus anderen Quellen wie Erfahrungen mit früheren Stakeholdern, inkrementelle Tests und andere Modelle.
+* Ausgabenanteil, der den relativen Ausgabenanteil als Proxy verwendet, wenn die Marketing-Daten spärlich sind.
 
 
 ## Modell erstellen
 
-Verwenden Sie zum Erstellen eines Modells den schrittweisen Konfigurationsfluss des geführten Mix Modelers, der bei Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere Informationen finden Sie unter [Erstellen eines Modells](create.md) .
+Verwenden Sie zum Erstellen eines Modells den Mix Modeler-Schritt-für-Schritt-Konfigurationsfluss für Modelle , der verfügbar ist, wenn Sie **[!UICONTROL Open model canvas]** auswählen. Siehe [Modell erstellen](create.md) für weitere Details.
 
 ## Modelle verwalten
 
-So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Mix Modeler-Benutzeroberfläche an:
+So zeigen Sie eine Tabelle mit Ihren aktuellen Modellen in der Mix Modeler-Benutzeroberfläche an:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Sie sehen eine Tabelle der aktuellen Modelle.
+1. Eine Tabelle der aktuellen Modelle wird angezeigt.
 
    Die Tabellenspalten geben Details zum Modell an.
 
    | Spaltenname | Details |
    |---|---|
-   | Name | Name des Modells |
+   | Name | Modellname |
    | Beschreibung | Beschreibung des Modells |
-   | Konversionsereignis | Die für das Modell ausgewählte Konversion. |
-   | Ausführungshäufigkeit | Die Ausführungsfrequenz des Trainings des Modells. |
-   | Letzte Ausführung | Datum und Uhrzeit der letzten Schulung des Modells. |
-   | Status | Der Status des letzten Trainings des Modells. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Erfolg<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Schulungsproblem<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Warten auf Schulung <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Fehlgeschlagen <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (wenn ein letzter Lauf ausgeführt wird) |
+   | Konversionsereignis | Die für das Modell ausgewählte Konvertierung. |
+   | Ausführungshäufigkeit | Die Lauffrequenz des Trainings des Modells. |
+   | Letzte Ausführung | Datum und Uhrzeit des letzten Trainings des Modells. |
+   | Status | Der Status der letzten Ausführung des Trainings des Modells. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Problem mit Training<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Ausstehende Schulung <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Fehlgeschlagen <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (wenn ein letzter Durchgang ausgeführt wird) |
 
    {style="table-layout:auto"}
 
-1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets/icons/ColumnSetting.svg) aus und schalten Sie die Spalten auf ![Aktivieren](/help/assets/icons/Checkmark.svg) oder aus.
+1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets/icons/ColumnSetting.svg) aus und schalten Sie die Spalten ein ![Aktivieren](/help/assets/icons/Checkmark.svg) oder aus.
 
 Sie können die folgenden Aktionen für ein bestimmtes Modell ausführen.
 
 ### Modelleinblicke
 
-Die Modelleinblicke-Funktion ist nur für erfolgreich trainierte und bewertete Modelle verfügbar.
+Die Funktion Modelleinblicke ist nur für erfolgreich trainierte und bewertete Modelle verfügbar.
 
-So zeigen Sie die Einblicke eines Modells an:
+So zeigen Sie die Insights eines Modells an:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie den Modellnamen aus.
+1. Wählen Sie den Modellnamen.
 
-Sie werden zu [Model Insights](insights.md) umgeleitet.
+Sie werden zu &quot;[ Insights“ ](insights.md).
 
 
 ### Details anzeigen
 
-So zeigen Sie weitere Details eines Modells an:
+So zeigen Sie weitere Details zu einem Modell an:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
 1. Wählen Sie ![Info](/help/assets/icons/Info.svg) für ein Modell aus, um ein Popup mit Details anzuzeigen.
 
 
-### Duplizieren
+### Duplikat
 
 Sie können ein Modell schnell duplizieren.
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Duplicate]**.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 
 
 ### Bearbeiten
 
-Sie können den Namen, die Beschreibung und die Planung von Schulungen und Auswertungen eines Modells bearbeiten.
+Sie können den Namen, die Beschreibung und den Zeitplan für das Training und die Bewertung eines Modells bearbeiten.
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Edit]**.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Edit]** aus.
 
    Im Dialogfeld **[!UICONTROL Edit model]** :
 
-   * Geben Sie eine neue **[!UICONTROL Name]** und eine neue **[!UICONTROL Description]** ein.
+   * Geben Sie einen neuen **[!UICONTROL Name]** und eine neue **[!UICONTROL Description]** ein.
 
-   * Aktivieren Sie **[!UICONTROL Status]**, um die Planung zu aktivieren. Sie können die Planung nur für trainierte und bewertete Modelle aktivieren.
+   * Um die Zeitplanung zu aktivieren, aktivieren Sie **[!UICONTROL Status]**. Sie können die Planung nur für Modelle aktivieren, die trainiert und bewertet wurden.
 
-      1. Wählen Sie einen **[!UICONTROL Scoring frequency]** aus:
+      1. **[!UICONTROL Scoring frequency]** auswählen:
 
-         * **[!UICONTROL Daily]**: Geben Sie einen gültigen Zeitpunkt ein (z. B. `05:22 pm`) oder verwenden Sie ![Clock](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Uhrzeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü &quot;Ausführen auf&quot;aus und geben Sie einen gültigen Zeitpunkt ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Daily]**: Geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü Ausführen für jedes Dropdown-Menü aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
 
       1. Wählen Sie eine **[!UICONTROL Training frequency]** aus dem Dropdown-Menü aus: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** oder **[!UICONTROL None]**.
 
@@ -121,72 +121,72 @@ Sie können den Namen, die Beschreibung und die Planung von Schulungen und Auswe
 
 
 
-### Umzug
+### umschulen
 
 
-Das erneute Trainieren eines Modells ist nur auf erfolgreich trainierten Modellen verfügbar.
+Das erneute Trainieren eines Modells ist nur für erfolgreich trainierte Modelle verfügbar.
 
-Ziehen Sie in Erwägung, ein Modell neu zu trainieren, wenn Sie:
+Ziehen Sie in Erwägung, ein Modell neu zu trainieren, wenn Sie Folgendes möchten:
 
-* Neue inkrementelle Marketing- und Faktordaten einschließen. Beispielsweise hat sich im letzten Quartal die Marktdynamik verändert oder Ihre Marketing-Datenverteilung hat sich erheblich geändert.
+* Neue inkrementelle Marketing- und Faktordaten einschließen. Im letzten Quartal hat sich beispielsweise die Marktdynamik verändert oder Ihre Marketing-Datenverteilung hat sich erheblich verändert.
 
 So trainieren Sie ein Modell neu:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Train]**. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** aus der blauen Aktionsleiste.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Train]** aus. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg)-**[!UICONTROL Train]** in der blauen Aktionsleiste aus.
 
    Wählen Sie im Dialogfeld **[!UICONTROL Train model]** die Option aus, um:
 
    * **[!UICONTROL Train model with last 2 years of marketing data]** oder
    * **[!UICONTROL Train model using specific date range of data]**.
-Geben Sie den Datumsbereich an. Sie können den ![Kalender](/help/assets/icons/Calendar.svg) verwenden, um einen Datumsbereich auszuwählen. Sie müssen einen Datenbereich mit mindestens einem Jahr auswählen.
+Geben Sie den Datumsbereich an. Sie können den ![Kalender“ verwenden](/help/assets/icons/Calendar.svg) um einen Datumsbereich auszuwählen. Es muss ein Datenbereich mit mindestens einem Jahr ausgewählt werden.
 
-   ![Modell erneut trainieren](../assets/re-train-model.png)
+   ![Modell neu trainieren](../assets/re-train-model.png)
 
 1. Wählen Sie **[!UICONTROL Train]** aus, um das Modell neu zu trainieren.
 
 
-### Punktzahl oder Neubewertung
+### Bewerten oder neu bewerten
 
 
-Sie können ein Modell inkrementell auf Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten.
+Sie können ein Modell basierend auf neuen Marketing-Daten inkrementell bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten.
 
-Sie sollten ein Modell erneut bewerten, wenn Sie:
+Ziehen Sie in Erwägung, ein Modell neu zu bewerten, wenn Sie Folgendes tun möchten:
 
-* Korrektur falscher Marketing-Daten. Beispielsweise haben die jüngsten Paid-Search-Daten, die Sie in die Schulung und Auswertung des Modells einbezogen haben, eine Woche an Daten verpasst.
-* Verwenden Sie neue inkrementelle Marketing-Daten, die durch Aktualisierungen der Datensätze verfügbar geworden sind, die Sie als Teil Ihrer harmonisierten Daten konfiguriert haben.
+* Korrigieren Sie falsche Marketing-Daten. Beispielsweise fehlten für die Daten der letzten Paid Search, die Sie in das Training und die Bewertung des Modells eingeschlossen haben, eine Woche Daten.
+* Verwenden Sie neue inkrementelle Marketing-Daten, die durch Aktualisierungen in den Datensätzen verfügbar geworden sind, die Sie als Teil Ihrer harmonisierten Daten konfiguriert haben.
 
-So bewerten oder bewerten Sie ein Modell neu:
+So bewerten Sie ein Modell oder bewerten es neu:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Score]**. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** aus der blauen Aktionsleiste.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Score]** aus. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg)-**[!UICONTROL Score]** in der blauen Aktionsleiste aus.
 
    Wählen Sie im Dialogfeld **[!UICONTROL Score marketing data]** die Option aus, um:
 
-   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**, um Ihr Modell schrittweise anhand neuer Marketing-Daten zu bewerten, oder
-   * **[!UICONTROL Score specific date range of marketing data]** , um für einen bestimmten Datumsbereich eine Neubewertung vorzunehmen.
-Geben Sie den Datumsbereich an. Sie können den ![Kalender](/help/assets/icons/Calendar.svg) verwenden, um einen Datumsbereich auszuwählen.
+   * **[!UICONTROL Score new marketing data from *MM/TT/JJJJ *]**, um Ihr Modell inkrementell mithilfe neuer Marketing-Daten zu bewerten, oder
+   * **[!UICONTROL Score specific date range of marketing data]** für einen bestimmten Datumsbereich neu bewertet werden.
+Geben Sie den Datumsbereich an. Sie können den ![Kalender“ verwenden](/help/assets/icons/Calendar.svg) um einen Datumsbereich auszuwählen.
 
-   ![Modell erneut trainieren](../assets/re-score-model.png)
+   ![Modell neu trainieren](../assets/re-score-model.png)
 
-1. Wählen Sie **[!UICONTROL Score]** aus. Wenn Sie ein Modell mithilfe eines bestimmten Datenbereichs neu bewerten, wird ein Dialogfeld &quot;**[!UICONTROL Existing model is replaced]**&quot;angezeigt, in dem Sie aufgefordert werden, zu bestätigen, dass das Modell durch neue Werte für den ausgewählten Datumsbereich ersetzt werden soll. Wählen Sie **[!UICONTROL Replace model]** zur Bestätigung aus.
+1. Wählen Sie **[!UICONTROL Score]** aus. Wenn Sie ein Modell mit einem bestimmten Datenbereich neu bewerten, wird ein **[!UICONTROL Existing model is replaced]** Dialogfeld angezeigt, in dem Sie aufgefordert werden zu bestätigen, dass Sie das Modell durch neue Bewertungen für den ausgewählten Datumsbereich ersetzen möchten. Wählen Sie zur Bestätigung **[!UICONTROL Replace model]** aus.
 
 
-### Modell löschen
+### Löschen eines Modells
 
-So löschen Sie ein Modell:
+Löschen eines Modells:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell und klicken Sie im Kontextmenü auf **[!UICONTROL Delete]**. Wählen Sie alternativ ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** aus der blauen Aktionsleiste.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![ blaue Aktionsleiste ](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
 
 So löschen Sie mehrere Modelle:
 
-1. Auswählen mehrerer Modelle.
+1. Mehrere Modelle auswählen.
 
-1. Wählen Sie in der blauen Aktionsleiste ![Löschen](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** aus, um die Modelle zu löschen.
+1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Modelle zu löschen.
 
    >[!WARNING]
    >
