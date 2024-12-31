@@ -10,8 +10,8 @@ feature-set: Mix Modeler
 role: User, Admin
 source-git-commit: a9f4cd8a28551ed10c7c374d0269b014bf2ef82e
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 80%
+source-wordcount: '53'
+ht-degree: 98%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 80%
 
 Die Datei metadata.md enthält Metadaten auf Repo-Ebene, die an die TOC.md-Dateien des Benutzerhandbuchs im Repo weitergegeben werden. Wenn Sie den Inhalt von metadata.md für ein Benutzerhandbuch ändern möchten, tun Sie dies in einer beliebigen TOC.md-Datei.
 
-Unter [Metadaten](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) finden Sie eine Liste der gültigen Werte für **Lösung**, **Produkt** und **Typ**.
+Unter [Metadaten](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=de) finden Sie eine Liste der gültigen Werte für **Lösung**, **Produkt** und **Typ**.
