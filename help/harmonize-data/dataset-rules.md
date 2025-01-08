@@ -3,9 +3,9 @@ title: Datensatzregeln
 description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten im Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1407'
 ht-degree: 1%
 
 ---
@@ -146,12 +146,27 @@ So synchronisieren Sie Daten zwischen Ihren harmonisierten Daten und Zusammenfas
 >
 >[!BADGE Beta]{type=Informative}
 
-Die Voreinstellungen für die Datenzusammenführung helfen beim Lösen von Konflikten, wenn Daten aus zusammengefassten und Ereignisdatenquellen zusammengeführt werden. Anwendungsfälle sind:
+Um genaue Modellvorhersagen zu gewährleisten, können Sie Voreinstellungen für die Datenzusammenführung definieren. Diese Funktion ermöglicht es Benutzenden, Konflikte nach dem Zusammenführen von Daten auf Zusammenfassungsebene und Ereignisebene zu beheben.
+
+Sie können eine Standardeinstellung für Metriken konfigurieren, die bei widersprüchlichen Aktualisierungen angewendet wird. Diese Standardmetrik kann eine von drei Optionen sein:
+
+* **[!UICONTROL Summary data]**
+* **[!UICONTROL Sum of summary and event data]**
+* **[!UICONTROL Event data]**
+
+Wenn während der Harmonisierung mehrere Datenquellen versuchen, ein Metrikfeld für einen bestimmten Kanal zu aktualisieren, wird die vom Benutzer konfigurierte Standardvoreinstellung angewendet. Diese Voreinstellung wird auf Sandbox-Ebene angewendet, es sei denn, sie wird für bestimmte metrikbasierte Voreinstellungen überschrieben, die zusätzlich konfiguriert wurden.
+
+Unter **[!UICONTROL Metric based preferences]** kann der Benutzer die spezifische Quelle (**[!UICONTROL Summary]** oder **[!UICONTROL Event]**) für eine bestimmte Metrik und den entsprechenden Konversionstyp für diese Metrik konfigurieren.
+
+Typische Anwendungsfälle sind:
 
 * dieselbe Werbemetrik in mehreren Datensätzen gemessen und gemeldet wird oder
 * Messmetriken können in einigen Datensätzen unvollständig sein, während ein anderer Datensatz eine Obermenge einer bestimmten Metrik sein kann, was zu einer doppelten Zählung führt.
 
-Um genaue Modellvorhersagen zu gewährleisten, können Sie Voreinstellungen für die Datenzusammenführung definieren:
+### Konfigurieren
+
+So konfigurieren Sie die Voreinstellungen für die Datenzusammenführung:
+
 
 1. Wählen Sie ![Voreinstellungen für die Datenzusammenführung](/help/assets/icons/Merge.svg) [!BADGE Beta] aus.
 
