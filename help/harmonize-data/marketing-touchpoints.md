@@ -3,7 +3,7 @@ title: Marketing-Touchpoints
 description: Erfahren Sie, wie Sie Marketing-Touchpoints erstellen, um Ihre Daten im Mix Modeler zu harmonisieren.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Die Tabellenspalten geben Details zum Marketing-Touchpoint an:
 | Erstellt | Datum und Uhrzeit der Erstellung des Marketing-Touchpoints. |
 | Zuletzt geändert | Datum und Uhrzeit der letzten Änderung des Marketing-Touchpoints. |
 
-{style="table-layout:auto"}
 
 ## Hinzufügen eines Marketing-Touchpoints
 
