@@ -3,9 +3,9 @@ title: Modell erstellen
 description: Erfahren Sie, wie Sie ein Modell in Mix Modeler erstellen.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
+source-git-commit: 16aec67b3e0562ff766f81b8036c724fa03bba17
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Um einen geeigneten Datenpopulations-Container zu entfernen, wählen Sie innerhalb des Containers ![Mehr](/help/assets/icons/More.svg) und wählen Sie **[!UICONTROL Remove marketing touchpoint]** aus dem Kontextmenü aus.
 
+   * Wählen Sie **Und** und **Oder** zwischen Containern aus, um komplexere Definitionen für Ihre auswählbare Datenpopulation zu erstellen.
 
 
 1. Um Datensätze mit externen Faktoren zu Ihrem Modell hinzuzufügen, verwenden Sie einen oder mehrere Container im **[!UICONTROL External factors dataset]**. Ein Beispiel für externe Faktoren sind S&amp;P-Indizes.
