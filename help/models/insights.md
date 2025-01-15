@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität im Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 * für jeden Kanal den Prozentsatz des Beitrags zum Attributionsmodell und
 * Die Summe dieser Prozentsätze des Kanalzuordnungsmodells.
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE Beta]
 
-Auf der Registerkarte „Faktoren“ werden Einblicke zu externen Faktoren angezeigt.
+Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
 
 ![Faktoren](/help/assets/factors.png)
 
 Diese Visualisierung hilft Ihnen, den inkrementellen Effekt zu verstehen, den verschiedene interne und externe Faktoren auf die Baseline der Konversionen haben. Zum Beispiel wirtschaftliche Bedingungen oder Werbemaßnahmen.
 
+Wählen Sie im Dropdown-Menü **[!UICONTROL Factors]** aus, welche Faktoren angezeigt werden sollen.
+
+<!-- need to update the image when we do have a proper example -->
 
 Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
 
@@ -205,7 +208,7 @@ Die Registerkarte Diagnose zeigt Visualisierungen für:
 
 * [!UICONTROL Model Assessment] Visualisierung, die Sie nach tatsächlichen Konversionen im Vergleich zu prognostizierten Konversionen oder Restkonversionen aufschlüsseln können.
 
-  Um die Visualisierung aufzuschlüsseln, wählen Sie **[!UICONTROL Actual vs. Predicted]** oder **[!UICONTROL Residuals]** aus der **[!UICONTROL Breakdown]** aus.
+Um die Visualisierung aufzuschlüsseln, wählen Sie **[!UICONTROL Actual vs. Predicted]** oder **[!UICONTROL Residuals]** aus der **[!UICONTROL Breakdown]** aus.
 
 * [!UICONTROL Model fitting metrics] Tabelle mit den folgenden Spalten für jede Konversionsmetrik:
 
@@ -223,11 +226,11 @@ Die Registerkarte Diagnose zeigt Visualisierungen für:
 
       * RMSE (Root Mean Square Error, quadratischer Mittelwert der Fehlerquote): Gibt den durchschnittlichen Fehler an, gewichtet nach dem Quadrat des Fehlers.
 
-  Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
+Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
 
 * [!UICONTROL Touchpoint effectiveness] Tabelle, die das Ergebnis des algorithmischen Attribution AI-Modells darstellt. Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
+Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * [!UICONTROL Paths touched]: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
    * [!UICONTROL Efficiency measure]: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
@@ -246,11 +249,11 @@ Die Registerkarte Historische Übersicht zeigt Visualisierungen für:
 
 * Touchpoint-Ausgaben.
 
-  Sie können einen alternativen ausgabebasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
+Sie können einen alternativen ausgabebasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 
 * Anzahl der Touchpoints.
 
-  Sie können einen alternativen volumenbasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
+Sie können einen alternativen volumenbasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 
 ![Modell - Historischer Überblick](/help/assets/model-insights-historical-overview.png)
 
