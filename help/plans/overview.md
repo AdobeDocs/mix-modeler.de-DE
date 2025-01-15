@@ -3,9 +3,9 @@ title: Pläne
 description: Erfahren Sie, wie Sie Pläne im Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
+source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '539'
 ht-degree: 1%
 
 ---
@@ -97,16 +97,14 @@ Pläne vergleichen:
 
 ### Pläne löschen
 
-So löschen Sie Pläne:
+Löschen eines Plans:
 
-1. Wählen Sie einen oder mehrere Pläne aus der Tabelle aus.
-1. Wählen ![ in ](/help/assets/icons/Delete.svg) Aktionsleiste **[!UICONTROL Delete]** Löschen“ aus.
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** aus.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![ blaue Aktionsleiste ](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete moplandel]** aus, um den Plan zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
 
-Alternativ:
+So löschen Sie mehrere Pläne:
 
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan in der Tabelle aus.
-1. Wählen Sie **[!UICONTROL Delete]** aus dem Kontextmenü aus. Oben in der Tabelle wird ein neuer Plan hinzugefügt, dessen Name aus dem ursprünglichen Plannamen besteht und an den **[!UICONTROL (Copy)]** angehängt ist.
-
-   >[!WARNING]
-   >
-   >   Die ausgewählten Pläne werden sofort gelöscht!
+1. Mehrere Pläne auswählen.
+1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Pläne zu löschen.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
