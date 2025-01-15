@@ -3,10 +3,10 @@ title: Marketing-Touchpoints
 description: Erfahren Sie, wie Sie Marketing-Touchpoints erstellen, um Ihre Daten im Mix Modeler zu harmonisieren.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '448'
+ht-degree: 0%
 
 ---
 
@@ -66,14 +66,29 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der ![DataSearch](/hel
 1. Nach der Erstellung wird der Touchpoint zur Tabelle der Marketing-Touchpoints hinzugefügt.
 
 
-## Anzeigen eines Marketing-Touchpoints
+## Details anzeigen
 
-So zeigen Sie einen Marketing-Touchpoint an:
+So zeigen Sie Details zu einem Marketing-Touchpoint an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
 
 1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden [ unter „Hinzufügen ](#add-a-marketing-touchpoint) Marketing-Touchpoints“. Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
+
+## Bericht anzeigen
+
+So zeigen Sie einen Bericht zu einem Marketing-Touchpoint an:
+
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
+
+1. Wählen Sie ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Bericht anzeigen** aus. Ein Dialogfeld zeigt einen Bericht zum Marketing-Touchpoint an.
+
+   ![Touchpoint-Ansichtsbericht für Marketing](../assets/marketingtouchpoint-view-report.png)
+
+   * Um die Granularität zu ändern, für die ein Bericht erstellt werden soll, wählen Sie einen Wert aus dem Dropdown-Menü **[!UICONTROL Weekly]** aus.
+   * Um den Zeitraum zu ändern, für den ein Bericht erstellt werden soll, geben Sie ein Start- und Enddatum ein oder verwenden ![Kalender](/help/assets/icons/Calendar.svg), um einen Zeitraum im Kalender-Popup zu definieren.
+
+1. Wählen Sie **[!UICONTROL Close]** aus, um das Dialogfeld zu schließen.
 
 ## Löschen eines Marketing-Touchpoints
 

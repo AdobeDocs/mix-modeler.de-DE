@@ -3,9 +3,9 @@ title: Konversionen
 description: Erfahren Sie, wie Sie Konversionen erstellen, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden können.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '398'
 ht-degree: 1%
 
 ---
@@ -66,14 +66,28 @@ Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/ic
 1. Nach ihrer Erstellung wird die Konversion zur Konversionstabelle hinzugefügt.
 
 
-## Konvertierung anzeigen
+## Details anzeigen
 
-So zeigen Sie eine Konversion an:
+So zeigen Sie Details zu einer Konversion an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Konversionsnamen in der Tabelle bewegen.
 
-1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [ Sie unter ](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [ Sie unter ](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
+## Bericht anzeigen
+
+So zeigen Sie einen Konversionsbericht an:
+
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Konversionsnamen in der Tabelle bewegen.
+
+1. Wählen Sie ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Bericht anzeigen** aus. Ein Dialogfeld zeigt einen Bericht über die Konversion an.
+
+   ![Konversionsansichtsbericht](../assets/conversion-view-report.png)
+
+   * Um die Granularität zu ändern, für die ein Bericht erstellt werden soll, wählen Sie einen Wert aus dem Dropdown-Menü **[!UICONTROL Weekly]** aus.
+   * Um den Zeitraum zu ändern, für den ein Bericht erstellt werden soll, geben Sie ein Start- und Enddatum ein oder verwenden ![Kalender](/help/assets/icons/Calendar.svg), um einen Zeitraum im Kalender-Popup zu definieren.
+
+1. Wählen Sie **[!UICONTROL Close]** aus, um das Dialogfeld zu schließen.
 
 ## Löschen einer Konversion
 
