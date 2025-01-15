@@ -3,9 +3,9 @@ title: Pläne
 description: Erfahren Sie, wie Sie Pläne im Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '526'
 ht-degree: 1%
 
 ---
@@ -47,9 +47,13 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche des
    | Budget | Das Gesamtbudget für einen Plan. |
    | Prognostizierte Rendite | Die prognostizierte Rendite für einen Plan |
    | Prognostizierter ROI | Der prognostizierte ROI für einen Plan. |
+   | Prognostizierte Konversion | Die prognostizierte Konversion für einen Plan |
+   | Prognostizierter CPA | Die prognostizierte CPA für einen Plan |
    | Status | Der Status eines Plans: <p><span style="color:red">●</span> fehlgeschlagen, <p><span style="color:blue">●</span> Verarbeitung läuft oder <p><span style="color:green">●</span> abgeschlossen. |
 
    {style="table-layout:auto"}
+
+   Sie können ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) verwenden, um die ![ Spalten (](/help/assets/icons/Checkmark.svg)) auszuwählen, die in der Tabelle angezeigt werden sollen.
 
 1. Verwenden Sie ![Suche](/help/assets/icons/Search.svg), um die Tabelle nach einem oder mehreren bestimmten Plänen zu durchsuchen und zu filtern.
 
