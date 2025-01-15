@@ -3,9 +3,9 @@ title: Modelle
 description: Erfahren Sie, wie Sie -Modelle in Mix Modeler konfigurieren und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: c02d2019346932baaf481e373569e29df3d97713
+source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -174,7 +174,7 @@ Geben Sie den Datumsbereich an. Sie können den ![Kalender“ verwenden](/help/a
 1. Wählen Sie **[!UICONTROL Score]** aus. Wenn Sie ein Modell mit einem bestimmten Datenbereich neu bewerten, wird ein **[!UICONTROL Existing model is replaced]** Dialogfeld angezeigt, in dem Sie aufgefordert werden zu bestätigen, dass Sie das Modell durch neue Bewertungen für den ausgewählten Datumsbereich ersetzen möchten. Wählen Sie zur Bestätigung **[!UICONTROL Replace model]** aus.
 
 
-### Löschen eines Modells
+### Modelle löschen
 
 Löschen eines Modells:
 

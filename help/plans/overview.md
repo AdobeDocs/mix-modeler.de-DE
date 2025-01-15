@@ -3,7 +3,7 @@ title: Pläne
 description: Erfahren Sie, wie Sie Pläne im Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
+source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 1%
@@ -101,7 +101,7 @@ Löschen eines Plans:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** aus.
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![ blaue Aktionsleiste ](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete moplandel]** aus, um den Plan zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete plan]** aus, um den Plan zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
 
 So löschen Sie mehrere Pläne:
 
