@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: db41aaf6ecab410c8b50b1ae3a2e84ed0b6845d5
+source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -25,8 +25,22 @@ Testen einer Tabelle mit Unicode-Zeichen
 
 
 
+## Formeln
 
-Und wir unterstützen auch Formeln?
+Und wir unterstützen Formeln?
 
 **Die Cauchy-Schwarz-Ungleichheit**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+
+
+
+## Verwenden von SVG in einem schattierten Feld
+
+Wir scheinen die SVG in einer schattierten Box nicht richtig zu unterstützen. Siehe Unterschiede zwischen der Vorschau (corp.adobe.com) und der veröffentlichten Site (adobe.com).
+
+>[!BEGINSHADEBOX]
+
+*In diesem Artikel wird das Attributionsbedienfeld in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) für die Version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**dieses Artikels.*
+
+>[!ENDSHADEBOX]
