@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität im Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Um den Inhalt der Touchpoint-Aufschlüsselungstabelle herunterzuladen, wählen S
 >Die Registerkarte „Attribution“ ist nur für MTA-aktivierte Modelle verfügbar.
 
 
-Auf der Registerkarte [!UICONTROL Attribution] können Sie die Effektivität von Touchpoints und Marketing-Kampagnen mit Daten auf Ereignisebene verstehen.  Siehe [Erstellen eines Modells](create.md).
+Auf der Registerkarte [!UICONTROL Attribution] können Sie die Effektivität von Touchpoints und Marketing-Kampagnen mit Daten auf Ereignisebene verstehen.  Siehe [Modell erstellen](build.md).
 
 Die folgenden Attributionsmodelle werden unterstützt:
 

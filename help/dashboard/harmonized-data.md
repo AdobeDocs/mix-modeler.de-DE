@@ -1,18 +1,18 @@
 ---
-title: Dashboard für harmonisierte Daten-Übersicht
+title: Harmonisiertes Daten-Dashboard
 description: Erfahren Sie, wie Sie das harmonisierte Datenübersicht-Dashboard in Mix Modeler verwenden.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Übersicht über harmonisierte Daten
+# Harmonisierte Daten
 
-Die Registerkarte Harmonisierte Daten in der Mix Modeler-Übersicht bietet Einblicke in die harmonisierten Daten, die Sie für die Verwendung im Rahmen der Aufnahme von Daten und der Einrichtung der harmonisierten Daten konfiguriert haben.
+Die Registerkarte **[!UICONTROL Harmonized data]** im Mix Modeler ![Startseite](/help/assets/icons/Home.svg) bietet **[!UICONTROL Overview]** Einblicke in die harmonisierten Daten, die Sie konfiguriert haben, um sie im Rahmen der Einrichtung der aufgenommenen Daten und der harmonisierten Daten zu verwenden.
 
 Die Übersicht zeigt vier KPI-Status-Kartenvisualisierungen (oberste Zeile) und sechs weitere konfigurierbare Visualisierungen .
 

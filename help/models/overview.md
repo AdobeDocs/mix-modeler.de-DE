@@ -1,16 +1,16 @@
 ---
-title: Modelle
-description: Erfahren Sie, wie Sie -Modelle in Mix Modeler konfigurieren und verwenden.
+title: Modelle - Übersicht
+description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
 
 ---
 
-# Modelle
+# Modelle - Übersicht
 
 Mit der Modellfunktion in Mix Modeler können Sie Modelle konfigurieren, trainieren und bewerten, die speziell auf Ihre Geschäftsziele zugeschnitten sind. Das Training und Scoring unterstützt KI-gestütztes Transferlernen zwischen Multitouch-Attribution und Marketing-Mix-Modellierung.
 
@@ -33,9 +33,9 @@ Ein Modell kann optional Folgendes enthalten:
 * Ausgabenanteil, der den relativen Ausgabenanteil als Proxy verwendet, wenn die Marketing-Daten spärlich sind.
 
 
-## Modell erstellen
+## Erstellen von Modellen
 
-Verwenden Sie zum Erstellen eines Modells den Mix Modeler-Schritt-für-Schritt-Konfigurationsfluss für Modelle , der verfügbar ist, wenn Sie **[!UICONTROL Open model canvas]** auswählen. Siehe [Modell erstellen](create.md) für weitere Details.
+Verwenden Sie zum Erstellen eines Modells den Mix Modeler-Schritt-für-Schritt-Konfigurationsfluss des geführten Modells, der verfügbar ist, wenn Sie **[!UICONTROL Open model canvas]** auswählen. Weitere [ finden Sie unter ](build.md) von Modellen .
 
 ## Modelle verwalten
 

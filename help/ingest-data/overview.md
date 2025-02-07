@@ -1,16 +1,16 @@
 ---
-title: Aufnehmen von Daten
+title: Datenaufnahme - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler aufnehmen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '465'
 ht-degree: 11%
 
 ---
 
-# Aufnehmen von Daten
+# Datenaufnahme - Übersicht
 
 Mix Modeler arbeitet mit Daten auf Ereignisebene, aggregierten oder zusammenfassenden Daten zu Marketing-Bemühungen aus verschiedenen ummauerten Gärten sowie aggregierten oder zusammenfassenden Daten aus anderen Quellen, wie Offline-Werbung, internen oder externen Faktoren.
 

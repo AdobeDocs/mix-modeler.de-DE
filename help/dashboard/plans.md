@@ -1,23 +1,23 @@
 ---
-title: Pläne - Übersicht
+title: Pläne
 description: Erfahren Sie, wie Sie die Planübersicht in Mix Modeler verwenden.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 0bdb80fb19118ab4e15c36c1a43e2d4f0c528041
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# Pläne - Übersicht
+# Pläne
 
 >[!NOTE]
 >
->[!BADGE Alpha ]{type=Informative}
+>[!BADGE Alpha ]{type=Informative}**[!UICONTROL Plans]** Registerkarte im Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** ist eine Alpha-Funktion und ihre Funktionalität kann sich ändern. Die Funktion steht einer begrenzten Anzahl von Kunden zur Verfügung.
 
 
-Auf der Registerkarte „Pläne“ in der Mix Modeler-Übersicht finden Sie Visualisierungen für [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] und [!UICONTROL KPI].
+Auf der Registerkarte **[!UICONTROL Plans]** im Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** werden Visualisierungen für [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] und [!UICONTROL KPI] angezeigt.
 
 Die für die Visualisierungen angezeigten Daten werden bestimmt durch:
 

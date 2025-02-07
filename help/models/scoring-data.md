@@ -1,16 +1,16 @@
 ---
-title: Bewertungsdaten
+title: Verwenden der Bewertungsdaten
 description: Erfahren Sie, wie die Bewertungsdaten eines Modells im Mix Modeler beibehalten werden.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: b6045176e82b97f848113f4e0ffbbb995c48b3d4
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 10%
 
 ---
 
-# Bewertungsdaten
+# Bewertungsdaten verwenden
 
 Im Rahmen der Bewertung eines Modells werden Bewertungsdaten in einem Datensatz in Experience Platform beibehalten. Wenn Sie die Multi-Touch-Attribution während der Modellerstellung aktiviert haben, werden zusätzliche Ereignisbewertungsdaten in einem Datensatz im Experience Platform beibehalten.
 

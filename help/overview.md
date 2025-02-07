@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen
 short-description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 18%
 
 ---
@@ -60,13 +60,13 @@ Dieses Handbuch zur technischen Dokumentation bietet Selbsthilfe für Adobe **Mi
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>models</strong><br/><a href="/help/models/overview.md">Overview</a> - <a href="/help/models/create.md">Modell erstellen</a> - <a href="/help/models/insights.md">Modell-Insights</a> - <a href="/help/models/scoring-data.md">Bewertungsdaten</a>
+      <strong>Modelle</strong><br/><a href="/help/models/overview.md">Übersicht</a> - <a href="/help/models/build.md">Modelle erstellen</a> - <a href="/help/models/insights.md">Modelleinblicke</a> - <a href="/help/models/scoring-data.md">Bewertungsdaten verwenden</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>Pläne</strong><br/><a href="/help/plans/overview.md">Pläne</a> - <a href="/help/plans/create.md">Plan erstellen</a> - <a href="/help/plans/compare.md">Pläne vergleichen</a> - <a href="/help/plans/edit.md">Plan bearbeiten</a>
+      <strong>Pläne</strong><br/><a href="/help/plans/overview.md">Pläne</a> - <a href="/help/plans/build.md">Pläne erstellen</a> - <a href="/help/plans/compare.md">Pläne vergleichen</a> - <a href="/help/plans/build.md">Planeinblicke</a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>

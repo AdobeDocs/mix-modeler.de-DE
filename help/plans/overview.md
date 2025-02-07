@@ -1,16 +1,16 @@
 ---
-title: Pläne
+title: Pläne - Übersicht
 description: Erfahren Sie, wie Sie Pläne im Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '481'
 ht-degree: 1%
 
 ---
 
-# Pläne
+# Pläne - Übersicht
 
 Mit Plänen im Mix Modeler können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
 
@@ -28,6 +28,10 @@ Ein Plan kann optional Folgendes enthalten:
 - mehrere Flugtermine, von denen jedes ein Zielbudget hat,
 - Mindest- und Höchstbudgetbeschränkungen nach Kanal und Flugdatum.
 
+
+## Pläne erstellen
+
+Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modelers. Weitere [ finden Sie ](build.md)Erstellen von Plänen“.
 
 ## Pläne verwalten
 
@@ -57,50 +61,39 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche des
 
 1. Verwenden Sie ![Suche](/help/assets/icons/Search.svg), um die Tabelle nach einem oder mehreren bestimmten Plänen zu durchsuchen und zu filtern.
 
-## Plan erstellen
+### Planerkenntnisse
 
-Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modelers. Siehe [Erstellen eines Plans](create.md) für weitere Details.
+So zeigen Sie die Einblicke eines Plans an und bearbeiten ihn:
 
+1. Wählen Sie ![PLan](/help/assets/icons/FileChart.svg) in der linken Leiste **[!UICONTROL Plans]** aus.
 
-## Plan bearbeiten
+1. Wählen Sie den Plannamen.
 
-Um einen Plan zu bearbeiten, wählen Sie den Namen des Plans aus der Tabelle aus. Weitere [ finden Sie unter ](edit.md) bearbeiten .
+Sie werden zu &quot;[-Einblicke“ ](insights.md).
 
-
-## Auswählen und Bearbeiten von Plänen
-
-Sie können einen oder mehrere Pläne auswählen, wodurch die Aktionsleiste Pläne angezeigt wird. Mit der Aktionsleiste können Sie Pläne löschen, vergleichen oder duplizieren.
-
-Um alle Auswahlen in der Tabelle „Pläne“ zu entfernen, wählen ![ in ](/help/assets/icons/Close.svg) Aktionsleiste die Option „Schließen“ aus
-
-![Planungs-Aktionsleiste](/help/assets/plans-action-bar.png)
 
 ### Duplizieren eines Plans
 
 Duplizieren eines Plans:
 
-1. Wählen Sie einen einzelnen Plan aus der Tabelle aus.
-1. Wählen ![ in ](/help/assets/icons/Copy.svg) Aktionsleiste **[!UICONTROL Duplicate]** Kopieren“ aus. Oben in der Tabelle wird ein neuer Plan hinzugefügt, dessen Name aus dem ursprünglichen Plannamen besteht und an den **[!UICONTROL (Copy)]** angehängt ist.
+- Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus. Wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
+- Wählen Sie alternativ einen Plan in der Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) aus und wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) aus der blauen Aktionsleiste **[!UICONTROL Duplicate]**.
 
-Alternativ:
-
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan in der Tabelle aus.
-1. Wählen Sie **[!UICONTROL Duplicate]** aus dem Kontextmenü aus. Oben in der Tabelle wird ein neuer Plan hinzugefügt, dessen Name aus dem ursprünglichen Plannamen besteht und an den **[!UICONTROL (Copy)]** angehängt ist.
+Oben in der Tabelle wird ein neuer Plan hinzugefügt, dessen Name aus dem ursprünglichen Plannamen besteht und an den **[!UICONTROL (Copy)]** angehängt ist.
 
 ### Pläne vergleichen
 
 Pläne vergleichen:
 
 1. Wählen Sie zwei Pläne aus der Tabelle aus.
-1. Wählen ![ in ](/help/assets/icons/Compare.svg) Aktionsleiste **[!UICONTROL Compare]** Vergleichen“ aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
+1. Wählen ![ in ](/help/assets/icons/Compare.svg) blauen Aktionsleiste **[!UICONTROL Compare]** Vergleichen“ aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
 
 
 ### Pläne löschen
 
 Löschen eines Plans:
 
-1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** aus.
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![ blaue Aktionsleiste ](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus. Wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. <br/>Wählen Sie alternativ einen Plan in der Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) aus und wählen Sie ![Löschen](/help/assets/icons/Delete.svg) aus **[!UICONTROL Delete]** blauen Aktionsleiste.
 1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete plan]** aus, um den Plan zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
 
 So löschen Sie mehrere Pläne:
