@@ -1,18 +1,18 @@
 ---
 title: Pläne - Übersicht
-description: Erfahren Sie, wie Sie Pläne im Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
+description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
 
 # Pläne - Übersicht
 
-Mit Plänen im Mix Modeler können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
+Mit Plänen in Mix Modeler können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
 
 In einem Plan sind die diskretionären Investitionen (z. B. Budgets) aufgeführt, die ein Unternehmen im Laufe eines bestimmten Zeitraums für Marketing-bezogene Projekte im Dienste eines allgemeinen KPI (z. B. Bestellungen, Umsatz) ausgeben möchte. Die Pläne können Ausgaben aus Kanälen wie bezahlter Werbung, gesponserten Web-Inhalten und Veranstaltungen umfassen.
 
@@ -28,14 +28,16 @@ Ein Plan kann optional Folgendes enthalten:
 - mehrere Flugtermine, von denen jedes ein Zielbudget hat,
 - Mindest- und Höchstbudgetbeschränkungen nach Kanal und Flugdatum.
 
+Wenn ein Modell, das Sie für Ihren Plan verwendet haben, mit neuen Daten bewertet wird, müssen Sie einen neuen Plan erstellen, um die neu bewerteten Daten zu berücksichtigen.
+
 
 ## Pläne erstellen
 
-Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modelers. Weitere [ finden Sie ](build.md)Erstellen von Plänen“.
+Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modeler-Plans. Weitere [ finden Sie ](build.md)Erstellen von Plänen“.
 
 ## Pläne verwalten
 
-So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche des Mix Modelers an:
+So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von Mix Modeler an:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** aus.
 

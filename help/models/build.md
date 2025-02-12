@@ -3,9 +3,9 @@ title: Erstellen von Modellen
 description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen Schritt-für-Schritt-Konfigurationsablauf für Modelle.
 
-Wählen Sie in ![ Models](/help/assets/icons/FileData.svg)-Benutzeroberfläche **[!UICONTROL Models]** Mix Modeler **[!UICONTROL Open model canvas]** aus.
+Wählen Sie in ![ Models](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in Mix Modeler **[!UICONTROL Open model canvas]** aus.
 
 ## Einrichten
 
@@ -93,7 +93,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
       1. Wählen Sie einen Datensatz aus dem Dropdown-Menü **[!UICONTROL Dataset]** aus. Sie können ![Daten](/help/assets/icons/Data.svg) auswählen, um Datensätze zu verwalten. Weitere Informationen finden [ unter ](../ingest-data/datasets.md)Datensätze“.
 
-      1. Wählen Sie eine Option aus dem Dropdown-Menü **[!UICONTROL Impact on conversion]** aus: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**.
+      1. Wählen Sie eine Option aus dem Dropdown-Menü **[!UICONTROL Impact on conversion]** aus: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto select]**, mit der das Modell die Auswirkungen bestimmen kann. Sie können den Standardwert überschreiben.
 
    * Um einen zusätzlichen Datensatz-Container für externe Faktoren hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 

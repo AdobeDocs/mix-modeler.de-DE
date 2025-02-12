@@ -3,25 +3,35 @@ title: Datensätze harmonisieren - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler harmonisieren.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '966'
 ht-degree: 8%
 
 ---
 
 # Datensätze harmonisieren - Übersicht
 
-Die Daten im Mix Modeler sind je nach Datenquelle unterschiedlich. Die Daten können wie folgt sein:
+Die Daten in Mix Modeler sind je nach Datenquelle unterschiedlich. Die Daten können wie folgt sein:
 
 * aggregierte oder zusammengefasste Daten, z. B. Daten aus Datenquellen von Walled Garden oder Offline-Werbedaten (wie Ausgaben), die bei der Ausführung einer Reklametafel, eines Ereignisses oder einer physischen Werbekampagne gesammelt wurden,
-* Ereignisdaten, z. B. aus Erstanbieter-Datenquellen. Bei diesen Ereignisdaten kann es sich um Daten handeln, die über den Adobe Analytics-Quell-Connector von Adobe Analytics oder über die Experience Platform-Web- oder mobile SDK- oder Edge Network-API erfasst werden, oder um Daten, die über Quell-Connectoren aufgenommen werden.
+* Ereignisdaten, z. B. aus Erstanbieter-Datenquellen. Bei diesen Ereignisdaten kann es sich um Daten handeln, die über den Adobe Analytics-Quell-Connector von Adobe Analytics oder über die Experience Platform Web- oder Mobile-SDK- oder Edge Network-API erfasst werden, oder um Daten, die über Quell-Connectoren aufgenommen werden.
 
-Der Harmonisierungsdienst von Mix Modeler assimiliert die Aggregat- und Ereignisdaten in einer konsistenten Datenansicht. Diese Datenansicht bildet zusammen mit Daten interner und externer Faktoren die Quelle für die Modelle im Mix Modeler. Der Service verwendet die höchste Granularität über die verschiedenen Datensätze hinweg. Wenn beispielsweise ein Datensatz eine Granularität von monatlichen Datensätzen hat und die übrigen Datensätze eine wöchentliche und tägliche Granularität haben, erstellt der Harmonisierungs-Service eine Datenansicht mit monatlicher Granularität.
+Der Harmonisierungsdienst von Mix Modeler nimmt die Aggregat- und Ereignisdaten in eine konsistente Datenansicht auf. Diese Datenansicht bildet zusammen mit [internen und externen Datenfaktoren](#factors) die Quelle für die Modelle in Mix Modeler. Der Service verwendet die höchste Granularität über die verschiedenen Datensätze hinweg. Wenn beispielsweise ein Datensatz eine Granularität von monatlichen Datensätzen hat und die übrigen Datensätze eine wöchentliche und tägliche Granularität haben, erstellt der Harmonisierungs-Service eine Datenansicht mit monatlicher Granularität.
+
+## Faktoren
+
+Faktoren sind für die Modellerstellung von entscheidender Bedeutung, und Sie möchten verstehen, welche Auswirkungen das Geschäft ganzheitlich hat. Faktoren stehen möglicherweise nicht in Zusammenhang mit Marketing-Daten.
+
+* Interne Faktoren sind spezifisch für Ihr Unternehmen und können sich auf Ihre Konversionen auswirken. Beispielsweise Ihre Verkaufssaison, Werbeaktionen und mehr.
+
+* Externe Faktoren sind Faktoren, die sich der Kontrolle Ihres Unternehmens entziehen, die sich jedoch weiterhin auf die von Ihnen erzielten Konversionen auswirken können. Beispiele sind CPI, S&amp;P 500 und mehr.
+
+
 
 ## Beispiel für harmonisierte Daten
 
-Angenommen, Sie haben die folgenden Datensätze zum Mix Modeler.
+Angenommen, Sie haben die folgenden Datensätze für Mix Modeler verfügbar.
 
 **Datensatz 1**
 
@@ -39,7 +49,7 @@ Enthält den Marketing-Aufwandsdatensatz von YouTube mit einer Granularität des
 
 **Datensatz 2**
 
-Enthält den Marketing-Aufwandsdatensatz von Facebook mit einer Granularität des Aggregatdatensatzes von auf wöchentlich.
+Enthält den Marketing-Aufwand-Datensatz von Facebook mit einer Granularität des aggregierten Datensatzes von „Wöchentlich“.
 
 | Datum | Datumstyp | Kanal | Campaign | Geo | Klicks | Ausgaben |
 |--- |:---:|--- |---|---|---:|---:|
@@ -114,7 +124,7 @@ Um einen harmonisierten Datensatz zu erstellen, wie im vereinfachten [Beispiel](
 
 ## Anzeigen harmonisierter Daten
 
-So zeigen Sie Ihre harmonisierten Daten in der Benutzeroberfläche des Mix Modelers an:
+So zeigen Sie Ihre harmonisierten Daten in der Benutzeroberfläche von Mix Modeler an:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized datasets]** in der linken Leiste aus.
 
