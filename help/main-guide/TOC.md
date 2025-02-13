@@ -2,10 +2,10 @@
 user-guide-title: Handbuch zu Mix Modeler
 breadcrumb-title: Handbuch zu Mix Modeler
 user-guide-description: Erfahren Sie, wie Mix Modeler verwendet wird.
-source-git-commit: 3d14f9d8d2675392d656857a5fb3b38edb7ecddf
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 45%
+source-wordcount: '84'
+ht-degree: 47%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 45%
    + [Anwendungs-Workflow](/help/get-started/workflow.md)
 
 + {#dashboard}
-   + [Startseite - Übersicht](/help/dashboard/overview.md)
+   + [Übersicht](/help/dashboard/overview.md)
    + [Harmonisierte Daten](/help/dashboard/harmonized-data.md)
    + [Pläne](/help/dashboard/plans.md)
 

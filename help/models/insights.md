@@ -1,18 +1,18 @@
 ---
 title: Modelleinblicke
-description: Erfahren Sie, wie Sie Details zu Ihrem Modell erhalten, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität im Mix Modeler.
+description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # Modelleinblicke
 
-Um Modelleinblicke anzuzeigen, gehen Sie in der Benutzeroberfläche ![Modelle](/help/assets/icons/FileData.svg) von **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
+Um Modelleinblicke anzuzeigen, gehen Sie in der **[!UICONTROL Models]** ![Modelle](/help/assets/icons/FileData.svg) in Mix Modeler folgendermaßen vor:
 
 1. Wählen Sie in der Tabelle **[!UICONTROL Models]** den Namen eines Modells mit der **[!UICONTROL Last run status]** <span style="color:green">● aus</span> **[!UICONTROL Success]**.
 
@@ -82,19 +82,34 @@ Um einen bestimmten Kanal oder alle Kanäle auszuwählen, wählen Sie aus dem Dr
 
 Um den Inhalt der Touchpoint-Aufschlüsselungstabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+## **[!UICONTROL Factors]** [!BADGE Beta]
+
+Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
+
+![Faktoren](/help/assets/factors.png)
+
+Diese Visualisierung hilft Ihnen, den inkrementellen Effekt zu verstehen, den verschiedene interne und externe Faktoren auf die Baseline der Konversionen haben. Zum Beispiel wirtschaftliche Bedingungen oder Werbemaßnahmen.
+
+Wählen Sie im Dropdown-Menü **[!UICONTROL Factors]** aus, welche Faktoren angezeigt werden sollen.
+
+<!-- need to update the image when we do have a proper example -->
+
+Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
+
+Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->Die Registerkarte „Attribution“ ist nur für MTA-aktivierte Modelle verfügbar.
+Die Registerkarte „Attribution“ ist nur für MTA-aktivierte Modelle verfügbar.
 
 
 Auf der Registerkarte [!UICONTROL Attribution] können Sie die Effektivität von Touchpoints und Marketing-Kampagnen mit Daten auf Ereignisebene verstehen.  Siehe [Modell erstellen](build.md).
 
 Die folgenden Attributionsmodelle werden unterstützt:
 
-* Basierend auf dem im Mix Modeler ausgewählten Modell:
+* Basierend auf dem ausgewählten Modell in Mix Modeler:
    * Algorithmisch - beeinflusst
    * Algorithmisch - inkrementell
 * Regelbasiert:
@@ -104,13 +119,13 @@ Die folgenden Attributionsmodelle werden unterstützt:
    * Linear
    * U-Form
 
-Eine Einführung in [ Multi-Touch](../get-started/about.md#multi-touch-attribution)Attributionsfunktion in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
+Eine Einführung in [ Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem Dropdown-Menü **[!UICONTROL Attribution Model]** aus. Die ausgewählten Attributionsmodelle gelten für alle Visualisierungen auf der Registerkarte Attribution .
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-Die granularen Ereignis-Scores der Multi-Touch-Attribution für Mix Modeler entsprechen den allgemeinen Mix Modeler-Scores und ROIs. Diese Bewertungen werden auch als Datensätze im Experience Platform zur Verfügung gestellt.
+Die granularen Ereignis-Scores der Mix Modeler-Multi-Touch-Attribution entsprechen den Mix Modeler-Gesamtergebnissen und -ROIs. Diese Bewertungen werden auch als Datensätze in Experience Platform zur Verfügung gestellt.
 
 Die Registerkarte Attribution besteht aus den folgenden Visualisierungen:
 
@@ -132,15 +147,15 @@ Um Details anzuzeigen, bewegen Sie den Mauszeiger über die Datenzeile eines bes
 
 Die [!UICONTROL Breakdown] Visualisierung ist eine Aufschlüsselung der Konversionen für jedes der ausgewählten Attributionsmodelle nach Kanal oder Touchpoint. Diese Visualisierung kann hilfreich sein, um Entscheidungen über die Effektivität der einzelnen Kanäle oder Touchpoints zu treffen.
 
-Um den Aufschlüsselungstyp auszuwählen, wählen Sie **[!UICONTROL Breakdown by channel]** oder **[!UICONTROL Breakdown by touchpoint]** aus ![Mehr](/help/assets/icons/More.svg).
+So wählen Sie den Aufschlüsselungstyp aus: select **[!UICONTROL Breakdown by channel]** oder **[!UICONTROL Breakdown by touchpoint]** von ![Mehr](/help/assets/icons/More.svg).
 
 Um Details anzuzeigen, bewegen Sie den Mauszeiger über eines der Diagrammelemente.
 
 ### [!UICONTROL Top campaigns]
 
-Die Visualisierung der Top-Kampagnen zeigt eine Tabelle der Top-Kampagnen mit Spalten für Kampagnenname, Kanal, Medientyp und inkrementelle Konversionen. Diese Visualisierung kann dabei helfen, Ihr Team über die Effektivität einer bestimmten Kampagne für einen bestimmten Kanal zu informieren und Einblicke darüber zu erhalten, in welche Kampagnen Sie weiter investieren sollten.
+Die Visualisierung der Top-Kampagnen zeigt eine Tabelle der Top-Kampagnen mit Spalten für Kampagnenname, Kanal und Medientyp and Inkrementelle Konversionen. Diese Visualisierung kann dabei helfen, Ihr Team über die Effektivität einer bestimmten Kampagne für einen bestimmten Kanal zu informieren und Einblicke darüber zu erhalten, in welche Kampagnen Sie weiter investieren sollten.
 
-Um die Tabelle nach Kanal, Medientyp oder inkrementellen Konversionen in auf- ↑ absteigender Reihenfolge ↓ sortieren, wählen Sie die Spaltenüberschrift aus und schalten Sie die Sortierung um.
+So sortieren Sie die Tabelle in auf- ↑ absteigender Reihenfolge ↓ für Kanal, Medientyp or Inkrementelle Konvertierungen, Spaltenüberschrift auswählen und die Sortierung umschalten.
 
 Um die Tabelle in einem separaten Dialogfeld zu erweitern, wählen Sie **[!UICONTROL Expand]** aus ![Mehr](/help/assets/icons/More.svg).
 
@@ -151,7 +166,7 @@ Das erweiterte Dialogfeld Top-Kampagnen zeigt dieselbe Tabelle mit zusätzlichen
 * First-Touch-Konversionen
 * Last Touch-Konversionen
 
-  Sie können jede der zusätzlichen Spaltenüberschriften auswählen, um die Tabelle in auf- oder absteigender Reihenfolge zu sortieren.
+Sie können jede der zusätzlichen Spaltenüberschriften auswählen, um die Tabelle in auf- oder absteigender Reihenfolge zu sortieren.
 
 Um das erweiterte Dialogfeld Top-Kampagnen zu schließen, wählen Sie **[!UICONTROL Close]** aus.
 
@@ -162,7 +177,7 @@ Die [!UICONTROL Breakdown by touchpoint position] Visualisierung ist eine Aufsch
 
 >[!NOTE]
 >
->Die Summe des prozentualen Beitrags für ein Attributionsmodell über alle Touchpoints und Positionen hinweg sollte 100 betragen.
+Die Summe des prozentualen Beitrags für ein Attributionsmodell über alle Touchpoints und Positionen hinweg sollte 100 betragen.
 
 
 Die Positionen [!UICONTROL Starter], [!UICONTROL Player] und [!UICONTROL Closer] sind wie folgt definiert:
@@ -186,21 +201,6 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 * für jeden Kanal den Prozentsatz des Beitrags zum Attributionsmodell und
 * Die Summe dieser Prozentsätze des Kanalzuordnungsmodells.
 
-## **[!UICONTROL Factors]** [!BADGE Beta]
-
-Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
-
-![Faktoren](/help/assets/factors.png)
-
-Diese Visualisierung hilft Ihnen, den inkrementellen Effekt zu verstehen, den verschiedene interne und externe Faktoren auf die Baseline der Konversionen haben. Zum Beispiel wirtschaftliche Bedingungen oder Werbemaßnahmen.
-
-Wählen Sie im Dropdown-Menü **[!UICONTROL Factors]** aus, welche Faktoren angezeigt werden sollen.
-
-<!-- need to update the image when we do have a proper example -->
-
-Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
-
-Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie **[!UICONTROL Actual vs. Pre
 
 Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
 
-* [!UICONTROL Touchpoint effectiveness] Tabelle, die das Ergebnis des algorithmischen Attribution AI-Modells darstellt. Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
+* [!UICONTROL Touchpoint effectiveness] Tabelle, die das Ergebnis des algorithmischen Attributions-KI-Modells darstellt. Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
 Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
