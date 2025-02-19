@@ -3,9 +3,9 @@ title: Pläne - Übersicht
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Duplizieren eines Plans:
 - Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus. Wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 - Wählen Sie alternativ einen Plan in der Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) aus und wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) aus der blauen Aktionsleiste **[!UICONTROL Duplicate]**.
 
-Oben in der Tabelle wird ein neuer Plan hinzugefügt, dessen Name aus dem ursprünglichen Plannamen besteht und an den **[!UICONTROL (Copy)]** angehängt ist.
+Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem Namen des ursprünglichen Plans besteht und an den **[!UICONTROL (Copy)](_n_)** angehängt ist.
 
 ### Pläne vergleichen
 

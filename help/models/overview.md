@@ -3,9 +3,9 @@ title: Modelle - Übersicht
 description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Mit der Modellfunktion in Mix Modeler können Sie Modelle konfigurieren, trainieren und bewerten, die speziell auf Ihre Geschäftsziele zugeschnitten sind. Das Training und Scoring unterstützt KI-gestütztes Transferlernen zwischen Multitouch-Attribution und Marketing-Mix-Modellierung.
 
-Die Modelle basieren auf den harmonisierten Daten, die Sie im Rahmen des Mix Modeler-Programm-Workflows erstellen.
+Die Modelle basieren auf den harmonisierten Daten, die Sie im Rahmen des Workflows der Mix Modeler-Anwendung erstellen.
 
-Ein Modell in Mix Modeler ist ein maschinelles Lernmodell, das verwendet wird, um ein bestimmtes Ergebnis basierend auf den Investitionen eines Marketing-Experten zu messen und vorherzusagen. Marketing-Touchpoints und Daten auf Zusammenfassungsebene können als Eingabe verwendet werden. Mit Mix Modeler können Sie Varianten von Modellen erstellen, die auf verschiedenen Variablensätzen, Dimensionen und Ergebnissen basieren, z. B. Umsatz, verkaufte Einheiten, Leads.
+Ein Modell in Mix Modeler ist ein maschinelles Lernmodell, mit dem ein bestimmtes Ergebnis anhand der Investitionen eines Marketing-Experten gemessen und vorhergesagt werden kann. Marketing-Touchpoints und Daten auf Zusammenfassungsebene können als Eingabe verwendet werden. Mit Mix Modeler können Sie Varianten von Modellen erstellen, die auf verschiedenen Variablensätzen, Dimensionen und Ergebnissen basieren, z. B. Umsatz, verkaufte Einheiten, Leads.
 
 Ein Modell erfordert:
 
@@ -35,11 +35,11 @@ Ein Modell kann optional Folgendes enthalten:
 
 ## Erstellen von Modellen
 
-Verwenden Sie zum Erstellen eines Modells den Mix Modeler-Schritt-für-Schritt-Konfigurationsfluss des geführten Modells, der verfügbar ist, wenn Sie **[!UICONTROL Open model canvas]** auswählen. Weitere [ finden Sie unter ](build.md) von Modellen .
+Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfigurationsablauf für Mix Modeler-Modelle, der bei der Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere [ finden Sie unter ](build.md) von Modellen .
 
 ## Modelle verwalten
 
-So zeigen Sie eine Tabelle mit Ihren aktuellen Modellen in der Mix Modeler-Benutzeroberfläche an:
+So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Benutzeroberfläche von Mix Modeler an:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
@@ -54,9 +54,33 @@ So zeigen Sie eine Tabelle mit Ihren aktuellen Modellen in der Mix Modeler-Benut
    | Konversionsereignis | Die für das Modell ausgewählte Konvertierung. |
    | Ausführungshäufigkeit | Die Lauffrequenz des Trainings des Modells. |
    | Letzte Ausführung | Datum und Uhrzeit des letzten Trainings des Modells. |
-   | Status | Der Status der letzten Ausführung des Trainings des Modells. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) Problem mit Training<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) Ausstehende Schulung <br/>![StatusRed](/help/assets/icons/StatusRed.svg) Fehlgeschlagen <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ (wenn ein letzter Durchgang ausgeführt wird) |
+   | Status | Der Status des Modells. |
 
    {style="table-layout:auto"}
+
+   Der gemeldete Status des Modells hängt davon ab, wo sich ein Modell innerhalb seines Lebenszyklus befindet. Ob beispielsweise ein Modell erstellt, erfolgreich (neu) trainiert wurde oder nicht oder ob die Bewertung erfolgreich (neu) erstellt wurde oder nicht.
+
+   In der folgenden Tabelle:
+
+   * ![Häkchen](/help/assets/icons/Checkmark.svg) - zeigt eine erfolgreiche Ausführung eines Schritts im Modelllebenszyklus an.
+   * ![Uhr](/help/assets/icons/Clock.svg) - zeigt die aktuelle Ausführung eines Schritts im Modelllebenszyklus an.
+   * ![Schließen](/help/assets/icons/Close.svg) - zeigt eine fehlgeschlagene Ausführung eines Schritts im Modelllebenszyklus an.
+
+   | Status | Erstellen | trainieren | Ergebnis | umschulen | neu bewerten |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | In Bearbeitung | ![Häkchen](/help/assets/icons/Checkmark.svg) | | | | |
+   | In Bearbeitung | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Uhr](/help/assets/icons/Clock.svg) | | | |
+   | In Bearbeitung | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Uhr](/help/assets/icons/Clock.svg) | | |
+   | In Bearbeitung | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Uhr](/help/assets/icons/Clock.svg) | |
+   | In Bearbeitung | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Uhr](/help/assets/icons/Clock.svg) |
+   | Training failed | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Schließen](/help/assets/icons/Close.svg) | | | |
+   | Training failed | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Schließen](/help/assets/icons/Close.svg) | |
+   | Training successful | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | | | |
+   | Training successful | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | |
+   | Bewertung fehlgeschlagen | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Schließen](/help/assets/icons/Close.svg) | | |
+   | Bewertung fehlgeschlagen | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Schließen](/help/assets/icons/Close.svg) |
+   | Bewertung erfolgreich | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | | |
+   | Bewertung erfolgreich | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) |
 
 1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets/icons/ColumnSetting.svg) aus und schalten Sie die Spalten ein ![Aktivieren](/help/assets/icons/Checkmark.svg) oder aus.
 
@@ -92,6 +116,7 @@ Sie können ein Modell schnell duplizieren.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 
+Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)](_)_ wird**.
 
 ### Bearbeiten
 
