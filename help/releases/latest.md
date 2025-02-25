@@ -4,7 +4,7 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
+source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 | **Löschbestätigungen** | Sie werden aufgefordert, das Löschen eines [Plans](/help/plans/overview.md#delete-plans) oder eines [Modells](/help/models/overview.md#delete-models) zu bestätigen. | 15. Januar 2025 | 18. Februar 2025 |
 | **Verbesserungen an der Benutzeroberfläche** | Sie können auswählen[ welche ](/help/models/insights.md#factors-beta) in Modelleinblicke angezeigt werden sollen. | 15. Januar 2025 | 18. Februar 2025 |
 | **Fehlerbehandlung** | Benutzerfreundliche Fehlermeldungen und ein verbessertes Anwendererlebnis für Fehlerszenarien bei der Datenharmonisierung und bei Plänen. | 18. Februar 2025 | 18. Februar 2025 |
-| **Modellstatus** | Neudefinition von [Modellstatus](/help/models/overview.md#manage-models) über den Modelllebenszyklus hinweg. | 18. Februar 2025 | t.b.d. |
+| **Modellstatus** | Neudefinition von [Modellstatus](/help/models/overview.md#manage-models) über den Modelllebenszyklus hinweg. | 18. Februar 2025 | 18. Februar 2025 |
 
 
 ## Versionsstrategie
