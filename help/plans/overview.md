@@ -3,7 +3,7 @@ title: Pläne - Übersicht
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
+source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Mit Plänen in Mix Modeler können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
 
-In einem Plan sind die diskretionären Investitionen (z. B. Budgets) aufgeführt, die ein Unternehmen im Laufe eines bestimmten Zeitraums für Marketing-bezogene Projekte im Dienste eines allgemeinen KPI (z. B. Bestellungen, Umsatz) ausgeben möchte. Die Pläne können Ausgaben aus Kanälen wie bezahlter Werbung, gesponserten Web-Inhalten und Veranstaltungen umfassen.
+In einem Plan sind die diskretionären Investitionen (z. B. Budgets) aufgeführt, die ein Unternehmen im Laufe eines bestimmten Zeitraums für Marketing-bezogene Projekte im Service von allgemeinen KPI (z. B. Bestellungen, Umsatz) ausgeben möchte. Die Pläne können Ausgaben aus Kanälen wie bezahlter Werbung, gesponserten Web-Inhalten und Veranstaltungen umfassen.
 
 Ein Plan erfordert:
 
