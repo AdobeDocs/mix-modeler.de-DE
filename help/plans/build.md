@@ -3,9 +3,9 @@ title: Pläne erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler Pläne erstellen.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -13,16 +13,16 @@ ht-degree: 1%
 
 # Pläne erstellen
 
-Im Mix Modeler erstellen Sie einen Plan auf der Arbeitsfläche des Plans. Auf der Arbeitsfläche des Plans können Sie die Details und Budgets Ihres Plans sowie das zugrunde liegende Modell einrichten, das für Ihren Plan verwendet werden soll. Nachdem Sie Details, Budget und Modell angegeben haben, können Sie mit einem von KI empfohlenen Plan fortfahren oder die Ausgaben nach Kanal bearbeiten.
+In Mix Modeler erstellen Sie einen Plan mithilfe der Arbeitsfläche „Plan“. Auf der Arbeitsfläche des Plans können Sie die Details und Budgets Ihres Plans sowie das zugrunde liegende Modell einrichten, das für Ihren Plan verwendet werden soll. Nachdem Sie Details, Budget und Modell angegeben haben, können Sie mit einem von KI empfohlenen Plan fortfahren oder die Ausgaben nach Kanal bearbeiten.
 
-Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileChart.svg)-**[!UICONTROL Plans]** im Mix Modeler **[!UICONTROL Create plan]** aus.
+Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileChart.svg)-**[!UICONTROL Plans]** in Mix Modeler **[!UICONTROL Create plan]** aus.
 
-1. Im Bildschirm zur Planerstellung:
+1. Im **[!UICONTROL Plan creation]**:
 
-   1. Im Abschnitt **[!UICONTROL Setup]**
+   1. Im **[!UICONTROL Setup]** Abschnitt:
 
       1. Geben Sie einen **[!UICONTROL Plan name]** ein, z. B. `Demo plan`. Geben Sie einen **[!UICONTROL Description]** ein, z. B. `Demo plan for Luma company`.
-      1. Wählen Sie eine **[!UICONTROL Model]** aus **[!UICONTROL _Option auswählen…_.]**.
+      1. Wählen Sie eine **[!UICONTROL Model]** aus **[!UICONTROL _Option auswählen…_,]**
       1. Sie können **[!UICONTROL Create model]** ![LinkOut](/help/assets/icons/LinkOut.svg) auswählen, um ein Modell direkt aus der Planerstellung heraus zu erstellen. Dadurch wird eine neue Registerkarte in Ihrem Browser geöffnet und die Benutzeroberfläche [Modelle](../models/overview.md) angezeigt.
 
          ![Planeinrichtung](/help/assets/plan-setup.png)

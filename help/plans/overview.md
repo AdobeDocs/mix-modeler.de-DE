@@ -3,10 +3,10 @@ title: Pläne - Übersicht
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
+source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,7 @@ Wenn ein Modell, das Sie für Ihren Plan verwendet haben, mit neuen Daten bewert
 ## Pläne erstellen
 
 Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modeler-Plans. Weitere [ finden Sie ](build.md)Erstellen von Plänen“.
+
 
 ## Pläne verwalten
 
@@ -81,7 +82,15 @@ Duplizieren eines Plans:
 - Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus. Wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 - Wählen Sie alternativ einen Plan in der Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) aus und wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) aus der blauen Aktionsleiste **[!UICONTROL Duplicate]**.
 
-Oben in der Tabelle wird ein neuer Plan mit einem Namen hinzugefügt, der aus dem Namen des ursprünglichen Plans besteht und an den **[!UICONTROL (Copy)](_n_)** angehängt ist.
+Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)](_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
+
+- Details (wie Beschreibung, Budget und mehr) aus dem ursprünglichen Plan werden kopiert.
+- Budgetbeschränkungen aus dem ursprünglichen Plan werden in den neu erstellten Plan kopiert.
+- Sie haben die Möglichkeit, ein anderes Modell als Basis für den kopierten Plan auszuwählen.
+   - Für Touchpoints oder Kanäle, die im kopierten Plan vorhanden sind, aber im neu ausgewählten Modell nicht vorhanden sind, werden alle Einschränkungen für diese Touchpoints oder Kanäle aus dem Plan entfernt.
+   - Für Touchpoints oder Kanäle, die nicht im kopierten Plan, aber im neu ausgewählten Modell vorhanden sind, werden die Begrenzungen auf einen Mindestwert von `0` und einen Höchstwert entsprechend dem Budget für den Flugbereich des Plans festgelegt.
+
+
 
 ### Pläne vergleichen
 
