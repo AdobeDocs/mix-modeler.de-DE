@@ -3,9 +3,9 @@ title: Modelle - Übersicht
 description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
+source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1174'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Ein Modell kann optional Folgendes enthalten:
 * Vorkenntnisse von Marketing-Beiträgen aus anderen Quellen wie Erfahrungen mit früheren Stakeholdern, inkrementelle Tests und andere Modelle.
 * Ausgabenanteil, der den relativen Ausgabenanteil als Proxy verwendet, wenn die Marketing-Daten spärlich sind.
 
-Wenn ein Modell zum ersten Mal erstellt wird, startet die Erstellung sofort den Trainings- und Bewertungsprozess. Nach Abschluss des anfänglichen Trainings- und Bewertungsdurchgangs stehen Modelleinblicke zur Überprüfung zur Verfügung. Ein Modell kann anschließend neu trainiert werden. Außerdem können Daten zum Modell hinzugefügt werden, sodass Sie das Modell manuell neu bewerten müssen. Umschulung und Neubewertung sind ein iterativer Prozess, da neue Erkenntnisse und Informationen auftauchen und Anpassungen erforderlich sind, um eine Modellanpassung zu erhalten, die für Ihre Geschäftsziele am besten geeignet ist.
+Wenn ein Modell zum ersten Mal erstellt wird, startet die Erstellung sofort den Trainings- und Bewertungsprozess. Nach Abschluss des anfänglichen Trainings- und Scoring-Durchgangs stehen Modelleinblicke zur Überprüfung zur Verfügung. Ein Modell kann anschließend neu trainiert werden. Außerdem können Daten zum Modell hinzugefügt werden, sodass Sie das Modell manuell neu bewerten müssen. Umschulung und Neubewertung sind ein iterativer Prozess, da neue Erkenntnisse und Informationen auftauchen und Anpassungen erforderlich sind, um eine Modellanpassung zu erhalten, die für Ihre Geschäftsziele am besten geeignet ist.
 
 
 ## Erstellen von Modellen
@@ -84,6 +84,8 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Benutzeroberfläche vo
    | Bewertung erfolgreich | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | | |
    | Bewertung erfolgreich | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Häkchen](/help/assets/icons/Checkmark.svg) |
 
+   {style="table-layout:fixed"}
+
 1. Um die für die Liste angezeigten Spalten zu ändern, wählen Sie ![Spalteneinstellungen](/help/assets/icons/ColumnSetting.svg) aus und schalten Sie die Spalten ein ![Aktivieren](/help/assets/icons/Checkmark.svg) oder aus.
 
 Sie können die folgenden Aktionen für ein bestimmtes Modell ausführen.
@@ -110,7 +112,7 @@ So zeigen Sie weitere Details zu einem Modell an:
 1. Wählen Sie ![Info](/help/assets/icons/Info.svg) für ein Modell aus, um ein Popup mit Details anzuzeigen.
 
 
-### Duplikat
+### Duplizieren
 
 Sie können ein Modell schnell duplizieren.
 

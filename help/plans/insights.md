@@ -3,9 +3,9 @@ title: Planerkenntnisse
 description: Erfahren Sie, wie Sie Einblicke in Ihren Plan erhalten und einen Plan in Mix Modeler bearbeiten können.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Nach dem Abrufen erhalten Sie einen Überblick über Ihren Plan, der aus folgend
 
 - Visualisierung [!UICONTROL Forecasted paid channel ROI]
 - Visualisierung [!UICONTROL Forecasted revenue]
+- Visualisierung [!UICONTROL Forecasted conversion]
+- Visualisierung [!UICONTROL Marginal channel return]
 - [!UICONTROL Data range breakdown] Tabelle des Plans mit Spalten für
 
    - Kanal
@@ -28,11 +30,45 @@ Nach dem Abrufen erhalten Sie einen Überblick über Ihren Plan, der aus folgend
    - Konversionsziel
    - Ausgaben
 
-![Überblick über einen Plan](/help/assets/overview-plan.png)
+Um die Benutzeroberfläche zu schließen, klicken Sie auf **[!UICONTROL Close]**.
 
-1. Wählen Sie **[!UICONTROL Close]** aus, um zur Benutzeroberfläche „Pläne“ zurückzukehren.
+Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** unter **[!UICONTROL View ROI]** aus.
 
-1. Wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** aus, wie **[!UICONTROL View ROI]** werden soll.
+## Prognostizierte Ausgaben und ROI für bezahlte Kanäle
+
+Diese Visualisierung zeigt ein Streudiagramm für die prognostizierten Ausgaben und die Investitionsrendite auf Ihren Paid-Kanälen, basierend auf dem Modell, dem Datumsbereich und dem Budget.
+
+![Prognostizierte Ausgaben für bezahlte Kanäle und ROI-Visualisierung](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
+
+
+## Prognostizierter Umsatz
+
+Diese Balkendiagramm-Visualisierung zeigt den prognostizierten Umsatz für Ihre Kanäle basierend auf dem Modell, dem Datumsbereich und dem Budget.
+
+![Visualisierung des prognostizierten Umsatzes](../assets/overview-plan-forecasted-revenue.png)
+
+
+## Prognostizierte Konversionen
+
+Diese Balkendiagramm-Visualisierung zeigt die prognostizierten Konversionen für Ihre Kanäle basierend auf dem Modell, dem Datumsbereich und dem Budget.
+
+![Visualisierung für prognostizierte Konversionen](../assets/overview-plan-forecasted-conversions.png)
+
+
+## Grenzkanalrendite
+
+Diese Liniendiagramm-Visualisierung zeigt eine marginale Rückkehrkurve für den ausgewählten Kanal mit Indikatoren für die **[!UICONTROL Marginal break-even]** und **[!UICONTROL Return point]**. Diese Visualisierung hilft Ihnen zu verstehen, wie die Ausgaben für einen Kanal vom Erreichen eines marginalen Break-even-Punkts abweichen und ob Sie Spielraum haben, die Ausgaben in einem Kanal zu erhöhen, oder weniger für einen Kanal ausgeben sollten, um die Effizienz der Kanalausgaben zu verbessern.
+
+![Visualisierung der marginalen Kanalrendite](../assets/overview-plan-marginal-channel-return.png)
+
+Um einen bestimmten Kanal für die Visualisierung auszuwählen, wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL View]** aus.
+
+
+## Aufschlüsselung des Datumsbereichs
+
+Die [!UICONTROL Date range breakdown] Tabelle zeigt detaillierte granulare Daten pro Kanal für [!UICONTROL ROI], [!UICONTROL Revenue], [!UICONTROL CPA], [!UICONTROL Conversions] und [!UICONTROL Spend].
+
+![Aufschlüsselungstabelle für Datumsbereich](../assets/overview-plan-date-range-breakdown.png)
 
 1. Um eine CSV-Datei mit den Daten der Aufschlüsselung des Datumsbereichs herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**. Über das Kontextmenü:
 
@@ -42,6 +78,9 @@ Nach dem Abrufen erhalten Sie einen Überblick über Ihren Plan, der aus folgend
    Detaillierte Daten sind granulare Daten, die nach Woche eingegeben werden. Zusammenfassungsdaten sind Daten, die anhand des vom Modell bereitgestellten Datumsbereichs eingegeben werden.
 
 1. Um die Aufschlüsselung des Datumsbereichs nach Kategorie der Kanäle anzuzeigen, wählen Sie **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** oder **[!UICONTROL Non-paid channels]** aus der **[!UICONTROL View]** Auswahl aus.
+
+
+## Plan bearbeiten
 
 1. Um Ihren Plan zu bearbeiten, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
 
