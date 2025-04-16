@@ -3,9 +3,9 @@ title: Pläne - Übersicht
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
+source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Mit Plänen in Mix Modeler können Sie Budgets nach Geschäftseinheit und Kanal zuweisen. Die Planungsfunktionalität ist auf Basis der harmonisierten Daten in die Ergebnisse der trainierten Modelle integriert.
 
-In einem Plan sind die diskretionären Investitionen (z. B. Budgets) aufgeführt, die ein Unternehmen im Laufe eines bestimmten Zeitraums für Marketing-bezogene Projekte im Service von allgemeinen KPI (z. B. Bestellungen, Umsatz) ausgeben möchte. Die Pläne können Ausgaben aus Kanälen wie bezahlter Werbung, gesponserten Web-Inhalten und Veranstaltungen umfassen.
+Ein Plan beschreibt die diskretionären Investitionen (z. B. Budgets), die ein Unternehmen im Laufe eines bestimmten Zeitraums für Marketing-bezogene Projekte ausgeben möchte. Diese Investitionen dienen allgemeinen KPIs (z. B. Bestellungen, Umsatz). Die Pläne können Ausgaben aus Kanälen wie bezahlter Werbung, gesponserten Web-Inhalten und Veranstaltungen umfassen.
 
 Ein Plan erfordert:
 
@@ -52,10 +52,10 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von
    | Modell | Das als Grundlage für den Plan verwendete Modell. |
    | Datumsbereich | Der vollständige Datumsbereich für einen Plan. |
    | Budget | Das Gesamtbudget für einen Plan. |
-   | Prognostizierte Rendite | Die prognostizierte Rendite für einen Plan |
-   | Prognostizierter ROI | Der prognostizierte ROI für einen Plan. |
-   | Prognostizierte Konversion | Die prognostizierte Konversion für einen Plan |
-   | Prognostizierter CPA | Die prognostizierte CPA für einen Plan |
+   | Prognostizierte Rendite | Die [prognostizierte ](/help/main-guide/glossary.md)) für einen Plan |
+   | Prognostizierter ROI | Der [prognostizierte ROI](/help/main-guide/glossary.md) für einen Plan. |
+   | Prognostizierte Konversion | Die [prognostizierte Konversion](/help/main-guide/glossary.md) für einen Plan |
+   | Prognostizierter CPA | Die [prognostizierte CPA](/help/main-guide/glossary.md) für einen Plan |
    | Status | Der Status eines Plans: <p><span style="color:red">●</span> fehlgeschlagen, <p><span style="color:blue">●</span> Verarbeitung läuft oder <p><span style="color:green">●</span> abgeschlossen. |
 
    {style="table-layout:auto"}
@@ -88,7 +88,9 @@ Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursp
 - Budgetbeschränkungen aus dem ursprünglichen Plan werden in den neu erstellten Plan kopiert.
 - Sie haben die Möglichkeit, ein anderes Modell als Basis für den kopierten Plan auszuwählen.
    - Für Touchpoints oder Kanäle, die im kopierten Plan vorhanden sind, aber im neu ausgewählten Modell nicht vorhanden sind, werden alle Einschränkungen für diese Touchpoints oder Kanäle aus dem Plan entfernt.
-   - Für Touchpoints oder Kanäle, die nicht im kopierten Plan, aber im neu ausgewählten Modell vorhanden sind, werden die Begrenzungen auf einen Mindestwert von `0` und einen Höchstwert entsprechend dem Budget für den Flugbereich des Plans festgelegt.
+   - Für Touchpoints oder Kanäle, die nicht im kopierten Plan, aber im neu ausgewählten Modell vorhanden sind, werden die Begrenzungen auf Folgendes festgelegt:
+      - einen Mindestwert von `0`,
+      - einen Höchstwert in Übereinstimmung mit dem Budget für den Flugbereich.
 
 
 
