@@ -3,14 +3,22 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
 
 # Modelleinblicke
+
+Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
+
+* Visualisieren und Quantifizieren der Wirkung der Marketing-Aktivitäten Ihres Unternehmens.
+* Ermitteln Sie, welche Kanäle die höchste Leistung erbringen.
+* Identifizieren Sie, welche Kanäle möglicherweise optimiert werden müssen.
+
+Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressourcen zu unterstützen.
 
 Um Modelleinblicke anzuzeigen, gehen Sie in der **[!UICONTROL Models]** ![Modelle](/help/assets/icons/FileData.svg) in Mix Modeler folgendermaßen vor:
 
@@ -22,7 +30,7 @@ Um Modelleinblicke anzuzeigen, gehen Sie in der **[!UICONTROL Models]** ![Modell
 
 Sie sehen, wann das angegebene Modell zuletzt aktualisiert wurde, und Visualisierungen werden über vier Registerkarten angezeigt: [Modelleinblicke](#model-insights), [Attribution](#attribution), [Faktoren](#factors), [Diagnose](#diagnostics) und [Historischer Überblick](#historical-overview).
 
-Sie können den Zeitraum ändern, auf dem die Visualisierungen auf den einzelnen Registerkarten basieren. Geben Sie einen Datumsbereich ein oder wählen Sie ![Kalender](/help/assets/icons/Calendar.svg), um einen Datumsbereich auszuwählen.
+Sie können den Datumszeitraum ändern, auf dem die Visualisierungen auf den einzelnen Registerkarten basieren. Geben Sie einen Datumszeitraum ein oder wählen Sie ![Kalender](/help/assets/icons/Calendar.svg) aus, um einen Datumszeitraum auszuwählen.
 
 ## [!UICONTROL Model insights]
 
@@ -39,19 +47,25 @@ Die Registerkarte Modelleinblicke zeigt Visualisierungen für [Beitrag nach Datu
 
 ### Beitrag nach Datum und Basismedien.
 
-Das gestapelte Diagramm ist sortiert: unten als Basis, in der Mitte als Nicht-Ausgabekanäle und oben als Ausgabenkanäle.
+Diese gestapelte Diagrammvisualisierung ist wie folgt angeordnet:
+
+* Sockel unten.
+* Nicht ausgegebene Kanäle in der Mitte.
+* Kanäle oben ausgeben.
+
+Diese Visualisierung stellt den Beitragsanteil dar, der von der Basis, von Ausgabenkanälen und von nicht ausgegebenen Kanälen über einen Datumsbereich erreicht wird. Diese Visualisierung ist hilfreich, um die Inkrementalität zu präsentieren. Die Basis stellt dar, was ohne Marketing überhaupt passiert wäre, und die Nicht-Ausgabenkanäle plus Ausgabenkanäle (zusätzlich zur Basis) weisen auf die Wirkung Ihres Marketing hin. Kurz gesagt, die Nicht-Ausgaben plus Ausgaben entsprechen der inkrementellen Wirkung Ihrer Marketing-Maßnahmen, und die Visualisierung bietet eine einfache insight in den Wert, den das Marketing generiert.
 
 ### Beitrag nach Kanal
 
-Die Ringdiagramm-Visualisierung zeigt eine Verteilung des Beitrags nach Kanal.
+Eine Ringvisualisierung, die eine Verteilung des Beitrags nach verschiedenen Kanälen anzeigt. Diese Visualisierung zeigt die Inkrementalität durch die Linse der drei leistungsstärksten Kanäle (ohne Basis- und *Alle anderen* Kategorien). Die Visualisierung hilft bei der Priorisierung und Budgetzuweisung.
 
 ### Marketing-Leistungszusammenfassung.
 
-Ein horizontales Balkendiagramm, das die ROI-Leistung nach Kanal anzeigt.
+Eine horizontale Balkendiagrammvisualisierung, die den ROI oder die CPA-Leistung für jeden Kanal anzeigt. Diese Visualisierung zeigt die ROI bzw. CPA Ihrer Marketing Investitionen. Die Kanäle werden in absteigender Reihenfolge auf der Basis von ROI/CPA sortiert. Anhand der Visualisierung können Sie erkennen, welche Kanäle am effektivsten sind und welche möglicherweise optimiert werden müssen.
 
-### Kurven der marginalen Reaktion.
+### Marginale Antwortkurven.
 
-Das Liniendiagramm visualisiert und vergleicht die Grenzerträge, die durch die Investition in Ihre Marketing-Kanäle generiert werden.  Und identifiziert den Break-even-Punkt, an dem Ihre inkrementelle Rendite geringer ist als Ihre inkrementellen Ausgaben. Auf diese Weise erfahren Sie, wann Ihre Marketing-Investition an Effektivität verliert.
+Das Liniendiagramm visualisiert und vergleicht die marginalen Renditen, die durch die Investition in Ihre Marketing Kanäle generiert werden.  Und identifiziert die Break-even-Punkt, bei denen Ihre inkrementelle Rendite geringer ist als Ihre inkrementellen Ausgaben. Auf diese Weise hilft Ihnen diese Visualisierung zu verstehen, wann Ihre Marketing Investition an Wirkung verliert.
 
 Die Kurve, der Breakeven-Punkt und die entsprechenden Werte werden basierend auf dem ausgewählten Datenbereich und dem ausgewählten Kanal berechnet.
 
@@ -62,7 +76,7 @@ So ändern Sie den Kanal:
 
 ### Touchpoint-Aufschlüsselung
 
-Die Tabelle Touchpoint-Aufschlüsselung zeigt die Touchpoint-Aufschlüsselungen für alle oder ausgewählte Kanäle auf wöchentlicher Basis an.
+Die Tabelle Touchpoint-Aufschlüsselung zeigt die wöchentlichen Touchpoint-Aufschlüsselungen für alle oder ausgewählte Kanäle auf wöchentlicher Basis und zeigt die mit jedem verbundenen Schlüsselmetriken an. Die Tabelle ermöglicht einen einfachen Vergleich, die Identifizierung von Trends und die Verfolgung der Leistung auf einer detaillierteren Kanalebene. Diese Tabelle ergänzt explizit die Visualisierung [Beitrag nach Datum und Basismedien](#contribution-by-date-and-base-media) und die Visualisierung [Beitrag nach Kanal](#contribution-by-channel).
 
 ![Touchpoint-Aufschlüsselung](../assets/touchpoint-breakdown.png)
 
@@ -73,9 +87,9 @@ Die folgenden Spalten sind verfügbar:
 | **[!UICONTROL Date range]** | Die Woche, über die berichtet wird. |
 | **[!UICONTROL Touchpoint]** | Der spezifische Touchpoint-Kanal. |
 | **[!UICONTROL ROI]** | Der Prozentsatz von (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
-| **[!UICONTROL Revenue]** | Der Umsatz für den Datumsbereich. |
+| **[!UICONTROL Revenue]** | Die Umsatz für die Datumsbereich. |
 | **[!UICONTROL CPA]** | **[!UICONTROL Spend]**/**[!UICONTROL Conversions]**. |
-| **[!UICONTROL Conversions]** | Die Konversionen für den Datumsbereich. |
+| **[!UICONTROL Conversions]** | Die Konversionen für die Datumsbereich. |
 | **[!UICONTROL Spend]** | Die Ausgaben für den Datenbereich. |
 
 Um einen bestimmten Kanal oder alle Kanäle auszuwählen, wählen Sie aus dem Dropdown-Menü **[!UICONTROL View]** .
@@ -102,10 +116,10 @@ Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets
 
 >[!NOTE]
 >
-Die Registerkarte „Attribution“ ist nur für MTA-aktivierte Modelle verfügbar.
+>Die Registerkarte „Attribution“ ist nur für MTA-aktivierte Modelle verfügbar.
 
 
-Auf der Registerkarte [!UICONTROL Attribution] können Sie die Effektivität von Touchpoints und Marketing-Kampagnen mit Daten auf Ereignisebene verstehen.  Siehe [Modell erstellen](build.md).
+Mithilfe der [!UICONTROL Attribution] Tab können Sie die Effektivität von Touchpoints und Marketing Kampagnen mit Daten auf Ereignis Ebene nachvollziehen.  Siehe [Modell erstellen](build.md).
 
 Die folgenden Attributionsmodelle werden unterstützt:
 
@@ -147,26 +161,26 @@ Um Details anzuzeigen, bewegen Sie den Mauszeiger über die Datenzeile eines bes
 
 Die [!UICONTROL Breakdown] Visualisierung ist eine Aufschlüsselung der Konversionen für jedes der ausgewählten Attributionsmodelle nach Kanal oder Touchpoint. Diese Visualisierung kann hilfreich sein, um Entscheidungen über die Effektivität der einzelnen Kanäle oder Touchpoints zu treffen.
 
-So wählen Sie den Aufschlüsselungstyp aus: select **[!UICONTROL Breakdown by channel]** oder **[!UICONTROL Breakdown by touchpoint]** von ![Mehr](/help/assets/icons/More.svg).
+Um den Aufschlüsselungstyp auszuwählen, wählen Sie **[!UICONTROL Breakdown by channel]** oder **[!UICONTROL Breakdown by touchpoint]** aus ![Mehr](/help/assets/icons/More.svg).
 
 Um Details anzuzeigen, bewegen Sie den Mauszeiger über eines der Diagrammelemente.
 
 ### [!UICONTROL Top campaigns]
 
-Die Visualisierung der Top-Kampagnen zeigt eine Tabelle der Top-Kampagnen mit Spalten für Kampagnenname, Kanal und Medientyp and Inkrementelle Konversionen. Diese Visualisierung kann dabei helfen, Ihr Team über die Effektivität einer bestimmten Kampagne für einen bestimmten Kanal zu informieren und Einblicke darüber zu erhalten, in welche Kampagnen Sie weiter investieren sollten.
+Die Visualisierung der Top-Kampagnen zeigt eine Tabelle der Top-Kampagnen mit Spalten für Kampagnenname, Kanal, Medientyp und inkrementelle Konversionen. Diese Visualisierung kann dabei helfen, Ihr Team über die Effektivität einer bestimmten Kampagne für einen bestimmten Kanal zu informieren und Einblicke darüber zu erhalten, in welche Kampagnen Sie weiter investieren sollten.
 
-So sortieren Sie die Tabelle in auf- ↑ absteigender Reihenfolge ↓ für Kanal, Medientyp or Inkrementelle Konvertierungen, Spaltenüberschrift auswählen und die Sortierung umschalten.
+Um die Tabelle in aufsteigender Reihenfolge ↑ oder absteigend bestellen ↓ für Kanal, Medientyp oder inkrementelle Konvertierungen zu sortieren, wählen Sie die Spaltenüberschrift aus und schalten Sie die Sortierung um.
 
-Um die Tabelle in einem separaten Dialogfeld zu erweitern, wählen Sie **[!UICONTROL Expand]** aus ![Mehr](/help/assets/icons/More.svg).
+Um die Tabelle in einem separaten Dialogfeld zu erweitern, wählen Sie aus **[!UICONTROL Expand]** ![Mehr](/help/assets/icons/More.svg).
 
-Das erweiterte Dialogfeld Top-Kampagnen zeigt dieselbe Tabelle mit zusätzlichen Spalten für
+Das erweiterte Dialogfeld &quot;Top-Kampagnen&quot; zeigt die gleiche Tabelle mit zusätzlichen Spalten für
 
-* Inkrementelle Konversionen
+* Inkrementelle Konvertierungen
 * Beeinflusste Konversionen
 * First-Touch-Konversionen
 * Last Touch-Konversionen
 
-Sie können jede der zusätzlichen Spaltenüberschriften auswählen, um die Tabelle in auf- oder absteigender Reihenfolge zu sortieren.
+  Sie können jede der zusätzlichen Spaltenüberschriften auswählen, um die Tabelle in auf- oder absteigender Reihenfolge zu sortieren.
 
 Um das erweiterte Dialogfeld Top-Kampagnen zu schließen, wählen Sie **[!UICONTROL Close]** aus.
 
@@ -177,7 +191,7 @@ Die [!UICONTROL Breakdown by touchpoint position] Visualisierung ist eine Aufsch
 
 >[!NOTE]
 >
-Die Summe des prozentualen Beitrags für ein Attributionsmodell über alle Touchpoints und Positionen hinweg sollte 100 betragen.
+>Die Summe des prozentualen Beitrags für ein Attributionsmodell über alle Touchpoints und Positionen hinweg sollte 100 betragen.
 
 
 Die Positionen [!UICONTROL Starter], [!UICONTROL Player] und [!UICONTROL Closer] sind wie folgt definiert:
@@ -186,17 +200,17 @@ Die Positionen [!UICONTROL Starter], [!UICONTROL Player] und [!UICONTROL Closer]
 |---|---|
 | [!UICONTROL Starter] | Diese Position gibt an, ob der Touchpoint der erste Touchpoint in einem Konversionspfad ist. |
 | [!UICONTROL Player] | Diese Position gibt an, ob der Touchpoint nicht der erste oder der letzte Touch ist, der zur Konversion führt. |
-| [!UICONTROL Closer] | Diese Position gibt an, ob der Touchpoint der letzte Berührungspunkt vor der Konversion ist. |
+| [!UICONTROL Closer] | Diese Position gibt an, ob der Touchpoint die letzte Berührung vor Konversion ist. |
 
 
 ### [!UICONTROL Top conversion paths]
 
-Die [!UICONTROL Top conversion paths] Visualisierung zeigt die fünf wichtigsten Konversionspfade basierend auf den ausgewählten Attributionsmodellen.
+Die [!UICONTROL Top conversion paths] Visualisierung zeigt die Top 5 Konversion Pfaden, basierend auf den ausgewählten Attribution Modellen.
 
-Für jeden Konvertierungspfad wird Folgendes angezeigt:
+Für jede Konversion Pfad wird Folgendes angezeigt:
 
-* die Anzahl der Kanäle, die eine Auswirkung haben,
-* die insgesamt zugewiesenen Pfade,
+* die Anzahl der Kanäle, die einen Einfluss haben,
+* die Gesamtzahl der zugewiesenen Pfade,
 * Der Prozentsatz der zugewiesenen Pfade für diesen Konversionspfad im Vergleich zur Gesamtzahl der zugewiesenen Pfade,
 * für jeden Kanal den Prozentsatz des Beitrags zum Attributionsmodell und
 * Die Summe dieser Prozentsätze des Kanalzuordnungsmodells.
@@ -208,7 +222,7 @@ Die Registerkarte Diagnose zeigt Visualisierungen für:
 
 * [!UICONTROL Model Assessment] Visualisierung, die Sie nach tatsächlichen Konversionen im Vergleich zu prognostizierten Konversionen oder Restkonversionen aufschlüsseln können.
 
-Um die Visualisierung aufzuschlüsseln, wählen Sie **[!UICONTROL Actual vs. Predicted]** oder **[!UICONTROL Residuals]** aus der **[!UICONTROL Breakdown]** aus.
+  Um die Visualisierung aufzuschlüsseln, wählen Sie **[!UICONTROL Actual vs. Predicted]** oder **[!UICONTROL Residuals]** aus der **[!UICONTROL Breakdown]** aus.
 
 * [!UICONTROL Model fitting metrics] Tabelle mit den folgenden Spalten für jede Konversionsmetrik:
 
@@ -220,20 +234,20 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie **[!UICONTROL Actual vs. Pre
 
    * Werte der Modellqualitätsbewertung:
 
-      * R2 (R-Quadrat), das angibt, wie gut die Daten zum Regressionsmodell passen (die Anpassungsgüte).
+      * R2 (R-Quadrat), das angibt, wie gut die Daten mit dem Regressionsmodell übereinstimmen (die Güte der Anpassung).
 
-      * MAPE (Mean Absolute Percentage Error, mittlerer absoluter Prozentfehler) ist einer der am häufigsten verwendeten KPIs zur Messung der Prognosegenauigkeit, der den Prognosefehler als Prozentsatz des tatsächlichen Werts ausdrückt.
+      * MAPE (Mean Absolute Percentage Fehler), einer der am häufigsten verwendeten KPIs zur messen Prognose Genauigkeit und drückt den Prognose Fehler als Prozentsatz des tatsächlichen Werts aus.
 
       * RMSE (Root Mean Square Error, quadratischer Mittelwert der Fehlerquote): Gibt den durchschnittlichen Fehler an, gewichtet nach dem Quadrat des Fehlers.
 
-Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
+  Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
 
 * [!UICONTROL Touchpoint effectiveness] Tabelle, die das Ergebnis des algorithmischen Attributions-KI-Modells darstellt. Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
+  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * [!UICONTROL Paths touched]: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
-   * [!UICONTROL Efficiency measure]: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
+   * [!UICONTROL Efficiency measure]: Die vom algorithmischen Attribution-Modell generierte Effizienz-messen gibt die relative Bedeutung eines Touchpoints für Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
    * [!UICONTROL Total volume]: Die Gesamtzahl der Berührungen eines Touchpoints durch eine Benutzerin oder einen Benutzer. Die Anzahl umfasst Touchpoints, die auf einem Pfad angezeigt werden, der eine Konversion erreicht, sowie Pfade, die *Konversion*.
 
 ![Diagnose](/help/assets/model-insights-diagnostics.png)
@@ -243,19 +257,36 @@ Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Effic
 
 Die Registerkarte Historische Übersicht zeigt Visualisierungen für:
 
-* Konversion und Ausgaben nach Geschäftsquartal und Produkt.
-
-* Ausgaben nach Kanal.
-
-* Touchpoint-Ausgaben.
-
-Sie können einen alternativen ausgabebasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
-
-* Anzahl der Touchpoints.
-
-Sie können einen alternativen volumenbasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll. Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
-
 ![Modell - Historischer Überblick](/help/assets/model-insights-historical-overview.png)
+
+
+### Konversion und Ausgaben nach Geschäftsquartal und Produkt
+
+Diese Visualisierung stellt die Konversions- und Ausgabenverteilung über verschiedene Quartale innerhalb des angegebenen Datumsbereichs dar. Die Visualisierung hilft bei der Identifizierung von Quartalen mit hoher Performance, in denen die Ausgaben die Konversionen fördern.
+
+
+### Ausgaben nach Kanal
+
+Diese Visualisierung stellt die Verteilung der Ausgaben über verschiedene Kanäle innerhalb des angegebenen Datumsbereichs dar. Die Visualisierung ermöglicht eine schnelle Identifizierung der Kanäle, die die meisten Ausgaben erhalten.
+
+
+### Touchpoint-Ausgaben
+
+Diese Visualisierung stellt die Verteilung der Ausgaben auf die bezahlten Touchpoints für jedes Quartal innerhalb des angegebenen Datumsbereichs dar. Die Visualisierung ermöglicht das Verständnis, welche Touchpoints innerhalb bestimmter Kanäle und Quartale priorisiert werden. Die Visualisierung hilft, Ausgabenmuster und -trends des Kanals zu identifizieren, insbesondere Kanäle mit niedrigen und unregelmäßigen Ausgaben im Laufe der Zeit.
+
+So können Sie einen alternativen ausgabebasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll:
+
+* Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
+
+
+### Anzahl der Touchpoints
+
+Diese Visualisierung stellt die Volumenverteilung auf alle Touchpoints für jedes Quartal innerhalb des angegebenen Datumsbereichs dar.
+
+So können Sie einen alternativen volumenbasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll:
+
+* Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
+
 
 ## **[!UICONTROL Edit]**
 
