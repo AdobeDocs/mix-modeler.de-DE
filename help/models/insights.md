@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
+source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 0%
 Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
 
 * Visualisieren und Quantifizieren der Wirkung der Marketing-Aktivitäten Ihres Unternehmens.
-* Ermitteln Sie, welche Kanäle die höchste Leistung erbringen.
-* Identifizieren Sie, welche Kanäle möglicherweise optimiert werden müssen.
+* Ermitteln Sie, welche Kanäle leistungsstark sind.
+* Ermitteln Sie, welche Kanäle möglicherweise optimiert werden müssen.
 
 Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressourcen zu unterstützen.
 
@@ -30,7 +30,15 @@ Um Modelleinblicke anzuzeigen, gehen Sie in der **[!UICONTROL Models]** ![Modell
 
 Sie sehen, wann das angegebene Modell zuletzt aktualisiert wurde, und Visualisierungen werden über vier Registerkarten angezeigt: [Modelleinblicke](#model-insights), [Attribution](#attribution), [Faktoren](#factors), [Diagnose](#diagnostics) und [Historischer Überblick](#historical-overview).
 
-Sie können den Datumszeitraum ändern, auf dem die Visualisierungen auf den einzelnen Registerkarten basieren. Geben Sie einen Datumszeitraum ein oder wählen Sie ![Kalender](/help/assets/icons/Calendar.svg) aus, um einen Datumszeitraum auszuwählen.
+Sie können den Zeitraum ändern, auf dem die Visualisierungen auf den einzelnen Registerkarten basieren. Geben Sie einen Datumsbereich ein oder wählen Sie ![Kalender](/help/assets/icons/Calendar.svg), um einen Datumsbereich auszuwählen.
+
+## Modellabweichung
+
+{{release-limited-testing-section}}
+
+Wenn Modellabweichungen auf dem Modell erkannt werden, wird ein **[!UICONTROL Model drift detected]** Dialogfeld mit Optionen angezeigt, die Sie später daran erinnern oder das Modell sofort [**[!UICONTROL Retrain]**](overview.md#retrain) können. Wenn Sie **[!UICONTROL Remind me later]** auswählen, werden Sie am nächsten Tag oder bei der nächsten Anmeldung daran erinnert.
+
+![Dialogfeld „Modelldrift erkannt“](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -61,11 +69,11 @@ Eine Ringvisualisierung, die eine Verteilung des Beitrags nach verschiedenen Kan
 
 ### Marketing-Leistungszusammenfassung.
 
-Eine horizontale Balkendiagrammvisualisierung, die den ROI oder die CPA-Leistung für jeden Kanal anzeigt. Diese Visualisierung zeigt die ROI bzw. CPA Ihrer Marketing Investitionen. Die Kanäle werden in absteigender Reihenfolge auf der Basis von ROI/CPA sortiert. Anhand der Visualisierung können Sie erkennen, welche Kanäle am effektivsten sind und welche möglicherweise optimiert werden müssen.
+Eine horizontale Balkendiagrammvisualisierung, die den ROI oder die CPA-Leistung für jeden Kanal anzeigt. Diese Visualisierung zeigt den ROI/CPA Ihrer Marketing-Investitionen. Die Kanäle werden in absteigender Reihenfolge auf der Basis von ROI/CPA sortiert. Anhand der Visualisierung können Sie erkennen, welche Kanäle am effektivsten sind und möglicherweise optimiert werden müssen.
 
-### Marginale Antwortkurven.
+### Kurven der marginalen Reaktion.
 
-Das Liniendiagramm visualisiert und vergleicht die marginalen Renditen, die durch die Investition in Ihre Marketing Kanäle generiert werden.  Und identifiziert die Break-even-Punkt, bei denen Ihre inkrementelle Rendite geringer ist als Ihre inkrementellen Ausgaben. Auf diese Weise hilft Ihnen diese Visualisierung zu verstehen, wann Ihre Marketing Investition an Wirkung verliert.
+Das Liniendiagramm visualisiert und vergleicht die Grenzerträge, die durch die Investition in Ihre Marketing-Kanäle generiert werden.  Und identifiziert den Break-even-Punkt, an dem Ihre inkrementelle Rendite geringer ist als Ihre inkrementellen Ausgaben. Auf diese Weise erfahren Sie, wann Ihre Marketing-Investition an Effektivität verliert.
 
 Die Kurve, der Breakeven-Punkt und die entsprechenden Werte werden basierend auf dem ausgewählten Datenbereich und dem ausgewählten Kanal berechnet.
 
@@ -87,9 +95,9 @@ Die folgenden Spalten sind verfügbar:
 | **[!UICONTROL Date range]** | Die Woche, über die berichtet wird. |
 | **[!UICONTROL Touchpoint]** | Der spezifische Touchpoint-Kanal. |
 | **[!UICONTROL ROI]** | Der Prozentsatz von (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
-| **[!UICONTROL Revenue]** | Die Umsatz für die Datumsbereich. |
+| **[!UICONTROL Revenue]** | Der Umsatz für den Datumsbereich. |
 | **[!UICONTROL CPA]** | **[!UICONTROL Spend]**/**[!UICONTROL Conversions]**. |
-| **[!UICONTROL Conversions]** | Die Konversionen für die Datumsbereich. |
+| **[!UICONTROL Conversions]** | Die Konversionen für den Datumsbereich. |
 | **[!UICONTROL Spend]** | Die Ausgaben für den Datenbereich. |
 
 Um einen bestimmten Kanal oder alle Kanäle auszuwählen, wählen Sie aus dem Dropdown-Menü **[!UICONTROL View]** .
@@ -119,7 +127,7 @@ Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets
 >Die Registerkarte „Attribution“ ist nur für MTA-aktivierte Modelle verfügbar.
 
 
-Mithilfe der [!UICONTROL Attribution] Tab können Sie die Effektivität von Touchpoints und Marketing Kampagnen mit Daten auf Ereignis Ebene nachvollziehen.  Siehe [Modell erstellen](build.md).
+Auf der Registerkarte [!UICONTROL Attribution] können Sie die Effektivität von Touchpoints und Marketing-Kampagnen mit Daten auf Ereignisebene verstehen.  Siehe [Modell erstellen](build.md).
 
 Die folgenden Attributionsmodelle werden unterstützt:
 
@@ -169,13 +177,13 @@ Um Details anzuzeigen, bewegen Sie den Mauszeiger über eines der Diagrammelemen
 
 Die Visualisierung der Top-Kampagnen zeigt eine Tabelle der Top-Kampagnen mit Spalten für Kampagnenname, Kanal, Medientyp und inkrementelle Konversionen. Diese Visualisierung kann dabei helfen, Ihr Team über die Effektivität einer bestimmten Kampagne für einen bestimmten Kanal zu informieren und Einblicke darüber zu erhalten, in welche Kampagnen Sie weiter investieren sollten.
 
-Um die Tabelle in aufsteigender Reihenfolge ↑ oder absteigend bestellen ↓ für Kanal, Medientyp oder inkrementelle Konvertierungen zu sortieren, wählen Sie die Spaltenüberschrift aus und schalten Sie die Sortierung um.
+Um die Tabelle nach Kanal, Medientyp oder inkrementellen Konversionen in auf- ↑ absteigender Reihenfolge ↓ sortieren, wählen Sie die Spaltenüberschrift aus und schalten Sie die Sortierung um.
 
-Um die Tabelle in einem separaten Dialogfeld zu erweitern, wählen Sie aus **[!UICONTROL Expand]** ![Mehr](/help/assets/icons/More.svg).
+Um die Tabelle in einem separaten Dialogfeld zu erweitern, wählen Sie **[!UICONTROL Expand]** aus ![Mehr](/help/assets/icons/More.svg).
 
-Das erweiterte Dialogfeld &quot;Top-Kampagnen&quot; zeigt die gleiche Tabelle mit zusätzlichen Spalten für
+Das erweiterte Dialogfeld Top-Kampagnen zeigt dieselbe Tabelle mit zusätzlichen Spalten für
 
-* Inkrementelle Konvertierungen
+* Inkrementelle Konversionen
 * Beeinflusste Konversionen
 * First-Touch-Konversionen
 * Last Touch-Konversionen
@@ -200,17 +208,17 @@ Die Positionen [!UICONTROL Starter], [!UICONTROL Player] und [!UICONTROL Closer]
 |---|---|
 | [!UICONTROL Starter] | Diese Position gibt an, ob der Touchpoint der erste Touchpoint in einem Konversionspfad ist. |
 | [!UICONTROL Player] | Diese Position gibt an, ob der Touchpoint nicht der erste oder der letzte Touch ist, der zur Konversion führt. |
-| [!UICONTROL Closer] | Diese Position gibt an, ob der Touchpoint die letzte Berührung vor Konversion ist. |
+| [!UICONTROL Closer] | Diese Position gibt an, ob der Touchpoint der letzte Berührungspunkt vor der Konversion ist. |
 
 
 ### [!UICONTROL Top conversion paths]
 
-Die [!UICONTROL Top conversion paths] Visualisierung zeigt die Top 5 Konversion Pfaden, basierend auf den ausgewählten Attribution Modellen.
+Die [!UICONTROL Top conversion paths] Visualisierung zeigt die fünf wichtigsten Konversionspfade basierend auf den ausgewählten Attributionsmodellen.
 
-Für jede Konversion Pfad wird Folgendes angezeigt:
+Für jeden Konvertierungspfad wird Folgendes angezeigt:
 
-* die Anzahl der Kanäle, die einen Einfluss haben,
-* die Gesamtzahl der zugewiesenen Pfade,
+* die Anzahl der Kanäle, die eine Auswirkung haben,
+* die insgesamt zugewiesenen Pfade,
 * Der Prozentsatz der zugewiesenen Pfade für diesen Konversionspfad im Vergleich zur Gesamtzahl der zugewiesenen Pfade,
 * für jeden Kanal den Prozentsatz des Beitrags zum Attributionsmodell und
 * Die Summe dieser Prozentsätze des Kanalzuordnungsmodells.
@@ -234,9 +242,9 @@ Die Registerkarte Diagnose zeigt Visualisierungen für:
 
    * Werte der Modellqualitätsbewertung:
 
-      * R2 (R-Quadrat), das angibt, wie gut die Daten mit dem Regressionsmodell übereinstimmen (die Güte der Anpassung).
+      * R2 (R-Quadrat), das angibt, wie gut die Daten zum Regressionsmodell passen (die Anpassungsgüte).
 
-      * MAPE (Mean Absolute Percentage Fehler), einer der am häufigsten verwendeten KPIs zur messen Prognose Genauigkeit und drückt den Prognose Fehler als Prozentsatz des tatsächlichen Werts aus.
+      * MAPE (Mean Absolute Percentage Error, mittlerer absoluter Prozentfehler) ist einer der am häufigsten verwendeten KPIs zur Messung der Prognosegenauigkeit, der den Prognosefehler als Prozentsatz des tatsächlichen Werts ausdrückt.
 
       * RMSE (Root Mean Square Error, quadratischer Mittelwert der Fehlerquote): Gibt den durchschnittlichen Fehler an, gewichtet nach dem Quadrat des Fehlers.
 
@@ -247,10 +255,23 @@ Die Registerkarte Diagnose zeigt Visualisierungen für:
   Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * [!UICONTROL Paths touched]: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
-   * [!UICONTROL Efficiency measure]: Die vom algorithmischen Attribution-Modell generierte Effizienz-messen gibt die relative Bedeutung eines Touchpoints für Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
+   * [!UICONTROL Efficiency measure]: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
    * [!UICONTROL Total volume]: Die Gesamtzahl der Berührungen eines Touchpoints durch eine Benutzerin oder einen Benutzer. Die Anzahl umfasst Touchpoints, die auf einem Pfad angezeigt werden, der eine Konversion erreicht, sowie Pfade, die *Konversion*.
 
 ![Diagnose](/help/assets/model-insights-diagnostics.png)
+
+### Modelldrifterkennung
+
+>[!AVAILABILITY]
+>
+>Die in diesem Abschnitt beschriebene Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Dieser Hinweis wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Mix Modeler-Veröffentlichungsprozess finden Sie unter [Mix Modeler-Funktionsversionen](/help/releases/latest.md).
+>
+
+Wenn eine Modellabweichung erkannt wird, wird oben eine **[!UICONTROL Model drift detected]**-Benachrichtigung angezeigt.
+
+![Modell-Drift-Benachrichtigung](/help/assets/model-drift-notification.png)
+
+Wählen Sie **[!UICONTROL Hide]** aus, um die Benachrichtigung auszublenden. Die Benachrichtigung wird am nächsten Tag oder bei der nächsten Anmeldung erneut angezeigt.
 
 
 ## [!UICONTROL Historical overview]

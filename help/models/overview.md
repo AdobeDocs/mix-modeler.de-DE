@@ -3,7 +3,7 @@ title: Modelle - Übersicht
 description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 1%
@@ -152,10 +152,9 @@ Sie können den Namen, die Beschreibung und den Zeitplan für das Training und d
 
 ### umschulen
 
+Ein Modell neu trainieren ist nur für erfolgreich trainierte Modelle verfügbar.
 
-Das erneute Trainieren eines Modells ist nur für erfolgreich trainierte Modelle verfügbar.
-
-Ziehen Sie in Erwägung, ein Modell neu zu trainieren, wenn Sie Folgendes möchten:
+Ziehen Sie in Erwägung, ein Modell neu zu trainieren, wenn Sie Folgendes tun möchten:
 
 * Neue inkrementelle Marketing- und Faktordaten einschließen. Im letzten Quartal hat sich beispielsweise die Marktdynamik verändert oder Ihre Marketing-Datenverteilung hat sich erheblich verändert.
 
@@ -171,22 +170,22 @@ So trainieren Sie ein Modell neu:
    * **[!UICONTROL Train model using specific date range of data]**.
 Geben Sie den Datumsbereich an. Sie können den ![Kalender“ verwenden](/help/assets/icons/Calendar.svg) um einen Datumsbereich auszuwählen. Es muss ein Datenbereich mit mindestens einem Jahr ausgewählt werden.
 
-   ![Modell neu trainieren](../assets/re-train-model.png)
+   ![Modell neu trainieren](../assets/retrain-model.png)
 
 1. Wählen Sie **[!UICONTROL Train]** aus, um das Modell neu zu trainieren.
 
 
-### Bewerten oder neu bewerten
+### Punktzahl oder Punktzahl
 
 
-Sie können ein Modell basierend auf neuen Marketing-Daten inkrementell bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten.
+Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten.
 
-Ziehen Sie in Erwägung, ein Modell neu zu bewerten, wenn Sie Folgendes tun möchten:
+Erwägen Sie, ein Modell neu zu bewerten, wenn Sie Folgendes tun möchten:
 
 * Korrigieren Sie falsche Marketing-Daten. Beispielsweise fehlten für die Daten der letzten Paid Search, die Sie in das Training und die Bewertung des Modells eingeschlossen haben, eine Woche Daten.
 * Verwenden Sie neue inkrementelle Marketing-Daten, die durch Aktualisierungen in den Datensätzen verfügbar geworden sind, die Sie als Teil Ihrer harmonisierten Daten konfiguriert haben.
 
-So bewerten Sie ein Modell oder bewerten es neu:
+So bewerten Sie ein Modell:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
 
@@ -198,7 +197,7 @@ So bewerten Sie ein Modell oder bewerten es neu:
    * **[!UICONTROL Score specific date range of marketing data]** für einen bestimmten Datumsbereich neu bewertet werden.
 Geben Sie den Datumsbereich an. Sie können den ![Kalender“ verwenden](/help/assets/icons/Calendar.svg) um einen Datumsbereich auszuwählen.
 
-   ![Modell neu trainieren](../assets/re-score-model.png)
+   ![Erneutes Bewerten eines Modells](../assets/rescore-model.png)
 
 1. Wählen Sie **[!UICONTROL Score]** aus. Wenn Sie ein Modell mit einem bestimmten Datenbereich neu bewerten, wird ein **[!UICONTROL Existing model is replaced]** Dialogfeld angezeigt, in dem Sie aufgefordert werden zu bestätigen, dass Sie das Modell durch neue Bewertungen für den ausgewählten Datumsbereich ersetzen möchten. Wählen Sie zur Bestätigung **[!UICONTROL Replace model]** aus.
 

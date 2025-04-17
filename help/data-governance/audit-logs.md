@@ -1,9 +1,9 @@
 ---
 title: Audit-Protokolle
-description: Erfahren Sie, wie Sie vom Mix Modeler aus auf Auditprotokolle zugreifen können.
+description: Erfahren Sie, wie Sie von Mix Modeler aus auf Auditprotokolle zugreifen können.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 77a338ae568c854b99069b849a18661d413c501c
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 12%
@@ -18,9 +18,9 @@ Um die Transparenz und Sichtbarkeit der im System durchgeführten Aktivitäten z
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
-Ein Auditprotokoll informiert darüber, wer welche Aktion wann ausgeführt hat. Jede in einem Protokoll aufgezeichnete Aktion enthält Metadaten, die den Aktionstyp, das Datum und die Uhrzeit, die E-Mail-ID der oder des Benutzenden, die oder der die Aktion durchgeführt hat, und weitere für den Aktionstyp relevante Attribute angeben. Es verfolgt die von Benutzenden im Mix Modeler durchgeführten Aktionen zum Erstellen, Aktualisieren und Löschen.
+Ein Auditprotokoll informiert darüber, wer welche Aktion wann ausgeführt hat. Jede in einem Protokoll aufgezeichnete Aktion enthält Metadaten, die den Aktionstyp, das Datum und die Uhrzeit, die E-Mail-ID der oder des Benutzenden, die oder der die Aktion durchgeführt hat, und weitere für den Aktionstyp relevante Attribute angeben. Es verfolgt die von Benutzenden in Mix Modeler durchgeführten Aktionen zum Erstellen, Aktualisieren und Löschen.
 
-So überprüfen Sie das Auditprotokoll in der Benutzeroberfläche des Mix Modelers:
+So überprüfen Sie das Administratorprotokoll in der Benutzeroberfläche von Mix Modeler:
 
 1. Wählen Sie ![Aufgabenliste](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** aus **[!UICONTROL PRIVACY]** aus.
 
@@ -28,15 +28,15 @@ So überprüfen Sie das Auditprotokoll in der Benutzeroberfläche des Mix Modele
 
    | Kategorie | Aktion | Status |
    |---|---|---|
-   | Datensatzregel des Mix Modelers | Erstellen | Zulassen oder Ablehnen |
-   | Datensatzregel des Mix Modelers | Update | Zulassen oder Ablehnen |
-   | Datensatzregel des Mix Modelers | Löschen | Zulassen oder Ablehnen |
-   | Mix Modeler Field | Erstellen | Zulassen oder Ablehnen |
-   | Mix Modeler Field | Update | Zulassen oder Ablehnen |
-   | Mix Modeler Field | Löschen | Zulassen oder Ablehnen |
-   | Mix Modeler-Marketing-Touchpoint | Erstellen | Zulassen oder Ablehnen |
-   | Mix Modeler-Marketing-Touchpoint | Update | Zulassen oder Ablehnen |
-   | Mix Modeler-Marketing-Touchpoint | Löschen | Zulassen oder Ablehnen |
+   | Mix Modeler-Datensatzregel | Erstellen | Zulassen oder Ablehnen |
+   | Mix Modeler-Datensatzregel | Update | Zulassen oder Ablehnen |
+   | Mix Modeler-Datensatzregel | Löschen | Zulassen oder Ablehnen |
+   | Mix Modeler-Feld | Erstellen | Zulassen oder Ablehnen |
+   | Mix Modeler-Feld | Update | Zulassen oder Ablehnen |
+   | Mix Modeler-Feld | Löschen | Zulassen oder Ablehnen |
+   | Mix Modeler Marketing Touchpoint | Erstellen | Zulassen oder Ablehnen |
+   | Mix Modeler Marketing Touchpoint | Update | Zulassen oder Ablehnen |
+   | Mix Modeler Marketing Touchpoint | Löschen | Zulassen oder Ablehnen |
    | Mix Modeler-Konversion | Erstellen | Zulassen oder Ablehnen |
    | Mix Modeler-Konversion | Update | Zulassen oder Ablehnen |
    | Mix Modeler-Konversion | Löschen | Zulassen oder Ablehnen |
@@ -47,10 +47,10 @@ So überprüfen Sie das Auditprotokoll in der Benutzeroberfläche des Mix Modele
    | Mix Modeler-Modell | Klonen | Zulassen oder Ablehnen |
    | Mix Modeler-Modell | Trainieren/Umschulen | Zulassen oder Ablehnen |
    | Mix Modeler-Modell | Herunterladen/Speichern von Metadaten | Zulassen oder Ablehnen |
-   | Mix Modeler Plan | Erstellen | Zulassen oder Ablehnen |
-   | Mix Modeler Plan | Update | Zulassen oder Ablehnen |
-   | Mix Modeler Plan | Zugehöriges Modell ändern | Zulassen oder Ablehnen |
-   | Harmonisierung der Mix Modeler-Daten | Trigger Sync | Zulassen oder Ablehnen |
+   | Mix Modeler-Plan | Erstellen | Zulassen oder Ablehnen |
+   | Mix Modeler-Plan | Update | Zulassen oder Ablehnen |
+   | Mix Modeler-Plan | Zugehöriges Modell ändern | Zulassen oder Ablehnen |
+   | Mix Modeler-Datenharmonisierung | Trigger Sync | Zulassen oder Ablehnen |
 
 
 1. Wählen Sie einen Eintrag im Aktivitätsprotokoll aus, um ein Bedienfeld mit weiteren Details zu öffnen.

@@ -4,9 +4,9 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 2%
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
 
+## März bis April 2025
+
+| Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
+|---|---|---|---|
+| **Modelldrifterkennung** | Beim Öffnen eines Modells werden Sie [aufgefordert, das Modell neu zu trainieren, wenn eine Modelldrift erkannt wird](/help/models/insights.md#model-drift). | 3. April 2025 | t.b.d. |
+
+
 ## Januar bis Februar 2025
 
 | Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
 |---|---|---|---|
-| **Verschachtelte Bedingungen** | Sie können verschachtelte Bedingungen mithilfe von UND und ODER erstellen, wenn Sie eine geeignete Datenpopulation als Teil der [Konfiguration eines Modells](/help/models/build.md#configure) definieren. | 15. Januar 2025 | t.b.d |
+| **Verschachtelte Bedingungen** | Sie können verschachtelte Bedingungen mithilfe von UND und ODER erstellen, wenn Sie eine geeignete Datenpopulation als Teil der [Konfiguration eines Modells](/help/models/build.md#configure) definieren. | 15. Januar 2025 | 18. Februar 2025 |
 | **Anzeigen von Berichten** | Sie können einen Bericht zu einem [Konversions](/help/harmonize-data/conversions.md#view-report) oder einem [Marketing-Touchpoint](/help/harmonize-data/marketing-touchpoints.md#view-report) anzeigen, den Sie im Rahmen der Datenharmonisierung definiert haben. | 15. Januar 2025 | 18. Februar 2025 |
 | **Löschbestätigungen** | Sie werden aufgefordert, das Löschen eines [Plans](/help/plans/overview.md#delete-plans) oder eines [Modells](/help/models/overview.md#delete-models) zu bestätigen. | 15. Januar 2025 | 18. Februar 2025 |
 | **Verbesserungen an der Benutzeroberfläche** | Sie können auswählen[ welche ](/help/models/insights.md#factors-beta) in Modelleinblicke angezeigt werden sollen. | 15. Januar 2025 | 18. Februar 2025 |
