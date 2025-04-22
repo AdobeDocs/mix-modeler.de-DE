@@ -3,9 +3,9 @@ title: Erstellen von Modellen
 description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,15 @@ Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festle
 
 1. Im **[!UICONTROL Spend share]** Abschnitt:
 
-   * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**.
+   * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**. Diese Einstellung wird insbesondere in den folgenden Szenarien empfohlen:
+      * Ein Kanal verfügt nicht über genügend Beobachtungen (z. B. niedrige Ausgabenfrequenz, Impressionen oder Klicks).
+      * Sie modellieren stark frequente, aber regelmäßige und potenziell teure Medien (wie das Fernsehen für einige Marken), bei denen die Daten spärlich sein können.
+
+     >[!NOTE]
+     >
+     >Bei einmaligen Investitionen (z. B. einer Super Bowl-Anzeige) sollten Sie diese Daten als Faktor einbeziehen, anstatt sich auf den Ausgabenanteil zu verlassen.
+     >
+
 
 1. Im **[!UICONTROL MTA enabled]** Abschnitt:
 
