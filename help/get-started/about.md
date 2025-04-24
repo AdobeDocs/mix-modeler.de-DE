@@ -4,20 +4,16 @@ description: Erhalten Sie einen Überblick über die Funktionen von Mix Modeler.
 short-description: Erhalten Sie einen Überblick über die Funktionen von Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
 
 # Übersicht über Mix Modeler
 
-In diesem Video erhalten Sie einen schnellen Überblick über die Funktionen von Mix Modeler.
-
->[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
-
-Mix Modeler basiert auf Adobe Sensei und ermöglicht es Marketing-Experten, Kampagnen zu messen und die Planung ganzheitlich über alle Kanäle hinweg zu optimieren: Paid, Earned und Owned. Seine einheitliche Methodik misst schrittweise sowohl auf Marketing-Touchpoints als auch auf aggregierter Ebene und stellt dabei vollständig konsistente Ergebnisse sicher.
+Mit Mix Modeler auf der Grundlage von Adobe Sensei können Marketing-Experten Kampagnen messen und die Planung ganzheitlich über alle Kanäle hinweg optimieren: Paid, Earned und Owned. Seine einheitliche Methodik misst schrittweise sowohl auf Marketing-Touchpoints als auch auf aggregierter Ebene und stellt dabei vollständig konsistente Ergebnisse sicher.
 
 Mix Modeler bietet die inkrementelle Auswirkung aller Marketing-Aktivitäten auf Geschäfts- und Kampagnenergebnisse durch eine ganzheitliche (End-to-End) Messanwendung für Digital- und Offline-Marketing.
 
@@ -76,7 +72,7 @@ Die Marketing-Mix-Modellierungsfunktionen von Mix Modeler sind grundlegend für 
 
 ### Multi-Touch-Attribution (MTA)
 
-Die Multi-Touch-Attribution in Mix Modeler ist eine optionale maschinelle Lernanalyse, die Sie nutzen können, um Touchpoints auf Ereignisebene zuzuordnen, die zu Konversionsereignissen führen. Diese Attribution wird von Marketing-Fachleuten verwendet, um die Marketing-Auswirkungen jedes einzelnen Marketing-Touchpoints auf alle nachverfolgbaren Kunden-Journey zu quantifizieren. Diese Touchpoints für digitale Marketing-Kampagnen bestehen normalerweise aus Anzeigenklicks, E-Mail-Sendungen, E-Mail-Öffnungen und Klicks auf Paid Search. Die Multi-Touch-Attribution kann die meisten Offline-Touchpoints wie Print-Anzeigen, Reklametafeln oder TV-Werbespots und Geschäftsfaktoren nicht messen. Diese Touchpoints verfügen nur über Daten auf Zusammenfassungsebene, die nicht mit Kunden-Journey verknüpft werden können.
+Die Multi-Touch-Attribution in Mix Modeler ist eine optionale maschinelle Lernanalyse, mit der Sie Credits Ereignissen zuordnen können, um Touchpoints auf Ereignisebene zuzuordnen, die zu Konversionsereignissen führen. Diese Attribution wird von Marketing-Fachleuten verwendet, um die Marketing-Auswirkungen jedes einzelnen Marketing-Touchpoints auf alle nachverfolgbaren Kunden-Journey zu quantifizieren. Diese Touchpoints für digitale Marketing-Kampagnen bestehen normalerweise aus Anzeigenklicks, E-Mail-Sendungen, E-Mail-Öffnungen und Klicks auf Paid Search. Die Multi-Touch-Attribution kann die meisten Offline-Touchpoints wie Print-Anzeigen, Reklametafeln oder TV-Werbespots und Geschäftsfaktoren nicht messen. Diese Touchpoints verfügen nur über Daten auf Zusammenfassungsebene, die nicht mit Kunden-Journey verknüpft werden können.
 
 Die Multi-Touch-Attribution von Mix Modeler unterstützt zwei Kategorien von Scores:
 
