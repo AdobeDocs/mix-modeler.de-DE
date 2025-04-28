@@ -3,16 +3,16 @@ title: Datenaufnahme - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler aufnehmen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 11%
+source-wordcount: '520'
+ht-degree: 10%
 
 ---
 
 # Datenaufnahme - Übersicht
 
-Mix Modeler arbeitet mit Daten auf Ereignisebene, aggregierten oder zusammenfassenden Daten zu Marketing-Bemühungen aus verschiedenen ummauerten Gärten sowie aggregierten oder zusammenfassenden Daten aus anderen Quellen, wie Offline-Werbung, internen oder externen Faktoren.
+Mix Modeler arbeitet mit Daten auf Ereignisebene, aggregierten oder zusammenfassenden Daten zu Marketing-Anstrengungen aus verschiedenen ummauerten Gärten und aggregierten oder zusammenfassenden Daten aus einer anderen Quelle, z. B. Offline-Werbung, internen oder externen Faktoren.
 
 Kunden können alle Arten von Daten verwenden, die als Datensätze in Experience Platform aufgenommen werden und auf Schemata basieren, bei denen die XDM ExperienceEvent- oder XDM Summary-Metriken als Basisklasse verwendet werden.
 
@@ -23,12 +23,12 @@ Beispiel:
 * aggregierte oder zusammengefasste Daten aus ummauerten Gärten (wie Facebook, YouTube), Traffic-Quellen oder Offline-Werbedaten,
 * Nicht-Marketing-Aggregat- oder -Zusammenfassungsdaten mit internen oder externen Faktoren, die für die Modellerstellung nützlich sind.
 
-Sie können jeden Mechanismus verwenden, der vom Experience Platform unterstützt wird, um Daten zu Erlebnisereignissen, aggregierten Marketing-Anstrengungen und Daten aus anderen Quellen aufzunehmen. Beispielsweise die Experience Platform-SDKs, APIs, Quell-Connectoren sowie die Streaming- und Batch-Aufnahme.
+Sie können jeden beliebigen von Experience Platform unterstützten Mechanismus verwenden, um Daten zu Erlebnisereignissen, aggregierten Marketing-Anstrengungen und Daten aus anderen Quellen aufzunehmen. Beispielsweise die Experience Platform-SDKs, APIs, Quell-Connectoren sowie Streaming- und Batch-Aufnahme.
 
 
 ## Leitlinien
 
-Um Daten in Experience Platform zur Verwendung mit Mix Modeler aufzunehmen, befolgen Sie die folgenden Richtlinien:
+Um Daten zur Verwendung mit Mix Modeler in Experience Platform aufzunehmen, befolgen Sie die folgenden Richtlinien:
 
 * Die inkrementellen Daten, die den Datensätzen hinzugefügt werden, sollten sich nicht überschneiden.
 * Alle Daten aus einer einzigen Quelle sollten dieselbe Granularität aufweisen.
@@ -38,7 +38,7 @@ Um Daten in Experience Platform zur Verwendung mit Mix Modeler aufzunehmen, befo
 
 ## Beispiele
 
-Nachfolgend finden Sie einige Beispiele für Daten, die normalerweise im Mix Modeler verwendet werden und über die standardmäßigen Erlebnisereignisdaten hinausgehen.
+Nachfolgend finden Sie einige Beispiele für Daten, die normalerweise in Mix Modeler verwendet werden und über die standardmäßigen Erlebnisereignisdaten hinausgehen.
 
 +++ Aggregierte Daten zum Marketing-Aufwand
 
@@ -80,7 +80,17 @@ Nachfolgend finden Sie einige Beispiele für Daten, die normalerweise im Mix Mod
 
 +++
 
-Um mit Daten im Mix Modeler zu arbeiten, benötigen Sie Daten, die in Datensätzen erfasst und nach Schemata im Experience Platform modelliert wurden. Die Mix Modeler-Benutzeroberfläche bietet einfachen Zugriff auf die Benutzeroberfläche sowohl für Experience Platform-Schemas als auch für Datensätze.
+Um mit Daten in Mix Modeler arbeiten zu können, benötigen Sie Daten, die in Datensätzen erfasst und nach Schemata in Experience Platform modelliert wurden. Die Benutzeroberfläche von Mix Modeler bietet einfachen Zugriff auf die Benutzeroberfläche von Experience Platform-Schemata und Datensätzen.
+
+
+## Überprüfen
+
+Um zu überprüfen, ob Ihre Daten in Mix Modeler ordnungsgemäß verfügbar sind, können Sie Folgendes tun:
+
+* Verwenden von Visualisierungen in [Übersicht](/help/overview.md).
+* Herunterladen und Überprüfen von Daten [Harmonisierte Daten](/help/harmonize-data/overview.md) in Harmonisierten Datensätzen.
+
+Um zu überprüfen, ob Ihre Daten ordnungsgemäß in Experience Platform aufgenommen werden, können Sie [SQL-Abfragen mithilfe des Experience Platform Query Service schreiben und ausführen](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

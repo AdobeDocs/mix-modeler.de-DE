@@ -3,18 +3,18 @@ title: Schemata
 description: Erfahren Sie, wie Sie die Schemata verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 5%
+source-wordcount: '378'
+ht-degree: 6%
 
 ---
 
 # Schemata
 
-So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experience Platform aufnehmen und im Mix Modeler verwenden möchten:
+So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experience Platform aufnehmen und in Mix Modeler verwenden möchten:
 
-1. Wechseln Sie zur Benutzeroberfläche des Mix Modelers.
+1. Wechseln Sie zur Mix Modeler-Benutzeroberfläche.
 
 1. Wählen Sie ![Schemata](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]** unter **[!UICONTROL SETUP]** aus.
 
@@ -22,11 +22,11 @@ Weitere Informationen dazu finden [ in der Übersicht ](https://experienceleague
 
 ## Aggregierte oder zusammenfassende Daten
 
-Es wird dringend empfohlen, die Klasse XDM Summary Metrics als Grundlage für das Schema zu verwenden, das allen Aggregat- oder Zusammenfassungsdaten zugrunde liegt, die Sie in Experience Platform aufnehmen und im Mix Modeler verwenden möchten.
+Es wird dringend empfohlen, die Klasse XDM Summary Metrics als Grundlage für das Schema zu verwenden, das allen Aggregat- oder Zusammenfassungsdaten zugrunde liegt, die Sie in Experience Platform aufnehmen und in Mix Modeler verwenden möchten.
 
 Verwenden Sie die Klasse XDM Summary Metrics für:
 
-- Ummauerte Gartendaten, z. B. Daten aus Facebook oder YouTube.
+- Ummauerte Gartendaten, z. B. Daten von Facebook oder YouTube.
 
 - Daten externer Faktoren, wie Daten von SPX (S&amp;P 500 Aktienpreisindizes), Wetterdaten,
 
@@ -83,3 +83,8 @@ Derzeit unterstützt Mix Modeler eine Untergruppe von Experience Platform-Datent
 - Byte
 - Datum
 - Datum-Uhrzeit
+
+
+>[!MORELIKETHIS]
+>
+>- [Schemata](schemas.md)
