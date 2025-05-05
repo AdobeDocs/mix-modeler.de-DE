@@ -48,11 +48,11 @@ Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/ic
 
    1. Definieren Sie die **[!UICONTROL Conversion category]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wählen Sie Harmonisieren…*]**aus, z. B. `Conversion types`.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wählen Sie Harmonisieren…*]**&#x200B;aus, z. B. `Conversion types`.
 
       1. Wählen Sie einen Wert für den Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!UICONTROL Store]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!UICONTROL Store]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Conversion metric for analysis]** aus, z. B. **[!UICONTROL Orders]**.
 

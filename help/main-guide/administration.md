@@ -26,7 +26,7 @@ In der Adobe Experience Cloud-Benutzeroberfläche:
 
 1. Stellen Sie sicher, dass Sie eine oder mehrere Sandboxes für die Rolle ausgewählt haben.
 
-1. Fügen Sie die Ressource **0}Adobe Mix Modeler&quot; zur Liste der Ressourcen für die Rolle hinzu.**
+1. Fügen Sie die Ressource **0&rbrace;Adobe Mix Modeler&quot; zur Liste der Ressourcen für die Rolle hinzu.**
 
 1. Stellen Sie sicher, dass Sie die richtigen **[!UICONTROL Adobe Mix Modeler]** für die Rolle auswählen, die Sie konfigurieren. Sie können eine oder mehrere der folgenden Rollen auswählen:
 

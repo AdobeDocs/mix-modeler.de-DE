@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE Alpha ]{type=Informative}**[!UICONTROL Plans]** Registerkarte im Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** ist eine Alpha-Funktion und ihre Funktionalität kann sich ändern. Die Funktion steht einer begrenzten Anzahl von Kunden zur Verfügung.
+>[!BADGE Alpha &#x200B;]{type=Informative}**[!UICONTROL Plans]** Registerkarte im Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** ist eine Alpha-Funktion und ihre Funktionalität kann sich ändern. Die Funktion steht einer begrenzten Anzahl von Kunden zur Verfügung.
 
 
 Auf der Registerkarte **[!UICONTROL Plans]** im Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** werden Visualisierungen für [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] und [!UICONTROL KPI] angezeigt.

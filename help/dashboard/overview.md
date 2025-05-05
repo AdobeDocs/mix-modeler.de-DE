@@ -21,4 +21,4 @@ Hier erhalten Sie weitere Informationen zu:
 
 * [Harmonisierte Daten](harmonized-data.md)
 
-* [Pläne](plans.md) [!BADGE Alpha ]{type=Informative}
+* [Pläne](plans.md) [!BADGE Alpha &#x200B;]{type=Informative}

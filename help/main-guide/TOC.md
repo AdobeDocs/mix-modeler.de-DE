@@ -34,7 +34,7 @@ ht-degree: 47%
    + [Planerkenntnisse](/help/plans/insights.md)
    + [Pläne vergleichen](/help/plans/compare.md)
 
-+ Datensätze {#harmonize-data} harmonisieren
++ Datensätze harmonisieren {#harmonize-data}
    + [Übersicht](/help/harmonize-data/overview.md)
    + [Felder](/help/harmonize-data/fields.md)
    + [Datensatzregeln](/help/harmonize-data/dataset-rules.md)

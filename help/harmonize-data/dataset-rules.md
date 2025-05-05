@@ -72,17 +72,17 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
       1. Wählen Sie **[!UICONTROL Count]** oder **[!UICONTROL Sum]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wählen Sie ein **[!UICONTROL *AEP-Datensatzfeld *]**aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
+      1. Wählen Sie ein **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
 
    1. Wenn das ausgewählte Feld vom Typ Dimension ist:
 
       1. Wählen Sie **[!UICONTROL Map Into]** oder **[!UICONTROL Case]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann für ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld *]**prüfen, ob sie **[!UICONTROL Exists]**oder **[!UICONTROL Not Exists]**oder ob sie **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**oder **[!UICONTROL Ends With]**einen unter**[!UICONTROL * Eingabewert eingeben *]** eingegebenen Wert enthält.
+         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann für ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;prüfen, ob sie **[!UICONTROL Exists]**&#x200B;oder **[!UICONTROL Not Exists]**&#x200B;oder ob sie **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;oder **[!UICONTROL Ends With]**&#x200B;einen unter&#x200B;**[!UICONTROL * Eingabewert eingeben *]** eingegebenen Wert enthält.
 
          1. Um einen weiteren Fall hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -179,7 +179,7 @@ So konfigurieren Sie die Voreinstellungen für die Datenzusammenführung:
    * So fügen Sie metrikbasierte Voreinstellungen hinzu:
 
       1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** aus.
-         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**aus.
+         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**&#x200B;aus.
          1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einen bestimmten Kanal- oder Konvertierungstyp aus.
          1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus, um anzugeben, ob beim Zusammenführen von Daten Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und alle oder ausgewählte Kanäle) bevorzugt werden.
 
