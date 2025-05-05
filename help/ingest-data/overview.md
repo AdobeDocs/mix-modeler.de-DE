@@ -90,7 +90,7 @@ Um zu überprüfen, ob Ihre Daten in Mix Modeler ordnungsgemäß verfügbar sind
 * Verwenden von Visualisierungen in [Übersicht](/help/overview.md).
 * Herunterladen und Überprüfen von Daten [Harmonisierte Daten](/help/harmonize-data/overview.md) in Harmonisierten Datensätzen.
 
-Um zu überprüfen, ob Ihre Daten ordnungsgemäß in Experience Platform aufgenommen werden, können Sie [SQL-Abfragen mithilfe des Experience Platform Query Service schreiben und ausführen](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
+Um zu überprüfen, ob Ihre Daten ordnungsgemäß in Experience Platform aufgenommen werden, können Sie [SQL-Abfragen mithilfe des Experience Platform Query Service schreiben und ausführen](https://experienceleague.adobe.com/de/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

@@ -30,7 +30,7 @@ Wir scheinen die SVG in einer schattierten Box nicht richtig zu unterstützen. S
 
 >[!BEGINSHADEBOX]
 
-In diesem Artikel wird das Attributionsbedienfeld in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics** dokumentiert.<br/>Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) für die Version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** dieses Artikels.
+In diesem Artikel wird das Attributionsbedienfeld in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics** dokumentiert.<br/>Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution) für die Version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** dieses Artikels.
 
 >[!ENDSHADEBOX]
 
