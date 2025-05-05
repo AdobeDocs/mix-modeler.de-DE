@@ -14,7 +14,7 @@ ht-degree: 1%
 
 In diesem Video erhalten Sie eine Einführung in den Benutzer-Workflow in Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440213/?learn=on&captions=ger)
 
 
 Ein typischer Workflow in Mix Modeler besteht aus den folgenden Aktivitäten:
