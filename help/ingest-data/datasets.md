@@ -18,11 +18,11 @@ So verwalten Sie Datensätze mit den Daten, die Sie in Experience Platform aufne
 
 1. Wählen ![Daten](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]** unter **[!UICONTROL SETUP]** aus.
 
-Weitere Informationen finden Sie [ Handbuch zur Datensatz](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)Benutzeroberfläche .
+Weitere Informationen finden Sie [ Handbuch zur Datensatz](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de)Benutzeroberfläche .
 
 >[!MORELIKETHIS]
 >
 >* [Daten aufnehmen](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home)
 >* [Schemata](schemas.md)
 >* [Übersicht über die Datenaufnahme (Experience Platform)](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home)
->* [Source-Connectoren (Experience Platform)](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+>* [Source-Connectoren (Experience Platform)](https://experienceleague.adobe.com/de/docs/experience-platform/sources/home)
