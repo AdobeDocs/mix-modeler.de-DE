@@ -3,9 +3,9 @@ title: Datenaufnahme - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler aufnehmen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '541'
 ht-degree: 10%
 
 ---
@@ -23,8 +23,7 @@ Beispiel:
 * aggregierte oder zusammengefasste Daten aus ummauerten Gärten (wie Facebook, YouTube), Traffic-Quellen oder Offline-Werbedaten,
 * Nicht-Marketing-Aggregat- oder -Zusammenfassungsdaten mit internen oder externen Faktoren, die für die Modellerstellung nützlich sind.
 
-Sie können jeden beliebigen von Experience Platform unterstützten Mechanismus verwenden, um Daten zu Erlebnisereignissen, aggregierten Marketing-Anstrengungen und Daten aus anderen Quellen aufzunehmen. Beispielsweise die Experience Platform-SDKs, APIs, Quell-Connectoren sowie Streaming- und Batch-Aufnahme.
-
+Sie können jeden beliebigen von Experience Platform unterstützten Mechanismus verwenden, um Daten zu Erlebnisereignissen, aggregierten Marketing-Anstrengungen und Daten aus anderen Quellen aufzunehmen. Zu den Aufnahmemechanismen gehören die Experience Platform-SDKs, APIs, Quell-Connectoren, Streaming- und Batch-Aufnahme. Weitere Informationen zur Aufnahme Ihrer Daten in Experience Platform zur Verwendung in Adobe Mix Modeler finden Sie unter [Datenaufnahme - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home).
 
 ## Leitlinien
 
@@ -90,7 +89,7 @@ Um zu überprüfen, ob Ihre Daten in Mix Modeler ordnungsgemäß verfügbar sind
 * Verwenden von Visualisierungen in [Übersicht](/help/overview.md).
 * Herunterladen und Überprüfen von Daten [Harmonisierte Daten](/help/harmonize-data/overview.md) in Harmonisierten Datensätzen.
 
-Um zu überprüfen, ob Ihre Daten ordnungsgemäß in Experience Platform aufgenommen werden, können Sie [SQL-Abfragen mithilfe des Experience Platform Query Service schreiben und ausführen](https://experienceleague.adobe.com/de/docs/experience-platform/query/home).
+Um zu überprüfen, ob Ihre Daten ordnungsgemäß in Experience Platform aufgenommen werden, können Sie [SQL-Abfragen mithilfe des Experience Platform Query Service schreiben und ausführen](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
