@@ -3,9 +3,9 @@ title: Modelle - Übersicht
 description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8b0dfbe136986bc97c6793538518679b64d7801c
+source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Benutzeroberfläche vo
    * ![Uhr](/help/assets/icons/Clock.svg) - zeigt die aktuelle Ausführung eines Schritts im Modelllebenszyklus an.
    * ![Schließen](/help/assets/icons/Close.svg) - zeigt eine fehlgeschlagene Ausführung eines Schritts im Modelllebenszyklus an.
 
-   | Status | Erstellen | trainieren | Ergebnis | umschulen | neu bewerten |
+   | Status | [Build](/help/models/build.md) | [Zug](/help/models/train-score.md#train) | [Ergebnis](/help/models/train-score.md#score) | [Umschulen](/help/models/train-score.md#train) | [Rescore](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
    | In Bearbeitung | ![Häkchen](/help/assets/icons/Checkmark.svg) | | | | |
    | In Bearbeitung | ![Häkchen](/help/assets/icons/Checkmark.svg) | ![Uhr](/help/assets/icons/Clock.svg) | | | |
@@ -120,7 +120,7 @@ Sie können ein Modell schnell duplizieren.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 
-Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)] (_)_ wird**.
+Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)](_)_ wird**.
 
 ### Bearbeiten
 
@@ -150,61 +150,14 @@ Sie können den Namen, die Beschreibung und den Zeitplan für das Training und d
 
 
 
-### umschulen
+### trainieren
 
-Ein Modell neu trainieren ist nur für erfolgreich trainierte Modelle verfügbar.
-
-Ziehen Sie in Erwägung, ein Modell neu zu trainieren, wenn Sie Folgendes tun möchten:
-
-* Neue inkrementelle Marketing- und Faktordaten einschließen. Im letzten Quartal hat sich beispielsweise die Marktdynamik verändert oder Ihre Marketing-Datenverteilung hat sich erheblich verändert.
-
-So trainieren Sie ein Modell neu:
-
-1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
-
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Train]** aus. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg)-**[!UICONTROL Train]** in der blauen Aktionsleiste aus.
-
-   Wählen Sie im Dialogfeld **[!UICONTROL Train model]** die Option aus, um:
-
-   * **[!UICONTROL Train model with last 2 years of marketing data]** oder
-   * **[!UICONTROL Train model using specific date range of data]**.
-Geben Sie den Datumsbereich an. Sie können den ![Kalender“ verwenden](/help/assets/icons/Calendar.svg) um einen Datumsbereich auszuwählen. Es muss ein Datenbereich mit mindestens einem Jahr ausgewählt werden.
-
-   ![Modell neu trainieren](../assets/retrain-model.png)
-
-1. Wählen Sie **[!UICONTROL Train]** aus, um das Modell neu zu trainieren.
+Erwägen Sie, ein Modell neu zu trainieren, wenn Sie neue inkrementelle Marketing- und Faktordaten einbeziehen möchten. Weitere Informationen finden [ unter ](train-score.md#train) trainieren und bewerten .
 
 
-### Punktzahl oder Punktzahl
+### Ergebnis
 
-
-Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten.
-
-Erwägen Sie, ein Modell neu zu bewerten, wenn Sie Folgendes tun möchten:
-
-* Korrigieren Sie falsche Marketing-Daten. Beispielsweise fehlten für die Daten der letzten Paid Search, die Sie in das Training und die Bewertung des Modells eingeschlossen haben, eine Woche Daten.
-* Verwenden Sie neue inkrementelle Marketing-Daten, die durch Aktualisierungen in den Datensätzen verfügbar geworden sind, die Sie als Teil Ihrer harmonisierten Daten konfiguriert haben.
-
-So bewerten Sie ein Modell:
-
-1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
-
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Score]** aus. Wählen Sie alternativ ![DataRefresh](/help/assets/icons/DataRefresh.svg)-**[!UICONTROL Score]** in der blauen Aktionsleiste aus.
-
-   Wählen Sie im Dialogfeld **[!UICONTROL Score marketing data]** die Option aus, um:
-
-   * **[!UICONTROL Score new marketing data from *MM/TT/JJJJ *]**, um Ihr Modell inkrementell mithilfe neuer Marketing-Daten zu bewerten, oder
-   * **[!UICONTROL Score specific date range of marketing data]** für einen bestimmten Datumsbereich neu bewertet werden.
-Geben Sie den Datumsbereich an. Sie können den ![Kalender“ verwenden](/help/assets/icons/Calendar.svg) um einen Datumsbereich auszuwählen.
-
-   ![Erneutes Bewerten eines Modells](../assets/rescore-model.png)
-
-1. Wählen Sie **[!UICONTROL Score]** aus. Wenn Sie ein Modell mit einem bestimmten Datenbereich neu bewerten, wird ein **[!UICONTROL Existing model is replaced]** Dialogfeld angezeigt, in dem Sie aufgefordert werden zu bestätigen, dass Sie das Modell durch neue Bewertungen für den ausgewählten Datumsbereich ersetzen möchten. Wählen Sie zur Bestätigung **[!UICONTROL Replace model]** aus.
-
->[!IMPORTANT]
->
->Das Neubewerten eines Modells ändert keine Pläne, die bereits auf der Grundlage des wiederhergestellten Modells erstellt wurden. Um das neue wiederhergestellte Modell in einem Plan zu verwenden, müssen Sie einen neuen Plan erstellen.
-
+Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. Weitere Informationen finden [ unter ](train-score.md#score) trainieren und bewerten .
 
 
 ### Modelle löschen
@@ -219,5 +172,5 @@ So löschen Sie mehrere Modelle:
 
 1. Mehrere Modelle auswählen.
 1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Modelle zu löschen.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *-Modelle]**, um die Modelle zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *-Modelle]**, um die Modelle zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
 

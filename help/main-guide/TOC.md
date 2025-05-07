@@ -2,10 +2,10 @@
 user-guide-title: Handbuch zu Mix Modeler
 breadcrumb-title: Handbuch zu Mix Modeler
 user-guide-description: Erfahren Sie, wie Mix Modeler verwendet wird.
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 47%
+source-wordcount: '88'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 47%
    + [Was ist Mix Modeler?](/help/get-started/about.md)
    + [Anwendungs-Workflow](/help/get-started/workflow.md)
 
-+ {#dashboard}
++ Startseite {#dashboard}
    + [Übersicht](/help/dashboard/overview.md)
    + [Harmonisierte Daten](/help/dashboard/harmonized-data.md)
    + [Pläne](/help/dashboard/plans.md)
@@ -25,6 +25,7 @@ ht-degree: 47%
 + Modelle {#models}
    + [Übersicht](/help/models/overview.md)
    + [Erstellen von Modellen](/help/models/build.md)
+   + [Trainieren und Bewerten von Modellen](/help/models/train-score.md)
    + [Modelleinblicke](/help/models/insights.md)
    + [Bewertungsdaten verwenden](/help/models/scoring-data.md)
 
@@ -42,18 +43,18 @@ ht-degree: 47%
    + [Konversionen](/help/harmonize-data/conversions.md)
    + [Verwendungsbericht](/help/harmonize-data/usage-report.md)
 
-+ Aufnehmen von {#ingest-data}
++ Aufnehmen von Daten {#ingest-data}
    + [Übersicht](/help/ingest-data/overview.md)
    + [Schemata](/help/ingest-data/schemas.md)
    + [Datensätze](/help/ingest-data/datasets.md)
 
-+ Data Governance-{#data-governance}
++ Data Governance {#data-governance}
    + [Übersicht](/help/data-governance/overview.md)
    + [Zugangssteuerung](/help/data-governance/access-controls.md)
    + [Audit-Protokolle](/help/data-governance/audit-logs.md)
    + [Richtlinien](/help/data-governance/policies.md)
 
-+ [Anwendungsfälle](/help/main-guide/use-cases.md)
++ [Anwendungsszenarien](/help/main-guide/use-cases.md)
 
 + [Administration](/help/main-guide/administration.md)
 
