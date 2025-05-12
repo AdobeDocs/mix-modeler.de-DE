@@ -4,9 +4,9 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '365'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,8 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 
 | Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
 |---|---|---|---|
-| **Modelldrifterkennung** | Beim Öffnen eines Modells werden Sie [aufgefordert, das Modell neu zu trainieren, wenn eine Modelldrift erkannt wird](/help/models/insights.md#model-drift). | 3. April 2025 | t.b.d. |
+| **Modelldrifterkennung** | Wenn Sie ein Modell öffnen, werden Sie [aufgefordert, das Modell neu zu trainieren, wenn eine Modelldrift erkannt wird](/help/models/insights.md#model-drift). | 3. April 2025 | 7. Mai 2025 |
+| **Marginaler Kanalgewinn in Planerkenntnissen** | Zu Plan Insights [ eine Visualisierung ](/help/plans/insights.md#marginal-channel-return)marginaler Kanalgewinn“ hinzugefügt, die den marginalen Breakeven und den Plangewinn für alle oder ausgewählte Kanäle anzeigt. | 3. April 2025 | 24. April 2025 |
 
 
 ## Januar bis Februar 2025
