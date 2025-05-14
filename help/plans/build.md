@@ -84,6 +84,7 @@ Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileCh
    1. Um zwischen Eingabe von Währung oder Prozentsatz umzuschalten, wählen Sie **[!UICONTROL $]** oder **[!UICONTROL %]** für **[!UICONTROL View spend by]** aus.
 
    1. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Create]** aus.
+
       ![Auswahl der Ausgaben](/help/assets/plan-spend-selection.png)
 
    1. Wählen Sie **[!UICONTROL Next]** aus.
