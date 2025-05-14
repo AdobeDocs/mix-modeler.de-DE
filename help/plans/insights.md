@@ -3,9 +3,9 @@ title: Planerkenntnisse
 description: Erfahren Sie, wie Sie Einblicke in Ihren Plan erhalten und einen Plan in Mix Modeler bearbeiten können.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Nach dem Abrufen erhalten Sie einen Überblick über Ihren Plan, der aus folgend
 
 Um die Benutzeroberfläche zu schließen, klicken Sie auf **[!UICONTROL Close]**.
 
-Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL &#x200B; %]** unter **[!UICONTROL View ROI]** aus.
+Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** unter **[!UICONTROL View ROI]** aus.
 
 ## Prognostizierte Ausgaben und ROI für bezahlte Kanäle
 
@@ -114,6 +114,39 @@ Die [!UICONTROL Date range breakdown] Tabelle zeigt detaillierte granulare Daten
       1. Wählen Sie **[!UICONTROL Next]** aus, um zum Abschnitt **[!UICONTROL Spend]** zurückzukehren. Wählen Sie **[!UICONTROL Cancel]** aus, um zur Übersicht über Ihre Pläne zurückzukehren.
 
          ![Plandetails](/help/assets/plan-details.png)
+
+   1. Wenn Sie erweiterte Konfigurationen für Ihren Plan definiert haben, wählen Sie **[!UICONTROL Next]** aus.
+
+      ![Erweiterte Konfiguration bearbeiten](../assets/edit-plan-advanced-configuration.png)
+
+      - Ihr Planname , Modell, Datumsbereich und Gesamtbudget sind zusammengefasst.
+
+      - Standardmäßig berechnet Mix Modeler den durchschnittlichen Umsatz pro Konversion automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Average Revenue per conversion]** können Sie den spezifischen durchschnittlichen Umsatz pro Konversion definieren.
+
+         1. Für jeden Datumsbereich in Ihrem Budget:
+            1. Wählen Sie im Dropdown-Menü **[!UICONTROL Date range]** einen Datumsbereich aus.
+            1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
+
+         1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) Benutzerdefinierten durchschnittlichen Umsatz pro Konversionseinheit hinzufügen , um einen Datumsbereich hinzuzufügen.
+         1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
+
+        >[!NOTE]
+        >
+        >Wenn Ihr Modell keine historischen Umsatzdaten enthält, müssen Sie für jeden Datumsbereich, den Sie für Ihr Budget angegeben haben, einen durchschnittlichen Umsatz pro Konversion definieren.
+        >
+
+      - Standardmäßig berechnet Mix Modeler die Kanalkosten automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Channel costs]** können Sie benutzerdefinierte Kanalkosten definieren.
+
+         1. Definieren Sie für jeden Kanal in Ihrem Modell benutzerdefinierte Kanalkosten.
+            1. Wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL Channel]** aus.
+            1. Für jeden Datumsbereich in Ihrem Budget:
+               1. Wählen Sie im Dropdown-Menü **[!UICONTROL Date range]** einen Datumsbereich aus.
+               1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
+            1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom average revenue per conversion unit]** aus, um einen Datumsbereich hinzuzufügen.
+            1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
+
+         1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom channel cost]** aus, um einen Kanal hinzuzufügen.
+         1. Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um einen benutzerdefinierten Kanal zu entfernen.
 
 
 1. Wenn Sie die Bearbeitung des Plans abgeschlossen haben, klicken Sie auf **[!UICONTROL Edit]**.

@@ -3,10 +3,10 @@ title: Pläne erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler Pläne erstellen.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 1%
 In Mix Modeler erstellen Sie einen Plan mithilfe der Arbeitsfläche „Plan“. Auf der Arbeitsfläche des Plans können Sie die Details und Budgets Ihres Plans sowie das zugrunde liegende Modell einrichten, das für Ihren Plan verwendet werden soll. Nachdem Sie Details, Budget und Modell angegeben haben, können Sie mit einem von KI empfohlenen Plan fortfahren oder die Ausgaben nach Kanal bearbeiten.
 
 Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileChart.svg)-**[!UICONTROL Plans]** in Mix Modeler **[!UICONTROL Create plan]** aus.
+
 
 1. Im **[!UICONTROL Plan creation]**:
 
@@ -49,12 +50,12 @@ Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileCh
 
    ![Plan abgeschlossen](/help/assets/plan-done-required-fields.png)
 
-   * Auswählen <img src="/help/assets/icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]**, ob Sie einen von KI empfohlenen Plan mit prognostiziertem ROI generieren möchten.
+   * Wählen Sie ![Neuer Plan](../assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** aus, wenn Sie einen von KI empfohlenen Plan mit prognostiziertem ROI generieren möchten.
 
      Wählen Sie **[!UICONTROL OK]** aus. Ihr Plan wird erstellt.
 
 
-   * Wählen Sie ![TableEdit](/help/assets/icons/TableEdit.svg) aus **[!UICONTROL Edit channel budgets first]** wenn Sie das Kanalbudget bearbeiten möchten, bevor Sie einen Plan mit prognostiziertem ROI erstellen.
+   * Wählen Sie ![TableEdit](/help/assets/icons/TableEdit.svg) aus **[!UICONTROL Edit channel budgets first]** wenn Sie das Kanalbudget bearbeiten und erweiterte Konfigurationen definieren möchten, bevor ein Plan mit prognostiziertem ROI erstellt wird.
 
      Wählen Sie **[!UICONTROL OK]** aus, damit Sie im nächsten Schritt Ihre Kanalausgaben in **[!UICONTROL Spend selection]** definieren können.
 
@@ -68,6 +69,46 @@ Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileCh
 
       ![Auswahl der Ausgaben](/help/assets/plan-spend-selection.png)
 
+   1. Wählen Sie **[!UICONTROL Next]** aus.
+
+
+1. Im Abschnitt **[!UICONTROL Advanced configurations]** können Sie optionale erweiterte Konfigurationen eingeben.
+
+   ![Zusammenfassung des Plans](../assets/plan-advanced-configurations.png)
+
+   * Ihr Planname , Modell, Datumsbereich und Gesamtbudget sind zusammengefasst.
+
+   * Standardmäßig berechnet Mix Modeler den durchschnittlichen Umsatz pro Konversion automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Average Revenue per conversion]** können Sie den spezifischen durchschnittlichen Umsatz pro Konversion definieren.
+
+      1. Für jeden Datumsbereich in Ihrem Budget:
+
+         1. Wählen Sie im Dropdown-Menü **[!UICONTROL Date range]** einen Datumsbereich aus.
+         1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
+
+      1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg) Benutzerdefinierten durchschnittlichen Umsatz pro Konversionseinheit hinzufügen , um einen Datumsbereich hinzuzufügen.
+      1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
+
+     >[!NOTE]
+     >
+     >Wenn Ihr Modell keine historischen Umsatzdaten enthält, müssen Sie für jeden Datumsbereich, den Sie für Ihr Budget angegeben haben, einen durchschnittlichen Umsatz pro Konversion definieren.
+     >
+
+   * Standardmäßig berechnet Mix Modeler die Kanalkosten automatisch anhand der neuesten saisonalen Verlaufsdaten. In **[!UICONTROL Channel costs]** können Sie benutzerdefinierte Kanalkosten definieren.
+
+      1. Definieren Sie für jeden Kanal in Ihrem Modell benutzerdefinierte Kanalkosten.
+
+         1. Wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL Channel]** aus.
+         1. Für jeden Datumsbereich in Ihrem Budget:
+            1. Wählen Sie im Dropdown-Menü **[!UICONTROL Date range]** einen Datumsbereich aus.
+            1. Geben Sie einen **[!UICONTROL Average revenue]** Wert ein.
+         1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom average revenue per conversion unit]** aus, um einen Datumsbereich hinzuzufügen.
+         1. Wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus, um einen Datumsbereich zu entfernen.
+
+      1. Wählen Sie ![AddCircle](/help/assets/icons/AddCircle.svg)-**[!UICONTROL Add custom channel cost]** aus, um einen Kanal hinzuzufügen.
+      1. Wählen Sie ![CrossSize400](/help/assets/icons/CrossSize400.svg) aus, um einen benutzerdefinierten Kanal zu entfernen.
+
+
    1. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Create]** aus.
 
    1. Wählen Sie im Dialogfeld **[!UICONTROL Create plan]** die Option **[!UICONTROL Create plan]** aus, um Ihren Plan zu erstellen. Wählen Sie **[!UICONTROL Cancel]** aus, um die Erstellung Ihres Plans abzubrechen. Zur Bestätigung wird ein **[!UICONTROL No work is saved]** Dialogfeld angezeigt.
+
