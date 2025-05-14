@@ -3,9 +3,9 @@ title: Planerkenntnisse
 description: Erfahren Sie, wie Sie Einblicke in Ihren Plan erhalten und einen Plan in Mix Modeler bearbeiten können.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Nach dem Abrufen erhalten Sie einen Überblick über Ihren Plan, der aus folgend
 
 Um die Benutzeroberfläche zu schließen, klicken Sie auf **[!UICONTROL Close]**.
 
-Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL &#x200B; %]** unter **[!UICONTROL View ROI]** aus.
+Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** unter **[!UICONTROL View ROI]** aus.
 
 ## Prognostizierte Ausgaben und ROI für bezahlte Kanäle
 
@@ -84,13 +84,27 @@ Die [!UICONTROL Date range breakdown] Tabelle zeigt detaillierte granulare Daten
 
 1. Um Ihren Plan zu bearbeiten, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
 
-   1. Verwenden Sie im **[!UICONTROL Spend selection]** Abschnitt für jeden Budgetdatumsbereich den ![Chevron](/help/assets/icons/ChevronRight.svg), um die Kanalverteilungsansicht für diesen Datenbereich zu öffnen.
+   Verwenden Sie im **[!UICONTROL Spend selection]** Abschnitt für jeden Budgetdatumsbereich den ![Chevron](/help/assets/icons/ChevronRight.svg), um die Kanalverteilungsansicht für diesen Datenbereich zu öffnen.
+
+   Sie können historische Referenzdaten verwenden, wenn Sie vergangene Marketing-Ausgabendaten und -Erkenntnisse verwenden möchten. Sie sollten historische Referenzdaten berücksichtigen für:
+
+   - Verbessern Sie die Budgetzuweisung durch Hervorhebung leistungsstarker Kanäle und leistungsschwacher Kanäle.
+   - Unterstützung der Trendanalyse.
+   - Identifizieren Sie effektive Strategien und vermeiden Sie Fehler bei der Konfiguration von Plänen.
+
+   Wenn Sie einen historischen Referenzzeitraum auswählen, richten Sie sich nach den Voreinstellungen für frühere Ausgabenmuster aus, und die Planungsfunktion von Mix Modeler kann Pläne generieren, die Ihren Erwartungen entsprechen. Diese Pläne sollten letztendlich das Vertrauen der Stakeholder stärken, sicherstellen, dass Marketing-Pläne strategisch und effizient sind und dass diese Pläne auf bewährten Leistungsdaten und Geschäftsanforderungen basieren.
+
+   ![Auswahl der Ausgaben](/help/assets/plan-spend-selection.png)
+
+   1. Wählen Sie die **[!UICONTROL Spend pattern]**.
+
+      - Standardmäßig ist dies **[!UICONTROL Automatic]**.
+      - Wählen Sie **[!UICONTROL Historical reference]** aus und geben Sie einen **[!UICONTROL Start date]** ein, um auf frühere, Mix Modeler bereits verfügbare Marketing-Ausgabendaten zu verweisen. Die **[!UICONTROL End date]** wird automatisch anhand des ausgewählten Datenbereichs bestimmt. Das vorgeschlagene Startdatum ist das erste verfügbare Datum für frühere Marketing-Ausgaben. Um anzugeben, dass Sie einen nicht vorhandenen historischen Referenzzeitraum ausgewählt haben, wird ein ![AlertRed](/help/assets/icons/AlertRed.svg) angezeigt.
+
 
    1. Um die Budgets für jeden Kanal zu ändern, ändern Sie die Werte für **[!UICONTROL Min]** und **[!UICONTROL Max]** oder verwenden Sie die Schieberegler.
 
    1. Um zwischen Eingabe von Währung oder Prozentsatz umzuschalten, wählen Sie **[!UICONTROL $]** oder **[!UICONTROL %]** für **[!UICONTROL View spend by]** aus.
-
-      ![Auswahl der Ausgaben](/help/assets/spend-selection.png)
 
    1. Um die Details Ihres Plans zu bearbeiten, wählen Sie **[!UICONTROL Edit details]** aus:
 
