@@ -3,7 +3,7 @@ title: Pläne erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler Pläne erstellen.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
+source-git-commit: 3650135ee3ed5c435593aeed94bee8952bbe6df4
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 1%
@@ -84,10 +84,10 @@ Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileCh
    1. Um zwischen Eingabe von Währung oder Prozentsatz umzuschalten, wählen Sie **[!UICONTROL $]** oder **[!UICONTROL %]** für **[!UICONTROL View spend by]** aus.
 
    1. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Create]** aus.
-
       ![Auswahl der Ausgaben](/help/assets/plan-spend-selection.png)
 
    1. Wählen Sie **[!UICONTROL Next]** aus.
+
 
 
 1. Im Abschnitt **[!UICONTROL Advanced configurations]** können Sie optionale erweiterte Konfigurationen eingeben.
