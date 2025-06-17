@@ -3,10 +3,10 @@ title: Datensätze harmonisieren - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler harmonisieren.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 7%
+source-wordcount: '1192'
+ht-degree: 6%
 
 ---
 
@@ -154,4 +154,28 @@ So zeigen Sie Ihre harmonisierten Daten in der Benutzeroberfläche von Mix Model
    1. Wählen Sie ![FileCSV](/help/assets/icons/FileCSV.svg)-**[!UICONTROL Report]** aus.
 
    Ein CSV-Bericht mit einem Titel, der auf Ihrem angegebenen Berichtsnamen und dem aktuellen Datum und der aktuellen Uhrzeit (z. B. `Test Report_2025_04_23_9-5-18.csv`) basiert, wird in den standardmäßigen Download-Ordner heruntergeladen.
+
+
+## Best Practices
+
+Wenden Sie beim Erstellen Ihres harmonisierten Datensatzes die folgenden Best Practices an.
+
+### Schema
+
+* Vermeiden Sie Datentypkonflikte. Es treten Abweichungen auf, wenn der Datentyp eines Felds in den Datensätzen Ihrer aufgenommenen Datensätze nicht mit dem Datentyp übereinstimmt, den Sie für dieses Feld im zugrunde liegenden Schema konfiguriert haben.
+* Vermeiden Sie falsche Schematypen. Beim Versuch, einen bestimmten Datentyp mit einem Datensatz aufzunehmen, der nicht mit dem Schema für diese Daten übereinstimmt, treten falsche Schematypen auf. Sie versuchen beispielsweise, Zusammenfassungsdaten mithilfe eines externen Faktordatensatzes aufzunehmen.
+
+### Daten-Mapping
+
+* Stellen Sie sicher, dass Sie die Identitäten für jeden Ereignisdatensatz ordnungsgemäß eingerichtet haben.
+
+### Datenqualität
+
+* Stellen Sie sicher, dass Sie das Datumsformat und das Zeitformat konsistent für alle Datensätze in Datensätzen verwenden, für die Daten mit Zeitstempel erforderlich sind.
+* Stellen Sie sicher, dass Sie dieselbe Granularität (Tag oder Woche) für Datensätze in Aggregat- oder Zusammenfassungsdatensätzen verwenden.
+
+### Datenberechnung
+
+* Vermeiden Sie doppelte Zeilen in einem Datensatz.
+* Stellen Sie sicher, dass jeder Datensatz, den Sie hochladen, spezifisch für einen eindeutigen Kanal und Konversionstyp ist. Duplizieren Sie Touchpoints oder Konversionen über mehrere Datensätze hinweg, um die Modellausgabe und -qualität zu beeinträchtigen.
 
