@@ -1,18 +1,18 @@
 ---
 title: Pläne vergleichen
-description: Erfahren Sie, wie Sie in Mix Modeler Pläne vergleichen.
+description: Erfahren Sie, wie Sie Pläne in Mix Modeler vergleichen.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
 # Pläne vergleichen
 
-So vergleichen Sie Mix Modeler in der Planschnittstelle:
+So vergleichen Sie Pläne in der Benutzeroberfläche für Mix Modeler-Pläne:
 
 * Wählen Sie ![Vergleichen](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]** aus. Wählen Sie unter „Pläne vergleichen“ für jeden Plan **[!UICONTROL _Plan auswählen_]**.
 
@@ -20,15 +20,15 @@ So vergleichen Sie Mix Modeler in der Planschnittstelle:
 
 Die Benutzeroberfläche „Pläne vergleichen“ enthält Informationen und Visualisierungen zu:
 
-* Plan
-* Datumsbereich
-* Modell
-* Gesamtbudget
-* Kanalbudgetierung: **[!UICONTROL AI automated]** oder **[!UICONTROL Custom + AI]**
-* Geplante Ausgaben
-* Prognostizierter ROI (Return on Investment) oder CPA (Kosten pro Aktion)
-* Aufschlüsselung des ROI (Return on Investment) oder CPA (Kosten pro Aktion)
-* Prognostizierte Rendite
+* **[!UICONTROL Plan]**. Wenn es sich bei dem Plan um einen zielbasierten Plan handelt, wird ein Abzeichen angezeigt, das den Status des Ziels anzeigt.
+* **[!UICONTROL Date range]**
+* **[!UICONTROL Model]**
+* **[!UICONTROL Total budget]**
+* **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** oder **[!UICONTROL Custom + AI]**
+* **[!UICONTROL Planned spend]**
+* **[!UICONTROL Forecasted ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
+* Aufschlüsselung der **[!UICONTROL ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
+* **[!UICONTROL Forecasted return]**
 
 Dabei gilt:
 

@@ -1,9 +1,9 @@
 ---
 title: Harmonisiertes Daten-Dashboard
-description: Erfahren Sie, wie Sie das harmonisierte Datenübersicht-Dashboard in Mix Modeler verwenden.
+description: Erfahren Sie, wie Sie das Dashboard Harmonized Data Overview in Mix Modeler verwenden.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Harmonisierte Daten
 
-Die Registerkarte **[!UICONTROL Harmonized data]** im Mix Modeler ![Startseite](/help/assets/icons/Home.svg) bietet **[!UICONTROL Overview]** Einblicke in die harmonisierten Daten, die Sie konfiguriert haben, um sie im Rahmen der Einrichtung der aufgenommenen Daten und der harmonisierten Daten zu verwenden.
+Mix Modeler Die Registerkarte &quot;**[!UICONTROL Harmonized data]**&quot; in ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** bietet Einblicke in die harmonisierten Daten, die Sie für die Verwendung als Teil der aufgenommenen Daten und der Einrichtung der harmonisierten Daten konfiguriert haben.
 
 Die Übersicht zeigt vier KPI-Status-Kartenvisualisierungen (oberste Zeile) und sechs weitere konfigurierbare Visualisierungen .
 
@@ -22,7 +22,7 @@ Um den Datumsbereich für die in den Visualisierungen anzuzeigenden Daten zu än
 
 Sie können die für alle Visualisierungen angezeigten Daten mithilfe des **[!UICONTROL Category Filters]** ![Filtern](/help/assets/icons/Filter.svg) filtern.
 
-Wählen Sie für jede Kategorie einen oder mehrere Filter aus (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** und **[!UICONTROL Traffic Source]**).
+Wählen Sie für jede Kategorie einen oder mehrere Filter aus (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Channels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** und **[!UICONTROL Traffic Source]**).
 
 Ausgewählte Filter werden über den Visualisierungen unter **[!UICONTROL FILTERING BY:]** angezeigt.
 

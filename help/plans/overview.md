@@ -3,9 +3,9 @@ title: Pläne - Übersicht
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,12 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von
    | Modell | Das als Grundlage für den Plan verwendete Modell. |
    | Datumsbereich | Der vollständige Datumsbereich für einen Plan. |
    | Budget | Das Gesamtbudget für einen Plan. |
+   | Planziel | Die Zielmetrik , die für einen zielbasierten Plan definiert ist. |
    | Prognostizierte Rendite | Die [prognostizierte ](/help/main-guide/glossary.md)) für einen Plan |
    | Prognostizierter ROI | Der [prognostizierte ROI](/help/main-guide/glossary.md) für einen Plan. |
    | Prognostizierte Konversion | Die [prognostizierte Konversion](/help/main-guide/glossary.md) für einen Plan |
    | Prognostizierter CPA | Die [prognostizierte CPA](/help/main-guide/glossary.md) für einen Plan |
-   | Status | Der Status eines Plans: <p><span style="color:red">●</span> fehlgeschlagen, <p><span style="color:blue">●</span> Verarbeitung läuft oder <p><span style="color:green">●</span> abgeschlossen. |
+   | Status | Der Status eines Plans: <p><span style="color:red">●</span> fehlgeschlagen, <p><span style="color:blue">●</span> oder <p><span style="color:green">●</span> abgeschlossen. |
 
    {style="table-layout:auto"}
 
@@ -82,7 +83,7 @@ Duplizieren eines Plans:
 - Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus. Wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 - Wählen Sie alternativ einen Plan in der Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) aus und wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) aus der blauen Aktionsleiste **[!UICONTROL Duplicate]**.
 
-Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)] (_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
+Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)](_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
 
 - Details (wie Beschreibung, Budget und mehr) aus dem ursprünglichen Plan werden kopiert.
 - Budgetbeschränkungen aus dem ursprünglichen Plan werden in den neu erstellten Plan kopiert.
@@ -113,6 +114,6 @@ So löschen Sie mehrere Pläne:
 
 1. Mehrere Pläne auswählen.
 1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Pläne zu löschen.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**&#x200B;aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
 
 
