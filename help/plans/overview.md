@@ -83,7 +83,7 @@ Duplizieren eines Plans:
 - Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus. Wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 - Wählen Sie alternativ einen Plan in der Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) aus und wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) aus der blauen Aktionsleiste **[!UICONTROL Duplicate]**.
 
-Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)](_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
+Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)] (_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
 
 - Details (wie Beschreibung, Budget und mehr) aus dem ursprünglichen Plan werden kopiert.
 - Budgetbeschränkungen aus dem ursprünglichen Plan werden in den neu erstellten Plan kopiert.
@@ -114,6 +114,6 @@ So löschen Sie mehrere Pläne:
 
 1. Mehrere Pläne auswählen.
 1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Pläne zu löschen.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**&#x200B;aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**&#x200B;aus.
 
 

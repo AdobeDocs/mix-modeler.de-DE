@@ -108,6 +108,7 @@ Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie !
    1. Um zwischen Eingabe von Währung oder Prozentsatz umzuschalten, wählen Sie **[!UICONTROL $]** oder **[!UICONTROL %]** für **[!UICONTROL View spend by]** aus. Dieser Umschalter ist deaktiviert, wenn Sie Zielmetriken ausgewählt haben, die nicht währungsbasiert sind.
 
    1. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Create]** aus.
+
       ![Auswahl der Ausgaben](/help/assets/plan-spend-selection.png)
 
    1. Wählen Sie **[!UICONTROL Next]** aus.
