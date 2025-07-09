@@ -2,7 +2,7 @@
 user-guide-title: Handbuch zu Mix Modeler
 breadcrumb-title: Handbuch zu Mix Modeler
 user-guide-description: Erfahren Sie, wie Mix Modeler verwendet wird.
-source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
+source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 52%
@@ -18,25 +18,25 @@ ht-degree: 52%
    + [Anwendungs-Workflow](/help/get-started/workflow.md)
 
 + Startseite {#dashboard}
-   + [Übersicht](/help/dashboard/overview.md)
+   + [Überblick](/help/dashboard/overview.md)
    + [Harmonisierte Daten](/help/dashboard/harmonized-data.md)
    + [Pläne](/help/dashboard/plans.md)
 
 + Modelle {#models}
-   + [Übersicht](/help/models/overview.md)
+   + [Überblick](/help/models/overview.md)
    + [Erstellen von Modellen](/help/models/build.md)
    + [Trainieren und Bewerten von Modellen](/help/models/train-score.md)
    + [Modelleinblicke](/help/models/insights.md)
    + [Bewertungsdaten verwenden](/help/models/scoring-data.md)
 
 + Pläne {#plans}
-   + [Übersicht](/help/plans/overview.md)
+   + [Überblick](/help/plans/overview.md)
    + [Pläne erstellen](/help/plans/build.md)
    + [Planerkenntnisse](/help/plans/insights.md)
    + [Pläne vergleichen](/help/plans/compare.md)
 
 + Datensätze harmonisieren {#harmonize-data}
-   + [Übersicht](/help/harmonize-data/overview.md)
+   + [Überblick](/help/harmonize-data/overview.md)
    + [Felder](/help/harmonize-data/fields.md)
    + [Datensatzregeln](/help/harmonize-data/dataset-rules.md)
    + [Marketing-Touchpoints](/help/harmonize-data/marketing-touchpoints.md)
@@ -44,12 +44,12 @@ ht-degree: 52%
    + [Verwendungsbericht](/help/harmonize-data/usage-report.md)
 
 + Aufnehmen von Daten {#ingest-data}
-   + [Übersicht](/help/ingest-data/overview.md)
+   + [Überblick](/help/ingest-data/overview.md)
    + [Schemata](/help/ingest-data/schemas.md)
    + [Datensätze](/help/ingest-data/datasets.md)
 
 + Data Governance {#data-governance}
-   + [Übersicht](/help/data-governance/overview.md)
+   + [Überblick](/help/data-governance/overview.md)
    + [Zugangssteuerung](/help/data-governance/access-controls.md)
    + [Audit-Protokolle](/help/data-governance/audit-logs.md)
    + [Richtlinien](/help/data-governance/policies.md)
@@ -65,3 +65,4 @@ ht-degree: 52%
    + [Test](../releases/test.md)
 
 + [Glossar](/help/main-guide/glossary.md)
+
