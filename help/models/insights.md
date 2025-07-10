@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
+source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,21 @@ Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
 
 Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressourcen zu unterstützen.
 
-Um Modelleinblicke anzuzeigen, gehen Sie in der **[!UICONTROL Models]** ![Modelle](/help/assets/icons/FileData.svg) in Mix Modeler folgendermaßen vor:
+Um Modelleinblicke anzuzeigen, gehen Sie in der ![ ](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
 
-1. Wählen Sie in der Tabelle **[!UICONTROL Models]** den Namen eines Modells mit der **[!UICONTROL Last run status]** <span style="color:green">● aus</span> **[!UICONTROL Success]**.
+1. Wählen Sie in der Tabelle **[!UICONTROL Models]** den Namen eines Modells aus, das die **[!UICONTROL Last run status]** <span style="color:green">●</span> aufweist **[!UICONTROL Success]**.
 
 1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus.
 
-![Registerkarte „Modelleinblicke“](/help/assets/model-insights-tabbar.png)
 
-Sie sehen, wann das angegebene Modell zuletzt aktualisiert wurde, und Visualisierungen werden über vier Registerkarten angezeigt: [Modelleinblicke](#model-insights), [Attribution](#attribution), [Faktoren](#factors), [Diagnose](#diagnostics) und [Historischer Überblick](#historical-overview).
+
+Die folgenden Registerkarten sind verfügbar:
+
+* [Modelleinblicke](#model-insights)
+* [Faktoren](#factors-beta) [!BADGE Beta]
+* [Attribution](#attribution) (nur für MTA-aktivierte Modelle)
+* [Diagnose](#diagnostics)
+* [Historischer Überblick](#historical-overview).
 
 Sie können den Zeitraum ändern, auf dem die Visualisierungen auf den einzelnen Registerkarten basieren. Geben Sie einen Datumsbereich ein oder wählen Sie ![Kalender](/help/assets/icons/Calendar.svg), um einen Datumsbereich auszuwählen.
 
@@ -36,7 +42,7 @@ Sie können den Zeitraum ändern, auf dem die Visualisierungen auf den einzelnen
 
 {{release-limited-testing-section}}
 
-Wenn Modellabweichungen auf dem Modell erkannt werden, wird ein **[!UICONTROL Model drift detected]** Dialogfeld mit Optionen angezeigt, die Sie später daran erinnern oder das Modell sofort [**[!UICONTROL Retrain]**](overview.md#retrain) können. Wenn Sie **[!UICONTROL Remind me later]** auswählen, werden Sie am nächsten Tag oder bei der nächsten Anmeldung daran erinnert.
+Wenn Modellabweichungen auf dem Modell erkannt werden, wird ein **[!UICONTROL Model drift detected]** Dialogfeld mit Optionen angezeigt, die später erinnert werden sollen oder das Modell sofort [**[!UICONTROL Retrain]**](overview.md#retrain). Wenn Sie **[!UICONTROL Remind me later]** auswählen, werden Sie am nächsten Tag oder bei der nächsten Anmeldung daran erinnert.
 
 ![Dialogfeld „Modelldrift erkannt“](/help/assets/model-drift-dialog.png)
 
@@ -57,9 +63,9 @@ Die Registerkarte Modelleinblicke zeigt Visualisierungen für [Beitrag nach Datu
 
 Diese gestapelte Diagrammvisualisierung ist wie folgt angeordnet:
 
-* Sockel unten.
-* Nicht ausgegebene Kanäle in der Mitte.
-* Kanäle oben ausgeben.
+* Die Basis wird unten angezeigt.
+* Nicht ausgegebene Kanäle werden in der Mitte angezeigt.
+* Die Ausgabenkanäle werden oben angezeigt.
 
 Diese Visualisierung stellt den Beitragsanteil dar, der von der Basis, von Ausgabenkanälen und von nicht ausgegebenen Kanälen über einen Datumsbereich erreicht wird. Diese Visualisierung ist hilfreich, um die Inkrementalität zu präsentieren. Die Basis stellt dar, was ohne Marketing überhaupt passiert wäre, und die Nicht-Ausgabenkanäle plus Ausgabenkanäle (zusätzlich zur Basis) weisen auf die Wirkung Ihres Marketing hin. Kurz gesagt, die Nicht-Ausgaben plus Ausgaben entsprechen der inkrementellen Wirkung Ihrer Marketing-Maßnahmen, und die Visualisierung bietet eine einfache insight in den Wert, den das Marketing generiert.
 
@@ -84,7 +90,7 @@ So ändern Sie den Kanal:
 
 ### Touchpoint-Aufschlüsselung
 
-Die Tabelle Touchpoint-Aufschlüsselung zeigt die wöchentlichen Touchpoint-Aufschlüsselungen für alle oder ausgewählte Kanäle auf wöchentlicher Basis und zeigt die mit jedem verbundenen Schlüsselmetriken an. Die Tabelle ermöglicht einen einfachen Vergleich, die Identifizierung von Trends und die Verfolgung der Leistung auf einer detaillierteren Kanalebene. Diese Tabelle ergänzt explizit die Visualisierung [Beitrag nach Datum und Basismedien](#contribution-by-date-and-base-media) und die Visualisierung [Beitrag nach Kanal](#contribution-by-channel).
+Die Tabelle Touchpoint-Aufschlüsselung zeigt die wöchentlichen Touchpoint-Aufschlüsselungen für alle oder ausgewählte Kanäle auf wöchentlicher Basis und mit den jeweiligen Schlüsselmetriken an. Die Tabelle ermöglicht einen einfachen Vergleich, die Identifizierung von Trends und die Verfolgung der Leistung auf einer detaillierteren Kanalebene. Diese Tabelle ergänzt explizit die Visualisierung [Beitrag nach Datum und Basismedien](#contribution-by-date-and-base-media) und die Visualisierung [Beitrag nach Kanal](#contribution-by-channel).
 
 ![Touchpoint-Aufschlüsselung](../assets/touchpoint-breakdown.png)
 
@@ -228,37 +234,51 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 
 Die Registerkarte Diagnose zeigt Visualisierungen für:
 
-* [!UICONTROL Model Assessment] Visualisierung, die Sie nach tatsächlichen Konversionen im Vergleich zu prognostizierten Konversionen oder Restkonversionen aufschlüsseln können.
+* **[!UICONTROL Model Assessment]** Visualisierungen, die aus Folgendem bestehen:
 
-  Um die Visualisierung aufzuschlüsseln, wählen Sie **[!UICONTROL Actual vs. Predicted]** oder **[!UICONTROL Residuals]** aus der **[!UICONTROL Breakdown]** aus.
+  ![Modellbewertung](../assets/model-assessment.png)
 
-* [!UICONTROL Model fitting metrics] Tabelle mit den folgenden Spalten für jede Konversionsmetrik:
+   * Ein Diagramm, das Sie nach tatsächlichen Konversionen im Vergleich zu prognostizierten Konversionen oder Restkonversionen aufschlüsseln können.
+Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen aus der **[!UICONTROL Breakdown]**.
 
-   * Tatsächliche Konversion
+      * **[!UICONTROL Actual vs Predicted]**: Diese Option vergleicht reale Werte mit Modellvorhersagen. Idealerweise sollten die prognostizierten Werte eng mit den tatsächlichen Werten übereinstimmen, obwohl eine gewisse Abweichung erwartet wird. Große oder systematische Abweichungen oder Muster können auf fehlende Beziehungen und Daten oder potenzielle Verzerrungen hinweisen.
 
-   * Modellierte Konversion
+      * **[!UICONTROL Residuals]**: Diese Option zeigt den Unterschied zwischen tatsächlichen und prognostizierten Werten an. Ein gut funktionierendes Modell hat zufällig verteilte Residuen ohne klare Muster oder zunehmende Ausbreitung. Strukturierte Trends oder sich ausweitende Residuen können auf fehlende Beziehungen und Daten oder Varianzprobleme hinweisen.
 
-   * Restkonvertierung (Unterschied zwischen tatsächlicher und modellierter Konversion)
+   * Eine Tabelle mit den folgenden Spalten für jede Konversionsmetrik:
 
-   * Werte der Modellqualitätsbewertung:
-
-      * R2 (R-Quadrat), das angibt, wie gut die Daten zum Regressionsmodell passen (die Anpassungsgüte).
-
-      * MAPE (Mean Absolute Percentage Error, mittlerer absoluter Prozentfehler) ist einer der am häufigsten verwendeten KPIs zur Messung der Prognosegenauigkeit, der den Prognosefehler als Prozentsatz des tatsächlichen Werts ausdrückt.
-
-      * RMSE (Root Mean Square Error, quadratischer Mittelwert der Fehlerquote): Gibt den durchschnittlichen Fehler an, gewichtet nach dem Quadrat des Fehlers.
+      * **[!UICONTROL Actual Conversion]**
+      * **[!UICONTROL Predicted Conversion]**
+      * **[!UICONTROL Residual Conversion]**
+      * **[!UICONTROL R<sup>2</sup>]**, ein Score, der angibt, wie gut die Daten zum Regressionsmodell passen (die Güte der Anpassung).
+      * **[!UICONTROL MAPE]** (Mittelwert des absoluten Prozentfehlers), der einer der am häufigsten verwendeten KPIs zur Messung der Prognosegenauigkeit ist und den Prognosefehler als Prozentsatz des tatsächlichen Werts ausdrückt.
+      * **[!UICONTROL RMSE]** (quadratischer Mittelwert des Fehlers): Gibt den durchschnittlichen Fehler an, gewichtet nach dem Quadrat des Fehlers.
 
   Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) aus.
 
-* [!UICONTROL Touchpoint effectiveness] Tabelle, die das Ergebnis des algorithmischen Attributions-KI-Modells darstellt. Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
+* **[!UICONTROL Model training fit metrics]** Tabelle, die für jede Konversionsmetrik angezeigt wird:
+
+  ![Tabelle mit Modelltrainings-Fit-Metriken](../assets/model-training-fit-metrics.png)
+
+   * **[!UICONTROL Training R<sup>2</sup>]**: Gibt den Anteil der Varianz in den tatsächlichen Werten an, der durch die Prognosen des Modells erklärt wird und von 0 bis 1 reicht.
+   * **[!UICONTROL Training sMAPE]** (symmetrischer Mittelwert absoluter Prozentfehler): Misst den durchschnittlichen Prozentfehler bei Trainings-Daten. Niedrigere Werte bedeuten eine bessere Genauigkeit.
+   * **[!UICONTROL Training RMSE]** (Root Mean Squared Error): Misst den durchschnittlichen prozentualen Fehler auf Trainings-Daten. Bestraft größere Fehler stärker als MAPE. Ein niedrigerer RMSE-Wert legt eine bessere Prognosegenauigkeit nahe, ist aber anfällig für Ausreißer.
+   * **[!UICONTROL Out-of-sample sMAPE]**: Evaluiert den prozentualen Fehler bei nicht angezeigten Daten und gleicht Über- und Unterprognosen aus. Hilft bei der Bewertung der Generalisierung. Derzeit bewertet Mix Modeler den prozentualen Fehler anhand des letzten Quartals der Schulungsdaten als Holdout-Satz.
+   * **[!UICONTROL Out-of-sample RMSE]**: Evaluiert den prozentualen Fehler bei nicht angezeigten Daten und gleicht Über- und Unterprognosen aus. Hilft bei der Bewertung der Generalisierung. Derzeit bewertet Mix Modeler den prozentualen Fehler anhand des letzten Quartals der Schulungsdaten als Holdout-Satz. RMSE bestraft größere Fehler stärker als MAPE.
+
+
+* **[!UICONTROL Touchpoint effectiveness]** Tabelle, die das Ergebnis des algorithmischen Attributions-KI-Modells darstellt.
+
+  ![Touchpoint-Effektivitätstabelle](../assets/touchpoint-effectiveness.png)
+
+  Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
   Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
-   * [!UICONTROL Paths touched]: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
-   * [!UICONTROL Efficiency measure]: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
-   * [!UICONTROL Total volume]: Die Gesamtzahl der Berührungen eines Touchpoints durch eine Benutzerin oder einen Benutzer. Die Anzahl umfasst Touchpoints, die auf einem Pfad angezeigt werden, der eine Konversion erreicht, sowie Pfade, die *Konversion*.
+   * **[!UICONTROL Paths touched]**: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
+   * **[!UICONTROL Efficiency measure]**: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
+   * **[!UICONTROL Total volume]**: Die Gesamtzahl der Berührungen eines Touchpoints durch eine Benutzerin oder einen Benutzer. Die Anzahl umfasst Touchpoints, die auf einem Pfad angezeigt werden, der eine Konversion erreicht, sowie Pfade, die *Konversion*.
 
-![Diagnose](/help/assets/model-insights-diagnostics.png)
 
 ### Modelldrifterkennung
 
