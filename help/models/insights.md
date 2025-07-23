@@ -237,7 +237,7 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 >id="models_diagnostics_modelassessment"
 >title="Diagramme zur Modellbewertung"
 >abstract="Visualisierungen der Modellbewertung unterteilen sich in tatsächliche vs. prognostizierte oder Restkonversionen."
->additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Übersicht über Mix Modeler"
+>additional-url="https://experienceleague.adobe.com/de/docs/mix-modeler/using/overview" text="Übersicht über Mix Modeler"
 >additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler-Demo"
 
 
