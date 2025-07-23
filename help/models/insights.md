@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,9 +230,30 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 * Die Summe dieser Prozentsätze des Kanalzuordnungsmodells.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-Die Registerkarte Diagnose zeigt Visualisierungen für:
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="Diagramme zur Modellbewertung"
+>abstract="Visualisierungen der Modellbewertung unterteilen sich in tatsächliche vs. prognostizierte oder Restkonversionen."
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Übersicht über Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler-Demo"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="Pfade mit Touchpoints"
+>abstract="„Pfade mit Touchpoints“ ist der Prozentsatz der Pfade, die eine Konversion erzielen, und der Prozentsatz der Pfade, die keine Konversion erzielen, für jeden Touchpoint."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="Modelldatum ab"
+>abstract="Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert.  Das **[!UICONTROL As of]** Datum gibt an, wann die Daten generiert wurden, und basiert auf Daten vom startDate bis endDate."
+
+
+Auf der Registerkarte **[!UICONTROL Diagnostics]** werden Visualisierungen für Folgendes angezeigt:
 
 * **[!UICONTROL Model Assessment]** Visualisierungen, die aus Folgendem bestehen:
 

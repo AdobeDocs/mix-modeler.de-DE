@@ -1,16 +1,22 @@
 ---
 title: Marketing-Touchpoints
-description: Erfahren Sie, wie Sie Marketing-Touchpoints erstellen, um Ihre Daten im Mix Modeler zu harmonisieren.
+description: Erfahren Sie, wie Sie Marketing-Touchpoints erstellen, um Ihre Daten in Mix Modeler zu harmonisieren.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# Marketing-Touchpoints
+# Marketing-Touchpoints {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="Marketing-Touchpoint"
+>abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfänger-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden."
+
 
 Marketing-Touchpoints sind Marketing-Ereignisse auf Empfänger-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden.
 
@@ -18,7 +24,7 @@ Sie definieren Marketing-Touchpoints, um Sie bei der Attributionsanalyse zu unte
 
 ## Marketing-Touchpoints verwalten
 
-So zeigen Sie eine Tabelle der verfügbaren Marketing-Touchpoints in der Mix Modeler-Benutzeroberfläche an:
+So zeigen Sie eine Tabelle der verfügbaren Marketing-Touchpoints in der Benutzeroberfläche von Mix Modeler an:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
@@ -38,7 +44,7 @@ Die Tabellenspalten geben Details zum Marketing-Touchpoint an:
 
 ## Hinzufügen eines Marketing-Touchpoints
 
-Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** in Mix Modeler folgendermaßen vor:
+Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** in Mix Modeler folgendermaßen vor:
 
 1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) Marketing-Touchpoint hinzufügen aus.
 
@@ -48,11 +54,11 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der ![DataSearch](/hel
 
    1. Definieren Sie eine **[!UICONTROL Touchpoint rule]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**&#x200B;aus, z. B.**[!UICONTROL Brand]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**aus, z. B.**[!UICONTROL Brand]**.
 
       1. Wählen Sie einen Wert für Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Touchpoint volume]** aus, z. B. **[!UICONTROL Impressions]**.
 
