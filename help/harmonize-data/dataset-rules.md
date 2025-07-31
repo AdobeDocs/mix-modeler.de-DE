@@ -1,18 +1,18 @@
 ---
 title: Datensatzregeln
-description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten im Mix Modeler verwendet werden sollen.
+description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
+source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
 
 # Datensatzregeln
 
-Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder zu Feldern aus den Daten, die Sie in den Mix Modeler aufgenommen haben.
+Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder zu Feldern aus den Daten, die Sie in Mix Modeler aufgenommen haben.
 
 * Für aggregierte Daten, die Sie in Adobe Experience Platform aufgenommen haben, ordnen Sie eines oder mehrere der verfügbaren Datensatzfelder den entsprechenden harmonisierten Feldern zu.
 * Für Ereignisdaten können Sie direkt oder unter Verwendung von Bedingungen ein oder mehrere harmonisierte Felder einzeln Feldern aus dem Datensatz zuordnen.
@@ -20,7 +20,7 @@ Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder 
 
 ## Verwalten von Datensatzregeln
 
-So zeigen Sie eine Tabelle der verfügbaren Datensatzregeln in der Benutzeroberfläche des Mix Modelers an:
+Eine Tabelle der verfügbaren Datensatzregeln finden Sie in der Benutzeroberfläche von Mix Modeler:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
@@ -35,14 +35,14 @@ Die Tabellenspalten geben Details zu den Datensatzregeln an:
 | Schema | Das Schema, dem der Datensatz entspricht. Sie können den Schemanamen schnell auswählen, um das Schema in einer neuen Registerkarte im Schema-Editor unter ![Schema](/help/assets/icons/Schemas.svg) [Schemas](../ingest-data/schemas.md) zu öffnen. |
 | Granularität | Die Granularität von Daten im Datensatz. Mögliche Werte sind Täglich, Wöchentlich, Monatlich oder Jährlich. |
 | Wochenbeginn | Gibt an, welcher Wochentag als Beginn einer neuen Woche für den spezifischen Datensatz betrachtet wird. |
-| Status | Der Status des Felds: <p><span style="color:gray">●</span> Entwurf oder <p><span style="color:green">●</span> aktiv |
+| Status | Der Status des Felds: <p>Entwurf <span style="color:gray">●</span> oder <p><span style="color:green">●</span> aktiv |
 | Zuletzt geändert | Datum und Uhrzeit der letzten Änderung der Datensatzregel. |
 
 {style="table-layout:auto"}
 
 ### Erstellen einer Datensatzregel
 
-Um eine Datensatzregel zu erstellen, wählen Sie im Mix Modeler in der **[!UICONTROL Harmonized data]** ![DataSearch](/help/assets/icons/DataCheck.svg) > **[!UICONTROL Dataset rules]** die Option **[!UICONTROL Create a dataset rule]** im **[!UICONTROL Dataset rules configuration]** aus.
+Um eine Datensatzregel zu erstellen, wählen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler im **[!UICONTROL Create a dataset rule]**-Assistenten **[!UICONTROL Dataset rules configuration]** aus.
 
 Auf dem Bildschirm **[!UICONTROL Create]**
 
@@ -52,19 +52,7 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
 1. Wählen Sie **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** oder **[!UICONTROL Yearly]** für **[!UICONTROL Granularity]** aus.
 
-1. Wenn Sie einen Datensatz der Kategorie **[!UICONTROL Summary]** ausgewählt haben:
-
-   1. Um zu definieren, ob Daten für den Datensatz vorhandene Daten aggregieren oder ersetzen sollen, wählen Sie **[!UICONTROL Aggregation]** oder **[!UICONTROL Replacement]** für die **[!UICONTROL Data restatement is by]** aus.
-
-   1. Ordnen Sie jedes **[!UICONTROL Available dataset fields]** den entsprechenden **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]** zu. Wenn Sie ein Datensatzfeld keinem harmonisierten Feld zuordnen möchten, wählen Sie **[!UICONTROL -- None --]** explizit aus.
-
-   1. Wenn Sie ein neues harmonisiertes Feld benötigen, das nicht in der Liste verfügbar ist, wählen Sie **[!UICONTROL Create New]** aus, um ein neues harmonisiertes Feld zu erstellen. Das Dialogfeld wird angezeigt, wie unter [Neues harmonisiertes Feld hinzufügen“ ](fields.md#add-a-harmonized-field).
-
-   1. Wenn die Zuordnung für alle Felder der Regel abgeschlossen ist, wählen Sie **[!UICONTROL Save as draft]** aus, um eine Entwurfsversion der Regel zu speichern, oder **[!UICONTROL Save]**, um die Regel zu speichern und zu aktivieren. Wählen Sie **[!UICONTROL Cancel]** aus, um die Regelkonfiguration abzubrechen.
-
-      ![Erstellen von Datensatzregeln](/help/assets/dataset-create-summary.png)
-
-1. Wenn Sie einen Ereignis-Kategorie-Datensatz (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**) im Feld unter **[!UICONTROL Map to harmonized fields]** ausgewählt haben:
+1. Im **[!UICONTROL Map to harmonized fields]** Abschnitt:
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Standard harmonized field]** aus.
 
@@ -72,17 +60,17 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
       1. Wählen Sie **[!UICONTROL Count]** oder **[!UICONTROL Sum]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wählen Sie ein **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
+      1. Wählen Sie ein **[!UICONTROL *AEP *]**Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
 
    1. Wenn das ausgewählte Feld vom Typ Dimension ist:
 
       1. Wählen Sie **[!UICONTROL Map Into]** oder **[!UICONTROL Case]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann für ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;prüfen, ob sie **[!UICONTROL Exists]**&#x200B;oder **[!UICONTROL Not Exists]**&#x200B;oder ob sie **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;oder **[!UICONTROL Ends With]**&#x200B;einen unter&#x200B;**[!UICONTROL * Eingabewert eingeben *]** eingegebenen Wert enthält.
+         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**ob es **[!UICONTROL Exists]**oder **[!UICONTROL Not Exists]**oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**oder **[!UICONTROL Ends With]**einen unter**[!UICONTROL * Eingabewert eingeben *]**.
 
          1. Um einen weiteren Fall hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -103,14 +91,29 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
         ![Datensatz-Regelereignis](/help/assets/dataset-create-event.png)
 
+      Wenn Sie ein standardmäßiges harmonisiertes Feld aus einem Zusammenfassungsdatensatz zuordnen, versucht Mix Modeler, das entsprechende Experience Platform-Datensatzfeld abzuleiten. Bei Erfolg:
+
+      * Wenn das Feld vom Typ „Dimension“ ist, wird **[!UICONTROL Map into]** als **[!UICONTROL Mapping type]** ausgewählt.
+      * Wenn das Feld vom Typ „Metrik“ ist, wird **[!UICONTROL Sum]** als **[!UICONTROL Mapping type]** ausgewählt.
+      * **[!UICONTROL Field]** ist als **[!UICONTROL Default]** Zuordnungstyp ausgewählt.
+      * Das entsprechende Experience Platform-Datensatzfeld wird automatisch für das *AEP-Datensatzfeld eingefügt*.
+
+      Sie können jeden der vorgeschlagenen Werte ändern, wenn diese falsch sind oder Ihren spezifischen Anwendungsfall nicht unterstützen.
+
 1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** aus, um zusätzliche Felder zu definieren.
 
 Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save as draft]** , um eine Entwurfsversion der Regel zu speichern, oder auf **[!UICONTROL Save]** , um die Regel zu speichern und zu aktivieren. Wählen Sie **[!UICONTROL Cancel]** aus, um die Regelkonfiguration abzubrechen.
 
+>[!NOTE]
+>
+>Das dedizierte **[!UICONTROL Map to harmonized fields]**-Erlebnis für Regeln für Zusammenfassungsdatensätze wird nicht mehr unterstützt. Alle Datensätze verwenden jetzt dasselbe generische **[!UICONTROL Map to harmonized fields]**. Für zusammenfassende Datensätze, für die Sie Regeln mit dem veralteten **[!UICONTROL Map to harmonized fields]**-Erlebnis definiert haben, sollten Sie diese Regeln mit dem generischen **[!UICONTROL Map to harmonized field]**-Erlebnis vergleichen.
+>
+
+
 
 ### Bearbeiten einer Datensatzregel
 
-Um eine Datensatzregel zu bearbeiten, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** im Mix Modeler folgendermaßen vor:
+Um eine Datensatzregel zu bearbeiten, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler folgendermaßen vor:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) in der Spalte **[!UICONTROL Dataset]** für die Datensatzregel aus, die Sie bearbeiten möchten.
 1. Wählen Sie im Kontextmenü die Option ![Bearbeiten](/help/assets/icons/Edit.svg) aus **[!UICONTROL Edit]** um mit der Bearbeitung der Datensatzregel zu beginnen. Weitere Informationen finden [ unter „Erstellen ](#create-a-dataset-rule) Datensatzregel“.
@@ -118,10 +121,11 @@ Um eine Datensatzregel zu bearbeiten, gehen Sie in der ![DataSearch](/help/asset
 
 ### Löschen einer Datensatzregel
 
-Um eine Datensatzregel zu löschen, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** im Mix Modeler folgendermaßen vor:
+Um eine Datensatzregel zu löschen, gehen Sie in der Benutzeroberfläche ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler folgendermaßen vor:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) in der Spalte **[!UICONTROL Dataset]** für die Datensatzregel aus, die Sie löschen möchten.
 1. Wählen Sie im Kontextmenü die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Datensatzregel zu löschen. Sie werden zur Bestätigung aufgefordert. Wählen Sie **[!UICONTROL Delete]** aus, um die ausgewählte Datensatzregel dauerhaft zu löschen.
+
 
 
 ## Daten synchronisieren
@@ -144,7 +148,7 @@ So synchronisieren Sie Daten zwischen Ihren harmonisierten Daten und Zusammenfas
 
 >[!NOTE]
 >
->[!BADGE Beta]{type=Informative}
+>[!BADGE Beta]{type=Informative} Die Voreinstellungen für die Datenzusammenführung sind eine Beta-Funktion und ihre Funktionalität kann sich ändern.
 
 Um genaue Modellvorhersagen zu gewährleisten, können Sie Voreinstellungen für die Datenzusammenführung definieren. Diese Funktion ermöglicht es Benutzenden, Konflikte nach dem Zusammenführen von Daten auf Zusammenfassungsebene und Ereignisebene zu beheben.
 
@@ -170,7 +174,7 @@ So konfigurieren Sie die Voreinstellungen für die Datenzusammenführung:
 
 1. Wählen Sie ![Voreinstellungen für die Datenzusammenführung](/help/assets/icons/Merge.svg) [!BADGE Beta] aus.
 
-1. In der **[!UICONTROL Data merge preferences]** [!BADGE Beta]{type=Informative}
+1. Im **[!UICONTROL Data merge preferences]**-Dialogfeld [!BADGE Betaversion]{type=Informative}:
 
    ![Voreinstellungen für die Datenzusammenführung](/help/assets/data-merge-preferences.png)
 
@@ -179,7 +183,7 @@ So konfigurieren Sie die Voreinstellungen für die Datenzusammenführung:
    * So fügen Sie metrikbasierte Voreinstellungen hinzu:
 
       1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** aus.
-         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**&#x200B;aus.
+         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**aus.
          1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einen bestimmten Kanal- oder Konvertierungstyp aus.
          1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus, um anzugeben, ob beim Zusammenführen von Daten Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und alle oder ausgewählte Kanäle) bevorzugt werden.
 
