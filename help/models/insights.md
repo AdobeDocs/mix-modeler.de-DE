@@ -6,7 +6,7 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -236,9 +236,9 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Diagramme zur Modellbewertung"
->abstract="Visualisierungen der Modellbewertung unterteilen sich in tatsächliche vs. prognostizierte oder Restkonversionen."
->additional-url="https://experienceleague.adobe.com/de/docs/mix-modeler/using/overview" text="Übersicht über Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440803/?learn=on&enablevpops&captions=ger" text="Mix Modeler-Demo"
+>abstract="Visualisierungen der Modellbewertung schlüsseln tatsächliche und prognostizierte oder Restkonversionen auf."
+>additional-url="https://experienceleague.adobe.com/de/docs/mix-modeler/using/overview" text="Überblick über Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demo von Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -249,7 +249,7 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
->title="Modelldatum ab"
+>title="Modelldatum „Ab“"
 >abstract="Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert.  Das **[!UICONTROL As of]** Datum gibt an, wann die Daten generiert wurden, und basiert auf Daten vom startDate bis endDate."
 
 

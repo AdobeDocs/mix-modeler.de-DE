@@ -6,7 +6,7 @@ exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoint"
 >title="Marketing-Touchpoint"
->abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfänger-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden."
+>abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfangs-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden."
 
 
-Marketing-Touchpoints sind Marketing-Ereignisse auf Empfänger-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden.
+Marketing-Touchpoints sind Marketing-Ereignisse auf Empfangs-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden.
 
 Sie definieren Marketing-Touchpoints, um Sie bei der Attributionsanalyse zu unterstützen.
 
@@ -54,11 +54,11 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläch
 
    1. Definieren Sie eine **[!UICONTROL Touchpoint rule]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**&#x200B;aus, z. B.**[!UICONTROL Brand]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**aus, z. B.**[!UICONTROL Brand]**.
 
       1. Wählen Sie einen Wert für Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Touchpoint volume]** aus, z. B. **[!UICONTROL Impressions]**.
 
