@@ -54,11 +54,11 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläch
 
    1. Definieren Sie eine **[!UICONTROL Touchpoint rule]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**aus, z. B.**[!UICONTROL Brand]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**&#x200B;aus, z. B.**[!UICONTROL Brand]**.
 
       1. Wählen Sie einen Wert für Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Touchpoint volume]** aus, z. B. **[!UICONTROL Impressions]**.
 
