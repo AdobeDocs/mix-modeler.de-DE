@@ -3,9 +3,9 @@ title: Datensatzregeln
 description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
+source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1625'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,14 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
 1. Wählen Sie **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** oder **[!UICONTROL Yearly]** für **[!UICONTROL Granularity]** aus.
 
+1. Wenn Sie einen Datensatz der Kategorie **[!UICONTROL Summary]** ausgewählt haben, wählen Sie **[!UICONTROL Aggregation]** oder **[!UICONTROL Replacement]** für die **[!UICONTROL Data restatement is by]** aus.
+
+   Die Berichterstattung über Daten von Publishern ist für Marketing-Analysten sehr wichtig, da die Arbeit mit Publishern oft erhebliche Ausgaben mit sich bringt und Änderungen an den Berichtsdaten zu sehr unterschiedlichen Einblicken und Investitionsplänen führen können. Darüber hinaus benötigen Marketing-Analysten genaue Daten, um die richtigen Erkenntnisse zu gewinnen und überzeugende Vorschläge zu unterbreiten, um das Vertrauen der Stakeholder zu gewinnen. Diese Herausgeber wie Google und Facebook passen jedoch ihre Berichtsdaten häufig an bzw. löschen sie, während sie ihre Daten miteinander abstimmen. Der Zeitrahmen für die meisten Änderungen liegt innerhalb von 7 Tagen nach der gemeldeten Medienleistung. Weitere Änderungen der Daten sind innerhalb von 30 Tagen möglich. Im Allgemeinen gelten Bücher nach 30 Tagen als geschlossen und die Daten vollständig.
+
+   Mix Modeler unterstützt die Datenanpassung. Um sicherzustellen, dass die Daten, die für das Reporting, die Modellierung und die Planung verwendet werden, korrekt sind. Und dass die Daten in der Lage sind, die Erwartungen und Bedürfnisse der Marken- und Marketing-Analysten zu unterstützen.
+
+   Sie können neu angepasste Zeilen von Zusammenfassungsdaten als inkrementelle Zeilen in einem Experience Platform-Datensatz senden, und der Harmonisierungs-Service aktualisiert den harmonisierten Datensatz mit diesen neu angepassten Daten. Auf ähnliche Weise können Sie auch Zeilen mit Zusammenfassungsdaten entfernen, die im Harmonisierungsdienst widergespiegelt werden müssen.
+
 1. Im **[!UICONTROL Map to harmonized fields]** Abschnitt:
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Standard harmonized field]** aus.
@@ -60,17 +68,17 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
       1. Wählen Sie **[!UICONTROL Count]** oder **[!UICONTROL Sum]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wählen Sie ein **[!UICONTROL *AEP *]**&#x200B;Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
+      1. Wählen Sie ein **[!UICONTROL *AEP *]**Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
 
    1. Wenn das ausgewählte Feld vom Typ Dimension ist:
 
       1. Wählen Sie **[!UICONTROL Map Into]** oder **[!UICONTROL Case]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**&#x200B;ob es **[!UICONTROL Exists]**&#x200B;oder **[!UICONTROL Not Exists]**&#x200B;oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;oder **[!UICONTROL Ends With]**&#x200B;einen unter&#x200B;**[!UICONTROL * Eingabewert eingeben *]**.
+         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**ob es **[!UICONTROL Exists]**oder **[!UICONTROL Not Exists]**oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**oder **[!UICONTROL Ends With]**einen unter**[!UICONTROL * Eingabewert eingeben *]**.
 
          1. Um einen weiteren Fall hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -183,7 +191,7 @@ So konfigurieren Sie die Voreinstellungen für die Datenzusammenführung:
    * So fügen Sie metrikbasierte Voreinstellungen hinzu:
 
       1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** aus.
-         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**&#x200B;aus.
+         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**aus.
          1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einen bestimmten Kanal- oder Konvertierungstyp aus.
          1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus, um anzugeben, ob beim Zusammenführen von Daten Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und alle oder ausgewählte Kanäle) bevorzugt werden.
 
