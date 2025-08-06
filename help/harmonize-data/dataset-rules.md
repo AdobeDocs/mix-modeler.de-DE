@@ -3,9 +3,9 @@ title: Datensatzregeln
 description: Erfahren Sie, wie Sie Datensatzregeln definieren, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden sollen.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 1%
 
 ---
@@ -68,17 +68,17 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
       1. Wählen Sie **[!UICONTROL Count]** oder **[!UICONTROL Sum]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wählen Sie ein **[!UICONTROL *AEP *]**&#x200B;Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
+      1. Wählen Sie ein **[!UICONTROL *AEP *]**Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
 
    1. Wenn das ausgewählte Feld vom Typ Dimension ist:
 
       1. Wählen Sie **[!UICONTROL Map Into]** oder **[!UICONTROL Case]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**oder **[!UICONTROL Value]**und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**&#x200B;ob es **[!UICONTROL Exists]**&#x200B;oder **[!UICONTROL Not Exists]**&#x200B;oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;oder **[!UICONTROL Ends With]**&#x200B;einen unter&#x200B;**[!UICONTROL * Eingabewert eingeben *]**.
+         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**ob es **[!UICONTROL Exists]**oder **[!UICONTROL Not Exists]**oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**oder **[!UICONTROL Ends With]**einen unter**[!UICONTROL * Eingabewert eingeben *]**.
 
          1. Um einen weiteren Fall hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -114,7 +114,7 @@ Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save as draft]** , um eine E
 
 >[!NOTE]
 >
->Das dedizierte **[!UICONTROL Map to harmonized fields]**-Erlebnis für Regeln für Zusammenfassungsdatensätze wird nicht mehr unterstützt. Alle Datensätze verwenden jetzt dasselbe generische **[!UICONTROL Map to harmonized fields]**. Für zusammenfassende Datensätze, für die Sie Regeln mit dem veralteten **[!UICONTROL Map to harmonized fields]**-Erlebnis definiert haben, sollten Sie diese Regeln mit dem generischen **[!UICONTROL Map to harmonized field]**-Erlebnis vergleichen.
+>Das dedizierte **[!UICONTROL Map to harmonized fields]**-Erlebnis für Regeln für Zusammenfassungsdatensätze wird nicht mehr unterstützt. Alle Datensatzregeln verwenden jetzt unabhängig vom Datensatztyp ein ähnliches **[!UICONTROL Map to harmonized fields]**. Für zusammenfassende Datensätze, für die Sie Regeln mit dem veralteten **[!UICONTROL Map to harmonized fields]**-Erlebnis definiert haben, sollten Sie diese Regeln mit dem generischen **[!UICONTROL Map to harmonized field]**-Erlebnis vergleichen.
 >
 
 
@@ -191,7 +191,7 @@ So konfigurieren Sie die Voreinstellungen für die Datenzusammenführung:
    * So fügen Sie metrikbasierte Voreinstellungen hinzu:
 
       1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** aus.
-         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**&#x200B;aus.
+         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**aus.
          1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einen bestimmten Kanal- oder Konvertierungstyp aus.
          1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus, um anzugeben, ob beim Zusammenführen von Daten Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und alle oder ausgewählte Kanäle) bevorzugt werden.
 

@@ -4,27 +4,35 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '518'
 ht-degree: 3%
 
 ---
 
 # Aktuelle Versionshinweise zu Mix Modeler
 
-**Letzte Aktualisierung**: 14. Mai 2025.
+**Letzte Aktualisierung**: 6. August 2025.
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
+
+
+
+## Juli–August 2025
+
+| Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
+|---|---|---|---|
+| **Harmonisierungsaktualisierungen** | Alle Datensatzregeln verwenden jetzt unabhängig vom Datensatztyp eine ähnliche [generische Zuordnung zu harmonisierten ](/help/harmonize-data/dataset-rules.md)). Wenn Sie ein standardmäßiges harmonisiertes Feld aus einem Zusammenfassungsdatensatz zuordnen, versucht Mix Modeler, das entsprechende Experience Platform-Datensatzfeld automatisch abzuleiten. | Mittwoch, 29. Juli 2025 | Mittwoch, 29. Juli 2025 |
 
 
 ## Mai - Juni 2025
 
 | Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
 |---|---|---|---|
-| **Zielbasierte Pläne** | Neben Budgets können Sie ein Ziel (Ziel) definieren, wenn Sie [ Plan erstellen ](/help/plans/build.md) [ bearbeiten ](/help/plans/insights.md#edit-plan). Beispiele für Zielmetriken sind Umsatz, Konversion, CPA oder ROI. | &#x200B;18. Juni 2025 | &#x200B;8. Juli 2025 |
-| **Konfiguration des Ausgabenmusters** | Wenn Sie einen Plan erstellen, haben Sie jetzt die Möglichkeit, bei der Definition des Ausgabenmusters für jeden Budgetdatumsbereich [historische Referenz](/help/plans/build.md)-Daten (wie Daten zu früheren Marketing-Ausgaben und Einblicke) zu verwenden. | Donnerstag, 14. Mai 2025 | Donnerstag, 14. Mai 2025 |
-| **Erweiterte Plankonfigurationen** | Sie können [erweiterte Konfigurationen](/help/plans/build.md) für Ihren Plan definieren, z. B. durchschnittliche Einnahmen pro Konvertierung und Kanalkosten. | Donnerstag, 14. Mai 2025 | Donnerstag, 14. Mai 2025 |
+| **Zielbasierte Pläne** | Neben Budgets können Sie ein Ziel (Ziel) definieren, wenn Sie [ Plan erstellen ](/help/plans/build.md) [ bearbeiten ](/help/plans/insights.md#edit-plan). Beispiele für Zielmetriken sind Umsatz, Konversion, CPA oder ROI. | &#x200B;18. Juni 2025 | Mittwoch, 8. Juli 2025 |
+| **Konfiguration des Ausgabenmusters** | Wenn Sie einen Plan erstellen, haben Sie jetzt die Möglichkeit, bei der Definition des Ausgabenmusters für jeden Budgetdatumsbereich [historische Referenz](/help/plans/build.md)-Daten (wie Daten zu früheren Marketing-Ausgaben und Einblicke) zu verwenden. | &#x200B;14. Mai 2025 | &#x200B;14. Mai 2025 |
+| **Erweiterte Plankonfigurationen** | Sie können [erweiterte Konfigurationen](/help/plans/build.md) für Ihren Plan definieren, z. B. durchschnittliche Einnahmen pro Konvertierung und Kanalkosten. | &#x200B;14. Mai 2025 | &#x200B;14. Mai 2025 |
 
 ## März bis April 2025
 
