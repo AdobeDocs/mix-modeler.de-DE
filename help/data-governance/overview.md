@@ -18,7 +18,7 @@ Experience Platform Data Governance bietet Ihnen die Möglichkeit, Ihre Daten ü
 
 Datennutzungsbeschriftungen und -richtlinien, die für Datensätze erstellt werden, die von der Experience Platform-Oberfläche in der Mix Modeler genutzt werden, sofern zutreffend. Beispielsweise stoppen oder warnen diese Kennzeichnungen Benutzende, wenn sie Datensätze löschen, die Teil einer Datensatzregel in den harmonisierten Daten sind. Oder blenden Sie Schemafelder aus, die beim Erstellen einer Datensatzregel für Benutzer eingeschränkt sind.
 
-Die Data Governance-Integration ermöglicht ein effizienteres Compliance-Management. Datenverantwortliche in Ihrem Unternehmen können Richtlinien festlegen, um die Nutzung zu beschränken. So können Sie Daten verwenden, die den von Datenverantwortlichen definierten Richtlinien entsprechen. Weitere Informationen finden Sie in der Dokumentation zu [Labels und Richtlinien](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance).
+Die Data Governance-Integration ermöglicht ein effizienteres Compliance-Management. Datenverantwortliche in Ihrem Unternehmen können Richtlinien festlegen, um die Nutzung zu beschränken. So können Sie Daten verwenden, die den von Datenverantwortlichen definierten Richtlinien entsprechen. Weitere Informationen finden Sie in der Dokumentation zu [Labels und Richtlinien](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-governance).
 
 Die folgenden Data Governance-Funktionen sind verfügbar:
 
