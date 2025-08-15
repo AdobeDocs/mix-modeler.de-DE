@@ -3,9 +3,9 @@ title: Data Governance - Übersicht
 description: Erfahren Sie, wie Sie die Services und Tools von Experience Platform verwenden, mit denen Sie Ihre erfassten Erlebnisdaten steuern können. So halten Sie Ihre Geschäftspraktiken, rechtlichen Verpflichtungen und Ihren Entwicklungsprozess ein.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: bdde574b150bda2b0c82a9f5a20160fed26cb69d
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ Experience Platform Data Governance bietet Ihnen die Möglichkeit, Ihre Daten ü
 
 Datennutzungsbeschriftungen und -richtlinien, die für Datensätze erstellt werden, die von der Experience Platform-Oberfläche in der Mix Modeler genutzt werden, sofern zutreffend. Beispielsweise stoppen oder warnen diese Kennzeichnungen Benutzende, wenn sie Datensätze löschen, die Teil einer Datensatzregel in den harmonisierten Daten sind. Oder blenden Sie Schemafelder aus, die beim Erstellen einer Datensatzregel für Benutzer eingeschränkt sind.
 
-Die Data Governance-Integration ermöglicht ein effizienteres Compliance-Management. Datenverantwortliche in Ihrem Unternehmen können Richtlinien festlegen, um die Nutzung zu beschränken. So können Sie Daten verwenden, die den von Datenverantwortlichen definierten Richtlinien entsprechen. Weitere Informationen finden Sie in der Dokumentation zu [Kennzeichnungen und Richtlinien](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-governance).
+Die Data Governance-Integration ermöglicht ein effizienteres Compliance-Management. Datenverantwortliche in Ihrem Unternehmen können Richtlinien festlegen, um die Nutzung zu beschränken. So können Sie Daten verwenden, die den von Datenverantwortlichen definierten Richtlinien entsprechen. Weitere Informationen finden Sie in der Dokumentation zu [Labels und Richtlinien](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance).
 
 Die folgenden Data Governance-Funktionen sind verfügbar:
 
@@ -29,4 +29,4 @@ Die folgenden Data Governance-Funktionen sind verfügbar:
 | Richtlinien | Im Rahmen des harmonisierten Daten-Workflows werden von Experience Platform definierte Richtlinien durchgesetzt. Jeder Verstoß gegen Datennutzungskennzeichnungen wird gemeldet und dem Benutzer angezeigt. Weitere Informationen finden [ unter ](policies.md). |
 | Verschlüsselung | Alle Datensätze, die für die Eingabe und Ausgabe von Modellen verwendet werden, entsprechen den Experience Platform-Richtlinien. Die Experience Platform-Datenverschlüsselung gilt für Daten im Ruhezustand und während der Übertragung. |
 | Datenhygiene | Alle Datensätze, die für Eingabe- und Nicht-Modelle verwendet werden, entsprechen den Experience Platform-Richtlinien. Experience Platform bietet eine Reihe von Tools zur Verwaltung des Lebenszyklus von Kundendaten, einschließlich der Unterstützung verschiedener Arten von Datenablauf. Wenn Sie einen Quelldatensatz aus Experience Platform löschen, der als Teil Ihrer harmonisierten Daten verwendet wird, werden Sie benachrichtigt. Weitere Informationen [ Sie unter ](/help/harmonize-data/dataset-rules.md)Datensatzregeln“. |
-| Kundenseitig verwaltete Schlüssel | Wenn Sie Mix Modeler mit dem Add-on Privacy Security Shield oder Healthcare Shield lizenziert haben, können Sie die Funktion Customer Managed Keys verwenden, um Azure Key Vault zu nutzen und Ihre eigenen Schlüssel über APIs zu übertragen. Sie verfügen über eine vollständige Verwaltung von Daten, die innerhalb von Modellen in Mix Modeler verarbeitet werden. |
+| Kundenseitig verwaltete Schlüssel | Wenn Sie Mix Modeler mit dem Privacy Security Shield-Add-on lizenziert haben, können Sie die Funktion Kundenseitig verwaltete Schlüssel verwenden, um Azure Key Vault zu nutzen und Ihre eigenen Schlüssel über APIs zu übertragen. Sie verfügen über eine vollständige Verwaltung von Daten, die innerhalb von Modellen in Mix Modeler verarbeitet werden. |
