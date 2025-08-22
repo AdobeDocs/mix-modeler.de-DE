@@ -3,9 +3,9 @@ title: Pläne vergleichen
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler vergleichen.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 4564c35bd8be69a586dc5a6c91ecd0db1e3298d6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ Die Benutzeroberfläche „Pläne vergleichen“ enthält Informationen und Visu
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** oder **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
-* Aufschlüsselung der **[!UICONTROL ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
+* **[!UICONTROL Paid marketing ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
+* **[!UICONTROL ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion) **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
+* **[!UICONTROL Paid marketing revenue]**
 
 Dabei gilt:
 

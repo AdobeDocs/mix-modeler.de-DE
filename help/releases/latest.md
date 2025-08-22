@@ -4,16 +4,16 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
+source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '536'
 ht-degree: 3%
 
 ---
 
 # Aktuelle Versionshinweise zu Mix Modeler
 
-**Letzte Aktualisierung**: 6. August 2025.
+**Letzte Aktualisierung**: 20. August 2025.
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
 
@@ -23,6 +23,7 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 
 | Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | Die Benutzeroberfläche [Pläne vergleichen](/help/plans/compare.md) zeigt jetzt zusätzliche Details zu Paid Marketing an: ROI oder CPA und Umsatz. | &#x200B;20. August 2025 | &#x200B;20. August 2025 |
 | **Harmonisierungsaktualisierungen** | Alle Datensatzregeln verwenden jetzt unabhängig vom Datensatztyp eine ähnliche [generische Zuordnung zu harmonisierten ](/help/harmonize-data/dataset-rules.md)). Wenn Sie ein standardmäßiges harmonisiertes Feld aus einem Zusammenfassungsdatensatz zuordnen, versucht Mix Modeler, das entsprechende Experience Platform-Datensatzfeld automatisch abzuleiten. | Mittwoch, 29. Juli 2025 | Mittwoch, 29. Juli 2025 |
 
 
