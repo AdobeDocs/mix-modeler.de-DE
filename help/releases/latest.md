@@ -4,19 +4,27 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
+source-git-commit: 9ac6acec2faa57a771386fc9df9cce655d711f3a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '669'
 ht-degree: 3%
 
 ---
 
 # Aktuelle Versionshinweise zu Mix Modeler
 
-**Letzte Aktualisierung**: 20. August 2025.
+**Letzte Aktualisierung**: 12. September 2025.
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
 
+
+## September 2025
+
+| Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Dataset mapping validations]** | Es wurden Validierungen zu Experience Platform-Datensatzzuordnungen für harmonisierte Felder hinzugefügt. | &#x200B;9. September 2025 | &#x200B;9. September 2025 |
+| **[!UICONTROL Context menu on links to model and plans]** | Browser-Kontextmenü für Links zu Modellen und Plänen aktiviert. Sie können jetzt dieses Browser-Kontextmenü verwenden, um einen bestimmten Plan oder ein Modell in einer neuen Registerkarte oder einem neuen Fenster zu öffnen. | &#x200B;9. September 2025 | &#x200B;9. September 2025 |
+| **Fehlerbehebungen** | Fehlerbehebungen für folgende Tickets: <ul><li>AMM-3101: Fehlerkorrektur - Es wurde eine falsche Zuordnungserstellung für Regeln behoben: `event_date` wurde als Feldname anstelle von `timestamp` übergeben.</li><li>AMM-3092: Es wurde ein Problem behoben, bei dem der Wert der maximalen Kanalbeschränkung in einem duplizierten budgetbasierten Plan nicht geändert werden konnte.</li><li>AM3130: Fehlerhafte **[!UICONTROL Run frequency]** in einem Detailpopup-Fenster eines Modells behoben.</li><li>AMM3158: Aktualisierte Beschriftungen für die **[!UICONTROL Select target metric]** Optionen als Teil des **[!UICONTROL Optimize]** Bereichs in der Benutzeroberfläche [Pläne erstellen](/help/plans/build.md).</li><li>AMM 3176: Es wurde ein Problem behoben, [ die Visualisierung „Aufschlüsselung nach Kanal](/help/models/insights.md#breakdown) auf **[!UICONTROL Attribution]** Registerkarte in **[!UICONTROL Model Insights]** nicht angezeigt werden konnte.</li></ul> | &#x200B;9. September 2025 | &#x200B;9. September 2025 |
 
 
 ## Juli–August 2025

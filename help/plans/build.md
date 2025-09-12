@@ -3,7 +3,7 @@ title: Pläne erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler Pläne erstellen.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Um einen Datumsbereich und das zugehörige Budget zu löschen, wählen Sie ![Sch
             1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select target metric]** eine Zielmetrik aus. Sie können zwischen **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** oder **[!UICONTROL ROI]** wählen.
             1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
          1. Geben Sie einen Datumsbereich an, indem Sie entweder Daten eingeben oder einen Datumsbereich mithilfe von ![Kalender](/help/assets/icons/Calendar.svg) auswählen.
-         1. Geben Sie einen Wert für die ausgewählte Zielmetrik ein. Beispiel: eine Zahl für **[!UICONTROL Conversion]**, ein Prozentsatz für **[!UICONTROL ROI]** oder Währungswerte für **[!UICONTROL CPA]** und **[!UICONTROL Revenue]**.
+         1. Geben Sie einen Wert für die ausgewählte Zielmetrik ein. Beispiel: eine Zahl für **[!UICONTROL Total Conversions]**, ein Prozentsatz für **[!UICONTROL Paid Marketing ROI]** oder Währungswerte für **[!UICONTROL Paid Marketing CPA]** und **[!UICONTROL Total Revenue]**.
 Um zusätzliche Datumsbereiche mit jeweils ihrer Zielmetrik hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** aus.
 Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg) aus.
          1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
@@ -83,7 +83,7 @@ Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie !
 
      >[!IMPORTANT]
      >
-     >Die folgenden Informationen sind nur relevant, wenn Sie die **[!UICONTROL Edit channel budgets first]** ![TableEdit](/help/assets/icons/TableEdit.svg) ausgewählt haben
+     >Die folgenden Informationen sind nur relevant, wenn Sie die ![ ](/help/assets/icons/TableEdit.svg)TableEdit **[!UICONTROL Edit channel budgets first]** ausgewählt haben
 
 
 1. Verwenden Sie im **[!UICONTROL Spend selection]** Abschnitt für jeden Budgetdatumsbereich den ![Chevron](/help/assets/icons/ChevronRight.svg), um die Kanalverteilungsansicht für diesen Datenbereich zu öffnen.
@@ -108,7 +108,6 @@ Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie !
    1. Um zwischen Eingabe von Währung oder Prozentsatz umzuschalten, wählen Sie **[!UICONTROL $]** oder **[!UICONTROL %]** für **[!UICONTROL View spend by]** aus. Dieser Umschalter ist deaktiviert, wenn Sie Zielmetriken ausgewählt haben, die nicht währungsbasiert sind.
 
    1. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Create]** aus.
-
       ![Auswahl der Ausgaben](/help/assets/plan-spend-selection.png)
 
    1. Wählen Sie **[!UICONTROL Next]** aus.
