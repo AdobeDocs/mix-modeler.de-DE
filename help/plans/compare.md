@@ -3,9 +3,9 @@ title: Pläne vergleichen
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler vergleichen.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 4564c35bd8be69a586dc5a6c91ecd0db1e3298d6
+source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Dabei gilt:
 
 * Der ROI ist definiert als (Inkrementeller Umsatz - Ausgaben) / Ausgaben.
 * CPA ist definiert als Ausgaben / Inkrementelle Konversion.
+* Prognostiziert wird als inklusive der Basis- und Nicht-Ausgabenkanäle definiert.
+* Bezahltes Marketing ist definiert als nur spezifisch für bezahlte Marketing-Kanäle.
 
 
 ![Pläne vergleichen](/help/assets/compare-plans.png)
