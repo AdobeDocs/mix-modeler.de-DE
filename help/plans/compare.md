@@ -3,9 +3,9 @@ title: Pläne vergleichen
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler vergleichen.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
+source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ Die Benutzeroberfläche „Pläne vergleichen“ enthält Informationen und Visu
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** oder **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
+   * Prognostizierter ROI ist der Gesamt-ROI des Plans (einschließlich inkrementeller Einnahmen aus Basis- und Nicht-Ausgabenkanälen).
+   * Die prognostizierte CPA ist die gesamte CPA des Plans.
 * **[!UICONTROL Paid marketing ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
+   * Die Rendite des bezahlten Marketings ist die Rendite, die nur von den im Plan enthaltenen bezahlten Kanälen erzielt wird.
+   * Paid Marketing CPA ist die CPA nur der im Plan enthaltenen Paid-Channel.
 * **[!UICONTROL ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion) **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
 * **[!UICONTROL Paid marketing revenue]**
@@ -36,8 +40,6 @@ Dabei gilt:
 
 * Der ROI ist definiert als (Inkrementeller Umsatz - Ausgaben) / Ausgaben.
 * CPA ist definiert als Ausgaben / Inkrementelle Konversion.
-* Prognostiziert wird als inklusive der Basis- und Nicht-Ausgabenkanäle definiert.
-* Bezahltes Marketing ist definiert als nur spezifisch für bezahlte Marketing-Kanäle.
 
 
 ![Pläne vergleichen](/help/assets/compare-plans.png)
