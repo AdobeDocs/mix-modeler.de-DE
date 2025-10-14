@@ -83,7 +83,7 @@ Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie !
 
      >[!IMPORTANT]
      >
-     >Die folgenden Informationen sind nur relevant, wenn Sie die ![ ](/help/assets/icons/TableEdit.svg)TableEdit **[!UICONTROL Edit channel budgets first]** ausgewählt haben
+     >Die folgenden Informationen sind nur relevant, wenn Sie die ![&#x200B; &#x200B;](/help/assets/icons/TableEdit.svg)TableEdit **[!UICONTROL Edit channel budgets first]** ausgewählt haben
 
 
 1. Verwenden Sie im **[!UICONTROL Spend selection]** Abschnitt für jeden Budgetdatumsbereich den ![Chevron](/help/assets/icons/ChevronRight.svg), um die Kanalverteilungsansicht für diesen Datenbereich zu öffnen.

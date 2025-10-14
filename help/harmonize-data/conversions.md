@@ -71,7 +71,7 @@ So zeigen Sie Details zu einer Konversion an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Konversionsnamen in der Tabelle bewegen.
 
-1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [ Sie unter ](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [&#x200B; Sie unter &#x200B;](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
 ## Bericht anzeigen
 

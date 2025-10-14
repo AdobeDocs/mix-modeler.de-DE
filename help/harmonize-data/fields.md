@@ -109,7 +109,7 @@ So bearbeiten Sie ein harmonisiertes Feld in der ![DataSearch](/help/assets/icon
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie bearbeiten möchten. Beispiel: **[!UICONTROL Region]**.
 
-1. Ändern Sie im **[!UICONTROL Edit harmonization values]** die Werte für **[!UICONTROL Display name]**, **[!UICONTROL Category]** und **[!UICONTROL Data type]**. Weitere [ finden Sie unter &quot;](#add-a-harmonized-field) Feld hinzufügen“.
+1. Ändern Sie im **[!UICONTROL Edit harmonization values]** die Werte für **[!UICONTROL Display name]**, **[!UICONTROL Category]** und **[!UICONTROL Data type]**. Weitere [&#x200B; finden Sie unter &quot;](#add-a-harmonized-field) Feld hinzufügen“.
 
 1. Wählen Sie **[!UICONTROL Submit]** aus, um die Änderungen auf das harmonisierte Feld anzuwenden.
 
@@ -123,7 +123,7 @@ So löschen Sie ein harmonisiertes Feld in der ![DataSearch](/help/assets/icons/
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie löschen möchten, z. B. **[!UICONTROL Region]**.
 
-1. Wählen Sie ![ linken Bereich ](/help/assets/icons/Delete.svg)Löschen **[!UICONTROL Delete]** **[!UICONTROL Edit harmonization values]** aus.
+1. Wählen Sie ![&#x200B; linken Bereich &#x200B;](/help/assets/icons/Delete.svg)Löschen **[!UICONTROL Delete]** **[!UICONTROL Edit harmonization values]** aus.
 
    >[!WARNING]
    >

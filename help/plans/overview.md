@@ -33,7 +33,7 @@ Wenn ein Modell, das Sie für Ihren Plan verwendet haben, mit neuen Daten bewert
 
 ## Pläne erstellen
 
-Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modeler-Plans. Weitere [ finden Sie ](build.md)Erstellen von Plänen“.
+Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modeler-Plans. Weitere [&#x200B; finden Sie &#x200B;](build.md)Erstellen von Plänen“.
 
 
 ## Pläne verwalten
@@ -53,7 +53,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von
    | Datumsbereich | Der vollständige Datumsbereich für einen Plan. |
    | Budget | Das Gesamtbudget für einen Plan. |
    | Planziel | Die Zielmetrik , die für einen zielbasierten Plan definiert ist. |
-   | Prognostizierte Rendite | Die [prognostizierte ](/help/main-guide/glossary.md)) für einen Plan |
+   | Prognostizierte Rendite | Die [prognostizierte &#x200B;](/help/main-guide/glossary.md)) für einen Plan |
    | Prognostizierter ROI | Der [prognostizierte ROI](/help/main-guide/glossary.md) für einen Plan. |
    | Prognostizierte Konversion | Die [prognostizierte Konversion](/help/main-guide/glossary.md) für einen Plan |
    | Prognostizierter CPA | Die [prognostizierte CPA](/help/main-guide/glossary.md) für einen Plan |
@@ -61,7 +61,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von
 
    {style="table-layout:auto"}
 
-   Sie können ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) verwenden, um die ![ Spalten (](/help/assets/icons/Checkmark.svg)) auszuwählen, die in der Tabelle angezeigt werden sollen.
+   Sie können ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) verwenden, um die ![&#x200B; Spalten (](/help/assets/icons/Checkmark.svg)) auszuwählen, die in der Tabelle angezeigt werden sollen.
 
 1. Verwenden Sie ![Suche](/help/assets/icons/Search.svg), um die Tabelle nach einem oder mehreren bestimmten Plänen zu durchsuchen und zu filtern.
 
@@ -73,7 +73,7 @@ So zeigen Sie die Einblicke eines Plans an und bearbeiten ihn:
 
 1. Wählen Sie den Plannamen.
 
-Sie werden zu &quot;[-Einblicke“ ](insights.md).
+Sie werden zu &quot;[-Einblicke“ &#x200B;](insights.md).
 
 
 ### Duplizieren eines Plans
@@ -100,7 +100,7 @@ Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursp
 Pläne vergleichen:
 
 1. Wählen Sie zwei Pläne aus der Tabelle aus.
-1. Wählen ![ in ](/help/assets/icons/Compare.svg) blauen Aktionsleiste **[!UICONTROL Compare]** Vergleichen“ aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
+1. Wählen ![&#x200B; in &#x200B;](/help/assets/icons/Compare.svg) blauen Aktionsleiste **[!UICONTROL Compare]** Vergleichen“ aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
 
 
 ### Pläne löschen

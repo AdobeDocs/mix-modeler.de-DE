@@ -26,7 +26,7 @@ Wählen Sie für jede Kategorie einen oder mehrere Filter aus (**[!UICONTROL Bra
 
 Ausgewählte Filter werden über den Visualisierungen unter **[!UICONTROL FILTERING BY:]** angezeigt.
 
-1. Um einen einzelnen Filter zu entfernen, wählen Sie ![ Filter ](/help/assets/icons/Close.svg)Schließen) aus, der unter **[!UICONTROL FILTERING BY:]** aufgeführt ist.
+1. Um einen einzelnen Filter zu entfernen, wählen Sie ![&#x200B; Filter &#x200B;](/help/assets/icons/Close.svg)Schließen) aus, der unter **[!UICONTROL FILTERING BY:]** aufgeführt ist.
 
 1. Mit **[!UICONTROL Clear All]** können Sie schnell alle Filter löschen.
 
@@ -39,7 +39,7 @@ Sie können jede Visualisierung konfigurieren.
 
 * Visualisierung der KPI-Statuskarte:
 
-   1. Wählen ![ im ](/help/assets/icons/Edit.svg) die **[!UICONTROL Edit data]** ![Bearbeiten](/help/assets/icons/Edit.svg) aus.
+   1. Wählen ![&#x200B; im &#x200B;](/help/assets/icons/Edit.svg) die **[!UICONTROL Edit data]** ![Bearbeiten](/help/assets/icons/Edit.svg) aus.
 
    1. Im Dialogfeld **[!UICONTROL KPI status card]** :
 
@@ -49,7 +49,7 @@ Sie können jede Visualisierung konfigurieren.
 
 * Bei den anderen konfigurierbaren Visualisierungen:
 
-   1. Wählen ![ im ](/help/assets/icons/Edit.svg) die **[!UICONTROL Edit data]** ![Bearbeiten](/help/assets/icons/Edit.svg) aus.
+   1. Wählen ![&#x200B; im &#x200B;](/help/assets/icons/Edit.svg) die **[!UICONTROL Edit data]** ![Bearbeiten](/help/assets/icons/Edit.svg) aus.
 
    1. Im Dialogfeld **[!UICONTROL Edit Data]** :
 

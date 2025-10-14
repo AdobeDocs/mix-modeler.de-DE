@@ -132,7 +132,7 @@ So zeigen Sie Ihre harmonisierten Daten in der Benutzeroberfläche von Mix Model
 
    1. Um den Zeitraum neu zu definieren, auf dem die Zusammenfassung harmonisierter Daten basiert, geben Sie einen Datumsbereich für die **[!UICONTROL Date range]** ein oder verwenden Sie ![Kalender](/help/assets/icons/Calendar.svg), um einen Datenbereich auszuwählen.
 
-   1. Um die harmonisierten Feldspalten zu ändern, die für die harmonisierte Datentabelle angezeigt werden, öffnen Sie ![ Dialogfeld &quot;**[!UICONTROL Column settings]**&quot; ](/help/assets/icons/Setting.svg)Einstellungen“.
+   1. Um die harmonisierten Feldspalten zu ändern, die für die harmonisierte Datentabelle angezeigt werden, öffnen Sie ![&#x200B; Dialogfeld &quot;**[!UICONTROL Column settings]**&quot; &#x200B;](/help/assets/icons/Setting.svg)Einstellungen“.
 
       1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** aus und verwenden Sie ![Pfeil nach rechts](/help/assets/icons/ChevronRight.svg), um diese Spalten **[!UICONTROL SELECTED COLUMNS]** hinzuzufügen.
 

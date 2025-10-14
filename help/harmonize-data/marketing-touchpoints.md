@@ -77,7 +77,7 @@ So zeigen Sie Details zu einem Marketing-Touchpoint an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
 
-1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden [ unter „Hinzufügen ](#add-a-marketing-touchpoint) Marketing-Touchpoints“. Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden [&#x200B; unter „Hinzufügen &#x200B;](#add-a-marketing-touchpoint) Marketing-Touchpoints“. Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
 
 ## Bericht anzeigen

@@ -28,7 +28,7 @@ Mit der attributbasierten Zugriffssteuerung können Sie Schemafelder des Experie
 
 Mithilfe der attributbasierten Zugriffssteuerung können Administrierende den Zugriff der Benutzenden sowohl auf sensible persönliche Daten (Sensitive Personal Data, SPD) als auch auf personenbezogene Daten (Personally Identifiable Information, PII) für alle Platform-Workflows und -Ressourcen steuern. Administrierende können Benutzerrollen definieren, die nur Zugriff auf bestimmte Felder und Daten haben, die diesen Feldern entsprechen.
 
-Beim Konfigurieren von Datensatzregeln für harmonisierte Datensätze wird [ Experience Platform (attributbasierte ](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/overview)) auf Feldebene erzwungen. Ein Feld ist eingeschränkt, wenn eine Bezeichnung an ein Schemafeld angehängt wird. Außerdem ist eine aktive Richtlinie aktiviert, die den Zugriff auf dieses Feld verweigert. Das Ergebnis:
+Beim Konfigurieren von Datensatzregeln für harmonisierte Datensätze wird [&#x200B; Experience Platform (attributbasierte &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/overview)) auf Feldebene erzwungen. Ein Feld ist eingeschränkt, wenn eine Bezeichnung an ein Schemafeld angehängt wird. Außerdem ist eine aktive Richtlinie aktiviert, die den Zugriff auf dieses Feld verweigert. Das Ergebnis:
 
 * Die Schemafelder, die für Sie eingeschränkt sind, werden beim Erstellen einer Datensatzregel nicht angezeigt.
 * Sie können die Zuordnung eines oder mehrerer Schemafelder, die für Sie eingeschränkt sind, nicht anzeigen oder bearbeiten. Wenn Sie eine Datensatzregel bearbeiten oder anzeigen, die solche eingeschränkten Felder enthält, wird der folgende Bildschirm angezeigt.
