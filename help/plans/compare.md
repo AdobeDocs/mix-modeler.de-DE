@@ -3,9 +3,9 @@ title: Pläne vergleichen
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler vergleichen.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
+source-git-commit: d6cf7e75b91ca3c3a50b95c0909e2d250af07317
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,22 @@ So vergleichen Sie Pläne in der Benutzeroberfläche für Mix Modeler-Pläne:
 
 Die Benutzeroberfläche „Pläne vergleichen“ enthält Informationen und Visualisierungen zu:
 
-* **[!UICONTROL Plan]**. Wenn es sich bei dem Plan um einen zielbasierten Plan handelt, wird ein Abzeichen angezeigt, das den Status des Ziels anzeigt.
+* **[!UICONTROL Plan]**. Wenn es sich bei dem Plan um einen zielbasierten Plan handelt (z. B. ROI oder CPA), wird ein Badge angezeigt, das den Status der Zielgruppe anzeigt (z. B. Zielerreichbarkeit).
 * **[!UICONTROL Date range]**
 * **[!UICONTROL Model]**
 * **[!UICONTROL Total budget]**
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** oder **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
-* **[!UICONTROL Forecasted ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
-   * Prognostizierter ROI ist der Gesamt-ROI des Plans (einschließlich inkrementeller Einnahmen aus Basis- und Nicht-Ausgabenkanälen).
-   * Die prognostizierte CPA ist die gesamte CPA des Plans.
-* **[!UICONTROL Paid marketing ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion)
-   * Die Rendite des bezahlten Marketings ist die Rendite, die nur von den im Plan enthaltenen bezahlten Kanälen erzielt wird.
-   * Paid Marketing CPA ist die CPA nur der im Plan enthaltenen Paid-Channel.
-* **[!UICONTROL ROI]** (Rentabilität) oder **[!UICONTROL CPA]** (Kosten pro Aktion) **[!UICONTROL breakdown]**
-* **[!UICONTROL Forecasted return]**
-* **[!UICONTROL Paid marketing revenue]**
+* **[!UICONTROL Forecasted ROI]** oder **[!UICONTROL CPA]**
+   * Prognostizierter ROI ist der gesamte prognostizierte ROI des Plans (einschließlich inkrementeller Einnahmen aus Basis- und Nicht-Ausgabenkanälen).
+   * Prognostizierter CPA ist der insgesamt prognostizierte CPA des Plans (einschließlich inkrementeller Einnahmen aus Basis- und Nicht-Ausgabenkanälen).
+* **[!UICONTROL Paid marketing ROI]** oder **[!UICONTROL CPA]**
+   * Die PAID Marketing ROI ist eine Teilmenge der prognostizierten ROI. Die Rendite für bezahltes Marketing ist die Rendite, die nur für die im Plan enthaltenen bezahlten Kanäle erzielt wird.
+   * Paid Marketing CPA ist eine Teilmenge der prognostizierten CPA. Paid Marketing CPA ist die CPA für nur die im Plan enthaltenen Paid-Channel.
+* **[!UICONTROL ROI]** oder **[!UICONTROL CPA]** **[!UICONTROL breakdown]**
+* **[!UICONTROL Forecasted revenue]** oder **[!UICONTROL conversion]**.
+* **[!UICONTROL Paid marketing revenue]** oder **[!UICONTROL conversion]**
 
-Dabei gilt:
-
-* Der ROI ist definiert als (Inkrementeller Umsatz - Ausgaben) / Ausgaben.
-* CPA ist definiert als Ausgaben / Inkrementelle Konversion.
 
 
 ![Pläne vergleichen](/help/assets/compare-plans.png)
