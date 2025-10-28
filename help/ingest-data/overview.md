@@ -3,27 +3,27 @@ title: Datenaufnahme - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler aufnehmen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
+source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 10%
 
 ---
 
 # Datenaufnahme - Übersicht
 
-Mix Modeler arbeitet mit Daten auf Ereignisebene, aggregierten oder zusammenfassenden Daten zu Marketing-Anstrengungen aus verschiedenen ummauerten Gärten und aggregierten oder zusammenfassenden Daten aus einer anderen Quelle, z. B. Offline-Werbung, internen oder externen Faktoren.
+Mix Modeler arbeitet mit Daten auf Ereignisebene, aggregierten oder zusammenfassenden Daten zu Marketing-Bemühungen aus verschiedenen ummauerten Gärten. Und mit aggregierten oder zusammenfassenden Daten aus jeder anderen Quelle, wie Offline-Werbung, internen Faktoren oder externen Faktoren.
 
 Kunden können alle Arten von Daten verwenden, die als Datensätze in Experience Platform aufgenommen werden und auf Schemata basieren, bei denen die XDM ExperienceEvent- oder XDM Summary-Metriken als Basisklasse verwendet werden.
 
 Beispiel:
 
-* Daten, die mit dem Adobe Analytics-Quell-Connector erfasst und in Datensätze umgewandelt werden, die der standardmäßigen oder einer benutzerdefinierten Version des Adobe Analytics-Schemas entsprechen, oder alternativ
-* Daten, die mit der Experience Platform Web SDK, Mobile SDK oder der Edge Network Server-API erfasst werden, um Kundeninteraktionen im Web, auf Mobilgeräten oder auf anderen Gerätetypen zu erfassen,
-* aggregierte oder zusammengefasste Daten aus ummauerten Gärten (wie Facebook, YouTube), Traffic-Quellen oder Offline-Werbedaten,
+* Mit dem Adobe Analytics-Quell-Connector erfasste Daten. und in Datensätze umgewandelt, die der standardmäßigen oder einer benutzerdefinierten Version des Adobe Analytics-Schemas entsprechen.
+* Daten, die mit der Experience Platform Web SDK, Mobile SDK oder der Edge Network Server-API erfasst werden, um Kundeninteraktionen im Web, auf Mobilgeräten oder auf anderen Gerätetypen zu erfassen.
+* Aggregierte oder zusammengefasste Daten aus ummauerten Gärten (wie Facebook, YouTube), Traffic-Quellen oder Offline-Werbedaten.
 * Nicht-Marketing-Aggregat- oder -Zusammenfassungsdaten mit internen oder externen Faktoren, die für die Modellerstellung nützlich sind.
 
-Sie können jeden beliebigen von Experience Platform unterstützten Mechanismus verwenden, um Daten zu Erlebnisereignissen, aggregierten Marketing-Anstrengungen und Daten aus anderen Quellen aufzunehmen. Zu den Aufnahmemechanismen gehören die Experience Platform-SDKs, APIs, Quell-Connectoren, Streaming- und Batch-Aufnahme. Weitere Informationen zur Aufnahme Ihrer Daten in Experience Platform zur Verwendung in Adobe Mix Modeler finden Sie unter [Datenaufnahme - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home).
+Sie können jeden beliebigen von Experience Platform unterstützten Mechanismus verwenden, um Daten zu Erlebnisereignissen, aggregierten Marketing-Anstrengungen und Daten aus anderen Quellen aufzunehmen. Beispielsweise die Experience Platform-SDKs, APIs, Quell-Connectoren sowie Streaming- und Batch-Aufnahme. Weitere Informationen zur Aufnahme Ihrer Daten in Experience Platform zur Verwendung in Adobe Mix Modeler finden Sie unter [Datenaufnahme - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/ingestion/home).
 
 ## Leitlinien
 
@@ -86,10 +86,10 @@ Um mit Daten in Mix Modeler arbeiten zu können, benötigen Sie Daten, die in Da
 
 Um zu überprüfen, ob Ihre Daten in Mix Modeler ordnungsgemäß verfügbar sind, können Sie Folgendes tun:
 
-* Verwenden von Visualisierungen in [Übersicht](/help/overview.md).
+* Verwenden von Visualisierungen in der [Übersicht](/help/overview.md).
 * Herunterladen und Überprüfen von Daten [Harmonisierte Daten](/help/harmonize-data/overview.md) in Harmonisierten Datensätzen.
 
-Um zu überprüfen, ob Ihre Daten ordnungsgemäß in Experience Platform aufgenommen werden, können Sie [SQL-Abfragen mithilfe des Experience Platform Query Service schreiben und ausführen](https://experienceleague.adobe.com/de/docs/experience-platform/query/home).
+Um zu überprüfen, ob Ihre Daten ordnungsgemäß in Experience Platform aufgenommen werden, können Sie [SQL-Abfragen mithilfe des Experience Platform Query Service schreiben und ausführen](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
