@@ -30,7 +30,7 @@ Wir scheinen SVGs in einem schattierten Feld nicht richtig zu unterstützen. Sie
 
 >[!BEGINSHADEBOX]
 
-In diesem Artikel wird das Attributionsbedienfeld in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics** dokumentiert.<br/>Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**-Version dieses Artikels.
+In diesem Artikel wird das Attributionsbedienfeld in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics** dokumentiert.<br/>Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution) für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**-Version dieses Artikels.
 
 >[!ENDSHADEBOX]
 
