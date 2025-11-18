@@ -111,4 +111,4 @@ Die Feldergruppe enthält die folgenden Felder.
 
 
 
-Weitere Informationen finden [ unter ](../ingest-data/schemas.md).
+Weitere Informationen finden [&#x200B; unter &#x200B;](../ingest-data/schemas.md).
