@@ -1,16 +1,16 @@
 ---
-title: Anwendungsfälle für Mix Modeler
-description: Anwendungsfälle für Mix Modeler.
+title: Mix Modeler-Anwendungsfälle
+description: Mix Modeler-Anwendungsfälle.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: c0bae17b21322cafb50370dcd787bb86b8e3e471
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 3%
 
 ---
 
-# Anwendungsfälle für Mix Modeler
+# Mix Modeler-Anwendungsfälle
 
 Mix Modeler ermöglicht die folgenden wichtigen Anwendungsfälle.
 
@@ -34,7 +34,7 @@ Der schrittweise Ansatz für diesen Anwendungsfall ist:
 
 | Schritt | Details |
 |---|---|
-| Erfassen | Identifizieren und Aufnehmen von Datenquellen unter allgemeinen Schemata. <br/>Wenden Sie bestehende Investitionen in Adobe Analytics oder Customer Journey Analytics auf eine Fast-Track-Bereitstellung an. |
+| Erfassen | Identifizieren und Aufnehmen von Datenquellen unter allgemeinen Schemata. <br/>Wenden Sie bestehende Investitionen in Adobe Analytics oder Customer Journey Analytics auf eine schnelle Bereitstellung an. |
 | Konfigurieren | Konfigurieren Sie flexible Modelle mithilfe eines AI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele. <br/> Sie automatisch die Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transferlernen. |
 | Analyse | Verstehen Sie den ROI des gesamten Marketings und der einzelnen Kanäle/Unterkanäle.<br/>Verstehen Sie, welche Touchpoints am besten für inkrementelle Konversionen geeignet sind. |
 
@@ -132,7 +132,7 @@ Successful implementation of this use can have the following impact:
 
 -->
 
-## Taktische Einblicke in Adobe-Anwendungen aktivieren
+## Aktivieren taktischer Einblicke in Adobe-Programme
 
 In diesem Anwendungsbeispiel erhalten Sie strategische inkrementelle Einblicke in Kundensegmente und Journey durch den Zugriff auf Touchpoint-Bewertungen.
 
@@ -154,8 +154,8 @@ Der schrittweise Ansatz für diesen Anwendungsfall ist:
 | Schritt | Details |
 |---|---|
 | Modell | Konfigurieren und trainieren Sie ein KI-/ML-Modell, um konsistente MTA-Touchpoint-Bewertungen und MMM-Aggregatergebnisse zu erhalten. |
-| Analyse | Inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics- oder externe BI-Tools exportieren<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Bewertungen. |
-| Aktion | Erstellen und aktivieren Sie Lookalikes für die besten Kundensegmente mithilfe von Real-time Customer Data Platform.<br/>Entwickeln Sie datengesteuerte Marketing-Strategien nach Kundensegmenten für zukünftige Kampagnen. |
+| Analyse | Inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics oder externe BI-Tools exportieren<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Bewertungen. |
+| Aktion | Erstellen und aktivieren Sie Lookalikes für die besten Kundensegmente mithilfe von Real-Time Customer Data Platform.<br/>Entwickeln Sie datengesteuerte Marketing-Strategien nach Kundensegmenten für zukünftige Kampagnen. |
 
 {style="table-layout:auto"}
 

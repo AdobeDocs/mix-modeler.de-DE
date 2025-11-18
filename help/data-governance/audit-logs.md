@@ -3,7 +3,7 @@ title: Audit-Protokolle
 description: Erfahren Sie, wie Sie von Mix Modeler aus auf Auditprotokolle zugreifen können.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 12%

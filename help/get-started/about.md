@@ -1,17 +1,17 @@
 ---
-title: Übersicht über Mix Modeler
+title: Überblick über Mix Modeler
 description: Erhalten Sie einen Überblick über die Funktionen von Mix Modeler.
 short-description: Erhalten Sie einen Überblick über die Funktionen von Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Übersicht über Mix Modeler
+# Überblick über Mix Modeler
 
 Mit Mix Modeler auf der Grundlage von Adobe Sensei können Marketing-Experten Kampagnen messen und die Planung ganzheitlich über alle Kanäle hinweg optimieren: Paid, Earned und Owned. Seine einheitliche Methodik misst schrittweise sowohl auf Marketing-Touchpoints als auch auf aggregierter Ebene und stellt dabei vollständig konsistente Ergebnisse sicher.
 
@@ -86,7 +86,7 @@ Sie können die Multi-Touch-Attributionsfunktion von Mix Modeler in folgenden An
 
 * Budgetzuweisung für Kampagnen: Informieren Sie über Budgetzuweisungsentscheidungen im gesamten Marketing-Kanal.
 * Kampagnenoptimierung: Verstehen Sie in jedem Kanal, welche Kampagnen, Kreativen und Keywords besser für welche SKUs oder Geos funktionieren. Auf diese Weise können Sie jeden Kanal betrachten, damit das Marketing-Team seine Taktiken optimieren kann.
-* Attribution auf Ereignisebene mit vollem Trichter: Machen Sie sich mit der Wirkung von Marketing auf die gesamte Kunden-Journey vertraut. Beispielsweise die kostenlose Kontoanmeldung für die gebührenpflichtige Konversion und darüber hinaus.
+* Attribution auf Ereignisebene in Full-funnel: Die Auswirkungen von Marketing auf die gesamte Kunden-Journey verstehen. Beispielsweise die kostenlose Kontoanmeldung für die gebührenpflichtige Konversion und darüber hinaus.
 * Partnerbewertungen: Bewertung der Effektivität von Agenturen und Partnern auf der Grundlage von Attributionsergebnissen.
 
 Unter [Modelleinblicke - Attribution](../models/insights.md#attribution) erfahren Sie, wie Sie in Mix Modeler auf die Multi-Touch-Attributionseinblicke zugreifen können.
