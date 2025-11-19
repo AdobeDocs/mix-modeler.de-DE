@@ -3,9 +3,9 @@ title: Planerkenntnisse
 description: Erfahren Sie, wie Sie Einblicke in Ihren Plan erhalten und einen Plan in Mix Modeler bearbeiten können.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Wenn die Einblicke erstellt werden, erhalten Sie einen Überblick über Ihren Pl
 
 Um die Benutzeroberfläche zu schließen, klicken Sie auf **[!UICONTROL Close]**.
 
-Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL &#x200B; %]** unter **[!UICONTROL View ROI]** aus.
+Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** unter **[!UICONTROL View ROI]** aus.
 
 ## Prognostizierte Ausgaben und ROI für bezahlte Kanäle
 
@@ -72,6 +72,13 @@ Diese Liniendiagramm-Visualisierung zeigt eine marginale Rückkehrkurve für den
 
 Um einen bestimmten Kanal für die Visualisierung auszuwählen, wählen Sie einen Kanal aus dem Dropdown-Menü **[!UICONTROL View]** aus.
 
+## Kanalsynergien
+
+Die Matrix der Kanalsynergien hilft Ihnen zu identifizieren, wie Marketing-Kanäle interagieren, um über ihre individuellen Beiträge hinaus multiplikative Effekte zu erzeugen.
+
+![Planen von Kanalsynergien](/help/assets/plan-channel-synergies.png)
+
+Um eine CSV-Datei herunterzuladen, die die Matrix darstellt, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Aufschlüsselung des Datumsbereichs
 
