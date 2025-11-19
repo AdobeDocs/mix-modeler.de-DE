@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2488'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
 
 Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressourcen zu unterstützen.
 
-Um Modelleinblicke anzuzeigen, gehen Sie in der ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
+Um Modelleinblicke anzuzeigen, gehen Sie in der ![ ](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
 
 1. Wählen Sie in der Tabelle **[!UICONTROL Models]** den Namen eines Modells aus, das die **[!UICONTROL Last run status]** <span style="color:green">●</span> aufweist **[!UICONTROL Success]**.
 
@@ -31,6 +31,7 @@ Um Modelleinblicke anzuzeigen, gehen Sie in der ![&#x200B; &#x200B;](/help/asset
 Die folgenden Registerkarten sind verfügbar:
 
 * [Modelleinblicke](#model-insights)
+* [Kanalsynergie](#channel-synergy)
 * [Faktoren](#factors-beta) [!BADGE Beta]
 * [Attribution](#attribution) (nur für MTA-aktivierte Modelle)
 * [Diagnose](#diagnostics)
@@ -110,6 +111,25 @@ Um einen bestimmten Kanal oder alle Kanäle auszuwählen, wählen Sie aus dem Dr
 
 Um den Inhalt der Touchpoint-Aufschlüsselungstabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+
+## Kanalsynergie
+
+Auf der Registerkarte **[!UICONTROL Channel synergy]** hilft Ihnen die **[!UICONTROL Channel synergies]** Visualisierung, zu erkennen, wie Marketing-Kanäle interagieren, um über ihre individuellen Beiträge hinaus multiplikative Effekte zu erzeugen.
+
+Die Heatmap-Matrix bietet eine visuelle Darstellung der Synergiewerte zwischen Paaren von Ausgabenkanälen. Diese Matrix hilft Marketing-Fachleuten zu verstehen, wie Kanäle interagieren, um die Leistung zu steigern. Für jedes Modell werden die Synergiewerte von 0 auf 10 normiert. Diese Werte quantifizieren die *nächste Dollar-Synergie* die schätzt, wie effektiv zwei Kanäle zusammenarbeiten, wenn jeder von ihnen einen zusätzlichen Dollar an Ausgaben auf dem aktuellen Niveau erhält.
+
+Dieser Next-Dollar-Rahmen bietet ein realistisches Maß für die relative Synergiestärke, da der Rahmen die tatsächlichen Ausgabenbedingungen in den Trainingsdaten berücksichtigt und so fundiertere Optimierungsentscheidungen ermöglicht.
+
+![Planen von Kanalsynergien](/help/assets/model-channel-synergies.png)
+
+Um eine CSV-Datei herunterzuladen, die die Matrix darstellt, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+>[!NOTE]
+>
+>Wenn die Registerkarte **[!UICONTROL Channel synergy]** für ein vorhandenes Modell nicht sichtbar ist, müssen Sie das Modell neu trainieren, um die Funktionalität und Visualisierung zu aktivieren.
+
+
+
 ## **[!UICONTROL Factors]** [!BADGE Beta]
 
 Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
@@ -147,7 +167,7 @@ Die folgenden Attributionsmodelle werden unterstützt:
    * Linear
    * U-Form
 
-Eine Einführung in [&#x200B; Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
+Eine Einführung in [ Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem Dropdown-Menü **[!UICONTROL Attribution Model]** aus. Die ausgewählten Attributionsmodelle gelten für alle Visualisierungen auf der Registerkarte Attribution .
 
@@ -238,7 +258,7 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 >title="Diagramme zur Modellbewertung"
 >abstract="Visualisierungen der Modellbewertung schlüsseln tatsächliche und prognostizierte oder Restkonversionen auf."
 >additional-url="https://experienceleague.adobe.com/de/docs/mix-modeler/using/overview" text="Überblick über Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440803/?captions=ger&learn=on&enablevpops" text="Demo von Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo von Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -294,7 +314,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen 
 
   Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender &#x200B;](/help/assets/icons/SortOrderDown.svg)):
+  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * **[!UICONTROL Paths touched]**: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
    * **[!UICONTROL Efficiency measure]**: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
