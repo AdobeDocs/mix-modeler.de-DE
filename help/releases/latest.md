@@ -4,18 +4,28 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
+source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '834'
 ht-degree: 4%
 
 ---
 
 # Aktuelle Versionshinweise zu Mix Modeler
 
-**Letzte Aktualisierung**: 12. September 2025.
+**Letzte Aktualisierung**: 12. November 2025.
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
+
+
+
+## November 2025
+
+| Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Plans tracking]** | Benutzern ermöglichen, zu verstehen, wie die Ausführung von Marketing-Plänen verfolgt, was geplant ist. So können Sie sicher sein, wie Marketing funktioniert. Oder identifizieren Sie Chancen und Risiken früher, um Kurse zu korrigieren und Geschäftsziele zu erreichen. Die [Visualisierungen zur Leistungsplanung](/help/dashboard/plans.md#performance-to-plan) werden aktualisiert und ermöglichen die Konfiguration von Metriken und Granularität. | &#x200B;12. November 2025 | &#x200B;12. November 2025 |
+| **[!UICONTROL Channel synergy insights]** | Verraten Sie, wie Marketing-Kanäle zusammenarbeiten, um eine größere Wirkung zu erzielen. Mit diesen Einblicken können Sie die bisherige Marketing-Leistung zuversichtlich erklären und die Marketing-Ausgaben entsprechend anpassen, um die Gesamtrendite Ihres Marketing-Portfolios zu maximieren. Eine Kanal-Synergie-Matrix ist in [Modelleinblicke](/help/models/insights.md#channel-synergy) und [Planeinblicke](/help/plans/insights.md#channel-synergies) verfügbar. | &#x200B;12. November 2025 | &#x200B;12. November 2025 |
+| **Fehlerbehebungen** | Fehlerbehebungen für folgende Tickets: <ul><li>AMM-2920: Planerstellung und Migration.</li><li>AMM-3282: Wissenschaftliche Notation für kleine Zahlen in großen Rastern.</li></ul> | &#x200B;12. November 2025 | &#x200B;12. November 2025 |
 
 
 ## September 2025
