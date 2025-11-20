@@ -41,7 +41,7 @@ Wenn die Einblicke erstellt werden, erhalten Sie einen Überblick über Ihren Pl
 
 Um die Benutzeroberfläche zu schließen, klicken Sie auf **[!UICONTROL Close]**.
 
-Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** unter **[!UICONTROL View ROI]** aus.
+Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL &#x200B; %]** unter **[!UICONTROL View ROI]** aus.
 
 ## Prognostizierte Ausgaben und ROI für bezahlte Kanäle
 
