@@ -3,7 +3,7 @@ title: Zu planende Leistung
 description: Erfahren Sie, wie Sie in Mix Modeler die Übersicht zur Leistungsplanung verwenden.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die Registerkarte **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** ist eine Beta-Funktion und ihre Funktionalität kann sich ändern. Die Funktion steht einer begrenzten Anzahl von Kunden zur Verfügung.
+>Die Registerkarte **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** ist eine Beta-Funktion und ihre Funktionalität kann sich ändern. Die Funktion steht einer begrenzten Anzahl von Kunden zur Verfügung.
 
 Die Registerkarte **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** bietet ein Tracking-Dashboard, mit dem überwacht werden kann, wie gut Ihr Marketing im Vergleich zum Plan abschneidet. Sie können die tatsächliche Leistung im Vergleich zur geplanten Leistung anhand von Statuskarten und Visualisierungen verfolgen.
 
