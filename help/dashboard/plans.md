@@ -24,7 +24,7 @@ So wählen Sie aus, welche Daten für die KPI-Statuskarten und Visualisierungen 
 
 * Wählen Sie im Dropdown-Menü **[!UICONTROL Plan name]** einen Plan aus und verwenden Sie **[!UICONTROL _Option auswählen…_]**.
 
-* Geben Sie einen Datumsbereich an. Um den Datumsbereich zu ändern, geben Sie das Start- und Enddatum manuell ein oder wählen Sie mithilfe von ![Kalender“ einen ](/help/assets/icons/Calendar.svg) aus.
+* Geben Sie einen Datumsbereich an. Um den Datumsbereich zu ändern, geben Sie das Start- und Enddatum manuell ein oder wählen Sie mithilfe von ![Kalender“ einen &#x200B;](/help/assets/icons/Calendar.svg) aus.
 
 Die Registerkarte **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} zeigt:
 
@@ -38,7 +38,7 @@ Die Registerkarte **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} zeigt:
 * [Visualisierungen](#visualizations):
    * [*Metrik*](#metric-actual-vs-planned)
    * [*Metrik*](#metric-actual-vs-planned-by-granularity)
-   * [Kanal ](#channel-metric-by-granularity)
+   * [Kanal &#x200B;](#channel-metric-by-granularity)
    * [*Metrik*](#metric-vs-metric-by-channel)
    * [*Metrik*](#metric-by-granularity)
    * [*Metrik*](#metric-by-channel)
