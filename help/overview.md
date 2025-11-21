@@ -1,5 +1,5 @@
 ---
-title: Mix Modeler-Anleitung
+title: Handbuch zu Mix Modeler
 description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
 short-description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
 feature: Harmonized Data, Models, Plans
@@ -11,9 +11,9 @@ ht-degree: 18%
 
 ---
 
-# Adobe Mix Modeler-Anleitung
+# Handbuch zu Adobe Mix Modeler
 
-Dieses Handbuch zur technischen Dokumentation bietet Selbsthilfe für Adobe **Mix Modeler**. Mix Modeler ist eine Adobe Experience Cloud-Anwendung, die Kampagnen misst und die Planung ganzheitlich über alle Kanäle optimiert: Paid, Earned und Owned. Mix Modeler basiert auf Adobe Experience Platform und wird von Adobe Sensei unterstützt.
+Diese technische Dokumentation bietet Selbsthilfe für Adobe **Mix Modeler**. Mix Modeler ist eine Adobe Experience Cloud-Anwendung, die Kampagnen misst und die Planung ganzheitlich über alle Kanäle optimiert: Paid, Earned und Owned. Mix Modeler basiert auf Adobe Experience Platform und wird von Adobe Sensei unterstützt.
 
 ## Beginnen Sie mit den Grundlagen
 
@@ -21,7 +21,7 @@ Dieses Handbuch zur technischen Dokumentation bietet Selbsthilfe für Adobe **Mi
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong>Schnellstart</strong><br/> Verschaffen Sie sich einen Überblick über den Workflow von Mix Modeler und erhalten Sie nützliche Einblicke.</div>
+    <div><strong>Schnellstart</strong><br/> Verschaffen Sie sich einen Überblick über und insight in den Workflow von Mix Modeler.</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
@@ -74,7 +74,7 @@ Dieses Handbuch zur technischen Dokumentation bietet Selbsthilfe für Adobe **Mi
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=de">Übersicht</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=de">Anwendungsfälle</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=de">Benutzer-Workflow</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=de">Tour durch die Benutzeroberfläche</a>
+      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Übersicht</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Anwendungsfälle</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Benutzer-Workflow</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Tour durch die Benutzeroberfläche</a>
     </td>
   </tr>
 </table>
