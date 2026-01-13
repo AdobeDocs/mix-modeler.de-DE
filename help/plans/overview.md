@@ -3,9 +3,9 @@ title: Pläne - Übersicht
 description: Erfahren Sie, wie Sie Pläne in Mix Modeler anzeigen, auswählen und Aktionen für sie durchführen können.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Wenn ein Modell, das Sie für Ihren Plan verwendet haben, mit neuen Daten bewert
 
 ## Pläne erstellen
 
-Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modeler-Plans. Weitere [&#x200B; finden Sie &#x200B;](build.md)Erstellen von Plänen“.
+Verwenden Sie zum Erstellen eines Plans den Assistenten zur Erstellung eines Mix Modeler-Plans. Weitere [ finden Sie ](build.md)Erstellen von Plänen“.
 
 
 ## Pläne verwalten
 
 So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von Mix Modeler an:
 
-1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** aus.
+1. Wählen Sie in der linken Leiste ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** aus.
 
 1. Sie sehen eine Tabelle der aktuellen Pläne und ihres Status.
 
@@ -53,7 +53,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von
    | Datumsbereich | Der vollständige Datumsbereich für einen Plan. |
    | Budget | Das Gesamtbudget für einen Plan. |
    | Planziel | Die Zielmetrik , die für einen zielbasierten Plan definiert ist. |
-   | Prognostizierte Rendite | Die [prognostizierte &#x200B;](/help/main-guide/glossary.md)) für einen Plan |
+   | Prognostizierte Rendite | Die [prognostizierte ](/help/main-guide/glossary.md)) für einen Plan |
    | Prognostizierter ROI | Der [prognostizierte ROI](/help/main-guide/glossary.md) für einen Plan. |
    | Prognostizierte Konversion | Die [prognostizierte Konversion](/help/main-guide/glossary.md) für einen Plan |
    | Prognostizierter CPA | Die [prognostizierte CPA](/help/main-guide/glossary.md) für einen Plan |
@@ -61,7 +61,11 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Pläne in der Benutzeroberfläche von
 
    {style="table-layout:auto"}
 
-   Sie können ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) verwenden, um die ![&#x200B; Spalten (](/help/assets/icons/Checkmark.svg)) auszuwählen, die in der Tabelle angezeigt werden sollen.
+   Sie können ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) verwenden, um die ![ Spalten (](/help/assets/icons/Checkmark.svg)) auszuwählen, die in der Tabelle angezeigt werden sollen.
+
+   Um die Tabelle in einer beliebigen Spalte in aufsteigender ![](/help/assets/icons2/ArrowMoveUp.svg) ArrowMoveUp) oder absteigender Reihenfolge ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg) zu sortieren, klicken Sie auf den Titel der Spalte.
+
+   Um die **[!UICONTROL Name]**, **[!UICONTROL Model]** oder **[!UICONTROL Date range]** Spalte zu sortieren oder in der Größe zu ändern, wählen Sie **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg), **[!UICONTROL Model]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) oder **[!UICONTROL Date range]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Wählen Sie im Kontextmenü **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** oder **[!UICONTROL Resize column]** aus. Alternativ können Sie den Mauszeiger über das Spaltentrennzeichen für diese Spalten bewegen, um die Größe einer Spalte zu ändern.
 
 1. Verwenden Sie ![Suche](/help/assets/icons/Search.svg), um die Tabelle nach einem oder mehreren bestimmten Plänen zu durchsuchen und zu filtern.
 
@@ -73,7 +77,7 @@ So zeigen Sie die Einblicke eines Plans an und bearbeiten ihn:
 
 1. Wählen Sie den Plannamen.
 
-Sie werden zu &quot;[-Einblicke“ &#x200B;](insights.md).
+Sie werden zu &quot;[-Einblicke“ ](insights.md).
 
 
 ### Duplizieren eines Plans
@@ -83,7 +87,7 @@ Duplizieren eines Plans:
 - Wählen Sie ![Mehr](/help/assets/icons/More.svg) für einen Plan aus. Wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 - Wählen Sie alternativ einen Plan in der Tabelle ![SelectBox](/help/assets/icons/SelectBox.svg) aus und wählen Sie ![Kopieren](/help/assets/icons/Copy.svg) aus der blauen Aktionsleiste **[!UICONTROL Duplicate]**.
 
-Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)] (_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
+Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursprünglichen Plans zusammensetzt und an den **[!UICONTROL (Copy)](_n_)** angehängt ist. Sie werden automatisch zu [Planerstellung](build.md) umgeleitet, um aktualisierte Details für den kopierten Plan anzugeben.
 
 - Details (wie Beschreibung, Budget und mehr) aus dem ursprünglichen Plan werden kopiert.
 - Budgetbeschränkungen aus dem ursprünglichen Plan werden in den neu erstellten Plan kopiert.
@@ -100,7 +104,7 @@ Es wird ein neuer Plan mit einem Namen erstellt, der sich aus dem Namen des ursp
 Pläne vergleichen:
 
 1. Wählen Sie zwei Pläne aus der Tabelle aus.
-1. Wählen ![&#x200B; in &#x200B;](/help/assets/icons/Compare.svg) blauen Aktionsleiste **[!UICONTROL Compare]** Vergleichen“ aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
+1. Wählen ![ in ](/help/assets/icons/Compare.svg) blauen Aktionsleiste **[!UICONTROL Compare]** Vergleichen“ aus. Sie sehen die **[!UICONTROL Compare plans]** Benutzeroberfläche.
 
 
 ### Pläne löschen
@@ -114,6 +118,6 @@ So löschen Sie mehrere Pläne:
 
 1. Mehrere Pläne auswählen.
 1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Pläne zu löschen.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**&#x200B;aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *Pläne]**aus, um die Pläne zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
 
 
