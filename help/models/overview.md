@@ -3,10 +3,10 @@ title: Modelle - Übersicht
 description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen und verwenden.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 1%
+source-wordcount: '915'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Wenn ein Modell zum ersten Mal erstellt wird, startet die Erstellung sofort den 
 
 ## Erstellen von Modellen
 
-Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfigurationsablauf für Mix Modeler-Modelle, der bei der Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere [&#x200B; finden Sie unter &#x200B;](build.md) von Modellen .
+Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfigurationsablauf für Mix Modeler-Modelle, der bei der Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere [ finden Sie unter ](build.md) von Modellen .
 
 ## Modelle verwalten
 
@@ -51,14 +51,13 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Benutzeroberfläche vo
 
    | Spaltenname | Details |
    |---|---|
-   | Name | Modellname |
-   | Beschreibung | Beschreibung des Modells |
-   | Konversionsereignis | Die für das Modell ausgewählte Konvertierung. |
-   | Ausführungshäufigkeit | Die Lauffrequenz des Trainings des Modells. |
-   | Letzte Ausführung | Datum und Uhrzeit des letzten Trainings des Modells. |
-   | Status | Der Status des Modells. |
+   | **[!UICONTROL Name]** | Modellname |
+   | **[!UICONTROL Description]** | Beschreibung des Modells |
+   | **[!UICONTROL Conversion event]** | Die für das Modell ausgewählte Konvertierung. |
+   | **[!UICONTROL Run frequency]** | Die Lauffrequenz des Trainings des Modells. |
+   | **[!UICONTROL Last run]** | Datum und Uhrzeit des letzten Trainings des Modells. |
+   | **[!UICONTROL Status]** | Der Status des Modells. |
 
-   {style="table-layout:auto"}
 
    Der gemeldete Status des Modells hängt davon ab, wo sich ein Modell innerhalb seines Lebenszyklus befindet. Ob beispielsweise ein Modell erstellt, erfolgreich (neu) trainiert wurde oder nicht oder ob die Bewertung erfolgreich (neu) erstellt wurde oder nicht.
 
@@ -100,7 +99,7 @@ So zeigen Sie die Insights eines Modells an:
 
 1. Wählen Sie den Modellnamen.
 
-Sie werden zu &quot;[&#x200B; Insights“ &#x200B;](insights.md).
+Sie werden zu &quot;[ Insights“ ](insights.md).
 
 
 ### Details anzeigen
@@ -120,7 +119,7 @@ Sie können ein Modell schnell duplizieren.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 
-Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)] (_)_ wird**.
+Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)](_)_ wird**.
 
 ### Bearbeiten
 
@@ -152,12 +151,12 @@ Sie können den Namen, die Beschreibung und den Zeitplan für das Training und d
 
 ### trainieren
 
-Erwägen Sie, ein Modell neu zu trainieren, wenn Sie neue inkrementelle Marketing- und Faktordaten einbeziehen möchten. Weitere Informationen finden [&#x200B; unter &#x200B;](train-score.md#train) trainieren und bewerten .
+Erwägen Sie, ein Modell neu zu trainieren, wenn Sie neue inkrementelle Marketing- und Faktordaten einbeziehen möchten. Weitere Informationen finden [ unter ](train-score.md#train) trainieren und bewerten .
 
 
 ### Ergebnis
 
-Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. Weitere Informationen finden [&#x200B; unter &#x200B;](train-score.md#score) trainieren und bewerten .
+Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. Weitere Informationen finden [ unter ](train-score.md#score) trainieren und bewerten .
 
 
 ### Modelle löschen
@@ -165,12 +164,12 @@ Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewe
 Löschen eines Modells:
 
 1. Wählen Sie in der linken Leiste ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** aus.
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![&#x200B; blaue Aktionsleiste &#x200B;](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![ blaue Aktionsleiste ](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
 1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete model]** aus, um das Modell zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
 
 So löschen Sie mehrere Modelle:
 
 1. Mehrere Modelle auswählen.
 1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Modelle zu löschen.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *-Modelle]**, um die Modelle zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *-Modelle]**, um die Modelle zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
 
