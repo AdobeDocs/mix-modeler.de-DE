@@ -3,10 +3,10 @@ title: Datensätze harmonisieren - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler harmonisieren.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
+source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 6%
+source-wordcount: '1347'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ Die Daten in Mix Modeler sind je nach Datenquelle unterschiedlich. Die Daten kö
 * aggregierte oder zusammengefasste Daten, z. B. Daten aus Datenquellen von Walled Garden oder Offline-Werbedaten (wie Ausgaben), die bei der Ausführung einer Reklametafel, eines Ereignisses oder einer physischen Werbekampagne gesammelt wurden,
 * Ereignisdaten, z. B. aus Erstanbieter-Datenquellen. Bei diesen Ereignisdaten kann es sich um Daten handeln, die über den Adobe Analytics-Quell-Connector von Adobe Analytics oder über die Experience Platform Web- oder Mobile-SDK- oder Edge Network-API erfasst werden, oder um Daten, die über Quell-Connectoren aufgenommen werden.
 
-Der Harmonisierungsdienst von Mix Modeler nimmt die Aggregat- und Ereignisdaten in eine konsistente Datenansicht auf. Diese Datenansicht bildet zusammen mit [internen und externen Datenfaktoren](#factors) die Quelle für die Modelle in Mix Modeler. Der Service verwendet die höchste Granularität über die verschiedenen Datensätze hinweg. Wenn beispielsweise ein Datensatz eine Granularität von monatlichen Datensätzen hat und die übrigen Datensätze eine wöchentliche und tägliche Granularität haben, erstellt der Harmonisierungs-Service eine Datenansicht mit monatlicher Granularität.
+Der Harmonisierungsdienst von Mix Modeler nimmt die Aggregat- und Ereignisdaten in eine konsistente Datenansicht auf. Diese Datenansicht ist die Quelle für die Modelle in Mix Modeler. Der Service verwendet die höchste Granularität über die verschiedenen Datensätze hinweg. Wenn beispielsweise ein Datensatz eine Granularität von monatlichen Datensätzen hat und die übrigen Datensätze eine wöchentliche und tägliche Granularität haben, erstellt der Harmonisierungs-Service eine Datenansicht mit monatlicher Granularität.
 
 ## Faktoren
 
@@ -27,7 +27,22 @@ Faktoren sind für die Modellerstellung von entscheidender Bedeutung, und Sie m�
 
 * Externe Faktoren sind Faktoren, die sich der Kontrolle Ihres Unternehmens entziehen, die sich jedoch weiterhin auf die von Ihnen erzielten Konversionen auswirken können. Beispiele sind CPI, S&amp;P 500 und mehr.
 
+Die Factors-Funktion in Mix Modeler verwendet einen harmonisierten Faktoren-Workflow. Dieser Workflow vereinfacht die Verwaltung von Faktoren, sorgt für Konsistenz über Modelle hinweg und bietet ein intuitives Erlebnis.
 
+Im Rahmen des Workflows Harmonisierte Faktoren gilt Folgendes:
+
+1. Definieren harmonisierter Felder für Faktoren aus einem Faktordatensatz in [Datensatzregeln](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+1. [Synchronisieren](/help/harmonize-data/dataset-rules.md#sync-data) Sie Ihre harmonisierten Daten.
+1. [Verwenden Sie die Faktoren](/help/models/build.md#configure) in Ihrer Modellkonfiguration.
+
+### Migration
+
+Möglicherweise verfügen Sie über Modelle, die den Workflow für harmonisierte Faktoren noch nicht übernommen haben, und verwenden Sie den Workflow für Datensatzfaktoren von Experience Platform. Diese Modelle zeigen weiterhin ihre ursprünglichen, auf dem Datensatz basierenden Faktoren an, bis die Modelle mit neuen Faktoren aktualisiert werden, die auf dem harmonisierten Faktoren-Workflow basieren.
+
+Wenn Sie ein Modell duplizieren, das den Workflow Datensatzbasierte Faktoren verwendet:
+
+* Wenn das Modell nicht harmonisiert wurde, wird die alte Faktor-Konfiguration nicht in das duplizierte Modell übernommen. Sie müssen Faktoren mithilfe des neuen Workflows Harmonisierte Faktoren hinzufügen.
+* Wurde das Modell harmonisiert, so werden Faktoren übernommen und beibehalten oder aktualisiert.
 
 ## Beispiel für harmonisierte Daten
 
@@ -39,8 +54,8 @@ Enthält den Marketing-Aufwandsdatensatz von YouTube mit einer Granularität des
 
 | Datum | Datumstyp | Kanal | Campaign | Marke | Geo | Klicks | Ausgaben |
 |---|:--:|---|---|---|---|---:|---:|
-| 12-31-2021 | day | YouTube | y_fall_02 | BrandX | USA | 10000 | 100 |
-| 01-01-2022 | day | YouTube | y_fall_02 | BrandX | USA | 1.000 | 10 |
+| 12-31-2021 | day | YouTube | y_fall_02 | BrandX | US | 10000 | 100 |
+| 01-01-2022 | day | YouTube | y_fall_02 | BrandX | US | 1.000 | 10 |
 | 01-03-2022 | day | YouTube | y_fall_01 | BrandY | CA | 10000 | 100 |
 | 01-04-2022 | day | YouTube | Y_SUMMER_01 | Null | CA | 9000 | 80 |
 
@@ -53,9 +68,9 @@ Enthält den Marketing-Aufwand-Datensatz von Facebook mit einer Granularität de
 
 | Datum | Datumstyp | Kanal | Campaign | Geo | Klicks | Ausgaben |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | Woche | Facebook | FB_FALL_01 | USA | 8000 | 100 |
-| 01-08-2022 | Woche | Facebook | FB_FALL_02 | USA | 1.000 | 10 |
-| 01-08-2022 | Woche | Facebook | FB_FALL_01 | USA | 7000 | 100 |
+| 01-01-2022 | Woche | Facebook | FB_FALL_01 | US | 8000 | 100 |
+| 01-08-2022 | Woche | Facebook | FB_FALL_02 | US | 1.000 | 10 |
+| 01-08-2022 | Woche | Facebook | FB_FALL_01 | US | 7000 | 100 |
 | 01-16-2022 | Woche | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
@@ -67,9 +82,9 @@ Ein Konversionsdatensatz mit einer Granularität des Aggregatdatensatzes von tä
 
 | Datum | Datumstyp | Geo | Ziel | Einnahmen |
 |--- |:---: |---|---|---:|
-| 01-01-2022 | day | USA | Mode | 200 |
-| 01-08-2022 | day | USA | Mode | 10 |
-| 01-08-2022 | day | USA | Schmuck | 1100 |
+| 01-01-2022 | day | US | Mode | 200 |
+| 01-08-2022 | day | US | Mode | 10 |
+| 01-08-2022 | day | US | Schmuck | 1100 |
 | 01-16-2022 | day | CA | Schmuck | 80 |
 
 {style="table-layout:auto"}
@@ -95,16 +110,16 @@ Sie möchten einen harmonisierten Datensatz mit einer Granularität von auf wöc
 
 | Datum | Datumstyp | Kanal | Campaign | Marke | Geo | Ziel | Klicks | Ausgaben | Einnahmen |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | Woche | YouTube | y_fall_02 | BrandX | USA | Null | 11000 | 110 | Null |
+| 12-27-2021 | Woche | YouTube | y_fall_02 | BrandX | US | Null | 11000 | 110 | Null |
 | 01-03-2022 | Woche | YouTube | y_fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
 | 01-03-2022 | Woche | YouTube | Y_SUMMER_01 | Null | CA | Null | 9000 | 80 | Null |
-| 01-01-2022 | Woche | Facebook | FB_FALL_01 | Null | USA | Null | 8000 | 100 | Null |
-| 01-08-2022 | Woche | Facebook | FB_FALL_02 | Null | USA | Null | 1.000 | 10 | Null |
-| 01-08-2022 | Woche | Facebook | FB_FALL_01 | Null | USA | Null | 7000 | 100 | Null |
+| 01-01-2022 | Woche | Facebook | FB_FALL_01 | Null | US | Null | 8000 | 100 | Null |
+| 01-08-2022 | Woche | Facebook | FB_FALL_02 | Null | US | Null | 1.000 | 10 | Null |
+| 01-08-2022 | Woche | Facebook | FB_FALL_01 | Null | US | Null | 7000 | 100 | Null |
 | 01-16-2022 | Woche | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
-| 12-27-2021 | Woche | Null | Null | Null | USA | Mode | Null | Null | 200 |
-| 01-03-2022 | Woche | Null | Null | Null | USA | Mode | Null | Null | 10 |
-| 01-03-2022 | Woche | Null | Null | Null | USA | Schmuck | Null | Null | 1100 |
+| 12-27-2021 | Woche | Null | Null | Null | US | Mode | Null | Null | 200 |
+| 01-03-2022 | Woche | Null | Null | Null | US | Mode | Null | Null | 10 |
+| 01-03-2022 | Woche | Null | Null | Null | US | Schmuck | Null | Null | 1100 |
 | 01-10-2022 | Woche | Null | Null | Null | CA | Schmuck | Null | Null | 80 |
 | 01-01-2022 | Woche | CSE | Null | Null | Null | Null | 2 | Null | Null |
 | 01-08-2022 | Woche | CSE | Null | Null | Null | Null | 2 | Null | Null |
@@ -132,7 +147,7 @@ So zeigen Sie Ihre harmonisierten Daten in der Benutzeroberfläche von Mix Model
 
    1. Um den Zeitraum neu zu definieren, auf dem die Zusammenfassung harmonisierter Daten basiert, geben Sie einen Datumsbereich für die **[!UICONTROL Date range]** ein oder verwenden Sie ![Kalender](/help/assets/icons/Calendar.svg), um einen Datenbereich auszuwählen.
 
-   1. Um die harmonisierten Feldspalten zu ändern, die für die harmonisierte Datentabelle angezeigt werden, öffnen Sie ![&#x200B; Dialogfeld &quot;**[!UICONTROL Column settings]**&quot; &#x200B;](/help/assets/icons/Setting.svg)Einstellungen“.
+   1. Um die harmonisierten Feldspalten zu ändern, die für die harmonisierte Datentabelle angezeigt werden, öffnen Sie ![ Dialogfeld &quot;](/help/assets/icons/Setting.svg)&quot; **[!UICONTROL Column settings]** Einstellungen“.
 
       1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** aus und verwenden Sie ![Pfeil nach rechts](/help/assets/icons/ChevronRight.svg), um diese Spalten **[!UICONTROL SELECTED COLUMNS]** hinzuzufügen.
 
