@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2804'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
 
 Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressourcen zu unterstützen.
 
-Um Modelleinblicke anzuzeigen, gehen Sie in der ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
+Um Modelleinblicke anzuzeigen, gehen Sie in der ![ ](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
 
-1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; &#x200B;](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
+1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus.
 
@@ -130,7 +130,13 @@ Um eine CSV-Datei herunterzuladen, die die Matrix darstellt, wählen Sie ![Herun
 
 
 
-## **[!UICONTROL Factors]** [!BADGE Beta]
+## **[!UICONTROL Factors]** [!BADGE Beta] {#factors}
+
+>[!CONTEXTUALHELP]
+>id="models_factors_factorcontributionbreakdown"
+>title="Verteilung der Faktorbeiträge"
+>abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basisumrechnungen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den im Modell enthaltenen Marketing-Touchpoints und -Faktoren auftreten. Dazu gehören Umrechnungen, die durch Markenaktien, Wiederholungskäufe, organische Nachfrage und langfristige Markttrends und Saisonabhängigkeit angetrieben werden."
+
 
 Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
 
@@ -146,7 +152,21 @@ Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![
 
 Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution]
+## [!UICONTROL Attribution] {#attribution}
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbychannel"
+>title="Aufschlüsselung nach Kanal"
+>abstract="**[!UICONTROL Breakdown by channel]** ist eine Aufschlüsselung nach dem Kanaltyp für die definierten Touchpoints, basierend auf dem Kundenerlebnis-Ereignisschema. Wählen Sie ![Mehr](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) und **[!UICONTROL Breakdown by touchpoint]** aus, um eine Aufschlüsselung nach Touchpoint anzuzeigen."
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbytouchpointposition"
+>title="Aufschlüsselung nach Touchpoint-Position"
+>abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints auf allen Konversionspfaden. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position besser beiträgt als an einer anderen Position und andere Touchpoints an einer anderen Position. Beachten Sie, dass die Summe des prozentualen Beitrags für ein Attributionsmodell über alle Touchpoints und Positionen hinweg 100 betragen würde. Die Positionen Anfänger, Influencer und Finisher sind wie folgt definiert:<ul><li>**Starter**: Gibt an, ob der Touchpoint der erste Touchpoint in einem Konversionspfad ist.</li><li>**Player**: Gibt an, ob der Touchpoint weder der erste noch der letzte Touch ist, der zur Konversion führt.</li><li>**Closer**: Gibt an, ob der Touchpoint der letzte Berührungspunkt vor der Konversion ist.</li></ul>"
+
+
 
 >[!NOTE]
 >
@@ -167,7 +187,7 @@ Die folgenden Attributionsmodelle werden unterstützt:
    * Linear
    * U-Form
 
-Eine Einführung in [&#x200B; Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
+Eine Einführung in [ Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem Dropdown-Menü **[!UICONTROL Attribution Model]** aus. Die ausgewählten Attributionsmodelle gelten für alle Visualisierungen auf der Registerkarte Attribution .
 
@@ -252,19 +272,36 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 
 ## [!UICONTROL Diagnostics] {#diagnostics}
 
-
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Diagramme zur Modellbewertung"
 >abstract="Visualisierungen der Modellbewertung schlüsseln tatsächliche und prognostizierte oder Restkonversionen auf."
 >additional-url="https://experienceleague.adobe.com/de/docs/mix-modeler/using/overview" text="Überblick über Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440803/?captions=ger&learn=on&enablevpops" text="Demo von Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo von Mix Modeler"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeltrainingfitmetrics"
+>title="Anpassungsmetriken modellieren"
+>abstract="Zeigt einen Überblick über Metriken zur Anpassung mehrerer Trainingsmodelle."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="Pfade mit Touchpoints"
 >abstract="„Pfade mit Touchpoints“ ist der Prozentsatz der Pfade, die eine Konversion erzielen, und der Prozentsatz der Pfade, die keine Konversion erzielen, für jeden Touchpoint."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_efficiencymeasure"
+>title="Effizienzmaßnahme"
+>abstract="Das vom algorithmischen Attributionsmodell generierte Effizienzmaß zeigt die relative Bedeutung eines Touchpoints für die Konversion unabhängig vom Touchpoint-Volumen an. Dieser wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_totalvolume"
+>title="Gesamtvolumen"
+>abstract="Das Gesamtvolumen ist die Gesamtzahl der Berührungen eines Touchpoints durch eine Benutzerin oder einen Benutzer und bezieht auch Touchpoints ein, die sowohl auf Pfaden liegen, die Konversionen erzielen, als auch solche, die keine Konversionen verursachen."
 
 
 >[!CONTEXTUALHELP]
@@ -314,7 +351,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen 
 
   Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender &#x200B;](/help/assets/icons/SortOrderDown.svg)):
+  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * **[!UICONTROL Paths touched]**: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
    * **[!UICONTROL Efficiency measure]**: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.

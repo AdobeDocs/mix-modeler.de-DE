@@ -1,16 +1,23 @@
 ---
 title: Konversionen
-description: Erfahren Sie, wie Sie Konversionen erstellen, die im Rahmen der Harmonisierung Ihrer Daten in Mix Modeler verwendet werden können.
+description: Erfahren Sie, wie Sie Konversionen erstellen, um Ihre Daten in Mix Modeler zu harmonisieren.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 2%
 
 ---
 
-# Konversionen
+# Konversionen {#conversions}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_conversions_create"
+>title="Konversion"
+>abstract="Konversionsereignisse sind Geschäftsziele, die die Auswirkungen von Marketing-Aktivitäten identifizieren. Beispiele: E-Commerce-Bestellungen, In-Store-Käufe, Website-Besuche und mehr."
+
 
 Konversionsereignisse sind Geschäftsziele, die die Auswirkungen von Marketing-Aktivitäten identifizieren. Beispiele: E-Commerce-Bestellungen, In-Store-Käufe, Website-Besuche usw.
 
@@ -18,7 +25,7 @@ Marketing-Konversionen werden für die Attributionsanalyse definiert.
 
 ## Konversionen verwalten
 
-Um eine Tabelle der verfügbaren Konvertierungen anzuzeigen, gehen Sie in der Benutzeroberfläche des Mix Modelers folgendermaßen vor:
+Um eine Tabelle der verfügbaren Konvertierungen anzuzeigen, gehen Sie in der Benutzeroberfläche von Mix Modeler folgendermaßen vor:
 
 1. Wählen Sie ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** in der linken Leiste aus.
 
@@ -29,7 +36,7 @@ Die Tabellenspalten geben Details zur Konversion an:
 | Spaltenname | Details |
 | --- | ---|
 | Name | Der Name der Konversion. |
-| Einnahmen | Die harmonisierte Datenmetrik, die zur Berechnung des Umsatzes aus einer Konversion verwendet wird. |
+| Umsatz | Die harmonisierte Datenmetrik, die zur Berechnung des Umsatzes aus einer Konversion verwendet wird. |
 | Konversionsmetrik | Die harmonisierte Datenmetrik, die als Konversionsmetrik für die Analyse verwendet werden soll. |
 | Kategorie | Die Konvertierungskategorie der Konversion. |
 | Erstellt | Datum und Uhrzeit der Erstellung der Konversion. |
@@ -38,7 +45,7 @@ Die Tabellenspalten geben Details zur Konversion an:
 
 ## Konversion hinzufügen
 
-Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** in den Mix Modeler:
+Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/icons/DataCheck.svg)-**[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** in Mix Modeler folgendermaßen vor:
 
 1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]** aus.
 
@@ -48,11 +55,11 @@ Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/ic
 
    1. Definieren Sie die **[!UICONTROL Conversion category]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wählen Sie Harmonisieren…*]**&#x200B;aus, z. B. `Conversion types`.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wählen Sie Harmonisieren…*]**aus, z. B. `Conversion types`.
 
       1. Wählen Sie einen Wert für den Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!UICONTROL Store]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!UICONTROL Store]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Conversion metric for analysis]** aus, z. B. **[!UICONTROL Orders]**.
 
@@ -71,7 +78,7 @@ So zeigen Sie Details zu einer Konversion an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Konversionsnamen in der Tabelle bewegen.
 
-1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [&#x200B; Sie unter &#x200B;](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [ Sie unter ](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
 ## Bericht anzeigen
 
