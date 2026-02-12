@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
+source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
 workflow-type: tm+mt
-source-wordcount: '2827'
+source-wordcount: '2844'
 ht-degree: 3%
 
 ---
@@ -20,9 +20,9 @@ Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
 
 Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressourcen zu unterstützen.
 
-Um Modelleinblicke anzuzeigen, gehen Sie in der ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
+Um Modelleinblicke anzuzeigen, gehen Sie in der ![ ](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
 
-1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; &#x200B;](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
+1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus.
 
@@ -47,7 +47,7 @@ Wenn Modellabweichungen auf dem Modell erkannt werden, wird ein **[!UICONTROL Mo
 
 ![Dialogfeld „Modelldrift erkannt“](/help/assets/model-drift-dialog.png)
 
-## [!UICONTROL Model insights]
+## Modelleinblicke
 
 Die Registerkarte Modelleinblicke zeigt Visualisierungen für [Beitrag nach Datum und Basismedien](#contribution-by-date-and-base-media), [Beitrag nach Kanal](#contribution-by-channel), [Marketing-](#marketing-performance-summary) und [marginale Antwortkurven](#marginal-response-curves). Die Registerkarte enthält auch eine [Touchpoint-Aufschlüsselung](#touchppint-breakdown)-Tabelle.
 
@@ -140,7 +140,7 @@ Um eine CSV-Datei herunterzuladen, die die Matrix darstellt, wählen Sie ![Herun
 
 
 
-## **[!UICONTROL Factors]** [!BADGE Beta] {#factors}
+## Faktoren {#factors}
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
@@ -162,7 +162,7 @@ Um eine CSV-Datei mit den Daten für die Tabelle herunterzuladen, wählen Sie ![
 
 Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution] {#attribution}
+## Attribution {#attribution}
 
 
 >[!CONTEXTUALHELP]
@@ -197,7 +197,7 @@ Die folgenden Attributionsmodelle werden unterstützt:
    * Linear
    * U-Form
 
-Eine Einführung in [&#x200B; Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
+Eine Einführung in [ Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem Dropdown-Menü **[!UICONTROL Attribution Model]** aus. Die ausgewählten Attributionsmodelle gelten für alle Visualisierungen auf der Registerkarte Attribution .
 
@@ -207,13 +207,13 @@ Die granularen Ereignis-Scores der Mix Modeler-Multi-Touch-Attribution entsprech
 
 Die Registerkarte Attribution besteht aus den folgenden Visualisierungen:
 
-### [!UICONTROL Overview]
+### Überblick
 
 In der [!UICONTROL Overview] Visualisierung werden für die ausgewählten Attributionsmodelle die Konversionssummen und -prozentsätze angezeigt. Wenn Sie weitere Modelle auswählen, werden der Visualisierung zusätzliche Kreise hinzugefügt, von denen jede eine eigene Farbe hat, die der Legende entspricht.
 
 Um ein Popup mit Details für ein Attributionsmodell anzuzeigen, bewegen Sie den Mauszeiger über einen beliebigen Kreis in der Visualisierung.
 
-### [!UICONTROL Trends]
+### Trends
 
 Die [!UICONTROL Daily trends]-, [!UICONTROL Weekly trends]- oder [!UICONTROL Monthly trends]-Visualisierung zeigt für die ausgewählten Attributionsmodelle die täglichen, wöchentlichen oder monatlichen Konversionstrends.
 
@@ -221,7 +221,7 @@ Um den Zeitraum auszuwählen, wählen Sie **[!UICONTROL Daily trends]**, **[!UIC
 
 Um Details anzuzeigen, bewegen Sie den Mauszeiger über die Datenzeile eines bestimmten Attributionsmodells, um ein Pop-up anzuzeigen, das die Gesamtzahl der Konversionen für diese Daten anzeigt.
 
-### [!UICONTROL Breakdown]
+### Aufgliederung
 
 Die [!UICONTROL Breakdown] Visualisierung ist eine Aufschlüsselung der Konversionen für jedes der ausgewählten Attributionsmodelle nach Kanal oder Touchpoint. Diese Visualisierung kann hilfreich sein, um Entscheidungen über die Effektivität der einzelnen Kanäle oder Touchpoints zu treffen.
 
@@ -229,7 +229,7 @@ Um den Aufschlüsselungstyp auszuwählen, wählen Sie **[!UICONTROL Breakdown by
 
 Um Details anzuzeigen, bewegen Sie den Mauszeiger über eines der Diagrammelemente.
 
-### [!UICONTROL Top campaigns]
+### Topkampagnen
 
 Die Visualisierung der Top-Kampagnen zeigt eine Tabelle der Top-Kampagnen mit Spalten für Kampagnenname, Kanal, Medientyp und inkrementelle Konversionen. Diese Visualisierung kann dabei helfen, Ihr Team über die Effektivität einer bestimmten Kampagne für einen bestimmten Kanal zu informieren und Einblicke darüber zu erhalten, in welche Kampagnen Sie weiter investieren sollten.
 
@@ -249,7 +249,7 @@ Das erweiterte Dialogfeld Top-Kampagnen zeigt dieselbe Tabelle mit zusätzlichen
 Um das erweiterte Dialogfeld Top-Kampagnen zu schließen, wählen Sie **[!UICONTROL Close]** aus.
 
 
-### [!UICONTROL Breakdown by touchpoint position]
+### Aufschlüsselung nach Touchpoint-Position
 
 Die [!UICONTROL Breakdown by touchpoint position] Visualisierung ist eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints auf allen Konversionspfaden. Dieses Diagramm hilft Ihnen zu vergleichen, ob ein Touchpoint an einer Position besser beiträgt als verbleibende Positionen und andere Touchpoints an einer beliebigen Position.
 
@@ -267,7 +267,7 @@ Die Positionen [!UICONTROL Starter], [!UICONTROL Player] und [!UICONTROL Closer]
 | [!UICONTROL Closer] | Diese Position gibt an, ob der Touchpoint der letzte Berührungspunkt vor der Konversion ist. |
 
 
-### [!UICONTROL Top conversion paths]
+### Top-Konversionspfade
 
 Die [!UICONTROL Top conversion paths] Visualisierung zeigt die fünf wichtigsten Konversionspfade basierend auf den ausgewählten Attributionsmodellen.
 
@@ -280,14 +280,14 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 * Die Summe dieser Prozentsätze des Kanalzuordnungsmodells.
 
 
-## [!UICONTROL Diagnostics] {#diagnostics}
+## Diagnose {#diagnostics}
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Diagramme zur Modellbewertung"
 >abstract="Visualisierungen der Modellbewertung schlüsseln tatsächliche und prognostizierte oder Restkonversionen auf."
 >additional-url="https://experienceleague.adobe.com/de/docs/mix-modeler/using/overview" text="Überblick über Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440803/?captions=ger&learn=on&enablevpops" text="Demo von Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demo von Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -361,7 +361,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen 
 
   Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender &#x200B;](/help/assets/icons/SortOrderDown.svg)):
+  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * **[!UICONTROL Paths touched]**: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
    * **[!UICONTROL Efficiency measure]**: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
@@ -417,7 +417,7 @@ So können Sie einen alternativen volumenbasierten Kanal auswählen, der für di
 * Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 
 
-## **[!UICONTROL Edit]**
+## Bearbeiten
 
 Sie können den Namen, die Beschreibung und den Zeitplan für das Training und die Bewertung des Modells bearbeiten.
 
