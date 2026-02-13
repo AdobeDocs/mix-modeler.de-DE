@@ -3,10 +3,10 @@ title: Marketing-Touchpoints
 description: Erfahren Sie, wie Sie Marketing-Touchpoints erstellen, um Ihre Daten in Mix Modeler zu harmonisieren.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 6751cea9155bab54c9c8405a57151323f570c477
+source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 11%
+source-wordcount: '473'
+ht-degree: 12%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoints_create"
 >title="Marketing-Touchpoints"
->abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfangs-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden.<br/><br/>Sie können das Modell nicht mit Touchpoints einrichten, die überlappende Daten aufweisen, und es muss mindestens einen Touchpoint mit Ausgaben geben."
+>abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfangs-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden."
 
 
 Marketing-Touchpoints sind Marketing-Ereignisse auf Empfangs-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden.
@@ -54,11 +54,11 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläch
 
    1. Definieren Sie eine **[!UICONTROL Touchpoint rule]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**&#x200B;aus, z. B.**[!UICONTROL Brand]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**aus, z. B.**[!UICONTROL Brand]**.
 
       1. Wählen Sie einen Wert für Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Touchpoint volume]** aus, z. B. **[!UICONTROL Impressions]**.
 
@@ -77,7 +77,7 @@ So zeigen Sie Details zu einem Marketing-Touchpoint an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
 
-1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden [&#x200B; unter „Hinzufügen &#x200B;](#add-a-marketing-touchpoint) Marketing-Touchpoints“. Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden [ unter „Hinzufügen ](#add-a-marketing-touchpoint) Marketing-Touchpoints“. Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
 
 ## Bericht anzeigen
