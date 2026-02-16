@@ -3,10 +3,10 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
+source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
 workflow-type: tm+mt
-source-wordcount: '2839'
-ht-degree: 2%
+source-wordcount: '2772'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +21,9 @@ Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
 
 Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressourcen zu unterstützen.
 
-Um Modelleinblicke anzuzeigen, gehen Sie in der ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
+Um Modelleinblicke anzuzeigen, gehen Sie in der ![ ](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
 
-1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; &#x200B;](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
+1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus.
 
@@ -172,7 +172,7 @@ Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Aufschlüsselung nach Touchpoint-Position"
->abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints auf allen Konversionspfaden. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position besser beiträgt als an einer anderen Position und andere Touchpoints an einer anderen Position. Beachten Sie, dass die Summe des prozentualen Beitrags für ein Attributionsmodell über alle Touchpoints und Positionen hinweg 100 betragen würde. Die Positionen Anfänger, Influencer und Finisher sind wie folgt definiert:<ul><li>**Starter**: Gibt an, ob der Touchpoint der erste Touchpoint in einem Konversionspfad ist.</li><li>**Player**: Gibt an, ob der Touchpoint weder der erste noch der letzte Touch ist, der zur Konversion führt.</li><li>**Closer**: Gibt an, ob der Touchpoint der letzte Berührungspunkt vor der Konversion ist.</li></ul>"
+>abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints auf allen Konversionspfaden. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position besser beiträgt als an einer anderen Position und andere Touchpoints an einer anderen Position."
 
 
 
@@ -194,7 +194,7 @@ Die folgenden Attributionsmodelle werden unterstützt:
    * Linear
    * U-Form
 
-Eine Einführung in [&#x200B; Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
+Eine Einführung in [ Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem Dropdown-Menü **[!UICONTROL Attribution Model]** aus. Die ausgewählten Attributionsmodelle gelten für alle Visualisierungen auf der Registerkarte Attribution .
 
@@ -312,7 +312,7 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Modelldatum „Ab“"
->abstract="Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert.  Das **[!UICONTROL As of]** Datum gibt an, wann die Daten generiert wurden, und basiert auf Daten vom startDate bis endDate."
+>abstract="Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert.  Das **[!UICONTROL As of]** Datum gibt an, wann die Daten generiert wurden, und basiert auf Daten vom angegebenen Datum bis zu einem Jahr zurück."
 
 
 Auf der Registerkarte **[!UICONTROL Diagnostics]** werden Visualisierungen für Folgendes angezeigt:
@@ -356,7 +356,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen 
 
   Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender &#x200B;](/help/assets/icons/SortOrderDown.svg)):
+  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * **[!UICONTROL Paths touched]**: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
    * **[!UICONTROL Efficiency measure]**: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
