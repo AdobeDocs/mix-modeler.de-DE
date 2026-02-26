@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen, einschließ
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1194'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen Schritt-für-Schritt-Konfigurationsablauf für Modelle.
 
-Wählen Sie in ![&#x200B; Models](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in Mix Modeler **[!UICONTROL Open model canvas]** aus.
+Wählen Sie in ![ Models](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in Mix Modeler **[!UICONTROL Open model canvas]** aus.
 
 ## Einrichten
 
@@ -40,9 +40,9 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    ![Modell - Konvertierungsschritt](/help/assets/model-conversion-step.png)
 
-   1. Wählen Sie im Dropdown-Menü **[!UICONTROL Conversion]** eine Konvertierung aus. Die verfügbaren Konversionen sind die Konversionen, die Sie als Teil von &quot;[&quot; &#x200B;](../harmonize-data/conversions.md) [!UICONTROL Harmonized datasets] definiert haben. Beispiel: **[!UICONTROL Online Conversion]**.
+   1. Wählen Sie im Dropdown-Menü **[!UICONTROL Conversion]** eine Konvertierung aus. Die verfügbaren Konversionen sind die Konversionen, die Sie als Teil von &quot;[&quot; ](../harmonize-data/conversions.md) [!UICONTROL Harmonized datasets] definiert haben. Beispiel: **[!UICONTROL Online Conversion]**.
 
-   1. Sie können ![&#x200B; &#x200B;](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a conversion]** auswählen, um eine Konvertierung direkt aus der Modellkonfiguration heraus zu erstellen.
+   1. Sie können ![ ](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a conversion]** auswählen, um eine Konvertierung direkt aus der Modellkonfiguration heraus zu erstellen.
 
 
 
@@ -56,7 +56,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
       * Sie können ![CrossSize75](/help/assets/icons/CrossSize75.svg) verwenden, um einen Touchpoint zu entfernen.
       * Sie können **[!UICONTROL Clear all]** verwenden, um alle Touchpoints zu entfernen.
 
-   1. Sie können ![&#x200B; &#x200B;](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a touchpoint]** auswählen, um einen Marketing-Touchpoint direkt in der Modellkonfiguration zu erstellen.
+   1. Sie können ![ ](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a touchpoint]** auswählen, um einen Marketing-Touchpoint direkt in der Modellkonfiguration zu erstellen.
 
    >[!NOTE]
    >
@@ -88,45 +88,23 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Wählen Sie **Und** und **Oder** zwischen Containern aus, um komplexere Definitionen für Ihre auswählbare Datenpopulation zu erstellen.
 
+1. Im Abschnitt **[!UICONTROL Factor dataset]** können Sie Datensätze verwalten, die interne oder externe Faktoren enthalten.
 
-1. Um Datensätze mit externen Faktoren zu Ihrem Modell hinzuzufügen, verwenden Sie einen oder mehrere Container im **[!UICONTROL External factors dataset]**. Ein Beispiel für externe Faktoren sind S&amp;P-Indizes.
+   ![Modell - Schritt für Factor-Datensatz](../assets/model-factors-dataset-step.png)
 
-   ![Modell - Datensatz für externe Faktoren](/help/assets/model-external-factors-dataset-step.png)
+   * Um einen Faktor-Datensatz hinzuzufügen, wählen Sie **[!UICONTROL Add Factor]** aus. Sie können einem Modell maximal 30 Faktoren hinzufügen.
 
-   * Für jeden Container:
+      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[ definiert ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+Basierend auf dem ausgewählten Datensatz ist der [!UICONTROL Factor type**] entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
-      1. Geben Sie einen **[!UICONTROL External factor name]** ein, z. B. `External Factors`.
+      1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
 
-      1. Wählen Sie einen Datensatz aus dem Dropdown-Menü **[!UICONTROL Dataset]** aus. Sie können ![Daten](/help/assets/icons/Data.svg) auswählen, um Datensätze zu verwalten. Weitere Informationen finden [&#x200B; unter &#x200B;](../ingest-data/datasets.md)Datensätze“.
-
-      1. Wählen Sie eine Option aus dem Dropdown-Menü **[!UICONTROL Impact on conversion]** aus: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto select]**, mit der das Modell die Auswirkungen bestimmen kann. Sie können den Standardwert überschreiben.
-
-   * Um einen zusätzlichen Datensatz-Container für externe Faktoren hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
-
-   * Um einen Datensatz-Container für externe Faktoren zu entfernen, wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus.
+   * Um einen Faktor-Datensatz zu löschen, wählen Sie ![CrossSize200](/help/assets/icons/CrossSize400.svg) aus.
 
 
 
 
-1. Um Datensätze mit internen Faktoren zu Ihrem Modell hinzuzufügen, verwenden Sie einen oder mehrere Container im **[!UICONTROL Internal factors dataset]**. Ein Beispiel für interne Faktoren sind E-Mail-Marketing-Daten.
-
-   ![Modell - Datensatz für interne Faktoren](/help/assets/model-internal-factors-dataset-step.png)
-
-   * Für jeden Container:
-
-      1. Geben Sie einen **[!UICONTROL Internal factor name]** ein, z. B. `Email Marketing Data`.
-
-      1. Wählen Sie einen Datensatz aus **[!UICONTROL _Datensatz auswählen_]**. Sie können ![Daten](/help/assets/icons/Data.svg) auswählen, um Datensätze zu verwalten. Weitere Informationen finden [&#x200B; unter &#x200B;](../ingest-data/datasets.md)Datensätze“.
-
-      1. Wählen Sie eine Option aus dem Dropdown-Menü **[!UICONTROL Impact on conversion]** aus: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**.
-
-   * Um einen zusätzlichen Datensatz-Container für interne Faktoren hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
-
-   * Um einen Datensatz-Container für interne Faktoren zu entfernen, wählen Sie ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) aus.
-
-
-
-1. Um das Lookback-Fenster für das Modell zu definieren, geben Sie einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** **[!UICONTROL weeks prior to the conversion]** … ein.
+1. Um das Lookback-Fenster für das Modell zu definieren, geben Sie einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** **[!UICONTROL weeks prior to the conversion]** … im **[!UICONTROL Define lookback window]** Abschnitt ein.
 
 1. Wählen Sie **[!UICONTROL Next]** aus, um mit dem nächsten Schritt fortzufahren. Wenn eine weitere Konfiguration erforderlich ist, wird in einem roten Umriss und Text erläutert, welche zusätzlichen Konfigurationen erforderlich sind. <br/>Wählen Sie **[!UICONTROL Back]** aus, um zum vorherigen Schritt zurückzukehren. <br/>Wählen Sie **[!UICONTROL Cancel]** aus, um die Modellkonfiguration abzubrechen.
 
@@ -149,7 +127,7 @@ Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festle
 
 1. Im **[!UICONTROL MTA enabled]** Abschnitt:
 
-   * Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [&#x200B; Registerkarte &#x200B;](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
+   * Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [ Registerkarte ](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
 
 1. Im **[!UICONTROL Prior knowledge]** Abschnitt:
 
@@ -166,7 +144,7 @@ Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festle
 
 ## Optionen festlegen
 
-Sie können [Schulung und Bewertung &#x200B;](#schedule), [Trainings-Fenster definieren](#training-window) und [granulare Insights-Reporting-Felder](#granular-insights-reporting-fields) für Ihr Modell im **[!UICONTROL Set options]** Schritt angeben.
+Sie können [Schulung und Bewertung ](#schedule), [Trainings-Fenster definieren](#training-window) und [granulare Insights-Reporting-Felder](#granular-insights-reporting-fields) für Ihr Modell im **[!UICONTROL Set options]** Schritt angeben.
 
 
 ### Zeitplan
