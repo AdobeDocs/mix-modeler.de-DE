@@ -4,16 +4,16 @@ description: Versionshinweise zum neuesten Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '361'
 ht-degree: 7%
 
 ---
 
 # Aktuelle Versionshinweise zu Mix Modeler
 
-**Letzte Aktualisierung**: 13. Januar 2026.
+**Letzte Aktualisierung**: 26. Februar 2026.
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
 
@@ -22,13 +22,14 @@ Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mi
 
 | Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
 |---|---|---|---|
+| **Arbeitsablauf für harmonisierte Faktoren** | Faktoren werden jetzt im Rahmen eines Workflows [Harmonisierte Faktoren“ ](/help/harmonize-data/overview.md#factors). Dies vereinfacht die [ (Definition von Faktordaten](/help/ingest-data/schemas.md#factor-standard-fields-field-group) die [ (Verwaltung interner und externer Faktoren als Teil Ihrer Datensatzregeln](/help/harmonize-data/dataset-rules.md#factor-datasets) und die Verwendung von Faktordaten in [Modellen](/help/models/build.md#configure). | Donnerstag, 25. Februar 2026 | Donnerstag, 25. Februar 2026 |
 | **[!UICONTROL Granular incrementality reporting]** | Definieren Sie harmonisierte Felder, damit Sie die Berichterstellung für Ihr Modell mit [granularen Insights-Reporting-Feldern](/help/models/build.md#granular-insights-reporting-fields) aufschlüsseln können, anstatt separate Modelle erstellen zu müssen. | Donnerstag, 18. Februar 2026 | Donnerstag, 18. Februar 2026 |
 
 ## Januar 2026
 
 | Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset rules]** | [Tabelle mit Datensatzregeln wurde &#x200B;](/help/harmonize-data/dataset-rules.md). Sie können nach einer oder mehreren Datensatzregeln suchen und eine Datensatzregel direkt in der Tabelle anzeigen, bearbeiten oder löschen. | Mittwoch, 13. Januar 2026 | Mittwoch, 13. Januar 2026 |
+| **[!UICONTROL Dataset rules]** | [Tabelle mit Datensatzregeln wurde ](/help/harmonize-data/dataset-rules.md). Sie können nach einer oder mehreren Datensatzregeln suchen und eine Datensatzregel direkt in der Tabelle anzeigen, bearbeiten oder löschen. | Mittwoch, 13. Januar 2026 | Mittwoch, 13. Januar 2026 |
 | **[!UICONTROL Current spend]** | Fügen Sie einen aktuellen Ausgabenpunkt in der [Visualisierung der marginalen Antwortkurve](/help/models/insights.md#marginal-response-curves) in Modelleinblicke hinzu. | Mittwoch, 13. Januar 2026 | Mittwoch, 13. Januar 2026 |
 | **[!UICONTROL Sort and resize columns]** | Sortieren und Ändern der Größe von Spalten in der Tabelle [Modelle](/help/models/overview.md) und [Pläne](/help/plans/overview.md) hinzugefügt. | Mittwoch, 13. Januar 2026 | Mittwoch, 13. Januar 2026 |
 | **Fehlerbehebungen** | Fehlerbehebungen für folgende Tickets: <ul><li>AMM-3328: Feldeingabe für neue Operatoren für Faktoren deaktiviert</li><li>AMM-3359: Datumsauswahl und Kombinationsfeld-Sperre.</li><li>AMM-3441: Beim Duplizieren eines Plans werden Datumsbereich und Budget nicht automatisch ausgefüllt.</li></ul> | Mittwoch, 13. Januar 2026 | Mittwoch, 13. Januar 2026 |
