@@ -3,10 +3,10 @@ title: Datensätze harmonisieren - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler harmonisieren.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
+source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 7%
+source-wordcount: '1369'
+ht-degree: 8%
 
 ---
 
@@ -80,7 +80,7 @@ Enthält den Marketing-Aufwand-Datensatz von Facebook mit einer Granularität de
 
 Ein Konversionsdatensatz mit einer Granularität des Aggregatdatensatzes von täglich.
 
-| Datum | Datumstyp | Geo | Ziel | Einnahmen |
+| Datum | Datumstyp | Geo | Ziel | Umsatz |
 |--- |:---: |---|---|---:|
 | 01-01-2022 | day | US | Mode | 200 |
 | 01-08-2022 | day | US | Mode | 10 |
@@ -108,7 +108,7 @@ Sie möchten einen harmonisierten Datensatz mit einer Granularität von auf wöc
 
 **Harmonisierter Datensatz**
 
-| Datum | Datumstyp | Kanal | Campaign | Marke | Geo | Ziel | Klicks | Ausgaben | Einnahmen |
+| Datum | Datumstyp | Kanal | Campaign | Marke | Geo | Ziel | Klicks | Ausgaben | Umsatz |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | Woche | YouTube | y_fall_02 | BrandX | US | Null | 11000 | 110 | Null |
 | 01-03-2022 | Woche | YouTube | y_fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
@@ -132,7 +132,7 @@ Sie möchten einen harmonisierten Datensatz mit einer Granularität von auf wöc
 Um einen harmonisierten Datensatz zu erstellen, wie im vereinfachten [Beispiel](#an-example-of-harmonized-data), müssen Sie die folgenden Schritte ausführen:
 
 1. Definieren Sie zusätzliche [harmonisierte Felder](fields.md) die Sie über die bereits verfügbaren globalen harmonisierten Felder hinaus verwenden möchten.
-1. Richten Sie [Datensatzregeln](dataset-rules.md) ein, um Felder aus Ihren Aggregat- oder Erlebnisereignis-Datensätzen harmonisierten Feldern zuzuordnen.
+1. Richten Sie [Datensatzregeln](dataset-rules.md) ein, um Felder aus Ihren Aggregat- (Faktor- oder Zusammenfassungs-) oder Erlebnisereignis-Datensätzen harmonisierten Feldern zuzuordnen.
 1. Definieren Sie [Marketing-Touchpoints](marketing-touchpoints.md) mithilfe der von Ihnen definierten standardmäßigen und zusätzlichen harmonisierten Felder.
 1. Definieren Sie [Konversionen](conversions.md) mithilfe der von Ihnen definierten standardmäßigen und zusätzlichen harmonisierten Felder.
 
@@ -147,9 +147,9 @@ So zeigen Sie Ihre harmonisierten Daten in der Benutzeroberfläche von Mix Model
 
    1. Um den Zeitraum neu zu definieren, auf dem die Zusammenfassung harmonisierter Daten basiert, geben Sie einen Datumsbereich für die **[!UICONTROL Date range]** ein oder verwenden Sie ![Kalender](/help/assets/icons/Calendar.svg), um einen Datenbereich auszuwählen.
 
-   1. Um die harmonisierten Feldspalten zu ändern, die für die harmonisierte Datentabelle angezeigt werden, öffnen Sie ![&#x200B; Dialogfeld &quot;](/help/assets/icons/Setting.svg)&quot; **[!UICONTROL Column settings]** Einstellungen“.
+   1. Um die harmonisierten Feldspalten zu ändern, die für die harmonisierte Datentabelle angezeigt werden, öffnen Sie ![ Dialogfeld &quot;](/help/assets/icons/Setting.svg)&quot; **[!UICONTROL Column settings]** Einstellungen“.
 
-      1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** aus und verwenden Sie ![Pfeil nach rechts](/help/assets/icons/ChevronRight.svg), um diese Spalten **[!UICONTROL SELECTED COLUMNS]** hinzuzufügen.
+      1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL AVAILABLE COLUMNS]** aus und verwenden Sie ![Pfeil nach rechts](/help/assets/icons/ChevronRight.svg), um diese Spalten **[!UICONTROL SELECTED COLUMNS]** hinzuzufügen. Alle von Ihnen definierten standardmäßigen harmonisierten Felder (einschließlich Feldern, die sich auf Faktordatensätze beziehen, wie **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]**, **[!UICONTROL Factor Type]** und **[!UICONTROL Factor Value Type]**) sind verfügbar.
 
       1. Wählen Sie ![SelectBox](/help/assets/icons/SelectBox.svg) eine oder mehrere Spalten aus **[!UICONTROL SELECTED COLUMNS]** aus und verwenden Sie ![Pfeil nach links](/help/assets/icons/ChevronLeft.svg), um die ausgewählten Spalten zu entfernen und an **[!UICONTROL AVAILABLE COLUMNS]** zurückzugeben.
 
