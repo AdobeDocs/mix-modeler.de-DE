@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen
 short-description: Erfahren Sie, wie Sie mit Mix Modeler Kampagnen ganzheitlich messen und die Planung über alle Kanäle hinweg optimieren können.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 18%
+source-wordcount: '236'
+ht-degree: 14%
 
 ---
 
@@ -46,7 +46,7 @@ Diese technische Dokumentation bietet Selbsthilfe für Adobe **Mix Modeler**. Mi
 </table>
 
 
-## Dokumentation
+## Dokumentation anzeigen
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -74,7 +74,8 @@ Diese technische Dokumentation bietet Selbsthilfe für Adobe **Mix Modeler**. Mi
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=de">Übersicht</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=de">Anwendungsfälle</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=de">Benutzer-Workflow</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=de">Tour durch die Benutzeroberfläche</a>
+      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Übersicht</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Anwendungsfälle</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Benutzer-Workflow</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Tour durch die Benutzeroberfläche</a>
     </td>
   </tr>
 </table>
+
