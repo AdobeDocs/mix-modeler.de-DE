@@ -3,10 +3,10 @@ title: Mix Modeler-Workflow
 description: Den typischen Workflow für Mix Modeler verstehen.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: bdb5992ba1e6a4e5aa546b6ffb8e9673ed69be22
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '238'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In diesem Video erhalten Sie eine Einführung in den Benutzer-Workflow in Mix Modeler.
 
->[!VIDEO](https://video.tv.adobe.com/v/3440213/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
 Ein typischer Workflow in Mix Modeler besteht aus den folgenden Aktivitäten:
@@ -35,7 +35,8 @@ Ein typischer Workflow in Mix Modeler besteht aus den folgenden Aktivitäten:
 Nachfolgend finden Sie einen Überblick darüber, wie Eingabedaten in Mix Modeler fließen können und wie Mix Modeler Ausgabedaten für die eigene Benutzeroberfläche, aber auch für andere Lösungen wie Customer Journey Analytics erzeugen kann.
 
 ![Datenfluss der Mix Modeler-Eingabe](../assets/mm-input-output.png)
-<!---
+
+<!--
 The detailed data-oriented flowchart below illustrates how:
 
 * harmonized data is based on:
@@ -52,5 +53,4 @@ The detailed data-oriented flowchart below illustrates how:
 * mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
 ![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
-
 -->

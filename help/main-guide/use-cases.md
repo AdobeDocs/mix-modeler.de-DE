@@ -3,9 +3,9 @@ title: Mix Modeler-Anwendungsfälle
 description: Mix Modeler-Anwendungsfälle.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Die Herausforderungen, die sich durch diese Anwendungsfälle ergeben, sind:
 * Inkonsistenzen in den Insights aus getrennten MMM- und MTA-Methoden, was das Vertrauen in die Ergebnisse verringert.
 * Eingeschränktes Verständnis dafür, welche Marketing-Kanäle und -Taktiken den Erfolg fördern.
 
-### Annäherung
+### Ansatz
 
 Der schrittweise Ansatz für diesen Anwendungsfall ist:
 
@@ -36,7 +36,7 @@ Der schrittweise Ansatz für diesen Anwendungsfall ist:
 |---|---|
 | Erfassen | Identifizieren und Aufnehmen von Datenquellen unter allgemeinen Schemata. <br/>Wenden Sie bestehende Investitionen in Adobe Analytics oder Customer Journey Analytics auf eine schnelle Bereitstellung an. |
 | Konfigurieren | Konfigurieren Sie flexible Modelle mithilfe eines AI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele. <br/> Sie automatisch die Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transferlernen. |
-| Analyse | Verstehen Sie den ROI des gesamten Marketings und der einzelnen Kanäle/Unterkanäle.<br/>Verstehen Sie, welche Touchpoints am besten für inkrementelle Konversionen geeignet sind. |
+| Analysieren | Verstehen Sie den ROI des gesamten Marketings und einzelner Kanäle/Unterkanäle.<br/>Verstehen Sie, welche Touchpoints am besten für inkrementelle Konversionen geeignet sind. |
 
 {style="table-layout:auto"}
 
@@ -67,15 +67,15 @@ Die Herausforderungen, die sich durch diese Anwendungsfälle ergeben, sind:
 * Lange Iterationszyklen zum Erstellen und Vergleichen mehrerer Budgetszenarien mit hohem manuellen Aufwand.
 
 
-### Annäherung
+### Ansatz
 
 Der schrittweise Ansatz für diesen Anwendungsfall ist:
 
 | Schritt | Details |
 |---|---|
-| Konfigurieren | Einfaches Anpassen von Messmodellen an Ihre Geschäftsziele<br/>Parameter mit wenigen Klicks definieren, keine Codierung erforderlich: z. B. Kanäle, Regionen, Verkaufszyklen, Verzögerungen, interne und externe Geschäftsfaktoren und mehr. |
+| Konfigurieren | Einfaches Anpassen von Messmodellen an Ihre Geschäftsziele.<br/>Definieren Sie Parameter mit wenigen Klicks, ohne dass eine Codierung erforderlich ist: z. B. Kanäle, Geografien, Verkaufszyklen, Verzögerungen, interne und externe Geschäftsfaktoren und mehr. |
 | trainieren | Trainieren Sie konfigurierte KI-/ML-Modelle für , um die beste Anpassung an Eingabedaten zu erlernen und die genauesten Ergebnisse zu erzielen. |
-| Optimieren | Erhalten Sie automatisierte optimierte Budgetzuweisungen basierend auf Modellprognosen.<br/>Mit einer intuitiven Benutzeroberfläche können Sie mit wenigen Klicks mehrere Budgetszenarien entwickeln und vergleichen. |
+| Optimieren | Erhalten Sie automatisierte optimierte Budgetzuweisungen basierend auf Modellprognosen.<br/>Entwickeln und vergleichen Sie mit wenigen Klicks mehrere Budgetszenarien mithilfe einer intuitiven Benutzeroberfläche. |
 
 {style="table-layout:auto"}
 
@@ -90,7 +90,8 @@ Eine erfolgreiche Implementierung dieser Anwendung kann die folgenden Auswirkung
 
 +++
 
-<!-- This use case is not supported with initial release
+<!--
+This use case is not supported with initial release
 
 ## Make data-driven inflight optimizations
 
@@ -147,15 +148,15 @@ Die Herausforderungen, die sich durch diese Anwendungsfälle ergeben, sind:
 * Ad-hoc-Analysen können nicht durchgeführt werden, um Erkenntnisse zu gewinnen, da Modelle nicht transparent sind und keine granularen Scores verfügbar sind.
 
 
-### Annäherung
+### Ansatz
 
 Der schrittweise Ansatz für diesen Anwendungsfall ist:
 
 | Schritt | Details |
 |---|---|
 | Modell | Konfigurieren und trainieren Sie ein KI-/ML-Modell, um konsistente MTA-Touchpoint-Bewertungen und MMM-Aggregatergebnisse zu erhalten. |
-| Analyse | Inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics oder externe BI-Tools exportieren<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Bewertungen. |
-| Aktion | Erstellen und aktivieren Sie Lookalikes für die besten Kundensegmente mithilfe von Real-Time Customer Data Platform.<br/>Entwickeln Sie datengesteuerte Marketing-Strategien nach Kundensegmenten für zukünftige Kampagnen. |
+| Analysieren | Exportieren Sie inkrementelle Touchpoint-Scores in Customer Journey Analytics oder externe BI-Tools<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Scores. |
+| Aktion | Erstellen und aktivieren Sie Lookalikes für die wichtigsten Kundensegmente mithilfe von Real-Time Customer Data Platform<br/>Entwickeln Sie datengesteuerte Marketing-Strategien nach Kundensegmenten für zukünftige Kampagnen. |
 
 {style="table-layout:auto"}
 
