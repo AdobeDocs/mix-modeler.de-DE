@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen, einschließ
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
+source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 2%
+source-wordcount: '1275'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen Schritt-für-Schritt-Konfigurationsablauf für Modelle.
 
-Wählen Sie in ![&#x200B; Models](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in Mix Modeler **[!UICONTROL Open model canvas]** aus.
+Wählen Sie in ![ Models](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in Mix Modeler **[!UICONTROL Open model canvas]** aus.
 
 ## Einrichten
 
@@ -32,7 +32,8 @@ Im **[!UICONTROL Setup]** Schritt definieren Sie einen Namen und eine Beschreibu
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Marketing-Touchpoints"
->abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfangs-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden.<br/><br/>Sie können das Modell nicht mit Touchpoints einrichten, die überlappende Daten aufweisen, und es muss mindestens einen Touchpoint mit Ausgaben geben."
+>abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfänger-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden. <br/><br/>Sie können das Modell nicht mit Touchpoints einrichten, die überlappende Daten aufweisen, und es muss mindestens einen Touchpoint mit Ausgaben geben."
+
 
 Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration umfasst die Definition von Konversionszielen, Marketing-Touchpoints, die geeignete Datenpopulation, externe und interne Faktoren und mehr.
 
@@ -40,9 +41,9 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    ![Modell - Konvertierungsschritt](/help/assets/model-conversion-step.png)
 
-   1. Wählen Sie im Dropdown-Menü **[!UICONTROL Conversion]** eine Konvertierung aus. Die verfügbaren Konversionen sind die Konversionen, die Sie als Teil von &quot;[&quot; &#x200B;](../harmonize-data/conversions.md) [!UICONTROL Harmonized datasets] definiert haben. Beispiel: **[!UICONTROL Online Conversion]**.
+   1. Wählen Sie im Dropdown-Menü **[!UICONTROL Conversion]** eine Konvertierung aus. Die verfügbaren Konversionen sind die Konversionen, die Sie als Teil von &quot;[&quot; ](../harmonize-data/conversions.md) [!UICONTROL Harmonized datasets] definiert haben. Beispiel: **[!UICONTROL Online Conversion]**.
 
-   1. Sie können ![&#x200B; &#x200B;](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a conversion]** auswählen, um eine Konvertierung direkt aus der Modellkonfiguration heraus zu erstellen.
+   1. Sie können **[!UICONTROL Create a conversion]** ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) auswählen, um eine Konvertierung direkt aus der Modellkonfiguration heraus zu erstellen.
 
 
 
@@ -56,7 +57,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
       * Sie können ![CrossSize75](/help/assets/icons/CrossSize75.svg) verwenden, um einen Touchpoint zu entfernen.
       * Sie können **[!UICONTROL Clear all]** verwenden, um alle Touchpoints zu entfernen.
 
-   1. Sie können ![&#x200B; &#x200B;](/help/assets/icons/LinkOutLight.svg)LinkOutLight **[!UICONTROL Create a touchpoint]** auswählen, um einen Marketing-Touchpoint direkt in der Modellkonfiguration zu erstellen.
+   1. Sie können **[!UICONTROL Create a touchpoint]** ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) auswählen, um einen Marketing-Touchpoint direkt in der Modellkonfiguration zu erstellen.
 
    >[!NOTE]
    >
@@ -94,8 +95,8 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Um einen Faktor-Datensatz hinzuzufügen, wählen Sie **[!UICONTROL Add Factor]** aus. Sie können einem Modell maximal 30 Faktoren hinzufügen.
 
-      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-Basierend auf dem ausgewählten Datensatz ist der [!UICONTROL Factor type&#x200B;**] entweder &#x200B;** [!UICONTROL Internal] **&#x200B; oder &#x200B;** [!UICONTROL External]**.
+      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[ definiert ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+Basierend auf dem ausgewählten Datensatz ist der [!UICONTROL Factor type**] entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
       1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
 
@@ -110,6 +111,11 @@ Basierend auf dem ausgewählten Datensatz ist der [!UICONTROL Factor type&#x200B
 
 
 ## Erweitert
+
+>[!CONTEXTUALHELP]
+>id="model_advanced_channeladstock"
+>title="Kanal-Werbemittel"
+>abstract="Direkte Integration von Domain-Fachwissen, Experimentergebnissen oder früheren Kanalanalysen in die Modelleinrichtung. Die Adstock-Konfiguration hilft, das Modell an die realen Erwartungen anzupassen, und verbessert die Interpretierbarkeit und das Vertrauen in die Ausgabe. Die Gesamtzahl der Lookback-Wochen plus Verzögerungswochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten für das Modell, um die Auswirkungen auf die Werbeanzeige zu erfahren."
 
 Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festlegen. In diesem Schritt können Sie Ihr Modell für die Multi-Touch-Attribution (MTA) aktivieren.
 
@@ -127,7 +133,7 @@ Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festle
 
 1. Im **[!UICONTROL MTA enabled]** Abschnitt:
 
-   * Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [&#x200B; Registerkarte &#x200B;](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
+   * Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [ Registerkarte ](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
 
 1. Im **[!UICONTROL Prior knowledge]** Abschnitt:
 
@@ -135,7 +141,7 @@ Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festle
 
    1. Wählen Sie die **[!UICONTROL Rule type]** aus, die standardmäßig **[!UICONTROL Absolute values]** ist.
 
-   1. Geben Sie mithilfe der Spalte **[!UICONTROL Name]** die Beitragsprozentsätze für jeden der unter **[!UICONTROL Contribution proportion]** aufgelisteten Kanäle an.
+   1. Geben Sie mithilfe der Spalte **[!UICONTROL Contribution proportion]** die Beitragsprozentsätze für jeden der unter **[!UICONTROL Name]** aufgelisteten Kanäle an.
 
    1. Bei Bedarf können Sie für jeden Kanal einen **[!UICONTROL Level of confidence]** Prozentsatz hinzufügen.
 
@@ -144,7 +150,7 @@ Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festle
 
 ## Optionen festlegen
 
-Sie können [Schulung und Bewertung &#x200B;](#schedule), [Trainings-Fenster definieren](#training-window) und [granulare Insights-Reporting-Felder](#granular-insights-reporting-fields) für Ihr Modell im **[!UICONTROL Set options]** Schritt angeben.
+Sie können [Schulung und Bewertung ](#schedule), [Trainings-Fenster definieren](#training-window) und [granulare Insights-Reporting-Felder](#granular-insights-reporting-fields) für Ihr Modell im **[!UICONTROL Set options]** Schritt angeben.
 
 
 ### Zeitplan
