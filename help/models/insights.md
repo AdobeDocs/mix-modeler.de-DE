@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
+source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
 workflow-type: tm+mt
-source-wordcount: '2772'
+source-wordcount: '2999'
 ht-degree: 3%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 3%
 
 Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
 
-* Visualisieren und Quantifizieren der Wirkung der Marketing-Aktivitäten Ihres Unternehmens.
-* Ermitteln Sie, welche Kanäle leistungsstark sind.
-* Ermitteln Sie, welche Kanäle möglicherweise optimiert werden müssen.
+* Visualisieren und quantifizieren Sie die Auswirkungen der Marketing-Maßnahmen Ihres Unternehmens.
+* Identifizieren Sie, welche Kanäle besonders leistungsstark sind.
+* Identifizieren Sie, welche Kanäle möglicherweise optimiert werden müssen.
 
 Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressourcen zu unterstützen.
 
-Um Modelleinblicke anzuzeigen, gehen Sie in der ![&#x200B; &#x200B;](/help/assets/icons/FileData.svg)Modelle **[!UICONTROL Models]** in Mix Modeler folgendermaßen vor:
+Um Modelleinblicke anzuzeigen, gehen Sie in der **[!UICONTROL Models]** ![Modelle](/help/assets/icons/FileData.svg) in [!DNL Mix Modeler] vor:
 
-1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; &#x200B;](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
+1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus.
 
@@ -32,8 +32,8 @@ Um Modelleinblicke anzuzeigen, gehen Sie in der ![&#x200B; &#x200B;](/help/asset
 Die folgenden Registerkarten sind verfügbar:
 
 * [Modelleinblicke](#model-insights)
-* [Kanalsynergie](#channel-synergy)
-* [Faktoren](#factors-beta) [!BADGE Beta]
+* [Kanalanalyse](#channel-analysis)
+* [Faktoren](#factors) [!BADGE Beta]
 * [Attribution](#attribution) (nur für MTA-aktivierte Modelle)
 * [Diagnose](#diagnostics)
 * [Historischer Überblick](#historical-overview).
@@ -50,7 +50,7 @@ Wenn Modellabweichungen auf dem Modell erkannt werden, wird ein **[!UICONTROL Mo
 
 ## Modelleinblicke {#model-insights-section}
 
-Die Registerkarte Modelleinblicke zeigt Visualisierungen für [Beitrag nach Datum und Basismedien](#contribution-by-date-and-base-media), [Beitrag nach Kanal](#contribution-by-channel), [Marketing-](#marketing-performance-summary) und [marginale Antwortkurven](#marginal-response-curves). Die Registerkarte enthält auch eine [Touchpoint-Aufschlüsselung](#touchppint-breakdown)-Tabelle.
+Auf der Registerkarte **[!UICONTROL Model insights]** werden Visualisierungen für [Beitrag nach Datum und Basismedien](#contribution-by-date-and-base-media), [Beitrag nach Kanal](#contribution-by-channel), [Zusammenfassung der Marketing-Leistung](#marketing-performance-summary) und [Kurven der marginalen Antwort](#marginal-response-curves). Die Registerkarte enthält auch eine [Touchpoint-Aufschlüsselung](#touchpoint-breakdown)-Tabelle.
 
 ![Modell - Modelleinblicke](/help/assets/model-insights-insights.png)
 
@@ -112,7 +112,7 @@ Die folgenden Spalten sind verfügbar:
 | **[!UICONTROL Touchpoint]** | Der spezifische Touchpoint-Kanal. |
 | **[!UICONTROL ROI]** | Der Prozentsatz von (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
 | **[!UICONTROL Revenue]** | Der Umsatz für den Datumsbereich. |
-| **[!UICONTROL CPA]** | **[!UICONTROL Spend]**/**[!UICONTROL Conversions]**. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
 | **[!UICONTROL Conversions]** | Die Konversionen für den Datumsbereich. |
 | **[!UICONTROL Spend]** | Die Ausgaben für den Datenbereich. |
 
@@ -121,22 +121,67 @@ Um einen bestimmten Kanal oder alle Kanäle auszuwählen, wählen Sie aus dem Dr
 Um den Inhalt der Touchpoint-Aufschlüsselungstabelle herunterzuladen, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 
-## Kanalsynergie
+## Kanalanalyse
 
-Auf der Registerkarte **[!UICONTROL Channel synergy]** hilft Ihnen die **[!UICONTROL Channel synergies]** Visualisierung, zu erkennen, wie Marketing-Kanäle interagieren, um über ihre individuellen Beiträge hinaus multiplikative Effekte zu erzeugen.
+Auf der Registerkarte **[!UICONTROL Channel analysis]** werden Visualisierungen für **[!UICONTROL Channel synergies]** und **[Channel-Werbemittel]** angezeigt.
+
+
+### Kanalsynergien
+
+Die Visualisierung der Kanalsynergien hilft Ihnen dabei, zu identifizieren, wie Marketing-Kanäle interagieren, um über ihre individuellen Beiträge hinaus multiplikative Effekte zu erzeugen.
 
 Die Heatmap-Matrix bietet eine visuelle Darstellung der Synergiewerte zwischen Paaren von Ausgabenkanälen. Diese Matrix hilft Marketing-Fachleuten zu verstehen, wie Kanäle interagieren, um die Leistung zu steigern. Für jedes Modell werden die Synergiewerte von 0 auf 10 normiert. Diese Werte quantifizieren die *nächste Dollar-Synergie* die schätzt, wie effektiv zwei Kanäle zusammenarbeiten, wenn jeder von ihnen einen zusätzlichen Dollar an Ausgaben auf dem aktuellen Niveau erhält.
 
 Dieser Next-Dollar-Rahmen bietet ein realistisches Maß für die relative Synergiestärke, da der Rahmen die tatsächlichen Ausgabenbedingungen in den Trainingsdaten berücksichtigt und so fundiertere Optimierungsentscheidungen ermöglicht.
 
-![Planen von Kanalsynergien](/help/assets/model-channel-synergies.png)
 
-Um eine CSV-Datei herunterzuladen, die die Matrix darstellt, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+>[!BEGINTABS]
+
+>[!TAB Weniger Synergien zeigen]
+
+![Planen von Kanalsynergien](/help/assets/model-channel-synergies-less.png)
+
+>[!TAB Alle Synergien anzeigen]
+
+![Planen von Kanalsynergien](/help/assets/model-channel-synergies-all.png)
+
+>[!ENDTABS]
+
+
+* Um alle Synergien anzuzeigen, wählen Sie **[!UICONTROL Show all]** aus.
+
+* Um weniger Synergien auszuwählen, wählen Sie **[!UICONTROL Show less]**
+
+* Um Details zu einer Synergie anzuzeigen, bewegen Sie den Mauszeiger über eine Zelle in der Visualisierung.
+
+* Um eine CSV-Datei herunterzuladen, die die Matrix darstellt, wählen Sie ![Herunterladen](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 >[!NOTE]
 >
 >Wenn die Registerkarte **[!UICONTROL Channel synergy]** für ein vorhandenes Modell nicht sichtbar ist, müssen Sie das Modell neu trainieren, um die Funktionalität und Visualisierung zu aktivieren.
 
+
+### Kanal-Werbemittel
+
+Die Kanal-Ad-Stock-Visualisierungen zeigen für jeden konfigurierten Kanal eine Ad-Stock-Visualisierung an. Anhand der Visualisierungen lässt sich erkennen, wie sich die Marketing-Ausgaben für jeden Kanal im Laufe der Zeit und über die anfängliche Belichtung hinaus auswirken und abnehmen. Die Visualisierung bietet eine realistische Ansicht der Kanalübertragung durch die Einbindung von zeitlichen Dynamiken, die aus dem Modell gelernt werden.
+
+Jedes einzelne Diagramm stellt einen einzelnen Marketing-Kanal dar und zeigt seine AdStock-Kurve. Diese Kurve modelliert, wie sich die Wirkung einer Risikopositionseinheit auf künftige Perioden auswirkt. Die Kurve zeigt, mit welcher Geschwindigkeit die Auswirkungen auf die Konversion abnehmen und hilft Marketing-Experten, zu vergleichen, wie lange verschiedene Kanäle die Leistung nach der Erstinvestition weiterhin beeinflussen.
+
+Kanäle mit langsameren Abklingkurven (längeren Schwänzen) weisen auf eine anhaltende Wirkung im Zeitverlauf hin. Kanäle mit steilen Einbrüchen spiegeln unmittelbarere, kurzlebigere Effekte wider. Die für diesen Kanal konfigurierte maximale Lookback-Zeit bestimmt die Länge jeder Kurve.
+
+>[!BEGINTABS]
+
+>[!TAB Alle Werbeblöcke anzeigen]
+
+![Planen von Kanalsynergien](/help/assets/model-channel-adstock-all.png)
+
+>[!TAB Ausgewählte Werbemittel anzeigen]
+
+![Planen von Kanalsynergien](/help/assets/model-channel-adstock-selected.png)
+
+>[!ENDTABS]
+
+* Wählen Sie aus dem Dropdown-Menü &quot;**[!UICONTROL Channel]**&quot; die Option aus, um Adstock-Visualisierungen für **[!UICONTROL All channels]** oder eine Adstock-Visualisierung für einen einzelnen Kanal (z. B. **[!UICONTROL Paid Social Facebook]**) anzuzeigen.
 
 
 ## Faktoren {#factors}
@@ -144,7 +189,7 @@ Um eine CSV-Datei herunterzuladen, die die Matrix darstellt, wählen Sie ![Herun
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Verteilung der Faktorbeiträge"
->abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basisumrechnungen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den im Modell enthaltenen Marketing-Touchpoints und -Faktoren auftreten. Dazu gehören Umrechnungen, die durch Markenaktien, Wiederholungskäufe, organische Nachfrage und langfristige Markttrends und Saisonabhängigkeit angetrieben werden."
+>abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basisumrechnungen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den Marketing-Touchpoints und den im Modell enthaltenen Faktoren auftreten. Dazu gehören Umrechnungen, die durch Markenaktien, Wiederholungskäufe, organische Nachfrage und langfristige Markttrends und Saisonabhängigkeit angetrieben werden."
 
 
 Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
@@ -172,7 +217,7 @@ Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Aufschlüsselung nach Touchpoint-Position"
->abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints auf allen Konversionspfaden. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position besser beiträgt als an einer anderen Position und andere Touchpoints an einer anderen Position."
+>abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints auf allen Konversionspfaden. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position besser beiträgt als an anderen Positionen und andere Touchpoints an einer anderen Position."
 
 
 
@@ -184,7 +229,7 @@ Auf der Registerkarte [!UICONTROL Attribution] können Sie die Effektivität von
 
 Die folgenden Attributionsmodelle werden unterstützt:
 
-* Basierend auf dem ausgewählten Modell in Mix Modeler:
+* Basierend auf dem ausgewählten Modell in [!DNL Mix Modeler]:
    * Algorithmisch - beeinflusst
    * Algorithmisch - inkrementell
 * Regelbasiert:
@@ -194,13 +239,13 @@ Die folgenden Attributionsmodelle werden unterstützt:
    * Linear
    * U-Form
 
-Eine Einführung in [&#x200B; Funktion der Multi-Touch](../get-started/about.md#multi-touch-attribution)Attribution in Mix Modeler finden Sie unter „Multi-Touch-Attribution“.
+Eine Einführung in [ Multi-Touch](../get-started/about.md#multi-touch-attribution)Attributionsfunktion in [!DNL Mix Modeler] finden Sie unter „Multi-Touch-Attribution“.
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem Dropdown-Menü **[!UICONTROL Attribution Model]** aus. Die ausgewählten Attributionsmodelle gelten für alle Visualisierungen auf der Registerkarte Attribution .
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-Die granularen Ereignis-Scores der Mix Modeler-Multi-Touch-Attribution entsprechen den Mix Modeler-Gesamtergebnissen und -ROIs. Diese Bewertungen werden auch als Datensätze in Experience Platform zur Verfügung gestellt.
+Die granularen Ereignis-Scores der Mix Modeler-Multi-Touch-Attribution entsprechen den [!DNL Mix Modeler] und ROIs. Diese Bewertungen werden auch als Datensätze in Experience Platform zur Verfügung gestellt.
 
 Die Registerkarte Attribution besteht aus den folgenden Visualisierungen:
 
@@ -234,7 +279,7 @@ Um die Tabelle nach Kanal, Medientyp oder inkrementellen Konversionen in auf- �
 
 Um die Tabelle in einem separaten Dialogfeld zu erweitern, wählen Sie **[!UICONTROL Expand]** aus ![Mehr](/help/assets/icons/More.svg).
 
-Das erweiterte Dialogfeld Top-Kampagnen zeigt dieselbe Tabelle mit zusätzlichen Spalten für
+Das Dialogfeld „Erweiterte **[!UICONTROL Top campaigns]**&quot; zeigt dieselbe Tabelle mit zusätzlichen Spalten für:
 
 * Inkrementelle Konversionen
 * Beeinflusste Konversionen
@@ -300,13 +345,13 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Effizienzmaßnahme"
->abstract="Das vom algorithmischen Attributionsmodell generierte Effizienzmaß zeigt die relative Bedeutung eines Touchpoints für die Konversion unabhängig vom Touchpoint-Volumen an. Dieser wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert."
+>abstract="Das vom algorithmischen Attributionsmodell generierte Effizienzmaß zeigt die relative Bedeutung eines Touchpoints für die Konversion unabhängig vom Touchpoint-Volumen an. Diese Maßnahme liegt auf einer Skala von 1 bis 5. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Gesamtvolumen"
->abstract="Das Gesamtvolumen ist die Gesamtzahl der Berührungen eines Touchpoints durch eine Benutzerin oder einen Benutzer und bezieht auch Touchpoints ein, die sowohl auf Pfaden liegen, die Konversionen erzielen, als auch solche, die keine Konversionen verursachen."
+>abstract="Das Gesamtvolumen ist die Gesamtzahl der Berührungen eines Touchpoints durch einen Benutzer. Und umfasst Touchpoints, die auf einem erreichbaren Pfad angezeigt werden, sowie Pfade, die nicht zu einer Konversion führen."
 
 
 >[!CONTEXTUALHELP]
@@ -347,7 +392,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen 
    * **[!UICONTROL Training sMAPE]** (symmetrischer Mittelwert absoluter Prozentfehler): Misst den durchschnittlichen Prozentfehler bei Trainings-Daten. Niedrigere Werte bedeuten eine bessere Genauigkeit.
    * **[!UICONTROL Training RMSE]** (Root Mean Squared Error): Misst den durchschnittlichen prozentualen Fehler auf Trainings-Daten. Bestraft größere Fehler stärker als MAPE. Ein niedrigerer RMSE-Wert legt eine bessere Prognosegenauigkeit nahe, ist aber anfällig für Ausreißer.
    * **[!UICONTROL Out-of-sample sMAPE]**: Evaluiert den prozentualen Fehler bei nicht angezeigten Daten und gleicht Über- und Unterprognosen aus. Hilft bei der Bewertung der Generalisierung. Derzeit bewertet Mix Modeler den prozentualen Fehler anhand des letzten Quartals der Schulungsdaten als Holdout-Satz.
-   * **[!UICONTROL Out-of-sample RMSE]**: Evaluiert den prozentualen Fehler bei nicht angezeigten Daten und gleicht Über- und Unterprognosen aus. Hilft bei der Bewertung der Generalisierung. Derzeit bewertet Mix Modeler den prozentualen Fehler anhand des letzten Quartals der Schulungsdaten als Holdout-Satz. RMSE bestraft größere Fehler stärker als MAPE.
+   * **[!UICONTROL Out-of-sample RMSE]**: Evaluiert den prozentualen Fehler bei nicht angezeigten Daten und gleicht Über- und Unterprognosen aus. Hilft bei der Bewertung der Generalisierung. Derzeit bewertet [!DNL Mix Modeler] den prozentualen Fehler anhand des letzten Quartals der Schulungsdaten als Holdout-Satz. RMSE bestraft größere Fehler stärker als MAPE.
 
 
 * **[!UICONTROL Touchpoint effectiveness]** Tabelle, die das Ergebnis des algorithmischen Attributions-KI-Modells darstellt.
@@ -356,7 +401,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen 
 
   Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender &#x200B;](/help/assets/icons/SortOrderDown.svg)):
+  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * **[!UICONTROL Paths touched]**: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
    * **[!UICONTROL Efficiency measure]**: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
@@ -367,7 +412,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen 
 
 >[!AVAILABILITY]
 >
->Die in diesem Abschnitt beschriebene Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Dieser Hinweis wird entfernt, wenn die Funktion allgemein verfügbar ist. Informationen zum Mix Modeler-Veröffentlichungsprozess finden Sie unter [Mix Modeler-Funktionsversionen](/help/releases/latest.md).
+>Die in diesem Abschnitt beschriebene Funktion befindet sich in der eingeschränkten Testphase der Version und ist möglicherweise noch nicht in Ihrer Umgebung verfügbar. Dieser Hinweis wird entfernt, wenn die Funktion allgemein verfügbar ist. Weitere Informationen zum [!DNL Mix Modeler] finden Sie unter [Mix Modeler-Funktionsversionen](/help/releases/latest.md).
 >
 
 Wenn eine Modellabweichung erkannt wird, wird oben eine **[!UICONTROL Model drift detected]**-Benachrichtigung angezeigt.
@@ -398,7 +443,7 @@ Diese Visualisierung stellt die Verteilung der Ausgaben über verschiedene Kanä
 
 Diese Visualisierung stellt die Verteilung der Ausgaben auf die bezahlten Touchpoints für jedes Quartal innerhalb des angegebenen Datumsbereichs dar. Die Visualisierung ermöglicht das Verständnis, welche Touchpoints innerhalb bestimmter Kanäle und Quartale priorisiert werden. Die Visualisierung hilft, Ausgabenmuster und -trends des Kanals zu identifizieren, insbesondere Kanäle mit niedrigen und unregelmäßigen Ausgaben im Laufe der Zeit.
 
-So können Sie einen alternativen ausgabebasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll:
+So zeigen Sie einen alternativen ausgabebasierten Kanal für diese Visualisierung an:
 
 * Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 
@@ -407,7 +452,7 @@ So können Sie einen alternativen ausgabebasierten Kanal auswählen, der für di
 
 Diese Visualisierung stellt die Volumenverteilung auf alle Touchpoints für jedes Quartal innerhalb des angegebenen Datumsbereichs dar.
 
-So können Sie einen alternativen volumenbasierten Kanal auswählen, der für diese Visualisierung angezeigt werden soll:
+So zeigen Sie einen alternativen volumenbasierten Kanal für diese Visualisierung an:
 
 * Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 

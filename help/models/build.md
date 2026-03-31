@@ -1,12 +1,12 @@
 ---
 title: Erstellen von Modellen in Mix Modeler
-description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen, einschließlich der Einrichtung, Konfiguration und Angabe erweiterter Optionen für das Modell.
+description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen, einschließlich der Einrichtung, Konfiguration und Angabe erweiterter Optionen für das Modell. Wie Konversionsziele, Touchpoints, Werbematerial und Planung.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen Schritt-für-Schritt-Konfigurationsablauf für Modelle.
 
-Wählen Sie in ![&#x200B; Models](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in Mix Modeler **[!UICONTROL Open model canvas]** aus.
+Wählen Sie in der ![Modelle](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** in [!DNL Mix Modeler] die Option **[!UICONTROL Open model canvas]** aus.
 
 ## Einrichten
 
@@ -27,7 +27,7 @@ Im **[!UICONTROL Setup]** Schritt definieren Sie einen Namen und eine Beschreibu
 
 1. Wählen Sie **[!UICONTROL Next]** aus, um mit dem nächsten Schritt fortzufahren. Wählen Sie **[!UICONTROL Cancel]** aus, um die Modellkonfiguration abzubrechen.
 
-## Konfigurieren{#configure}
+## Konfigurieren {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -41,7 +41,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    ![Modell - Konvertierungsschritt](/help/assets/model-conversion-step.png)
 
-   1. Wählen Sie im Dropdown-Menü **[!UICONTROL Conversion]** eine Konvertierung aus. Die verfügbaren Konversionen sind die Konversionen, die Sie als Teil von &quot;[&quot; &#x200B;](../harmonize-data/conversions.md) [!UICONTROL Harmonized datasets] definiert haben. Beispiel: **[!UICONTROL Online Conversion]**.
+   1. Wählen Sie im Dropdown-Menü **[!UICONTROL Conversion]** eine Konvertierung aus. Die verfügbaren Konversionen sind die Konversionen, die Sie im Rahmen von [Konversionen](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets] definiert haben. Beispiel: **[!UICONTROL Online Conversion]**.
 
    1. Sie können **[!UICONTROL Create a conversion]** ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) auswählen, um eine Konvertierung direkt aus der Modellkonfiguration heraus zu erstellen.
 
@@ -95,62 +95,97 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Um einen Faktor-Datensatz hinzuzufügen, wählen Sie **[!UICONTROL Add Factor]** aus. Sie können einem Modell maximal 30 Faktoren hinzufügen.
 
-      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-Basierend auf dem ausgewählten Datensatz ist der [!UICONTROL Factor type&#x200B;**] entweder &#x200B;** [!UICONTROL Internal] **&#x200B; oder &#x200B;** [!UICONTROL External]**.
+      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[ definiert ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]** entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
       1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
 
    * Um einen Faktor-Datensatz zu löschen, wählen Sie ![CrossSize200](/help/assets/icons/CrossSize400.svg) aus.
 
 
-
-
 1. Um das Lookback-Fenster für das Modell zu definieren, geben Sie einen Wert zwischen `1` und `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** **[!UICONTROL weeks prior to the conversion]** … im **[!UICONTROL Define lookback window]** Abschnitt ein.
+
+1. Um das Trainings-Fenster für ein Modell zu definieren, wählen Sie **[!UICONTROL Define training window]** aus, wo Sie mit der Bewertung von Konversionen beginnen möchten.
+
+   ![Modell - Trainings-Fenster definieren](/help/assets/model-define-training-window.png)
+
+   Folgende Optionen stehen zur Auswahl:
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]** und
+
+   * **[!UICONTROL Manually input a training window]**. Wenn ausgewählt, definieren Sie die Anzahl der Jahre in **[!UICONTROL Include events the following years prior to a conversion]**.
+
+   Diese Eingabe ist für ein Modell erforderlich. Die Anzahl der Jahre bestimmt, wie der Kanal AdStock, den Sie im **[!UICONTROL Advanced]** konfigurieren können, begrenzt wird.
 
 1. Wählen Sie **[!UICONTROL Next]** aus, um mit dem nächsten Schritt fortzufahren. Wenn eine weitere Konfiguration erforderlich ist, wird in einem roten Umriss und Text erläutert, welche zusätzlichen Konfigurationen erforderlich sind. <br/>Wählen Sie **[!UICONTROL Back]** aus, um zum vorherigen Schritt zurückzukehren. <br/>Wählen Sie **[!UICONTROL Cancel]** aus, um die Modellkonfiguration abzubrechen.
 
 
-## Erweitert
+## Erweitert {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="Kanal-Werbemittel"
->abstract="Direkte Integration von Domain-Fachwissen, Experimentergebnissen oder früheren Kanalanalysen in die Modelleinrichtung. Die Adstock-Konfiguration hilft, das Modell an die realen Erwartungen anzupassen, und verbessert die Interpretierbarkeit und das Vertrauen in die Ausgabe. Die Gesamtzahl der Lookback-Wochen plus Verzögerungswochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten für das Modell, um die Auswirkungen auf die Werbeanzeige zu erfahren."
+>abstract="Direkte Integration von Domain-Fachwissen, Experimentergebnissen oder früheren Kanalanalysen in die Modelleinrichtung. Die Adstock-Konfiguration hilft, das Modell an die realen Erwartungen anzupassen, und verbessert die Interpretierbarkeit und das Vertrauen in die Ausgabe. Die Gesamtzahl der Lookback-Wochen plus Verzögerungswochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten für das Modell, um die Werbemitteleffekte zu erlernen."
 
-Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festlegen. In diesem Schritt können Sie Ihr Modell für die Multi-Touch-Attribution (MTA) aktivieren.
+Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festlegen. In diesem Schritt können Sie [Ausgabenanteil](#spend-share) definieren, Ihr Modell für [Multi-Touch-Attribution (MTA)](#mta) aktivieren, [Vorkenntnisse](#prior-knowledge) definieren und [Kanalanzeige](#channel-adstock).
 
-1. Im **[!UICONTROL Spend share]** Abschnitt:
+### Ausgabenanteil
 
-   * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**. Diese Einstellung wird insbesondere in den folgenden Szenarien empfohlen:
-      * Ein Kanal verfügt nicht über genügend Beobachtungen (z. B. niedrige Ausgabenfrequenz, Impressionen oder Klicks).
-      * Sie modellieren stark frequente, aber regelmäßige und potenziell teure Medien (wie das Fernsehen für einige Marken), bei denen die Daten spärlich sein können.
+Im **[!UICONTROL Spend share]** Abschnitt:
 
-     >[!NOTE]
-     >
-     >Bei einmaligen Investitionen (z. B. einer Super Bowl-Anzeige) sollten Sie diese Daten als Faktor einbeziehen, anstatt sich auf den Ausgabenanteil zu verlassen.
-     >
+* Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**. Diese Einstellung wird insbesondere in den folgenden Szenarien empfohlen:
+   * Ein Kanal verfügt nicht über genügend Beobachtungen (z. B. niedrige Ausgabenfrequenz, Impressionen oder Klicks).
+   * Sie modellieren stark frequente, aber regelmäßige und potenziell teure Medien (wie das Fernsehen für einige Marken), bei denen die Daten spärlich sein können.
+
+  >[!NOTE]
+  >
+  >Nehmen Sie diese Daten bei einmaligen Investitionen (z. B. einer Super Bowl-Anzeige) als Faktor auf, anstatt sich auf den Ausgabenanteil zu verlassen.
+  >
+
+### MTA
+
+Im **[!UICONTROL MTA enabled]** Abschnitt:
+
+* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [ Registerkarte ](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
 
 
-1. Im **[!UICONTROL MTA enabled]** Abschnitt:
+### Vorkenntnisse
 
-   * Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [&#x200B; Registerkarte &#x200B;](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
+Im **[!UICONTROL Prior knowledge]** Abschnitt:
 
-1. Im **[!UICONTROL Prior knowledge]** Abschnitt:
+![Modell - Vorkenntnisse](/help/assets/model-prior-knowledge-step.png)
 
-   ![Modell - Vorkenntnisse](/help/assets/model-prior-knowledge-step.png)
+1. Wählen Sie die **[!UICONTROL Rule type]** aus, die standardmäßig **[!UICONTROL Absolute values]** ist.
 
-   1. Wählen Sie die **[!UICONTROL Rule type]** aus, die standardmäßig **[!UICONTROL Absolute values]** ist.
+1. Geben Sie mithilfe der Spalte **[!UICONTROL Contribution proportion]** die Beitragsprozentsätze für jeden der unter **[!UICONTROL Name]** aufgelisteten Kanäle an.
 
-   1. Geben Sie mithilfe der Spalte **[!UICONTROL Contribution proportion]** die Beitragsprozentsätze für jeden der unter **[!UICONTROL Name]** aufgelisteten Kanäle an.
+1. Bei Bedarf können Sie für jeden Kanal einen **[!UICONTROL Level of confidence]** Prozentsatz hinzufügen.
 
-   1. Bei Bedarf können Sie für jeden Kanal einen **[!UICONTROL Level of confidence]** Prozentsatz hinzufügen.
+1. Verwenden Sie bei Bedarf **[!UICONTROL Clear all]** , um alle Eingabewerte für die Spalten **[!UICONTROL Contribution proportion]** und **[!UICONTROL Level of confidence]** zu löschen.
 
-   1. Verwenden Sie bei Bedarf **[!UICONTROL Clear all]** , um alle Eingabewerte für die Spalten **[!UICONTROL Contribution proportion]** und **[!UICONTROL Level of confidence]** zu löschen.
+
+### Kanal-Werbemittel
+
+Im Abschnitt **[!UICONTROL Channel adstock]** können Sie für jeden Kanal (Marketing-Kanal), den Sie in Ihrem Modell definiert haben, einzelne Adstock-Lookbacks (Übertrag oder Verfallseffekte) und Lag (verzögerte Antwortzeit) definieren.
+
+Diese Kanal-Ad-Stock-Konfiguration ermöglicht eine differenzierte Kontrolle darüber, wie sich verschiedene Marketing-Kanäle im Laufe der Zeit auf Geschäftsergebnisse auswirken. Alternativ können Sie Systemstandardwerte und eine universelle Konfiguration verwenden.
+
+Mit der Konfiguration von Kanal-AdStock können Sie kanalspezifische Nuancen erfassen. Zum Beispiel die langfristige Wirkung von TV-Kampagnen, die kurzlebige Wirkung von Paid Search oder die Verzögerung zwischen Influencer-Ausgaben und beobachtbaren Konversionen. Experimentieren Sie mit AdStock-Lookback- und Lag-Parametern, um genauere, maßgeschneiderte und vertrauenswürdigere Einblicke zu generieren. Letztendlich kann eine Adstock-Konfiguration des Kanals zu präziseren Budgetzuweisungen und besseren Geschäftsentscheidungen führen.
+
+![Channel-Werbemittel](/help/assets/channel-ad-stock.png)
+
+So konfigurieren Sie den AdStock-Kanal:
+
+* Definieren Sie für jeden Kanal (**[!UICONTROL Name]**) einen **[!UICONTROL Lag (weeks)]**, einen **[!UICONTROL Min Lookback (weeks)]** und einen **[!UICONTROL Max Lookback (weeks)]**. Für jeden Wert:
+
+   * Mit ![Hinzufügen](/help/assets/icons/Add.svg) erhöhen Sie einen Wert, ![Subtrahieren](/help/assets/icons/Subtract.svg) verringern Sie einen Wert oder geben Sie einen Wert manuell ein.
+
+  Die Gesamtzahl der verzögerten Wochen plus der maximalen Lookback-Wochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten für das Modell, um die Werbemitteleffekte zu erlernen. Beispiel: Für ein zweijähriges Trainings-Fenster beträgt die maximale Anzahl von **[!UICONTROL Lag (weeks)]** und **[!UICONTROL Lookback (weeks)]** für einen Kanal 13 Wochen. Diese Begrenzung wird erzwungen, wenn Sie die Werte definieren.
 
 
 ## Optionen festlegen
 
-Sie können [Schulung und Bewertung &#x200B;](#schedule), [Trainings-Fenster definieren](#training-window) und [granulare Insights-Reporting-Felder](#granular-insights-reporting-fields) für Ihr Modell im **[!UICONTROL Set options]** Schritt angeben.
+Sie können [Training und Scoring planen](#schedule) und [granulare Insights-Reporting-Felder](#granular-insights-reporting-fields) für Ihr Modell im **[!UICONTROL Set options]** Schritt angeben.
 
 
 ### Zeitplan
@@ -159,7 +194,7 @@ Im Abschnitt **[!UICONTROL Schedule]** können Sie das Modell-Training und die B
 
 ![Modell planen](../assets/model-schedule.png)
 
-Zur geplanten Modellbewertung und zum Training:
+Planung von Modellbewertung und -training:
 
 1. Schalte **[!UICONTROL Enable scheduled model scoring and training]** ein.
 1. **[!UICONTROL Scoring frequency]** auswählen:
@@ -169,17 +204,6 @@ Zur geplanten Modellbewertung und zum Training:
    * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü Ausführen für jedes Dropdown-Menü aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
 
 1. Wählen Sie eine **[!UICONTROL Training frequency]** aus dem Dropdown-Menü aus: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** oder **[!UICONTROL None]**.
-
-
-### Trainings-Fenster
-
-Wählen Sie im Abschnitt **[!UICONTROL Define training window]** zwischen:
-
-![Modell - Trainings-Fenster definieren](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]** und
-
-* **[!UICONTROL Manually input a training window]**. Wenn ausgewählt, definieren Sie die Anzahl der Jahre in **[!UICONTROL Include events the following years prior to a conversion]**.
 
 
 ### Berichtsfelder für granulare Insights
