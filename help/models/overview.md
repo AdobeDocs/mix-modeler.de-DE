@@ -3,9 +3,9 @@ title: Modelle - Übersicht
 description: Erfahren Sie, wie Sie in Mix Modeler Modelle für maschinelles Lernen erstellen, trainieren, bewerten und verwalten, um Marketing-Ergebnisse zu messen und vorherzusagen.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Wenn ein Modell zum ersten Mal erstellt wird, startet die Erstellung sofort den 
 
 ## Erstellen von Modellen
 
-Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfigurationsablauf für Mix Modeler-Modelle, der bei der Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere [&#x200B; finden Sie unter &#x200B;](build.md) von Modellen .
+Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfigurationsablauf für Mix Modeler-Modelle, der bei der Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere [ finden Sie unter ](build.md) von Modellen .
 
 ## Modelle verwalten
 
@@ -59,7 +59,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Benutzeroberfläche vo
 
    Um die Tabelle in einer beliebigen Spalte in aufsteigender ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) oder absteigender Reihenfolge ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg) zu sortieren, klicken Sie auf den Titel der Spalte.
 
-   Um die **[!UICONTROL Name]** Spalte zu sortieren oder zu skalieren, wählen Sie **[!UICONTROL Name]** ChevronDown![&#x200B; aus](/help/assets/icons/ChevronDown.svg). Wählen Sie im Kontextmenü **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** oder **[!UICONTROL Resize column]** aus. Alternativ können Sie den Mauszeiger über das Spaltentrennzeichen bewegen, um die Größe der **[!UICONTROL Name]** Spalte zu ändern.
+   Um die **[!UICONTROL Name]** Spalte zu sortieren oder zu skalieren, wählen Sie **[!UICONTROL Name]** ChevronDown![ aus](/help/assets/icons/ChevronDown.svg). Wählen Sie im Kontextmenü **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** oder **[!UICONTROL Resize column]** aus. Alternativ können Sie den Mauszeiger über das Spaltentrennzeichen bewegen, um die Größe der **[!UICONTROL Name]** Spalte zu ändern.
 
    Der gemeldete Status des Modells hängt davon ab, wo sich ein Modell innerhalb seines Lebenszyklus befindet. Ob beispielsweise ein Modell erstellt, erfolgreich (neu) trainiert wurde oder nicht oder ob die Bewertung erfolgreich (neu) erstellt wurde oder nicht.
 
@@ -100,7 +100,7 @@ So zeigen Sie die Insights eines Modells an:
 1. Wählen Sie ![FileData](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in der linken Leiste aus.
 1. Wählen Sie den Modellnamen.
 
-Sie werden zu &quot;[&#x200B; Insights“ &#x200B;](insights.md).
+Sie werden zu &quot;[ Insights“ ](insights.md).
 
 ### Details anzeigen
 
@@ -119,7 +119,7 @@ Sie können ein Modell schnell duplizieren.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 
-Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)] (_)_ wird**.
+Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)](_)_ wird**.
 
 ### Bearbeiten
 
@@ -151,32 +151,31 @@ Sie können den Namen, die Beschreibung und den Zeitplan für das Training und d
       1. Wählen Sie **[!UICONTROL Clear all]** aus, um alle ausgewählten harmonisierten Felder zu entfernen.
 
      >[!IMPORTANT]
-     >Wenn Sie granulare Insights-Reporting-Felder zu einem Modell hinzufügen, das **vor dem 18. Februar**) erstellt wurde, ist eine Neubewertung des Modells erforderlich. Diese Bewertung stellt sicher, dass das dem Modell zugrunde liegende Schema mit granularen Insights-Reporting-Feldern aktualisiert wird.
-     >
-     >Es wird empfohlen, ein solches Modell zu duplizieren. Und schließen Sie die granularen Insights-Reporting-Felder in die Erstellung des duplizierten Modells ein.
+     >Jedes Modell mit MTA, das vor dem 12. Januar 2026 erstellt wurde, sollte dupliziert werden, um granulare Modelleinblicke zu ermöglichen.<br/>
+     >Eine Bewertung ist für jedes vorhandene Modell erforderlich, um die aktualisierten granularen Dimensionen in den Bewertungsdaten widerzuspiegeln.
      >
 
 1. Wählen Sie **[!UICONTROL Save]** aus.
 
 ### trainieren
 
-Trainieren Sie ein Modell neu, wenn Sie neue inkrementelle Marketing- und Faktordaten einbeziehen möchten. Weitere Informationen finden [&#x200B; unter &#x200B;](train-score.md#train) trainieren und bewerten .
+Trainieren Sie ein Modell neu, wenn Sie neue inkrementelle Marketing- und Faktordaten einbeziehen möchten. Weitere Informationen finden [ unter ](train-score.md#train) trainieren und bewerten .
 
 ### Ergebnis
 
-Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. Weitere Informationen finden [&#x200B; unter &#x200B;](train-score.md#score) trainieren und bewerten .
+Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. Weitere Informationen finden [ unter ](train-score.md#score) trainieren und bewerten .
 
 ### Modelle löschen
 
 Löschen eines Modells:
 
 1. Wählen Sie ![FileData](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in der linken Leiste aus.
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![&#x200B; blaue Aktionsleiste &#x200B;](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![ blaue Aktionsleiste ](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
 1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete model]** aus, um das Modell zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
 
 So löschen Sie mehrere Modelle:
 
 1. Mehrere Modelle auswählen.
 1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Modelle zu löschen.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *-Modelle]**, um die Modelle zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *-Modelle]**, um die Modelle zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
 
