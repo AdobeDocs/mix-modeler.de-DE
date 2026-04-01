@@ -3,9 +3,9 @@ title: Modelleinblicke
 description: Erfahren Sie, wie Sie Details zu Ihrem Modell abrufen, z. B. einen Überblick über den Verlauf, Modelleinblicke und Modellqualität in Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2896'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressource
 
 Um Modelleinblicke anzuzeigen, gehen Sie in der **[!UICONTROL Models]** ![Modelle](/help/assets/icons/FileData.svg) in [!DNL Mix Modeler] vor:
 
-1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; &#x200B;](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
+1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus.
 
@@ -189,7 +189,7 @@ Kanäle mit langsameren Abklingkurven (längeren Schwänzen) weisen auf eine anh
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Verteilung der Faktorbeiträge"
->abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basisumrechnungen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den Marketing-Touchpoints und den im Modell enthaltenen Faktoren auftreten. Dazu gehören Umrechnungen, die durch Markenaktien, Wiederholungskäufe, organische Nachfrage und langfristige Markttrends und Saisonabhängigkeit angetrieben werden."
+>abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basisumrechnungen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den im Modell enthaltenen Marketing-Touchpoints und -Faktoren auftreten. Dazu gehören Umrechnungen, die durch Markenaktien, Wiederholungskäufe, organische Nachfrage und langfristige Markttrends und Saisonabhängigkeit angetrieben werden."
 
 
 Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
@@ -239,7 +239,7 @@ Die folgenden Attributionsmodelle werden unterstützt:
    * Linear
    * U-Form
 
-Eine Einführung in [&#x200B; Multi-Touch](../get-started/about.md#multi-touch-attribution)Attributionsfunktion in [!DNL Mix Modeler] finden Sie unter „Multi-Touch-Attribution“.
+Eine Einführung in [ Multi-Touch](../get-started/about.md#multi-touch-attribution)Attributionsfunktion in [!DNL Mix Modeler] finden Sie unter „Multi-Touch-Attribution“.
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem Dropdown-Menü **[!UICONTROL Attribution Model]** aus. Die ausgewählten Attributionsmodelle gelten für alle Visualisierungen auf der Registerkarte Attribution .
 
@@ -401,7 +401,7 @@ Um die Visualisierung aufzuschlüsseln, wählen Sie eine der folgenden Optionen 
 
   Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender &#x200B;](/help/assets/icons/SortOrderDown.svg)):
+  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
    * **[!UICONTROL Paths touched]**: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
    * **[!UICONTROL Efficiency measure]**: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
@@ -456,27 +456,3 @@ So zeigen Sie einen alternativen volumenbasierten Kanal für diese Visualisierun
 
 * Wählen Sie einen Kanal aus **[!UICONTROL Channels]**.
 
-
-## Bearbeiten
-
-Sie können den Namen, die Beschreibung und den Zeitplan für das Training und die Bewertung des Modells bearbeiten.
-
-1. Wählen Sie ![Bearbeiten](/help/assets/icons/Edit.svg) Bearbeiten aus
-
-1. Im Dialogfeld **[!UICONTROL Edit model]** :
-
-   * Geben Sie einen neuen **[!UICONTROL Name]** und eine neue **[!UICONTROL Description]** ein.
-
-   * Um die Zeitplanung zu aktivieren, aktivieren Sie **[!UICONTROL Status]**. Sie können die Planung nur für Modelle aktivieren, die trainiert und bewertet wurden.
-
-      1. **[!UICONTROL Scoring frequency]** auswählen:
-
-         * **[!UICONTROL Daily]**: Geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü Ausführen für jedes Dropdown-Menü aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
-
-      1. Wählen Sie eine **[!UICONTROL Training frequency]** aus dem Dropdown-Menü aus: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** oder **[!UICONTROL None]**.
-
-     ![Modell bearbeiten](../assets/model-edit.png)
-
-1. Wählen Sie **[!UICONTROL Save]** aus.

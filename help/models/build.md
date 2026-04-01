@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen, einschließ
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 0%
+source-wordcount: '1570'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Im **[!UICONTROL Setup]** Schritt definieren Sie einen Namen und eine Beschreibu
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Marketing-Touchpoints"
->abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfänger-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden. <br/><br/>Sie können das Modell nicht mit Touchpoints einrichten, die überlappende Daten aufweisen, und es muss mindestens einen Touchpoint mit Ausgaben geben."
+>abstract="Marketing-Touchpoints sind Marketing-Ereignisse auf Empfangs-, Personen- und/oder Cookie-Ebene, mit denen die Auswirkungen von Marketing-Investitionen auf numerische oder umsatzbasierte Konversionen bewertet werden.<br/><br/>Sie können das Modell nicht mit Touchpoints einrichten, die überlappende Daten aufweisen, und es muss mindestens einen Touchpoint mit Ausgaben geben."
 
 
 Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration umfasst die Definition von Konversionszielen, Marketing-Touchpoints, die geeignete Datenpopulation, externe und interne Faktoren und mehr.
@@ -95,7 +95,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Um einen Faktor-Datensatz hinzuzufügen, wählen Sie **[!UICONTROL Add Factor]** aus. Sie können einem Modell maximal 30 Faktoren hinzufügen.
 
-      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[ definiert ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
 Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]** entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
       1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
@@ -146,7 +146,7 @@ Im **[!UICONTROL Spend share]** Abschnitt:
 
 Im **[!UICONTROL MTA enabled]** Abschnitt:
 
-* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [&#x200B; Registerkarte &#x200B;](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
+* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [ Registerkarte ](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
 
 
 ### Vorkenntnisse
@@ -199,9 +199,9 @@ Planung von Modellbewertung und -training:
 1. Schalte **[!UICONTROL Enable scheduled model scoring and training]** ein.
 1. **[!UICONTROL Scoring frequency]** auswählen:
 
-   * **[!UICONTROL Daily]**: Geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü Ausführen für jedes Dropdown-Menü aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Daily]**: Geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg), um die Zeit festzulegen.
+   * **[!UICONTROL Weekly]**: Wählen Sie einen Wochentag aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg), um die Zeit festzulegen.
+   * **[!UICONTROL Monthly]**: Wählen Sie einen Tag des Monats aus dem Dropdown-Menü Ausführen für jedes Dropdown-Menü aus und geben Sie eine gültige Zeit ein (z. B. `05:22 pm`) oder verwenden Sie ![Uhr](/help/assets/icons/Clock.svg), um die Zeit festzulegen.
 
 1. Wählen Sie eine **[!UICONTROL Training frequency]** aus dem Dropdown-Menü aus: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** oder **[!UICONTROL None]**.
 

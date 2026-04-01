@@ -2,7 +2,8 @@
 title: Trainieren und Bewerten von Modellen
 description: Erfahren Sie, wie Sie Modelle trainieren und bewerten.
 feature: Models
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -61,9 +62,8 @@ Geben Sie den Datumsbereich an. Sie können den ![Kalender“ verwenden](/help/a
 
    ![Erneutes Bewerten eines Modells](../assets/rescore-model.png)
 
-1. Wählen Sie **[!UICONTROL Score]** aus. Wenn Sie ein Modell mit einem bestimmten Datenbereich neu bewerten, wird ein **[!UICONTROL Existing model is replaced]** Dialogfeld angezeigt, in dem Sie aufgefordert werden zu bestätigen, dass Sie das Modell durch neue Bewertungen für den ausgewählten Datumsbereich ersetzen möchten. Wählen Sie zur Bestätigung **[!UICONTROL Replace model]** aus.
+1. Wählen Sie **[!UICONTROL Score]** aus. Beim Erstellen eines Modells mit einem bestimmten Datenbereich wird ein **[!UICONTROL Existing model is replaced]** angezeigt, in dem Sie aufgefordert werden, zu bestätigen, dass das Modell durch neue Bewertungen für den ausgewählten Datumsbereich ersetzt werden soll. Wählen Sie zur Bestätigung **[!UICONTROL Replace model]** aus.
 
 >[!IMPORTANT]
 >
 >Das Neubewerten eines Modells ändert keine Pläne, die bereits auf der Grundlage des wiederhergestellten Modells erstellt wurden. Um das neue wiederhergestellte Modell in einem Plan zu verwenden, müssen Sie einen neuen Plan erstellen.
-
