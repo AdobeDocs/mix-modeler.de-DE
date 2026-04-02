@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen, einschließ
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1578'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Um einen Faktor-Datensatz hinzuzufügen, wählen Sie **[!UICONTROL Add Factor]** aus. Sie können einem Modell maximal 30 Faktoren hinzufügen.
 
-      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[ definiert ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
 Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]** entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
       1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
@@ -146,7 +146,7 @@ Im **[!UICONTROL Spend share]** Abschnitt:
 
 Im **[!UICONTROL MTA enabled]** Abschnitt:
 
-* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [&#x200B; Registerkarte &#x200B;](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
+* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [ Registerkarte ](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
 
 
 ### Vorkenntnisse
@@ -181,6 +181,10 @@ So konfigurieren Sie den AdStock-Kanal:
    * Mit ![Hinzufügen](/help/assets/icons/Add.svg) erhöhen Sie einen Wert, ![Subtrahieren](/help/assets/icons/Subtract.svg) verringern Sie einen Wert oder geben Sie einen Wert manuell ein.
 
   Die Gesamtzahl der verzögerten Wochen plus der maximalen Lookback-Wochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten für das Modell, um die Werbemitteleffekte zu erlernen. Beispiel: Für ein zweijähriges Trainings-Fenster beträgt die maximale Anzahl von **[!UICONTROL Lag (weeks)]** und **[!UICONTROL Lookback (weeks)]** für einen Kanal 13 Wochen. Diese Begrenzung wird erzwungen, wenn Sie die Werte definieren.
+
+* So setzen Sie alle Kanal- und Bestandsdateien auf die Standardwerte zurück:
+
+   * Wählen Sie **[!UICONTROL Reset to defaults]** aus.
 
 
 ## Optionen festlegen
