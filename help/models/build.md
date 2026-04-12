@@ -95,7 +95,7 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Um einen Faktor-Datensatz hinzuzufügen, wählen Sie **[!UICONTROL Add Factor]** aus. Sie können einem Modell maximal 30 Faktoren hinzufügen.
 
-      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[ definiert ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
 Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]** entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
       1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
@@ -146,7 +146,7 @@ Im **[!UICONTROL Spend share]** Abschnitt:
 
 Im **[!UICONTROL MTA enabled]** Abschnitt:
 
-* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [&#x200B; Registerkarte &#x200B;](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
+* Um MTA-Funktionen für das Modell zu aktivieren, aktivieren Sie **[!UICONTROL MTA enabled]**. Wenn Sie MTA aktiviert haben, sind Multi-Touch-Attributionseinblicke verfügbar, nachdem Sie Ihr Modell trainiert und bewertet haben. Weitere Informationen finden Sie [ Registerkarte ](insights.md#attribution)Attribution“ in [Modell-Insights](insights.md).
 
 
 ### Vorkenntnisse
@@ -218,28 +218,28 @@ Der **[!UICONTROL Granular insights reporting fields]** Abschnitt verwendet die 
 
 Sie definieren diese harmonisierten Felder, damit Sie die Berichterstellung Ihres Modells mithilfe von granularen Berichtsspalten aufschlüsseln können, anstatt separate Modelle erstellen zu müssen.
 
-Sie erstellen beispielsweise ein Modell, das auf Umsatz ausgerichtet ist, aber auch an Kampagnen, Medientypen, Regionen und der Leistung von Traffic-Quellen interessiert ist. Ohne die granulare Inkrementalitäts-Reporting-Funktion müssten Sie vier separate Modelle erstellen. Mit der Reporting-Funktion für granulare Inkrementalität können Sie Ihr Umsatzmodell auf Kampagnen, Medientypen, Regionen und Traffic-Quellen aufschlüsseln.
+For example, you build a model that is focused on revenue, but you are also interested in the campaigns, media types, regions, and traffic sources performance. Without the granular incrementality reporting functionality, you would have to build four separate models. With the granular incrementality reporting functionality, you can break down your revenue model on campaigns, media types, regions, and traffic sources.
 
-1. Wählen Sie ein oder mehrere harmonisierte Felder aus dem **[!UICONTROL _Harmonisierte Felder auswählen_]** unter **[!UICONTROL Includes]** aus. Die ausgewählten harmonisierten Felder werden dem Bedienfeld hinzugefügt.
-1. Wählen Sie **[!UICONTROL *Harmonisiertes Feld *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) aus, um ein harmonisiertes Feld aus dem Container mit den ausgewählten harmonisierten Feldern zu entfernen.
-1. Wählen Sie **[!UICONTROL Clear all]** aus, um alle ausgewählten harmonisierten Felder zu entfernen.
+1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.
+1. Select **[!UICONTROL *Harmonized field *]**![CrossSize100](/help/assets/icons/CrossSize100.svg)  to remove a harmonized field from the container with the selected harmonized fields.
+1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
 
-Die ausgewählten harmonisierten Felder für die granulare Inkrementalitätsberichterstattung sind als Teil der aus der Bewertung des Modells resultierenden Experience Platform [Schema](/help/ingest-data/schemas.md) und [Datensatz](/help/ingest-data/datasets.md) verfügbar. Die granularen Insights-Berichtsfelder befinden sich in den **[!UICONTROL conversionPassthrough]**- und **[!UICONTROL touchpointPassthrough]**.
+The selected harmonized fields for granular incrementality reporting are available as part of the Experience Platform [schema](/help/ingest-data/schemas.md) and [dataset](/help/ingest-data/datasets.md) that results from scoring the model. The granular insights reporting fields can be found within the **[!UICONTROL conversionPassthrough]** and **[!UICONTROL touchpointPassthrough]** objects.
 
-![Screenshot der Objekte conversionPassthrough und touchpointPassthrough in einem Schema für ein Modell, das für granulare Inkrementalitätsberichte aktiviert ist](/help/assets/schema-granular-insights-reporting.png)
+![Screenshot of the conversionPassthrough and touchpointPassthrough objects in a schema for a model enabled for granular incrementality reporting](/help/assets/schema-granular-insights-reporting.png)
 
 
-## beenden
+## Finish
 
-* Wählen Sie **[!UICONTROL Finish]** aus, um Ihre Modellkonfiguration abzuschließen.
+* Select **[!UICONTROL Finish]** to finish your model configuration.
 
-   * Wählen Sie im Dialogfeld **[!UICONTROL Create instance?]** die Option **[!UICONTROL Ok]** aus, um den ersten Satz von Trainings- und Scoring-Durchgängen sofort mit dem Trigger zu versehen. Ihr Modell wird mit dem Status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]** aufgelistet.
+   * In the **[!UICONTROL Create instance?]** dialog, select **[!UICONTROL Ok]** to trigger the first set of training and scoring runs immediately. Your model is listed with status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
-     Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
+     Select **[!UICONTROL Cancel]** to cancel.
 
    * Wenn eine weitere Konfiguration erforderlich ist, wird in einem roten Umriss und Text erläutert, welche zusätzlichen Konfigurationen erforderlich sind.
 
-* Wählen Sie **[!UICONTROL Back]** aus, um zum vorherigen Schritt zurückzukehren.
+* Select **[!UICONTROL Back]** to go back to the previous step.
 
 * Wählen Sie **[!UICONTROL Cancel]** aus, um die Modellkonfiguration abzubrechen.
 

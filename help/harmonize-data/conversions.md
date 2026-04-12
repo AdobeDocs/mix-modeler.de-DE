@@ -5,7 +5,7 @@ feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
 source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
@@ -55,11 +55,11 @@ Um eine Konversion hinzuzufügen, gehen Sie in der ![DataSearch](/help/assets/ic
 
    1. Definieren Sie die **[!UICONTROL Conversion category]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wählen Sie Harmonisieren…*]**&#x200B;aus, z. B. `Conversion types`.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wählen Sie Harmonisieren…*]**aus, z. B. `Conversion types`.
 
       1. Wählen Sie einen Wert für den Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!UICONTROL Store]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!UICONTROL Store]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Conversion metric for analysis]** aus, z. B. **[!UICONTROL Orders]**.
 
@@ -78,7 +78,7 @@ So zeigen Sie Details zu einer Konversion an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Konversionsnamen in der Tabelle bewegen.
 
-1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [&#x200B; Sie unter &#x200B;](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Anzeigen](/help/assets/icons/ViewDetail.svg) **Details anzeigen** aus. Ein Dialogfeld zeigt Details zur Konvertierung an. Weitere Informationen [ Sie unter ](#add-a-conversion) hinzufügen . Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
 ## Bericht anzeigen
 
