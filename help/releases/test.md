@@ -5,7 +5,7 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
+source-git-commit: dda5f56fc2bf3066fbd2cd9170dd6c6ab3cbd17e
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Testen einer Tabelle mit Unicode-Zeichen
 
 | Tags | Datenansicht | Inhaber | Andere Filter |
 |---|---|---|---|
-| Sie können ![Suche](/help/assets/icons/Search.svg)Suchen *Tags*, um die Liste der Tags zu begrenzen. <br/><br/>Wenn Sie ein oder mehrere Tags auswählen, wird die Liste automatisch auf andere mögliche verbleibende Tags beschränkt. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**&#x200B;7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**&#x200B;7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**&#x200B;7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**&#x200B;7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. 🅐 🅔 |
+| Sie können ![Suche](/help/assets/icons/Search.svg)Suchen *Tags*, um die Liste der Tags zu begrenzen. <br/><br/>Wenn Sie ein oder mehrere Tags auswählen, wird die Liste automatisch auf andere mögliche verbleibende Tags beschränkt. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. 🅐 🅔 |
 
 {style="table-layout:fixed"}
 
@@ -29,7 +29,7 @@ Wir scheinen SVGs in einem schattierten Feld nicht richtig zu unterstützen. Sie
 
 >[!BEGINSHADEBOX]
 
-In diesem Artikel wird das Attributionsbedienfeld in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/attribution) für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**-Version dieses Artikels.
+In diesem Artikel wird das Attributionsbedienfeld in ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**.<br/>Siehe [Attributionsbedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) für die ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**-Version dieses Artikels.
 
 >[!ENDSHADEBOX]
 
