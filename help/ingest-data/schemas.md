@@ -3,9 +3,18 @@ title: Schemata
 description: Erfahren Sie, wie Sie die Schemata verwalten, die zur Aufnahme von Daten in Mix Modeler erforderlich sind.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
+TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T08:56:54.552Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: 613
 ht-degree: 7%
 
 ---
@@ -44,22 +53,22 @@ Dieses einfache Schema kann verwendet werden, um Datensätze aufzunehmen, die Da
 
 - Wettbewerbsindexdaten
 
-  | Zeitstempel | date_type | Faktor | Wert |
+  | Zeitstempel | date_type | Faktor | value |
   |---|---|---|--:|
-  | 28.11.2020 T00:00:00.000Z | Woche | Competitor_index | 289,8 |
-  | 2020-12-05T00:00:00.000Z | Woche | Competitor_index | 291,2 |
-  | 2020-12-12T00:00:00.000Z | Woche | Competitor_index | 280,07 |
-  | … | ... | ... | ... |
+  | 28.11.2020 T00:00:00.000Z | Woche | Competitor_index | 289.8 |
+  | 2020-12-05T00:00:00.000Z | Woche | Competitor_index | 291.2 |
+  | 2020-12-12T00:00:00.000Z | Woche | Competitor_index | 280.07 |
+  | ... | ... | ... | ... |
 
 - Daten zu Feiertagen
 
-  | Zeitstempel | date_type | Faktor | Wert |
+  | Zeitstempel | date_type | Faktor | value |
   |---|---|---|--:|
-  | 28.11.2020 T00:00:00.000Z | Woche | all_hosts_flag | 0,0 |
-  | 2020-12-05T00:00:00.000Z | Woche | all_hosts_flag | 0,0 |
-  | 2020-12-12T00:00:00.000Z | Woche | all_hosts_flag | 0,0 |
-  | 2020-12-19T00:00:00.000Z | Woche | all_hosts_flag | 0,0 |
-  | 26.12.2020:00:00.000Z | Woche | all_hosts_flag | 1,0 |
+  | 28.11.2020 T00:00:00.000Z | Woche | all_hosts_flag | 0.0 |
+  | 2020-12-05T00:00:00.000Z | Woche | all_hosts_flag | 0.0 |
+  | 2020-12-12T00:00:00.000Z | Woche | all_hosts_flag | 0.0 |
+  | 2020-12-19T00:00:00.000Z | Woche | all_hosts_flag | 0.0 |
+  | 26.12.2020:00:00.000Z | Woche | all_hosts_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
@@ -75,7 +84,7 @@ Zur Vereinfachung unterstützt Experience Platform eine dedizierte Feldergruppe 
 
 | Anzeigename des Feldes | Feldname | Feldtyp | Datentyp | Erforderlich | Beschreibung |
 |---|---|---|---|:-:|---|
-| Faktorname | factorName | Dimension | String | ![Häkchen](/help/assets/icons/Checkmark.svg) | Der Name des Faktors |
+| Faktorname | factorName | Dimension | Zeichenfolge | ![Häkchen](/help/assets/icons/Checkmark.svg) | Der Name des Faktors |
 | Faktorwert | faktorValue | Metrik | Double | ![Häkchen](/help/assets/icons/Checkmark.svg) | Der Wert des Faktors |
 | Faktortyp | factorType | Dimension | Zeichenfolge (enum) | | Der Typ des Faktors.<br/>Mögliche Werte sind: <ul><li>Intern (interner Faktor)</li><li>Extern (externer Faktor)</li></ul> |
 | Werttyp | valueType | Dimension | Zeichenfolge (enum) | | Mögliche Werte sind:<ul><li>Ist (tatsächlicher Wert)</li><li>Prognostiziert (prognostizierter Wert)</li></ul>Wenn kein Wert vorhanden ist, wird der Standardwert Actual verwendet. |
@@ -90,7 +99,7 @@ Ein Zusammenfassungs-, interner Faktor- oder externer Faktor-Datensatz kann auf 
 
 Derzeit unterstützt Mix Modeler eine Untergruppe von Experience Platform-Datentypen nicht. Die folgenden grundlegenden Datentypen (Felder), die unter [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#data-type) erwähnt werden, werden unterstützt:
 
-- String
+- Zeichenfolge
 - Ganzzahl
 - Double
 - Boolesch

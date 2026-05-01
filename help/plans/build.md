@@ -3,13 +3,20 @@ title: Pläne erstellen
 description: Erfahren Sie, wie Sie in Mix Modeler Pläne erstellen.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
+TQID: https://experienceleague.adobe.com/8p0uU5IAWbhwE9L0nVC-au5uyAh05jAJW47l0Jgucy4
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: 952
 ht-degree: 1%
 
 ---
-
 
 # Pläne erstellen
 
@@ -25,7 +32,7 @@ Um einen Plan zu erstellen, wählen Sie in der ![PLan](/help/assets/icons/FileCh
    1. Im **[!UICONTROL Setup]** Abschnitt:
 
       1. Geben Sie einen **[!UICONTROL Plan name]** ein, z. B. `Goal based plan`. Geben Sie einen **[!UICONTROL Description]** ein, z. B. `A goal based plan`.
-      1. Wählen Sie eine **[!UICONTROL Model]** aus **[!UICONTROL _Option auswählen…_,]**
+      1. Wählen Sie ein **[!UICONTROL Model]** aus **[!UICONTROL _Option auswählen.._.]**
 
          ![Planeinrichtung](/help/assets/plan-setup.png)
 
@@ -83,7 +90,7 @@ Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie !
 
      >[!IMPORTANT]
      >
-     >Die folgenden Informationen sind nur relevant, wenn Sie die ![&#x200B; &#x200B;](/help/assets/icons/TableEdit.svg)TableEdit **[!UICONTROL Edit channel budgets first]** ausgewählt haben
+     >Die folgenden Informationen sind nur relevant, wenn Sie die **[!UICONTROL Edit channel budgets first]** ![TableEdit](/help/assets/icons/TableEdit.svg) ausgewählt haben
 
 
 1. Verwenden Sie im **[!UICONTROL Spend selection]** Abschnitt für jeden Budgetdatumsbereich den ![Chevron](/help/assets/icons/ChevronRight.svg), um die Kanalverteilungsansicht für diesen Datenbereich zu öffnen.

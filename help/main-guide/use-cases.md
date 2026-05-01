@@ -3,9 +3,24 @@ title: Mix Modeler-Anwendungsfälle
 description: Mix Modeler-Anwendungsfälle.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M
+autotag-review: '2026-05-01T08:58:19.052Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 645
 ht-degree: 3%
 
 ---
@@ -36,7 +51,7 @@ Der schrittweise Ansatz für diesen Anwendungsfall ist:
 |---|---|
 | Erfassen | Identifizieren und Aufnehmen von Datenquellen unter allgemeinen Schemata. <br/>Wenden Sie bestehende Investitionen in Adobe Analytics oder Customer Journey Analytics auf eine schnelle Bereitstellung an. |
 | Konfigurieren | Konfigurieren Sie flexible Modelle mithilfe eines AI-as-a-Service-Frameworks für Ihre spezifischen Geschäftsziele. <br/> Sie automatisch die Konsistenz zwischen Touchpoint- und Zusammenfassungsebene mit bidirektionalem Transferlernen. |
-| Analysieren | Verstehen Sie den ROI des gesamten Marketings und einzelner Kanäle/Unterkanäle.<br/>Verstehen Sie, welche Touchpoints am besten für inkrementelle Konversionen geeignet sind. |
+| Analysieren | Verstehen Sie den ROI des gesamten Marketings und der einzelnen Kanäle/Unterkanäle.<br/>Verstehen Sie, welche Touchpoints am besten für inkrementelle Konversionen geeignet sind. |
 
 {style="table-layout:auto"}
 
@@ -73,9 +88,9 @@ Der schrittweise Ansatz für diesen Anwendungsfall ist:
 
 | Schritt | Details |
 |---|---|
-| Konfigurieren | Einfaches Anpassen von Messmodellen an Ihre Geschäftsziele.<br/>Definieren Sie Parameter mit wenigen Klicks, ohne dass eine Codierung erforderlich ist: z. B. Kanäle, Geografien, Verkaufszyklen, Verzögerungen, interne und externe Geschäftsfaktoren und mehr. |
+| Konfigurieren | Einfaches Anpassen von Messmodellen an Ihre Geschäftsziele<br/>Parameter mit wenigen Klicks definieren, keine Codierung erforderlich: z. B. Kanäle, Regionen, Verkaufszyklen, Verzögerungen, interne und externe Geschäftsfaktoren und mehr. |
 | trainieren | Trainieren Sie konfigurierte KI-/ML-Modelle für , um die beste Anpassung an Eingabedaten zu erlernen und die genauesten Ergebnisse zu erzielen. |
-| Optimieren | Erhalten Sie automatisierte optimierte Budgetzuweisungen basierend auf Modellprognosen.<br/>Entwickeln und vergleichen Sie mit wenigen Klicks mehrere Budgetszenarien mithilfe einer intuitiven Benutzeroberfläche. |
+| Optimieren | Erhalten Sie automatisierte optimierte Budgetzuweisungen basierend auf Modellprognosen.<br/>Mit einer intuitiven Benutzeroberfläche können Sie mit wenigen Klicks mehrere Budgetszenarien entwickeln und vergleichen. |
 
 {style="table-layout:auto"}
 
@@ -155,7 +170,7 @@ Der schrittweise Ansatz für diesen Anwendungsfall ist:
 | Schritt | Details |
 |---|---|
 | Modell | Konfigurieren und trainieren Sie ein KI-/ML-Modell, um konsistente MTA-Touchpoint-Bewertungen und MMM-Aggregatergebnisse zu erhalten. |
-| Analysieren | Exportieren Sie inkrementelle Touchpoint-Scores in Customer Journey Analytics oder externe BI-Tools<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Scores. |
+| Analysieren | Inkrementelle Touchpoint-Bewertungen in Customer Journey Analytics oder externe BI-Tools exportieren<br/>Führen Sie eine granulare Analyse durch und erstellen Sie erweiterte Dashboards mit Touchpoint-Bewertungen. |
 | Aktion | Erstellen und aktivieren Sie Lookalikes für die wichtigsten Kundensegmente mithilfe von Real-Time Customer Data Platform<br/>Entwickeln Sie datengesteuerte Marketing-Strategien nach Kundensegmenten für zukünftige Kampagnen. |
 
 {style="table-layout:auto"}

@@ -4,9 +4,26 @@ description: Erfahren Sie, wie Sie in Mix Modeler Modelle erstellen, einschließ
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
+TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+  - id: c89e26b6-808d-4500-8b01-450a63466999
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: 1578
 ht-degree: 2%
 
 ---
@@ -218,28 +235,28 @@ Der **[!UICONTROL Granular insights reporting fields]** Abschnitt verwendet die 
 
 Sie definieren diese harmonisierten Felder, damit Sie die Berichterstellung Ihres Modells mithilfe von granularen Berichtsspalten aufschlüsseln können, anstatt separate Modelle erstellen zu müssen.
 
-For example, you build a model that is focused on revenue, but you are also interested in the campaigns, media types, regions, and traffic sources performance. Without the granular incrementality reporting functionality, you would have to build four separate models. With the granular incrementality reporting functionality, you can break down your revenue model on campaigns, media types, regions, and traffic sources.
+Sie erstellen beispielsweise ein Modell, das auf Umsatz ausgerichtet ist, aber auch an Kampagnen, Medientypen, Regionen und der Leistung von Traffic-Quellen interessiert ist. Ohne die granulare Inkrementalitäts-Reporting-Funktion müssten Sie vier separate Modelle erstellen. Mit der Reporting-Funktion für granulare Inkrementalität können Sie Ihr Umsatzmodell auf Kampagnen, Medientypen, Regionen und Traffic-Quellen aufschlüsseln.
 
-1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.
-1. Select **[!UICONTROL *Harmonized field *]**![CrossSize100](/help/assets/icons/CrossSize100.svg)  to remove a harmonized field from the container with the selected harmonized fields.
-1. Select **[!UICONTROL Clear all]** to remove all selected harmonized fields.
+1. Wählen Sie ein oder mehrere harmonisierte Felder aus dem **[!UICONTROL _Harmonisierte Felder auswählen_]** unter **[!UICONTROL Includes]** aus. Die ausgewählten harmonisierten Felder werden dem Bedienfeld hinzugefügt.
+1. Wählen Sie **[!UICONTROL *Harmonisiertes Feld *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) aus, um ein harmonisiertes Feld aus dem Container mit den ausgewählten harmonisierten Feldern zu entfernen.
+1. Wählen Sie **[!UICONTROL Clear all]** aus, um alle ausgewählten harmonisierten Felder zu entfernen.
 
-The selected harmonized fields for granular incrementality reporting are available as part of the Experience Platform [schema](/help/ingest-data/schemas.md) and [dataset](/help/ingest-data/datasets.md) that results from scoring the model. The granular insights reporting fields can be found within the **[!UICONTROL conversionPassthrough]** and **[!UICONTROL touchpointPassthrough]** objects.
+Die ausgewählten harmonisierten Felder für die granulare Inkrementalitätsberichterstattung sind als Teil der aus der Bewertung des Modells resultierenden Experience Platform [Schema](/help/ingest-data/schemas.md) und [Datensatz](/help/ingest-data/datasets.md) verfügbar. Die granularen Insights-Berichtsfelder befinden sich in den **[!UICONTROL conversionPassthrough]**- und **[!UICONTROL touchpointPassthrough]**.
 
-![Screenshot of the conversionPassthrough and touchpointPassthrough objects in a schema for a model enabled for granular incrementality reporting](/help/assets/schema-granular-insights-reporting.png)
+![Screenshot der Objekte conversionPassthrough und touchpointPassthrough in einem Schema für ein Modell, das für granulare Inkrementalitätsberichte aktiviert ist](/help/assets/schema-granular-insights-reporting.png)
 
 
-## Finish
+## beenden
 
-* Select **[!UICONTROL Finish]** to finish your model configuration.
+* Wählen Sie **[!UICONTROL Finish]** aus, um Ihre Modellkonfiguration abzuschließen.
 
-   * In the **[!UICONTROL Create instance?]** dialog, select **[!UICONTROL Ok]** to trigger the first set of training and scoring runs immediately. Your model is listed with status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
+   * Wählen Sie im Dialogfeld **[!UICONTROL Create instance?]** die Option **[!UICONTROL Ok]** aus, um den ersten Satz von Trainings- und Scoring-Durchgängen sofort mit dem Trigger zu versehen. Ihr Modell wird mit dem Status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]** aufgelistet.
 
-     Select **[!UICONTROL Cancel]** to cancel.
+     Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
 
    * Wenn eine weitere Konfiguration erforderlich ist, wird in einem roten Umriss und Text erläutert, welche zusätzlichen Konfigurationen erforderlich sind.
 
-* Select **[!UICONTROL Back]** to go back to the previous step.
+* Wählen Sie **[!UICONTROL Back]** aus, um zum vorherigen Schritt zurückzukehren.
 
 * Wählen Sie **[!UICONTROL Cancel]** aus, um die Modellkonfiguration abzubrechen.
 
