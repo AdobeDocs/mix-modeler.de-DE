@@ -4,10 +4,17 @@ description: Erfahren Sie, wie Sie in Mix Modeler die Übersicht zur Leistungspl
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:20:18.412Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -30,7 +37,7 @@ So wählen Sie aus, welche Daten für die KPI-Statuskarten und Visualisierungen 
 
 * Wählen Sie im Dropdown-Menü **[!UICONTROL Plan name]** einen Plan aus und verwenden Sie **[!UICONTROL _Option auswählen…_]**.
 
-* Geben Sie einen Datumsbereich an. Um den Datumsbereich zu ändern, geben Sie das Start- und Enddatum manuell ein oder wählen Sie mithilfe von ![Kalender“ einen ](/help/assets/icons/Calendar.svg) aus.
+* Geben Sie einen Datumsbereich an. Um den Datumsbereich zu ändern, geben Sie das Start- und Enddatum manuell ein oder wählen Sie mithilfe von ![Kalender“ einen &#x200B;](/help/assets/icons/Calendar.svg) aus.
 
 Die Registerkarte **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} zeigt:
 

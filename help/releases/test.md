@@ -7,9 +7,13 @@ hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
 TQID: https://experienceleague.adobe.com/BTd4-OINWubpSgFga7QE-ASje73fnySf1nIxTOivlVQ
 autotag-review: '2026-05-01T09:04:46.084Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: fe2edbb1-46f9-4347-a27c-577cab3640cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 327
@@ -23,7 +27,7 @@ Testen einer Tabelle mit Unicode-Zeichen
 
 | Tags | Datenansicht | Inhaber | Andere Filter |
 |---|---|---|---|
-| Sie können ![Suche](/help/assets/icons/Search.svg)Suchen *Tags*, um die Liste der Tags zu begrenzen. <br/><br/>Wenn Sie ein oder mehrere Tags auswählen, wird die Liste automatisch auf andere mögliche verbleibende Tags beschränkt. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. 🅐 🅔 |
+| Sie können ![Suche](/help/assets/icons/Search.svg)Suchen *Tags*, um die Liste der Tags zu begrenzen. <br/><br/>Wenn Sie ein oder mehrere Tags auswählen, wird die Liste automatisch auf andere mögliche verbleibende Tags beschränkt. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**&#x200B;7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**&#x200B;7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**&#x200B;7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. | Sie können ![Suche](/help/assets/icons/Search.svg) *Datenansichten suchen* um die Liste der Datenansichten zu begrenzen. <br/>Sie können mehrere Datenansichten auswählen, um die Filterliste zu filtern. <br/><br/>Die Zahl in **[!UICONTROL Tags]** **2︎⃣** bezieht sich auf die Anzahl der verfügbaren Tags. <br/><br/>Die Zahl in **[!UICONTROL *tag *]**&#x200B;7︎⃣ bezieht sich auf die Anzahl der Filter, die mit dem spezifischen Tag getaggt sind. 🅐 🅔 |
 
 {style="table-layout:fixed"}
 

@@ -4,10 +4,15 @@ description: Erfahren Sie, wie Sie Marketing-Touchpoints erstellen, um Ihre Date
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 TQID: https://experienceleague.adobe.com/6HEgtbsEegA-XyeNQTCQd5JhMZyKZ9BzxPAiJGOr1N0
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2: id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:13:36.558Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -60,11 +65,11 @@ Um einen Marketing-Touchpoint hinzuzufügen, gehen Sie in der Benutzeroberfläch
 
    1. Definieren Sie eine **[!UICONTROL Touchpoint rule]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**aus, z. B.**[!UICONTROL Brand]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Harmonisiert auswählen *]**&#x200B;aus, z. B.**[!UICONTROL Brand]**.
 
       1. Wählen Sie einen Wert für Operator ![Chevron](/help/assets/icons/ChevronDown.svg), z. B. **[!UICONTROL is]**.
 
-      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
+      1. Wählen Sie einen Wert unter **[!UICONTROL *Wert auswählen *]**&#x200B;aus oder geben Sie einen Wert ein, z. B.**[!DNL Luma]**.
 
    1. Wählen Sie ein harmonisiertes Feld aus **[!UICONTROL Touchpoint volume]** aus, z. B. **[!UICONTROL Impressions]**.
 
@@ -83,7 +88,7 @@ So zeigen Sie Details zu einem Marketing-Touchpoint an:
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) aus, wenn Sie den Mauszeiger über einen Marketing-Touchpoint-Namen in der Tabelle bewegen.
 
-1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden [ unter „Hinzufügen ](#add-a-marketing-touchpoint) Marketing-Touchpoints“. Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
+1. Wählen Sie ![Ansicht](/help/assets/icons/ViewDetail.svg) **Ansicht** aus. Ein Dialogfeld zeigt Details zum Marketing-Touchpoint an. Weitere Informationen finden [&#x200B; unter „Hinzufügen &#x200B;](#add-a-marketing-touchpoint) Marketing-Touchpoints“. Wählen Sie **[!UICONTROL Cancel]** aus, um das Dialogfeld zu schließen.
 
 
 ## Bericht anzeigen

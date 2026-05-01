@@ -5,11 +5,20 @@ feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 TQID: https://experienceleague.adobe.com/2EmrUfSObFMDb0rNRG1OWqU8c2P9Dp1nf1y8-SpEY3k
 autotag-review: '2026-05-01T08:59:10.903Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: c89e26b6-808d-4500-8b01-450a63466999id: cb40363e-1205-4921-971c-9ee6bdb18329
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+  - id: c89e26b6-808d-4500-8b01-450a63466999
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 1082
@@ -43,7 +52,7 @@ Wenn ein Modell zum ersten Mal erstellt wird, startet die Erstellung sofort den 
 
 ## Erstellen von Modellen
 
-Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfigurationsablauf für Mix Modeler-Modelle, der bei der Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere [ finden Sie unter ](build.md) von Modellen .
+Verwenden Sie zum Erstellen eines Modells den Schritt-für-Schritt-Konfigurationsablauf für Mix Modeler-Modelle, der bei der Auswahl von **[!UICONTROL Open model canvas]** verfügbar ist. Weitere [&#x200B; finden Sie unter &#x200B;](build.md) von Modellen .
 
 ## Modelle verwalten
 
@@ -66,7 +75,7 @@ So zeigen Sie eine Tabelle Ihrer aktuellen Modelle in der Benutzeroberfläche vo
 
    Um die Tabelle in einer beliebigen Spalte in aufsteigender ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) oder absteigender Reihenfolge ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg) zu sortieren, klicken Sie auf den Titel der Spalte.
 
-   Um die **[!UICONTROL Name]** Spalte zu sortieren oder zu skalieren, wählen Sie **[!UICONTROL Name]** ChevronDown![ aus](/help/assets/icons/ChevronDown.svg). Wählen Sie im Kontextmenü **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** oder **[!UICONTROL Resize column]** aus. Alternativ können Sie den Mauszeiger über das Spaltentrennzeichen bewegen, um die Größe der **[!UICONTROL Name]** Spalte zu ändern.
+   Um die **[!UICONTROL Name]** Spalte zu sortieren oder zu skalieren, wählen Sie **[!UICONTROL Name]** ChevronDown![&#x200B; aus](/help/assets/icons/ChevronDown.svg). Wählen Sie im Kontextmenü **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** oder **[!UICONTROL Resize column]** aus. Alternativ können Sie den Mauszeiger über das Spaltentrennzeichen bewegen, um die Größe der **[!UICONTROL Name]** Spalte zu ändern.
 
    Der gemeldete Status des Modells hängt davon ab, wo sich ein Modell innerhalb seines Lebenszyklus befindet. Ob beispielsweise ein Modell erstellt, erfolgreich (neu) trainiert wurde oder nicht oder ob die Bewertung erfolgreich (neu) erstellt wurde oder nicht.
 
@@ -107,7 +116,7 @@ So zeigen Sie die Insights eines Modells an:
 1. Wählen Sie ![FileData](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in der linken Leiste aus.
 1. Wählen Sie den Modellnamen.
 
-Sie werden zu &quot;[ Insights“ ](insights.md).
+Sie werden zu &quot;[&#x200B; Insights“ &#x200B;](insights.md).
 
 ### Details anzeigen
 
@@ -126,7 +135,7 @@ Sie können ein Modell schnell duplizieren.
 
 1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Duplicate]** aus.
 
-Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)](_)_ wird**.
+Sie werden zu den Schritten zum Erstellen eines neuen Modells weitergeleitet, wobei ein vorgeschlagener Name aus dem Namen des ursprünglichen Modells mit **[!UICONTROL (Copy)] (_)_ wird**.
 
 ### Bearbeiten
 
@@ -166,23 +175,23 @@ Sie können den Namen, die Beschreibung und den Zeitplan für das Training und d
 
 ### trainieren
 
-Trainieren Sie ein Modell neu, wenn Sie neue inkrementelle Marketing- und Faktordaten einbeziehen möchten. Weitere Informationen finden [ unter ](train-score.md#train) trainieren und bewerten .
+Trainieren Sie ein Modell neu, wenn Sie neue inkrementelle Marketing- und Faktordaten einbeziehen möchten. Weitere Informationen finden [&#x200B; unter &#x200B;](train-score.md#train) trainieren und bewerten .
 
 ### Ergebnis
 
-Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. Weitere Informationen finden [ unter ](train-score.md#score) trainieren und bewerten .
+Sie können ein Modell inkrementell auf der Grundlage neuer Marketing-Daten bewerten oder ein Modell für einen bestimmten Datumsbereich neu bewerten. Weitere Informationen finden [&#x200B; unter &#x200B;](train-score.md#score) trainieren und bewerten .
 
 ### Modelle löschen
 
 Löschen eines Modells:
 
 1. Wählen Sie ![FileData](/help/assets/icons/FileData.svg)-**[!UICONTROL Models]** in der linken Leiste aus.
-1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![ blaue Aktionsleiste ](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
+1. Wählen Sie ![Mehr](/help/assets/icons/More.svg) für ein Modell aus und wählen Sie im Kontextmenü **[!UICONTROL Delete]** aus. Wählen Sie alternativ ![&#x200B; blaue Aktionsleiste &#x200B;](/help/assets/icons/Delete.svg)Löschen“ **[!UICONTROL Delete]**.
 1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete model]** aus, um das Modell zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
 
 So löschen Sie mehrere Modelle:
 
 1. Mehrere Modelle auswählen.
 1. Wählen Sie in der blauen Aktionsleiste die Option ![Löschen](/help/assets/icons/Delete.svg) aus, **[!UICONTROL Delete]** die Modelle zu löschen.
-1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *-Modelle]**, um die Modelle zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**aus.
+1. Wählen Sie **[!UICONTROL Delete]** im Bestätigungsdialogfeld **[!UICONTROL Delete *x *-Modelle]**, um die Modelle zu löschen. Wählen Sie zum Abbrechen **[!UICONTROL Cancel]**&#x200B;aus.
 

@@ -4,10 +4,16 @@ description: Erfahren Sie, wie Sie Felder definieren, die im Rahmen der Harmonis
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
 TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2: id: d4b8ba18-64c1-4413-be54-74405ec7f558id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:13:17.577Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -115,7 +121,7 @@ So bearbeiten Sie ein harmonisiertes Feld in der Benutzeroberfläche ![DataSearc
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie bearbeiten möchten. Beispiel: **[!UICONTROL Region]**.
 
-1. Ändern Sie im **[!UICONTROL Edit harmonization values]** die Werte für **[!UICONTROL Display name]**, **[!UICONTROL Category]** und **[!UICONTROL Data type]**. Weitere [ finden Sie unter &quot;](#add-a-harmonized-field) Feld hinzufügen“.
+1. Ändern Sie im **[!UICONTROL Edit harmonization values]** die Werte für **[!UICONTROL Display name]**, **[!UICONTROL Category]** und **[!UICONTROL Data type]**. Weitere [&#x200B; finden Sie unter &quot;](#add-a-harmonized-field) Feld hinzufügen“.
 
 1. Wählen Sie **[!UICONTROL Submit]** aus, um die Änderungen auf das harmonisierte Feld anzuwenden.
 
@@ -129,7 +135,7 @@ So löschen Sie ein harmonisiertes Feld in der ![DataSearch](/help/assets/icons/
 
 1. Wählen Sie das harmonisierte Feld aus, das Sie löschen möchten, z. B. **[!UICONTROL Region]**.
 
-1. Wählen Sie ![ linken Bereich ](/help/assets/icons/Delete.svg)Löschen **[!UICONTROL Delete]** **[!UICONTROL Edit harmonization values]** aus.
+1. Wählen Sie ![&#x200B; linken Bereich &#x200B;](/help/assets/icons/Delete.svg)Löschen **[!UICONTROL Delete]** **[!UICONTROL Edit harmonization values]** aus.
 
    >[!WARNING]
    >

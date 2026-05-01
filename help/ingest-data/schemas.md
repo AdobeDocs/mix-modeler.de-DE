@@ -4,9 +4,13 @@ description: Erfahren Sie, wie Sie die Schemata verwalten, die zur Aufnahme von 
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
 TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T08:56:54.552Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -23,7 +27,7 @@ So verwalten Sie Schemata, indem Sie die Daten unterstützen, die Sie in Experie
 
 1. Wählen Sie ![Schemata](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]** unter **[!UICONTROL SETUP]** aus.
 
-Weitere Informationen dazu finden [ in der Übersicht ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) Schemas-Benutzeroberfläche .
+Weitere Informationen dazu finden [&#x200B; in der Übersicht &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) Schemas-Benutzeroberfläche .
 
 ## Aggregierte oder zusammenfassende Daten
 
