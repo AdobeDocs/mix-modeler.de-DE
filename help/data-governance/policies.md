@@ -1,20 +1,27 @@
 ---
 title: Richtlinien
-description: Erfahren Sie, wie Sie vom Mix Modeler aus auf Richtlinien zugreifen können.
+description: Erfahren Sie, wie Sie von Mix Modeler aus auf Richtlinien zugreifen können.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
-source-git-commit: 132dc18b84723358a7d65e2aaadd49cf1deb2dd8
+TQID: https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2: id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+autotag-review: '2026-05-01T09:17:02.907Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 11%
+source-wordcount: 507
+ht-degree: 9%
 
 ---
 
 # Richtlinien
 
-Sobald Sie den Workflow zur Modellerstellung abgeschlossen haben und die Konfiguration des Modells übermitteln, wird [Richtliniendurchsetzung](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) überprüft, ob Verstöße vorliegen. Wenn ein Richtlinienverstoß auftritt, wird ein Popup angezeigt, das angibt, dass eine oder mehrere Richtlinien verletzt wurden. Diese Prüfung dient dazu, sicherzustellen, dass Ihre Datenvorgänge und Marketing-Aktionen in Experience Platform mit den Datennutzungsrichtlinien konform sind.
+Sobald Sie den Workflow zur Modellerstellung abgeschlossen haben und die Konfiguration des Modells übermitteln, wird [Richtliniendurchsetzung](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) überprüft, ob Verstöße vorliegen. Wenn ein Richtlinienverstoß auftritt, wird ein Popup angezeigt, das angibt, dass eine oder mehrere Richtlinien verletzt wurden. Diese Prüfung dient dazu, sicherzustellen, dass Ihre Datenvorgänge und Marketing-Aktionen in Experience Platform mit Datennutzungsrichtlinien konform sind.
 
-Standardmäßig prüft Mix Modeler auf Verstöße gegen vom Adobe definierte Richtlinien, die mit den folgenden Kennzeichnungen und Marketing-Aktionen verbunden sind:
+Standardmäßig sucht Mix Modeler nach Verstößen gegen von Adobe definierte Richtlinien, die mit den folgenden Kennzeichnungen und Marketing-Aktionen verbunden sind:
 
 | Richtlinienname | Zugeordnete Kennzeichnung | Zugeordnete Marketing-Aktion |
 |---|---|---|
@@ -61,7 +68,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[Datennutzungsrichtlinien – Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/policies/overview)
+>[Datennutzungsrichtlinien - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

@@ -3,9 +3,16 @@ title: Planerkenntnisse
 description: Erfahren Sie, wie Sie Einblicke in Ihren Plan erhalten und einen Plan in Mix Modeler bearbeiten können.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
+TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-04-28T06:09:37.014Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: 1174
 ht-degree: 0%
 
 ---
@@ -35,13 +42,13 @@ Wenn die Einblicke erstellt werden, erhalten Sie einen Überblick über Ihren Pl
    - Kanal
    - ROI
    - CPA
-   - Einnahmen
+   - Umsatz
    - Konversionsziel
    - Ausgaben
 
 Um die Benutzeroberfläche zu schließen, klicken Sie auf **[!UICONTROL Close]**.
 
-Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL &#x200B; %]** unter **[!UICONTROL View ROI]** aus.
+Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** unter **[!UICONTROL View ROI]** aus.
 
 ## Prognostizierte Ausgaben und ROI für bezahlte Kanäle
 
@@ -127,7 +134,7 @@ Um Ihren Plan zu bearbeiten, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.s
       1. Im **[!UICONTROL Setup]** Abschnitt:
 
          1. Geben Sie einen **[!UICONTROL Plan name]** ein, z. B. `Demo plan`. Geben Sie einen **[!UICONTROL Description]** ein, z. B. `Demo plan for Luma company`.
-         1. Wählen Sie eine **[!UICONTROL Model]** aus **[!UICONTROL _Option auswählen…_,]**
+         1. Wählen Sie ein **[!UICONTROL Model]** aus **[!UICONTROL _Option auswählen.._.]**
 
             ![Planeinrichtung](/help/assets/plan-setup.png)
 

@@ -3,16 +3,23 @@ title: Harmonisiertes Daten-Dashboard
 description: Erfahren Sie, wie Sie das Dashboard Harmonized Data Overview in Mix Modeler verwenden.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
+TQID: https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE
+autotag-review: '2026-05-01T09:17:34.958Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 298
 ht-degree: 0%
 
 ---
 
 # Harmonisierte Daten
 
-Mix Modeler Die Registerkarte &quot;**[!UICONTROL Harmonized data]**&quot; in ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** bietet Einblicke in die harmonisierten Daten, die Sie für die Verwendung als Teil der aufgenommenen Daten und der Einrichtung der harmonisierten Daten konfiguriert haben.
+Die Registerkarte &quot;**[!UICONTROL Harmonized data]**&quot; in ![Startseite](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** bietet Einblicke in die harmonisierten Daten, die Sie für die Verwendung als Teil der aufgenommenen Daten und der Einrichtung der harmonisierten Daten konfiguriert haben.
 
 Die Übersicht zeigt vier KPI-Status-Kartenvisualisierungen (oberste Zeile) und sechs weitere konfigurierbare Visualisierungen .
 
@@ -26,7 +33,7 @@ Wählen Sie für jede Kategorie einen oder mehrere Filter aus (**[!UICONTROL Bra
 
 Ausgewählte Filter werden über den Visualisierungen unter **[!UICONTROL FILTERING BY:]** angezeigt.
 
-1. Um einen einzelnen Filter zu entfernen, wählen Sie ![&#x200B; Filter &#x200B;](/help/assets/icons/Close.svg)Schließen) aus, der unter **[!UICONTROL FILTERING BY:]** aufgeführt ist.
+1. Um einen einzelnen Filter zu entfernen, wählen Sie ![ Filter ](/help/assets/icons/Close.svg)Schließen) aus, der unter **[!UICONTROL FILTERING BY:]** aufgeführt ist.
 
 1. Mit **[!UICONTROL Clear All]** können Sie schnell alle Filter löschen.
 
@@ -39,7 +46,7 @@ Sie können jede Visualisierung konfigurieren.
 
 * Visualisierung der KPI-Statuskarte:
 
-   1. Wählen ![&#x200B; im &#x200B;](/help/assets/icons/Edit.svg) die **[!UICONTROL Edit data]** ![Bearbeiten](/help/assets/icons/Edit.svg) aus.
+   1. Wählen ![ im ](/help/assets/icons/Edit.svg) die **[!UICONTROL Edit data]** ![Bearbeiten](/help/assets/icons/Edit.svg) aus.
 
    1. Im Dialogfeld **[!UICONTROL KPI status card]** :
 
@@ -49,7 +56,7 @@ Sie können jede Visualisierung konfigurieren.
 
 * Bei den anderen konfigurierbaren Visualisierungen:
 
-   1. Wählen ![&#x200B; im &#x200B;](/help/assets/icons/Edit.svg) die **[!UICONTROL Edit data]** ![Bearbeiten](/help/assets/icons/Edit.svg) aus.
+   1. Wählen ![ im ](/help/assets/icons/Edit.svg) die **[!UICONTROL Edit data]** ![Bearbeiten](/help/assets/icons/Edit.svg) aus.
 
    1. Im Dialogfeld **[!UICONTROL Edit Data]** :
 

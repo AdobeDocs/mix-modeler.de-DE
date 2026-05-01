@@ -3,10 +3,17 @@ title: Bewertungsdaten verwenden
 description: Erfahren Sie, wie die Bewertungsdaten eines Modells in Mix Modeler beibehalten werden.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 10%
+source-wordcount: 684
+ht-degree: 11%
 
 ---
 
@@ -28,18 +35,18 @@ Das Schema enthält eine Feldergruppe mit einem -Objekt, das Details zu den Scor
 | Feldname | Typ | Definition |
 |---|---|---|
 | `campaignGroup` | Zeichenfolge | Name der Kampagnengruppe. |
-| `campaignName` | String | Name der Kampagne. |
+| `campaignName` | Zeichenfolge | Name der Kampagne. |
 | `contribution` | Double | Dieser Konversion zugewiesener Beitrag für den jeweiligen Touchpoint. |
 | `conversionEndDate` | Datum | Enddatum des Konvertierungsfensters. |
-| `conversionName` | String | Name der Konvertierung, die beim Setup-Schritt der Konversionsdefinition erstellt wurde. |
+| `conversionName` | Zeichenfolge | Name der Konvertierung, die beim Setup-Schritt der Konversionsdefinition erstellt wurde. |
 | `conversionStartDate` | Datum | Startdatum des Konvertierungsfensters. |
-| `geo` | String | Der geografische Ort, an dem die Konversion stattgefunden hat. |
-| `mediaChannel` | String | Name des Kanals, der während des Touchpoint-Einrichtungsschritts verwendet wurde. |
-| `mediaSubChannel` | String | Name des Unterkanals. |
+| `geo` | Zeichenfolge | Der geografische Ort, an dem die Konversion stattgefunden hat. |
+| `mediaChannel` | Zeichenfolge | Name des Kanals, der während des Touchpoint-Einrichtungsschritts verwendet wurde. |
+| `mediaSubChannel` | Zeichenfolge | Name des Unterkanals. |
 | `revenue` | Double | Dieser Konversion zugewiesener Umsatz für den jeweiligen Touchpoint. |
 | `scoreCreatedTime` | DateTime | Zeitstempel, wann dieser Score-Datensatz erstellt wird. |
 | `touchpointEndDate` | Datum | Enddatum des Touchpoint-Fensters |
-| `touchpointName` | String | Name des Touchpoints, der beim Setup-Schritt der Touchpoint-Definition erstellt wurde. Derzeit ist der Touchpoint im Medienkanal definiert. |
+| `touchpointName` | Zeichenfolge | Name des Touchpoints, der beim Setup-Schritt der Touchpoint-Definition erstellt wurde. Derzeit ist der Touchpoint im Medienkanal definiert. |
 | `touchpointStartDate` | Datum | Startdatum des Touchpoint-Fensters. |
 
 
@@ -57,26 +64,26 @@ Die Feldergruppe enthält die folgenden Felder.
 |---|---|---|
 | `conversion` | Objekt | Konversionsmetadaten-Spalten. |
 |     `passThrough` | Objekt |  |
-|         `eventType` | String | |
-|         `channel_typeAtSource` | String | |
-|      `dataSource` | String | Globale eindeutige Identifizierung einer Datenquelle. <br> **Beispiel:** `Adobe Analytics` |
-|      `eventSource` | String | Die Quelle, an der das tatsächliche Ereignis aufgetreten ist. <br> **Beispiel:** `Adobe.com` |
-|      `eventType` | String | Der primäre Ereignistyp für diesen Zeitreiheneintrag. <br> **Beispiel:** `Order` |
-|      `geo` | String | Der geografische Ort, an dem die Konversion bereitgestellt wurde, `placeContext.geo.countryCode`. <br> **Beispiel:** `US` |
-|      `path` | String | |
+|         `eventType` | Zeichenfolge | |
+|         `channel_typeAtSource` | Zeichenfolge | |
+|      `dataSource` | Zeichenfolge | Globale eindeutige Identifizierung einer Datenquelle. <br> **Beispiel:** `Adobe Analytics` |
+|      `eventSource` | Zeichenfolge | Die Quelle, an der das tatsächliche Ereignis aufgetreten ist. <br> **Beispiel:** `Adobe.com` |
+|      `eventType` | Zeichenfolge | Der primäre Ereignistyp für diesen Zeitreiheneintrag. <br> **Beispiel:** `Order` |
+|      `geo` | Zeichenfolge | Der geografische Ort, an dem die Konversion bereitgestellt wurde, `placeContext.geo.countryCode`. <br> **Beispiel:** `US` |
+|      `path` | Zeichenfolge | |
 |      `priceTotal` | Double | Durch die <br> erzielter Umsatz **Beispiel:** `99.9` |
-|      `product` | String | Die XDM-Kennung des Produkts selbst. <br> **Beispiel:** `RX 1080 ti` |
-|      `productType` | String | Der Anzeigename für das Produkt, wie er dem Benutzer für diese Produktansicht präsentiert wird. <br> **Beispiel:** `Gpus` |
+|      `product` | Zeichenfolge | Die XDM-Kennung des Produkts selbst. <br> **Beispiel:** `RX 1080 ti` |
+|      `productType` | Zeichenfolge | Der Anzeigename für das Produkt, wie er dem Benutzer für diese Produktansicht präsentiert wird. <br> **Beispiel:** `Gpus` |
 |      `quantity` | Ganzzahl | Bei der Konversion gekaufte Menge <br> **Beispiel:** `1` |
 |      `receivedTimeStamp` | DateTime | Zeitstempel der Konversion empfangen. <br> **Beispiel:** `2020-06-09T00:01:51.000Z` |
-|      `skuId` | String | Lagerhaltungseinheit (SKU), die eindeutige Kennung für ein vom Anbieter definiertes Produkt. <br> **Beispiel:** `MJ-03-XS-Black` |
+|      `skuId` | Zeichenfolge | Lagerhaltungseinheit (SKU), die eindeutige Kennung für ein vom Anbieter definiertes Produkt. <br> **Beispiel:** `MJ-03-XS-Black` |
 |      `timestamp` | DateTime | Zeitstempel der Konversion. <br> **Beispiel:** `2020-06-09T00:01:51.000Z` |
 |      `totalDaysToConversion` | Ganzzahl |  |
 |      `totalTouchpointCount` | Ganzzahl | |
 | `customerProfile` | Objekt | Identitätsdetails des Benutzers, der zum Erstellen des Modells verwendet wurde. |
 |      `identity` | Objekt | |
-|           `id` | String | |
-|           `namespace` | String | Enthält die Details des Benutzers, der zum Erstellen des Modells verwendet wird, z. B. `id` und `namespace`. |
+|           `id` | Zeichenfolge | |
+|           `namespace` | Zeichenfolge | Enthält die Details des Benutzers, der zum Erstellen des Modells verwendet wird, z. B. `id` und `namespace`. |
 | `touchpointsDetail` | Objekt[] | Die Liste der Touchpoint-Details, die zur Konversion führen, sortiert nach Touchpoint-Vorkommen oder Zeitstempel. |
 |      `scores` | Objekt | Touchpoint-Beitrag zu dieser Konversion als Score. |
 |           `algorithmicInfluenced` | Double | Der beeinflusste Score ist der Anteil der Konversion, für den jeder Marketing-Touchpoint verantwortlich ist. |
@@ -88,27 +95,27 @@ Die Feldergruppe enthält die folgenden Felder.
 |           `uShape` | Double | Regelbasierter Attributionswert, der 40 % des Werts dem ersten Touchpoint und 40 % dem letzten Touchpoint zuweist. Die anderen Touchpoints teilen die restlichen 20 % gleichmäßig auf. |
 |      `touchPoint` | Objekt | Touchpoint-Metadaten. |
 |           `passThrough` | Objekt | |
-|                `eventType` | String | |
-|           `campaignGroup` | String |  |
-|           `campaignName` | String | |
-|           `campaignTag` | String | |
-|           `eventId` | String | |
-|           `geo` | String | |
-|           `mediaAction` | String | |
-|           `mediaChannel` | String | |
+|                `eventType` | Zeichenfolge | |
+|           `campaignGroup` | Zeichenfolge |  |
+|           `campaignName` | Zeichenfolge | |
+|           `campaignTag` | Zeichenfolge | |
+|           `eventId` | Zeichenfolge | |
+|           `geo` | Zeichenfolge | |
+|           `mediaAction` | Zeichenfolge | |
+|           `mediaChannel` | Zeichenfolge | |
 |           `receivedTimeStamp` | DateTime | |
 |           `timestamp` | DateTime | |
 |      `isFirstInThePosition` | Ganzzahl | |
 |      `lag` | Ganzzahl | |
-|      `position` | String | |
+|      `position` | Zeichenfolge | |
 |      `touchpointCountToConversion` | Ganzzahl | |
-|      `touchpointName` | String | Name des Touchpoints, der bei der Einrichtung konfiguriert wurde. <br> **Beispiel:** `PAID_SEARCH_CLICK` |
-| `conversionName` | String | Name der Konvertierung, die beim Setup konfiguriert wurde. <br> **Beispiel:** `Order`, `Lead`, `Visit` |
+|      `touchpointName` | Zeichenfolge | Name des Touchpoints, der bei der Einrichtung konfiguriert wurde. <br> **Beispiel:** `PAID_SEARCH_CLICK` |
+| `conversionName` | Zeichenfolge | Name der Konvertierung, die beim Setup konfiguriert wurde. <br> **Beispiel:** `Order`, `Lead`, `Visit` |
 | `scoreCreatedTime` | DateTime | |
-| `segmentation` | String | Konversionssegmente wie die Geosegmentierung, anhand derer das Modell erstellt wird. Wenn Segmente fehlen, ist `segmentation` identisch mit `conversionName`. <br> **Beispiel:** `ORDER_US` |
+| `segmentation` | Zeichenfolge | Konversionssegmente wie die Geosegmentierung, anhand derer das Modell erstellt wird. Wenn Segmente fehlen, ist `segmentation` identisch mit `conversionName`. <br> **Beispiel:** `ORDER_US` |
 
 
 
 
 
-Weitere Informationen finden [&#x200B; unter &#x200B;](../ingest-data/schemas.md).
+Weitere Informationen finden [ unter ](../ingest-data/schemas.md).

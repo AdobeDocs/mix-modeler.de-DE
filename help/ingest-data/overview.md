@@ -3,10 +3,16 @@ title: Datenaufnahme - Übersicht
 description: Erfahren Sie, wie Sie Daten in Mix Modeler aufnehmen.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+subfeature_v2: id: ad7101f7-ae92-401b-a25a-d3060d42989did: d1167c89-f64a-42ca-ac95-1d91b7790df2id: ee1bf083-e090-4def-936b-c111d29f42d0id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:11:34.506Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 10%
+source-wordcount: 584
+ht-degree: 17%
 
 ---
 
@@ -41,13 +47,13 @@ Nachfolgend finden Sie einige Beispiele für Daten, die normalerweise in Mix Mod
 
 +++ Aggregierte Daten zum Marketing-Aufwand
 
-| Geo | Datum | Datumstyp | Kanal | Campaign | Klicken | verdient | Interaktion | Impression | Öffnen | in Besitz | Gesendet | Ausgaben |
+| Geo | Datum | Datumstyp | Kanal | Campaign | Click | verdient | Interaktion | Impression | Öffnen Sie | in Besitz | Gesendet | Ausgaben |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
-| AMER | 31.10.2021 | day | E-MAIL | | 12752 | | | | | | 1132945 | |
-| AMER | 31.10.2021 | day | FB | | 148844 | | | | | | | 42111 |
-| AMER | 31.10.2021 | day | YT | | | | 2314452 | | | | | 10540 |
-| JPN | 21.10.2021 | day | E-MAIL | | 21089 | | | | | | 3283626 | |
-| JPN | 21.10.2021 | day | SOZIAL | | | | 621 | | | | | 74512 |
+| AMER | 2021-10-31 | Tag | E-MAIL | | 12752 | | | | | | 1132945 | |
+| AMER | 2021-10-31 | Tag | FB | | 148844 | | | | | | | 42111 |
+| AMER | 2021-10-31 | Tag | YT | | | | 2314452 | | | | | 10540 |
+| JPN | 2021-10-21 | Tag | E-MAIL | | 21089 | | | | | | 3283626 | |
+| JPN | 2021-10-21 | Tag | SOZIAL | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 
@@ -55,12 +61,12 @@ Nachfolgend finden Sie einige Beispiele für Daten, die normalerweise in Mix Mod
 
 +++ Aggregierte Konversionsdaten
 
-| Geo | Datum | Datumstyp | Produkt | Verkaufte Einheiten | Einnahmen |
+| Geo | Datum | Datumstyp | Produkt | Verkaufte Einheiten | Umsatz |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 13.09.2021 | day | Schöpferwirtschaft | 603 | 36537,68 |
-| EMEA | 13.09.2021 | day | metavers | 55 | 21704,37 |
-| JPN | 30.05.2022 | day | Pro Imaging | 487 | 64469,60 |
-| JPN | 30.05.2022 | day | Document Cloud | 642 | 100509,07 |
+| EMEA | 2021-09-13 | Tag | Schöpferwirtschaft | 603 | 36537.68 |
+| EMEA | 2021-09-13 | Tag | metavers | 55 | 21704.37 |
+| JPN | 2022-05-30 | Tag | Pro Imaging | 487 | 64469.60 |
+| JPN | 2022-05-30 | Tag | Document Cloud | 642 | 100509.07 |
 
 {style="table-layout:auto"}
 
@@ -70,10 +76,10 @@ Nachfolgend finden Sie einige Beispiele für Daten, die normalerweise in Mix Mod
 
 | Daten | Datumstyp | Faktor | Wert |
 |---|:---:|:---:|:---|
-| 02.08.2020 | Woche | SPX | 3325,866 |
-| 09.08.2020 | Woche | SPX | 3364,158 |
-| 16.08.2020 | Woche | SPX | 3385,858 |
-| 23.08.2020 | Woche | SPX | 3497,965 |
+| 2020-08-02 | Woche | SPX | 3325.866 |
+| 2020-08-09 | Woche | SPX | 3364.158 |
+| 2020-08-16 | Woche | SPX | 3385.858 |
+| 2020-08-23 | Woche | SPX | 3497.965 |
 
 {style="table-layout:auto"}
 
