@@ -28,7 +28,7 @@ ht-degree: 9%
 
 # Richtlinien
 
-Sobald Sie den Workflow zur Modellerstellung abgeschlossen haben und die Konfiguration des Modells übermitteln, wird [Richtliniendurchsetzung](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) überprüft, ob Verstöße vorliegen. Wenn ein Richtlinienverstoß auftritt, wird ein Popup angezeigt, das angibt, dass eine oder mehrere Richtlinien verletzt wurden. Diese Prüfung dient dazu, sicherzustellen, dass Ihre Datenvorgänge und Marketing-Aktionen in Experience Platform mit Datennutzungsrichtlinien konform sind.
+Sobald Sie den Workflow zur Modellerstellung abgeschlossen haben und die Konfiguration des Modells übermitteln, wird [Richtliniendurchsetzung](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) überprüft, ob Verstöße vorliegen. Wenn ein Richtlinienverstoß auftritt, wird ein Popup angezeigt, das angibt, dass eine oder mehrere Richtlinien verletzt wurden. Diese Prüfung dient dazu, sicherzustellen, dass Ihre Datenvorgänge und Marketing-Aktionen in Experience Platform mit Datennutzungsrichtlinien konform sind.
 
 Standardmäßig sucht Mix Modeler nach Verstößen gegen von Adobe definierte Richtlinien, die mit den folgenden Kennzeichnungen und Marketing-Aktionen verbunden sind:
 
@@ -77,7 +77,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[Datennutzungsrichtlinien - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[Datennutzungsrichtlinien - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/policies/overview)
 >
 >
 
