@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -88,7 +88,7 @@ Diese Visualisierung stellt den Beitragsanteil dar, der von der Basis, von Ausga
 
 Eine Ringvisualisierung, die eine Verteilung des Beitrags nach verschiedenen Kanälen anzeigt. Diese Visualisierung zeigt die Inkrementalität durch die Linse der drei leistungsstärksten Kanäle (ohne Basis- und *Alle anderen* Kategorien). Die Visualisierung hilft bei der Priorisierung und Budgetzuweisung.
 
-### Marketing-Leistungszusammenfassung {#marketing-performance-summary}
+### Zusammenfassung der Marketing-Leistung {#marketing-performance-summary}
 
 >[!CONTEXTUALHELP]
 >id="models_insights_undefinedchannels"
@@ -201,8 +201,8 @@ Kanäle mit langsameren Abklingkurven (längeren Schwänzen) weisen auf eine anh
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
->title="Verteilung der Faktorbeiträge"
->abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basisumrechnungen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den im Modell enthaltenen Marketing-Touchpoints und -Faktoren auftreten. Dazu gehören Umrechnungen, die durch Markenaktien, Wiederholungskäufe, organische Nachfrage und langfristige Markttrends und Saisonabhängigkeit angetrieben werden."
+>title="Aufschlüsselung der Faktorbeiträge"
+>abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basisumrechnungen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den im Modell enthaltenen Marketing-Touchpoints und -Faktoren auftreten. Dazu gehören Konversionen, die durch den Markenwert, Wiederholungskäufe, organische Nachfrage und langfristige Markt-Trends und Saisonabhängigkeit unterstützt werden."
 
 
 Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
@@ -230,7 +230,7 @@ Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Aufschlüsselung nach Touchpoint-Position"
->abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints auf allen Konversionspfaden. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position besser beiträgt als an anderen Positionen und andere Touchpoints an einer anderen Position."
+>abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints über alle Konversionspfade hinweg. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position besser beiträgt als an anderen Positionen und andere Touchpoints an einer anderen Position."
 
 
 
@@ -345,8 +345,8 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeltrainingfitmetrics"
->title="Anpassungsmetriken modellieren"
->abstract="Zeigt einen Überblick über Metriken zur Anpassung mehrerer Trainingsmodelle."
+>title="Metriken zur Modellanpassung"
+>abstract="Zeigt einen Überblick über mehrere Metriken zur Modellanpassung an."
 
 
 >[!CONTEXTUALHELP]
@@ -357,8 +357,8 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
->title="Effizienzmaßnahme"
->abstract="Das vom algorithmischen Attributionsmodell generierte Effizienzmaß zeigt die relative Bedeutung eines Touchpoints für die Konversion unabhängig vom Touchpoint-Volumen an. Diese Maßnahme liegt auf einer Skala von 1 bis 5. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert."
+>title="Effizienzmessung"
+>abstract="Die vom algorithmischen Attributionsmodell generierte Effizienzmessung zeigt die relative Bedeutung eines Touchpoints für die Konversion unabhängig vom Touchpoint-Volumen an. Diese Maßnahme liegt auf einer Skala von 1 bis 5. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert."
 
 
 >[!CONTEXTUALHELP]
