@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 1578
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -141,8 +141,8 @@ Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]*
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Kanal-Werbemittel"
->abstract="Direkte Integration von Domain-Fachwissen, Experimentergebnissen oder früheren Kanalanalysen in die Modelleinrichtung. Die Adstock-Konfiguration hilft, das Modell an die realen Erwartungen anzupassen, und verbessert die Interpretierbarkeit und das Vertrauen in die Ausgabe. Die Gesamtzahl der Lookback-Wochen plus Verzögerungswochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten für das Modell, um die Werbemitteleffekte zu erlernen."
+>title="Kanal-Adstock"
+>abstract="Beziehen Sie Domain-Fachwissen, Versuchsergebnisse oder frühere Kanalanalysen direkt in das Modell-Setup ein. Die Adstock-Konfiguration hilft, das Modell an die realen Erwartungen anzupassen, und verbessert die Interpretierbarkeit und das Vertrauen in die Ausgabe. Die Gesamtzahl der Lookback-Wochen plus Verzögerungswochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten, damit das Modell die Adstock-Effekte erlernen kann."
 
 Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festlegen. In diesem Schritt können Sie [Ausgabenanteil](#spend-share) definieren, Ihr Modell für [Multi-Touch-Attribution (MTA)](#mta) aktivieren, [Vorkenntnisse](#prior-knowledge) definieren und [Kanalanzeige](#channel-adstock).
 
@@ -181,7 +181,7 @@ Im **[!UICONTROL Prior knowledge]** Abschnitt:
 1. Verwenden Sie bei Bedarf **[!UICONTROL Clear all]** , um alle Eingabewerte für die Spalten **[!UICONTROL Contribution proportion]** und **[!UICONTROL Level of confidence]** zu löschen.
 
 
-### Kanal-Werbemittel
+### Kanal-Adstock
 
 Im Abschnitt **[!UICONTROL Channel adstock]** können Sie für jeden Kanal (Marketing-Kanal), den Sie in Ihrem Modell definiert haben, einzelne Adstock-Lookbacks (Übertrag oder Verfallseffekte) und Lag (verzögerte Antwortzeit) definieren.
 
@@ -197,7 +197,7 @@ So konfigurieren Sie den AdStock-Kanal:
 
    * Mit ![Hinzufügen](/help/assets/icons/Add.svg) erhöhen Sie einen Wert, ![Subtrahieren](/help/assets/icons/Subtract.svg) verringern Sie einen Wert oder geben Sie einen Wert manuell ein.
 
-  Die Gesamtzahl der verzögerten Wochen plus der maximalen Lookback-Wochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten für das Modell, um die Werbemitteleffekte zu erlernen. Beispiel: Für ein zweijähriges Trainings-Fenster beträgt die maximale Anzahl von **[!UICONTROL Lag (weeks)]** und **[!UICONTROL Lookback (weeks)]** für einen Kanal 13 Wochen. Diese Begrenzung wird erzwungen, wenn Sie die Werte definieren.
+  Die Gesamtzahl der verzögerten Wochen plus der maximalen Lookback-Wochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten, damit das Modell die Adstock-Effekte erlernen kann. Beispiel: Für ein zweijähriges Trainings-Fenster beträgt die maximale Anzahl von **[!UICONTROL Lag (weeks)]** und **[!UICONTROL Lookback (weeks)]** für einen Kanal 13 Wochen. Diese Begrenzung wird erzwungen, wenn Sie die Werte definieren.
 
 * So setzen Sie alle Kanal- und Bestandsdateien auf die Standardwerte zurück:
 

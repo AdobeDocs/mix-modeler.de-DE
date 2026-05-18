@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -174,7 +174,7 @@ Dieser Next-Dollar-Rahmen bietet ein realistisches Maß für die relative Synerg
 >Wenn die Registerkarte **[!UICONTROL Channel synergy]** für ein vorhandenes Modell nicht sichtbar ist, müssen Sie das Modell neu trainieren, um die Funktionalität und Visualisierung zu aktivieren.
 
 
-### Kanal-Werbemittel
+### Kanal-Adstock
 
 Die Kanal-Ad-Stock-Visualisierungen zeigen für jeden konfigurierten Kanal eine Ad-Stock-Visualisierung an. Anhand der Visualisierungen lässt sich erkennen, wie sich die Marketing-Ausgaben für jeden Kanal im Laufe der Zeit und über die anfängliche Belichtung hinaus auswirken und abnehmen. Die Visualisierung bietet eine realistische Ansicht der Kanalübertragung durch die Einbindung von zeitlichen Dynamiken, die aus dem Modell gelernt werden.
 
@@ -202,7 +202,7 @@ Kanäle mit langsameren Abklingkurven (längeren Schwänzen) weisen auf eine anh
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Aufschlüsselung der Faktorbeiträge"
->abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basisumrechnungen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den im Modell enthaltenen Marketing-Touchpoints und -Faktoren auftreten. Dazu gehören Konversionen, die durch den Markenwert, Wiederholungskäufe, organische Nachfrage und langfristige Markt-Trends und Saisonabhängigkeit unterstützt werden."
+>abstract="Die Aufschlüsselung des Faktorbeitrags zeigt den Anteil der Basiskonversionen an, der den verschiedenen im Modell enthaltenen Faktoren zugeschrieben werden kann.<br/><br/>Die reine Basis stellt die zugrunde liegenden Konversionen dar, die unabhängig von den Marketing-Touchpoints und den im Modell enthaltenen Faktoren auftreten. Dazu gehören Konversionen, die durch den Markenwert, Wiederholungskäufe, organische Nachfrage und langfristige Markt-Trends und Saisonabhängigkeit unterstützt werden."
 
 
 Die Registerkarte [!BADGE Beta] zeigt Einblicke zu externen Faktoren.
@@ -230,7 +230,7 @@ Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Aufschlüsselung nach Touchpoint-Position"
->abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints über alle Konversionspfade hinweg. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position besser beiträgt als an anderen Positionen und andere Touchpoints an einer anderen Position."
+>abstract="Diese Visualisierung zeigt eine Aufschlüsselung der zugewiesenen Konversionen nach Position des Touchpoints und Touchpoints über alle Konversionspfade hinweg. Die Visualisierung vergleicht, ob ein Touchpoint an einer Position einen besseren Beitrag leistet als an den übrigen Positionen und andere Touchpoints an beliebigen Positionen."
 
 
 
@@ -358,13 +358,13 @@ Für jeden Konvertierungspfad wird Folgendes angezeigt:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Effizienzmessung"
->abstract="Die vom algorithmischen Attributionsmodell generierte Effizienzmessung zeigt die relative Bedeutung eines Touchpoints für die Konversion unabhängig vom Touchpoint-Volumen an. Diese Maßnahme liegt auf einer Skala von 1 bis 5. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert."
+>abstract="Die vom algorithmischen Attributionsmodell generierte Effizienzmessung zeigt die relative Bedeutung eines Touchpoints für die Konversion unabhängig vom Touchpoint-Volumen an. Die Messung erfolgt auf einer Skala von 1 bis 5. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Gesamtvolumen"
->abstract="Das Gesamtvolumen ist die Gesamtzahl der Berührungen eines Touchpoints durch einen Benutzer. Und umfasst Touchpoints, die auf einem erreichbaren Pfad angezeigt werden, sowie Pfade, die nicht zu einer Konversion führen."
+>abstract="Das Gesamtvolumen entspricht der Gesamtzahl der Kontakte eines Benutzers bzw. einer Benutzerin mit einem Touchpoint. Außerdem umfasst es Touchpoints auf erfolgreichen Pfaden sowie auf Pfaden, die nicht zu einer Konversion führen."
 
 
 >[!CONTEXTUALHELP]
