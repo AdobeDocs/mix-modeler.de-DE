@@ -3,9 +3,13 @@ title: Detaillierte Einblicke in Mix Modeler
 description: Erkunden Sie die technische Methodik hinter Adobe Mix Modeler, einschließlich Multi-Touch-Attribution, Marketing-Mix-Modellierung, Transfer Learning und Budgetoptimierung.
 feature: Administration
 hide: true
-feature_v2: id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
 workflow-type: tm+mt
 source-wordcount: 2747
@@ -126,9 +130,9 @@ Die wichtigsten Konzepte der Marketing-Mix-Modellierung sind:
 * **Multiplikatives Modell**: Umsätze oder Konversionen sind das Produkt einer Grundlinie und von Medienmultiplikatoren.
 
   Anstelle eines additiven Modells:
-  *Wöchentliche Konversionen = Grundlegender Bedarf **+**Multiplikator für **+**Multiplikator für Anzeige **+**…*
+  *Wöchentliche Konversionen = Grundlegender Bedarf **+**&#x200B;Multiplikator für **+**&#x200B;Multiplikator für Anzeige **+**…*
 Verwenden eines multiplikativen Modells:
-  *Wöchentliche Konversionen = Grundlegender Bedarf **x**Multiplikator der Suche **x**Multiplikator der Anzeige **x**….*
+  *Wöchentliche Konversionen = Grundlegender Bedarf **x**&#x200B;Multiplikator der Suche **x**&#x200B;Multiplikator der Anzeige **x**….*
 
   Oder in einer Formel: ** Y = ⨍<sub>BL</sub>(X<sub>faktoren</sub>;</sub><sub>faktoren</sub>) x ⨍<sub>S</sub>(X<sub>S</sub>;<sub>S</sub>) ⨍<sub>D(X<sub>D</sub>;<sub></sub>)*
 
@@ -190,7 +194,7 @@ Dieses vereinfachte Beispiel zeigt, wie ein Ansatz zur multiplikativen Modellier
 Besteht die Möglichkeit, von einem festen Budget wegzukommen und das Budget zu verschieben, aber das Gesamtbudget auf 840 Dollar zu belassen?
 
 * Im additiven Modell besteht aus Modellierungsperspektive kein Anreiz für eine Änderung, da keine Interaktion mit der Grundlinie besteht. Eine Pauschale ist optimal. Wenn Sie $1 von November auf Mai verschieben, ist der Gewinn im Mai aufgrund sinkender Renditen geringer als der Rückgang im November.
-* In einem multiplikativen Modell gibt es Raum für Veränderungen. Basierend auf der Basislinie können Sie Budgets von Wintermonaten in Sommermonate verschieben. Der Zuwachs im Sommermonat ist aufgrund des Multiplikationseffekts größer als der Verlust im Wintermonat. Das Ausmaß der Verschiebung und der Wechsel zu wird in den [Budgetoptimierungsalgorithmen) behandelt, ](#budget-optimization) in der Marketing-Mix-Modellierung verwendet werden.
+* In einem multiplikativen Modell gibt es Raum für Veränderungen. Basierend auf der Basislinie können Sie Budgets von Wintermonaten in Sommermonate verschieben. Der Zuwachs im Sommermonat ist aufgrund des Multiplikationseffekts größer als der Verlust im Wintermonat. Das Ausmaß der Verschiebung und der Wechsel zu wird in den [Budgetoptimierungsalgorithmen) behandelt, &#x200B;](#budget-optimization) in der Marketing-Mix-Modellierung verwendet werden.
 
 
 
