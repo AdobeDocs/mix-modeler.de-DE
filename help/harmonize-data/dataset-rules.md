@@ -19,10 +19,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
-ht-degree: 1%
+source-wordcount: 2161
+ht-degree: 4%
 
 ---
 
@@ -33,6 +33,7 @@ Datensatzregeln unterstützen Sie bei der Zuordnung Ihrer harmonisierten Felder 
 * Für aggregierte Daten, die Sie in Adobe Experience Platform aufgenommen haben, ordnen Sie eines oder mehrere der verfügbaren Datensatzfelder den entsprechenden harmonisierten Feldern zu.
 * Für Ereignisdaten können Sie direkt oder unter Verwendung von Bedingungen ein oder mehrere harmonisierte Felder einzeln Feldern aus dem Datensatz zuordnen.
 
+![Liste der Datensatzregeln](/help/assets/harmonize-dataset-rules-list.png)
 
 ## Verwalten von Datensatzregeln
 
@@ -42,7 +43,15 @@ Eine Tabelle der verfügbaren Datensatzregeln finden Sie in der Benutzeroberflä
 
 1. Wählen Sie **[!UICONTROL Dataset rules]** in der oberen Leiste aus. Es wird eine Tabelle mit den Datensatzregeln angezeigt.
 
-Sie können mit „Suchen“ (![&#x200B; einen Datensatznamen eingeben](/help/assets/icons/Search.svg) schnell **[!UICONTROL _Datensatz_]**.
+Sie können nach Datensätzen suchen und filtern:
+
+* Schnelle Suche nach einem Datensatz mit ![Suche](/help/assets/icons/Search.svg) **[!UICONTROL _Datensatznamen eingeben_]**.
+* Filtern von Datensätzen mithilfe von:
+  * **[!UICONTROL Source]**: Wählen Sie zwischen **[!UICONTROL all]**, **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Adobe Audience Manager]**, **[!UICONTROL Experience Events]**, **[!UICONTROL Consumer Experience Events]** oder **[!UICONTROL Factors]**.
+  * **[!UICONTROL Granularity]**: Wählen Sie zwischen **[!UICONTROL all]**, **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** oder **[!UICONTROL Yearly]**.
+  * **[!UICONTROL Start of the week]**: Wählen Sie alle oder einen möglichen Wochentag aus (**[!UICONTROL Monday]** bis **[!UICONTROL Sunday]**.)
+
+Verwenden Sie ![CrossSize200](/help/assets/icons/CrossSize200.svg)-**[!UICONTROL Clear]**, um alle Filter und Suchfelder zu löschen.
 
 Die Tabellenspalten geben Details zu den Datensatzregeln an:
 
@@ -82,38 +91,38 @@ Auf dem Bildschirm **[!UICONTROL Create]**
 
    * Wenn das ausgewählte harmonisierte Feld vom Typ „Metrik“ ist:
 
-      1. Wählen Sie **[!UICONTROL Count]** oder **[!UICONTROL Sum]** aus **[!UICONTROL Mapping type]** aus.
+     1. Wählen Sie **[!UICONTROL Count]** oder **[!UICONTROL Sum]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wählen Sie ein **[!UICONTROL *AEP *]**&#x200B;Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
+     1. Wählen Sie ein **[!UICONTROL *AEP *]**&#x200B;Datensatzfeld aus, dem das harmonisierte Feld standardmäßig zugeordnet werden soll.
 
    * Wenn das ausgewählte Feld vom Typ Dimension ist:
 
-      1. Wählen Sie **[!UICONTROL Map Into]** oder **[!UICONTROL Case]** aus **[!UICONTROL Mapping type]** aus.
+     1. Wählen Sie **[!UICONTROL Map Into]** oder **[!UICONTROL Case]** aus **[!UICONTROL Mapping type]** aus.
 
-      1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+     1. Wenn Sie **[!UICONTROL Map Into]** ausgewählt haben, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-      1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
+     1. Wenn Sie **[!UICONTROL Case]** auswählen, wählen Sie **[!UICONTROL Field]** und **[!UICONTROL *AEP-Datensatzfeld *]**&#x200B;oder **[!UICONTROL Value]**&#x200B;und einen Standardwert aus, um das harmonisierte Feld standardmäßig dem Datensatzfeld oder dem eingegebenen Wert zuzuordnen.
 
-         1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**&#x200B;ob es **[!UICONTROL Exists]**&#x200B;oder **[!UICONTROL Not Exists]**&#x200B;oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;oder **[!UICONTROL Ends With]**&#x200B;einen unter&#x200B;**[!UICONTROL * Eingabewert eingeben *]**.
+        1. Um Werte explizit festzulegen, definieren Sie einen oder mehrere Fälle, die aus einer oder mehreren Bedingungen bestehen. Jede Bedingung kann auf ein bestimmtes **[!UICONTROL *AEP-Datensatzfeld prüfen *]**&#x200B;ob es **[!UICONTROL Exists]**&#x200B;oder **[!UICONTROL Not Exists]**&#x200B;oder ob es **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;oder **[!UICONTROL Ends With]**&#x200B;einen unter&#x200B;**[!UICONTROL * Eingabewert eingeben *]**.
 
-         1. Um einen weiteren Fall hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+        1. Um einen weiteren Fall hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Um eine weitere Bedingung hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. Um einen Fall oder eine Bedingung zu löschen, wählen ![&#x200B; im &#x200B;](/help/assets/icons/Close.svg) Container die Option „Schließen“ aus.
+        1. Um einen Fall oder eine Bedingung zu löschen, wählen ![&#x200B; im &#x200B;](/help/assets/icons/Close.svg) Container die Option „Schließen“ aus.
 
-         1. Um festzulegen, ob eine oder alle Bedingungen für einen Fall gelten sollen, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]** aus.
+        1. Um festzulegen, ob eine oder alle Bedingungen für einen Fall gelten sollen, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]** aus.
 
-         1. Um den Ergebniswert für einen Fall festzulegen, geben Sie den Wert unter **[!UICONTROL Then]** ein.
+        1. Um den Ergebniswert für einen Fall festzulegen, geben Sie den Wert unter **[!UICONTROL Then]** ein.
 
      Im folgenden Beispiel:
 
-      * verwendet eine **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**, um das **[!UICONTROL Channel Type At Source]** harmonisierte Feld dem **[!UICONTROL channel_type]** Feld aus dem **[!DNL Luma Transactions]** zuzuordnen.
+     * verwendet eine **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**, um das **[!UICONTROL Channel Type At Source]** harmonisierte Feld dem **[!UICONTROL channel_type]** Feld aus dem **[!DNL Luma Transactions]** zuzuordnen.
 
-      * verwendet eine **[!UICONTROL Case]** **[!UICONTROL Mapping type]**, um den Wert des **[!UICONTROL marketing.campaignName]** Felds im **[!DNL Luma Transactions]** Datensatz dem **[!UICONTROL Campaign]** harmonisierten Feld zuzuordnen. Das Feld Harmonisierte Kampagne ist auf Folgendes festgelegt:
+     * verwendet eine **[!UICONTROL Case]** **[!UICONTROL Mapping type]**, um den Wert des **[!UICONTROL marketing.campaignName]** Felds im **[!DNL Luma Transactions]** Datensatz dem **[!UICONTROL Campaign]** harmonisierten Feld zuzuordnen. Das Feld Harmonisierte Kampagne ist auf Folgendes festgelegt:
 
-         * `Black Friday`, wann die **[!UICONTROL marketing.campaignName]** `_black_friday` oder `BlackFriday` ist.
-         * auf den Wert des **[!UICONTROL marketing.campaignName]** in allen anderen Fällen.
+       * `Black Friday`, wann die **[!UICONTROL marketing.campaignName]** `_black_friday` oder `BlackFriday` ist.
+       * auf den Wert des **[!UICONTROL marketing.campaignName]** in allen anderen Fällen.
 
-        ![Datensatz-Regelereignis](/help/assets/dataset-create-event.png)
+       ![Datensatz-Regelereignis](/help/assets/dataset-create-event.png)
 
 1. Wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** aus, um zusätzliche Felder zu definieren.
 
@@ -279,19 +288,19 @@ So konfigurieren Sie die Voreinstellungen für die Datenzusammenführung:
 
    * So fügen Sie metrikbasierte Voreinstellungen hinzu:
 
-      1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** aus.
-         1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**&#x200B;aus.
-         1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einen bestimmten Kanal- oder Konvertierungstyp aus.
-         1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus, um anzugeben, ob beim Zusammenführen von Daten Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und alle oder ausgewählte Kanäle) bevorzugt werden.
+     1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** aus.
+        1. Wählen Sie eine Metrik aus der Liste **[!UICONTROL *Metrikauswahl *]**&#x200B;aus.
+        1. Wählen Sie **[!UICONTROL CHANNELS]** oder **[!UICONTROL CONVERSION TYPES]** aus. Wählen Sie aus der Liste **[!UICONTROL All]** oder einen bestimmten Kanal- oder Konvertierungstyp aus.
+        1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus, um anzugeben, ob beim Zusammenführen von Daten Zusammenfassungsdaten oder Ereignisdaten für die Metrik (und alle oder ausgewählte Kanäle) bevorzugt werden.
 
-         So fügen Sie einen oder mehrere zusätzliche Kanal- oder Konvertierungstypen hinzu:
+        So fügen Sie einen oder mehrere zusätzliche Kanal- oder Konvertierungstypen hinzu:
 
-         1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** oder ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
-         1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus.
+        1. Wählen Sie ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** oder ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+        1. Wählen Sie **[!UICONTROL Summary]** oder **[!UICONTROL Event]** aus.
 
-         Um einen Kanal oder Konversionstyp zu löschen, wählen Sie ![Cross](/help/assets/icons/Close.svg) aus.
+        Um einen Kanal oder Konversionstyp zu löschen, wählen Sie ![Cross](/help/assets/icons/Close.svg) aus.
 
-      1. Um spezifischere metrikbasierte Voreinstellungen hinzuzufügen, wiederholen Sie den vorherigen Schritt.
+     1. Um spezifischere metrikbasierte Voreinstellungen hinzuzufügen, wiederholen Sie den vorherigen Schritt.
 
    * Um eine vorhandene spezifische metrikbasierte Voreinstellung zu löschen, wählen Sie ![Löschen](/help/assets/icons/Delete.svg).
 

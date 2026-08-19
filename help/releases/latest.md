@@ -17,18 +17,27 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 5%
+source-wordcount: 524
+ht-degree: 6%
 
 ---
 
 # Aktuelle Versionshinweise zu Mix Modeler
 
-**Letzte Aktualisierung**: 26. Februar 2026.
+**Letzte Aktualisierung**: 19. August 2026.
 
 Diese Versionshinweise beziehen sich auf die neueste Version von Mix Modeler. Mix Modeler-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Dementsprechend werden diese Versionshinweise aktualisiert, also überprüfen Sie sie regelmäßig.
+
+## August 2026
+
+| Funktion | Beschreibung | [Rollout-Start](#release-strategy) | [Allgemeine Verfügbarkeit](#release-strategy) |
+|---|---|---|---|
+| **Filtern nach Datensatzregeln** | In der Konfiguration harmonisierter Datensätze können Sie [Datensatzregeln nach Quelle, Granularität und Wochenbeginn filtern](/help/harmonize-data/dataset-rules.md#manage-dataset-rules). | &#x200B;19. August 2026 | &#x200B;19. August 2026 |
+| **Kanalfokus für bezahlte Medien** | Sie können auswählen, [&#x200B; sich auf den Paid-Media-Kanalbeitrag &#x200B;](/help/models/insights.md#contribution-by-channel) Modelleinblicke zu konzentrieren. | &#x200B;19. August 2026 | &#x200B;19. August 2026 |
+| **Konfiguration der Marketing-Leistungsübersicht** | Sie können [Metrik und wie die Metrik angezeigt wird](/help/models/insights.md#marketing-performance-summary) für die Zusammenfassung der Marketing-Performance der umsatzbasierten Modelle in Models Insights auswählen. | &#x200B;19. August 2026 | &#x200B;19. August 2026 |
+
 
 ## März 2026
 
