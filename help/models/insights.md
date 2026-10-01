@@ -7,23 +7,28 @@ TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIO
 autotag-review: '2026-05-01T08:59:31.397Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 4c3c5548ced77cf84daf5cd8eb6708bfbc3dbb48
 workflow-type: tm+mt
-source-wordcount: 2957
+source-wordcount: '2951'
 ht-degree: 11%
-
 ---
-
 # Modelleinblicke
 
 Jede Visualisierung in Model Insights soll Ihnen bei Folgendem helfen:
@@ -36,7 +41,7 @@ Diese Einblicke helfen Ihnen dann, die Priorisierung und Zuordnung von Ressource
 
 Um Modelleinblicke anzuzeigen, gehen Sie in der **[!UICONTROL Models]** ![Modelle](/help/assets/icons/FileData.svg) in [!DNL Mix Modeler] vor:
 
-1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; &#x200B;](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
+1. Wählen Sie in der **[!UICONTROL Models]**-Tabelle den Namen eines Modells aus, das die **[!UICONTROL Last run status]** &quot;![&quot; ](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. Wählen Sie im Kontextmenü **[!UICONTROL Model Insights]** aus.
 
@@ -235,7 +240,7 @@ Wenn keine Daten verfügbar sind, wird die Meldung ![TableAndChart](/help/assets
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="Aufschlüsselung nach Kanal"
->abstract="**[!UICONTROL Breakdown by channel]** ist eine Aufschlüsselung nach dem Kanaltyp für die definierten Touchpoints, basierend auf dem Kundenerlebnis-Ereignisschema. Wählen Sie ![Mehr](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) und **[!UICONTROL Breakdown by touchpoint]** aus, um eine Aufschlüsselung nach Touchpoint anzuzeigen."
+>abstract="**[!UICONTROL Breakdown by channel]** ist eine Aufschlüsselung nach dem Kanaltyp für die definierten Touchpoints, basierend auf dem Kundenerlebnis-Ereignisschema. Wählen Sie ![Mehr](/help/assets/icons/More.svg) und **[!UICONTROL Breakdown by touchpoint]** aus, um eine Aufschlüsselung nach Touchpoint anzuzeigen."
 
 
 >[!CONTEXTUALHELP]
@@ -263,7 +268,7 @@ Die folgenden Attributionsmodelle werden unterstützt:
   * Linear
   * U-Form
 
-Eine Einführung in [&#x200B; Multi-Touch](../get-started/about.md#multi-touch-attribution)Attributionsfunktion in [!DNL Mix Modeler] finden Sie unter „Multi-Touch-Attribution“.
+Eine Einführung in [ Multi-Touch](../get-started/about.md#multi-touch-attribution)Attributionsfunktion in [!DNL Mix Modeler] finden Sie unter „Multi-Touch-Attribution“.
 
 Wählen Sie ein oder mehrere Attributionsmodelle aus dem Dropdown-Menü **[!UICONTROL Attribution Model]** aus. Die ausgewählten Attributionsmodelle gelten für alle Visualisierungen auf der Registerkarte Attribution .
 
@@ -425,7 +430,7 @@ Auf der Registerkarte **[!UICONTROL Diagnostics]** werden Visualisierungen für 
 
   Die Daten für diese Tabelle werden nur für bestimmte Zeiträume generiert. Wählen Sie **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) aus, um weitere Details anzuzeigen.
 
-  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender &#x200B;](/help/assets/icons/SortOrderDown.svg)):
+  Die Visualisierung zeigt für jeden Touchpoint in absteigender [!UICONTROL Efficiency measure] ![absteigender ](/help/assets/icons/SortOrderDown.svg)):
 
   * **[!UICONTROL Paths touched]**: Visualisiert den Prozentsatz der Pfade mit Konversion und den Prozentsatz der Pfade ohne Konversion. Bei einem Touchpoint werden mehr zugewiesene Konversionen angezeigt, wenn das Attributionskonversionsverhältnis hoch ist. Dieses Verhältnis vergleicht den Prozentsatz der Pfade, die zu einer Konversion führen, mit dem Prozentsatz der Pfade, die *nicht* zu einer Konversion führen.
   * **[!UICONTROL Efficiency measure]**: Generiert vom algorithmischen Attributionsmodell, zeigt das Effizienzmaß die relative Bedeutung eines Touchpoints für die Konversion an, unabhängig vom Touchpoint-Volumen. Der Wirkungsgrad wird auf einer Skala von 1 bis 5 gemessen. Beachten Sie, dass ein höheres Touchpoint-Volumen keine höhere Effizienz garantiert.
