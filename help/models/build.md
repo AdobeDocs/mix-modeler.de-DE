@@ -7,27 +7,36 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized Data
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: 1578
-ht-degree: 8%
-
+source-wordcount: '1591'
+ht-degree: 9%
 ---
-
 # Erstellen von Modellen
 
 Um Ihre benutzerdefinierten KI-gestützten Modelle zu erstellen, bietet die Benutzeroberfläche einen Schritt-für-Schritt-Konfigurationsablauf für Modelle.
@@ -86,19 +95,19 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Definieren Sie für jeden Container ein oder mehrere Ereignisse.
 
-      1. Für jedes Ereignis:
+     1. Für jedes Ereignis:
 
-         1. Wählen Sie eine Metrik oder Dimension aus **[!UICONTROL _Harmonisiertes Feld auswählen_]**.
+        1. Wählen Sie eine Metrik oder Dimension aus **[!UICONTROL _Harmonisiertes Feld auswählen_]**.
 
-         1. Wählen Sie den entsprechenden Operator aus: **[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** oder **[!UICONTROL is not in]**.
+        1. Wählen Sie den entsprechenden Operator aus: **[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** oder **[!UICONTROL is not in]**.
 
-         1. Einen Wert eingeben oder auswählen unter **[!UICONTROL _Wert eingeben oder_]**.
+        1. Einen Wert eingeben oder auswählen unter **[!UICONTROL _Wert eingeben oder_]**.
 
-      1. Um ein zusätzliches Ereignis zum Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+     1. Um ein zusätzliches Ereignis zum Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-      1. Um ein Ereignis aus dem Container zu entfernen, klicken Sie auf ![Schließen](/help/assets/icons/CrossSize75.svg).
+     1. Um ein Ereignis aus dem Container zu entfernen, klicken Sie auf ![Schließen](/help/assets/icons/CrossSize75.svg).
 
-      1. Um nach allen oder mehreren im Container definierten Ereignissen zu filtern, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]** aus. Entsprechend ändert sich die Bezeichnung von **[!UICONTROL Include ... Or ...]** zu **[!UICONTROL Include ... And ...]**.
+     1. Um nach allen oder mehreren im Container definierten Ereignissen zu filtern, wählen Sie **[!UICONTROL Any of]** oder **[!UICONTROL All of]** aus. Entsprechend ändert sich die Bezeichnung von **[!UICONTROL Include ... Or ...]** zu **[!UICONTROL Include ... And ...]**.
 
    * Um einen geeigneten Datenpopulations-Container hinzuzufügen, wählen Sie ![Hinzufügen](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]** aus.
 
@@ -112,10 +121,10 @@ Das Modell wird im **[!UICONTROL Configure]** konfiguriert. Die Konfiguration um
 
    * Um einen Faktor-Datensatz hinzuzufügen, wählen Sie **[!UICONTROL Add Factor]** aus. Sie können einem Modell maximal 30 Faktoren hinzufügen.
 
-      1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
-Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]** entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
+     1. Wählen Sie eine **[!UICONTROL Factor dataset]** aus dem Dropdown-Menü aus. Die verfügbaren Faktoren sind die Faktoren, für die Sie ein harmonisiertes Feld in „Datensatzregeln[&#x200B; definiert &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+        Basierend auf dem ausgewählten Datensatz lautet die **[!UICONTROL Factor type]** entweder **[!UICONTROL Internal]** oder **[!UICONTROL External]**.
 
-      1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
+     1. Wählen Sie die **[!UICONTROL Impact on conversion]** aus dem Dropdown-Menü aus. Verfügbare Optionen sind: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** oder **[!UICONTROL Negative]**. Die Standardoption ist **[!UICONTROL Auto]**, mit der das Modell die Auswirkungen des Faktordatensatzes bestimmen kann.
 
    * Um einen Faktor-Datensatz zu löschen, wählen Sie ![CrossSize200](/help/assets/icons/CrossSize400.svg) aus.
 
@@ -151,8 +160,8 @@ Im **[!UICONTROL Advanced]** Schritt können Sie erweiterte Einstellungen festle
 Im **[!UICONTROL Spend share]** Abschnitt:
 
 * Um historische Marketing-Investitionsquoten zu verwenden und das Modell bei geringen Marketing-Daten zu informieren, aktivieren Sie **[!UICONTROL Allow spend share]**. Diese Einstellung wird insbesondere in den folgenden Szenarien empfohlen:
-   * Ein Kanal verfügt nicht über genügend Beobachtungen (z. B. niedrige Ausgabenfrequenz, Impressionen oder Klicks).
-   * Sie modellieren stark frequente, aber regelmäßige und potenziell teure Medien (wie das Fernsehen für einige Marken), bei denen die Daten spärlich sein können.
+  * Ein Kanal verfügt nicht über genügend Beobachtungen (z. B. niedrige Ausgabenfrequenz, Impressionen oder Klicks).
+  * Sie modellieren stark frequente, aber regelmäßige und potenziell teure Medien (wie das Fernsehen für einige Marken), bei denen die Daten spärlich sein können.
 
   >[!NOTE]
   >
@@ -195,13 +204,13 @@ So konfigurieren Sie den AdStock-Kanal:
 
 * Definieren Sie für jeden Kanal (**[!UICONTROL Name]**) einen **[!UICONTROL Lag (weeks)]**, einen **[!UICONTROL Min Lookback (weeks)]** und einen **[!UICONTROL Max Lookback (weeks)]**. Für jeden Wert:
 
-   * Mit ![Hinzufügen](/help/assets/icons/Add.svg) erhöhen Sie einen Wert, ![Subtrahieren](/help/assets/icons/Subtract.svg) verringern Sie einen Wert oder geben Sie einen Wert manuell ein.
+  * Mit ![Hinzufügen](/help/assets/icons/Add.svg) erhöhen Sie einen Wert, ![Subtrahieren](/help/assets/icons/Subtract.svg) verringern Sie einen Wert oder geben Sie einen Wert manuell ein.
 
   Die Gesamtzahl der verzögerten Wochen plus der maximalen Lookback-Wochen pro Kanal ist auf ein Achtel des konfigurierten Trainings-Fensters begrenzt. Diese Begrenzung ermöglicht genügend Daten, damit das Modell die Adstock-Effekte erlernen kann. Beispiel: Für ein zweijähriges Trainings-Fenster beträgt die maximale Anzahl von **[!UICONTROL Lag (weeks)]** und **[!UICONTROL Lookback (weeks)]** für einen Kanal 13 Wochen. Diese Begrenzung wird erzwungen, wenn Sie die Werte definieren.
 
 * So setzen Sie alle Kanal- und Bestandsdateien auf die Standardwerte zurück:
 
-   * Wählen Sie **[!UICONTROL Reset to defaults]** aus.
+  * Wählen Sie **[!UICONTROL Reset to defaults]** aus.
 
 
 ## Optionen festlegen
@@ -250,11 +259,11 @@ Die ausgewählten harmonisierten Felder für die granulare Inkrementalitätsberi
 
 * Wählen Sie **[!UICONTROL Finish]** aus, um Ihre Modellkonfiguration abzuschließen.
 
-   * Wählen Sie im Dialogfeld **[!UICONTROL Create instance?]** die Option **[!UICONTROL Ok]** aus, um den ersten Satz von Trainings- und Scoring-Durchgängen sofort mit dem Trigger zu versehen. Ihr Modell wird mit dem Status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]** aufgelistet.
+  * Wählen Sie im Dialogfeld **[!UICONTROL Create instance?]** die Option **[!UICONTROL Ok]** aus, um den ersten Satz von Trainings- und Scoring-Durchgängen sofort mit dem Trigger zu versehen. Ihr Modell wird mit dem Status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]** aufgelistet.
 
-     Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
+    Wählen Sie zum Abbrechen **[!UICONTROL Cancel]** aus.
 
-   * Wenn eine weitere Konfiguration erforderlich ist, wird in einem roten Umriss und Text erläutert, welche zusätzlichen Konfigurationen erforderlich sind.
+  * Wenn eine weitere Konfiguration erforderlich ist, wird in einem roten Umriss und Text erläutert, welche zusätzlichen Konfigurationen erforderlich sind.
 
 * Wählen Sie **[!UICONTROL Back]** aus, um zum vorherigen Schritt zurückzukehren.
 
