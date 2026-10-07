@@ -3,26 +3,32 @@ title: Planerkenntnisse
 description: Erfahren Sie, wie Sie Einblicke in Ihren Plan erhalten und einen Plan in Mix Modeler bearbeiten können.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
+autotag-review: '2026-04-28T06:09:37.014Z'
+TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-04-28T06:09:37.014Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 1174
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # Planerkenntnisse
 
 
@@ -32,12 +38,12 @@ ht-degree: 0%
 Wenn die Einblicke erstellt werden, erhalten Sie einen Überblick über Ihren Plan, der aus folgenden Elementen besteht:
 
 - Eine Kopfzeile, die den [!UICONTROL Model], die [!UICONTROL Data range] und die [!UICONTROL Plan target] anzeigt, auf der der Plan basiert.
-   - Wenn Sie einen zielbasierten Plan definiert haben, zeigt ein Abzeichen den Status Ihrer Zielgruppe an. Mögliche Optionen sind:
+  - Wenn Sie einen zielbasierten Plan definiert haben, zeigt ein Abzeichen den Status Ihrer Zielgruppe an. Mögliche Optionen sind:
 
-      - [!BADGE Ziel erreichbar]{type=Positive}
-      - [!BADGE Ziel nicht erreichbar]{type=Negative}
+    - [!BADGE Ziel erreichbar]{type=Positive}
+    - [!BADGE Ziel nicht erreichbar]{type=Negative}
 
-   - Wählen Sie ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** aus, um weitere Details anzuzeigen.
+  - Wählen Sie ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** aus, um weitere Details anzuzeigen.
 
 - [Visualisierung [!UICONTROL Forecasted paid channel ROI]](#forecasted-paid-channel-spend-and-roi)
 - [Visualisierung [!UICONTROL Forecasted revenue]](#forecasted-revenue)
@@ -45,16 +51,16 @@ Wenn die Einblicke erstellt werden, erhalten Sie einen Überblick über Ihren Pl
 - [Visualisierung [!UICONTROL Marginal channel return]](#marginal-channel-return)
 - [[!UICONTROL Data range breakdown] Tabelle des Plans](#date-range-breakdown) mit Spalten für
 
-   - Kanal
-   - ROI
-   - CPA
-   - Umsatz
-   - Konversionsziel
-   - Ausgaben
+  - Kanal
+  - ROI
+  - CPA
+  - Umsatz
+  - Konversionsziel
+  - Ausgaben
 
 Um die Benutzeroberfläche zu schließen, klicken Sie auf **[!UICONTROL Close]**.
 
-Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL &#x200B; %]** unter **[!UICONTROL View ROI]** aus.
+Um den ROI Ihres Plans anzuzeigen, wählen Sie **[!UICONTROL X]** oder **[!UICONTROL  %]** unter **[!UICONTROL View ROI]** aus.
 
 ## Prognostizierte Ausgaben und ROI für bezahlte Kanäle
 
@@ -151,33 +157,33 @@ Um Ihren Plan zu bearbeiten, wählen Sie ![Bearbeiten](/help/assets/icons/Edit.s
 
            Mit dieser Option können Sie Budgets für einen oder mehrere Datumsbereiche eingeben.
 
-            1. Im **[!UICONTROL Optimize]** Container:
-               1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
-               1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
-            1. Geben Sie einen **[!UICONTROL Date range]** an, entweder durch Eingabe von Datumsangaben oder Auswahl eines Datumsbereichs mithilfe von ![Kalender](/help/assets/icons/Calendar.svg).
-            1. Geben Sie einen **[!UICONTROL Budget]** ein.
-Um zusätzliche Datumsbereiche mit jeweils ihrem Budget hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
-Um einen Datumsbereich und das zugehörige Budget zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg).
-            1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
-               1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
-               1. Geben Sie den Betrag des maximalen Budgets an. Der Betrag sollte gleich oder höher als der Gesamtbetrag der für die Datumsbereiche angegebenen Budgets sein.
+           1. Im **[!UICONTROL Optimize]** Container:
+              1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
+              1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
+           1. Geben Sie einen **[!UICONTROL Date range]** an, entweder durch Eingabe von Datumsangaben oder Auswahl eines Datumsbereichs mithilfe von ![Kalender](/help/assets/icons/Calendar.svg).
+           1. Geben Sie einen **[!UICONTROL Budget]** ein.
+              Um zusätzliche Datumsbereiche mit jeweils ihrem Budget hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+              Um einen Datumsbereich und das zugehörige Budget zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg).
+           1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
+              1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
+              1. Geben Sie den Betrag des maximalen Budgets an. Der Betrag sollte gleich oder höher als der Gesamtbetrag der für die Datumsbereiche angegebenen Budgets sein.
 
 
          - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
            ![Planziel](../assets/plan-target.png)
 
-            1. Im **[!UICONTROL Optimize]** Container
-               1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
-               1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select target metric]** eine Zielmetrik aus. Sie können zwischen **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** oder **[!UICONTROL ROI]** wählen.
-               1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
-            1. Geben Sie einen Datumsbereich an, indem Sie entweder Daten eingeben oder einen Datumsbereich mithilfe von ![Kalender](/help/assets/icons/Calendar.svg) auswählen.
-            1. Geben Sie einen Wert für die ausgewählte Zielmetrik ein. Beispiel: eine Zahl für **[!UICONTROL Conversion]**, ein Prozentsatz für **[!UICONTROL ROI]** oder Währungswerte für **[!UICONTROL CPA]** und **[!UICONTROL Revenue]**.
-Um zusätzliche Datumsbereiche mit jeweils ihrer Zielmetrik hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** aus.
-Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg) aus.
-            1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
-               1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
-               1. Geben Sie den Betrag des maximalen Budgets an.
+           1. Im **[!UICONTROL Optimize]** Container
+              1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select conversion]** eine Konvertierung aus.
+              1. Wählen Sie im Dropdown-Menü **[!UICONTROL Select target metric]** eine Zielmetrik aus. Sie können zwischen **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** oder **[!UICONTROL ROI]** wählen.
+              1. Wählen Sie ein Modell aus dem Dropdown-Menü **[!UICONTROL Select model]** aus.
+           1. Geben Sie einen Datumsbereich an, indem Sie entweder Daten eingeben oder einen Datumsbereich mithilfe von ![Kalender](/help/assets/icons/Calendar.svg) auswählen.
+           1. Geben Sie einen Wert für die ausgewählte Zielmetrik ein. Beispiel: eine Zahl für **[!UICONTROL Conversion]**, ein Prozentsatz für **[!UICONTROL ROI]** oder Währungswerte für **[!UICONTROL CPA]** und **[!UICONTROL Revenue]**.
+              Um zusätzliche Datumsbereiche mit jeweils ihrer Zielmetrik hinzuzufügen, wählen Sie ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** aus.
+              Um einen Datumsbereich und die zugehörige Zielmetrik zu löschen, wählen Sie ![Schließen](/help/assets/icons/Close.svg) aus.
+           1. So definieren Sie ein optionales Maximalbudget, innerhalb dessen Sie den Plan einschränken möchten:
+              1. Schalten Sie **[!UICONTROL Maximize budget]** ein.
+              1. Geben Sie den Betrag des maximalen Budgets an.
 
          1. Wählen Sie **[!UICONTROL Next]** aus, um zum Abschnitt **[!UICONTROL Spend selection]** zurückzukehren.
 
