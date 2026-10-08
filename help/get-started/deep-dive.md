@@ -3,20 +3,32 @@ title: Detaillierte Einblicke in Mix Modeler
 description: Erkunden Sie die technische Methodik hinter Adobe Mix Modeler, einschließlich Multi-Touch-Attribution, Marketing-Mix-Modellierung, Transfer Learning und Budgetoptimierung.
 feature: Administration
 hide: true
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
+    internal-label: Artificial intelligence
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 2747
+source-wordcount: '2835'
 ht-degree: 0%
-
 ---
-
 
 # Tiefere Einblicke
 
@@ -57,20 +69,20 @@ Die wichtigsten Konzepte der Multi-Touch-Attribution sind:
 
   Bei diesem Ansatz treiben eine Reihe von Interessensignalen die Konversionswahrscheinlichkeit, jeweils beeinflusst durch
 
-   * frühere Medienexpositionen,
-   * Media Adstock Impact (ein Modell, wie Reaktionen auf Werbung und Verfall auf Verbrauchermärkten reagieren) und
-   * Andere Baseline-Faktoren.
+  * frühere Medienexpositionen,
+  * Media Adstock Impact (ein Modell, wie Reaktionen auf Werbung und Verfall auf Verbrauchermärkten reagieren) und
+  * Andere Baseline-Faktoren.
 
 
 
   Diese Signale werden als *ϴ<sub>BL</sub>* + *ϴE,<sub>-t1</sub>* + *ϴ<sub>E,tc-t2</sub>* und *ϴ<sub>S, tc-t3</sub>* dargestellt, wobei:
 
-   * *ϴ*: veranschaulicht die Modellparameter (was wird aus dem Modell gelernt).
-   * *TC*: Der Zeitpunkt der Konversion.
-   * *TC-TX: Die Zeit zwischen der Belichtung und der Konversion, die für das Modell relevant ist.
-   * *BL*: Grundlinie.
-   * *E*: E-Mail
-   * *S*: Suche.
+  * *ϴ*: veranschaulicht die Modellparameter (was wird aus dem Modell gelernt).
+  * *TC*: Der Zeitpunkt der Konversion.
+  * *TC-TX: Die Zeit zwischen der Belichtung und der Konversion, die für das Modell relevant ist.
+  * *BL*: Grundlinie.
+  * *E*: E-Mail
+  * *S*: Suche.
 
   Im Modellierungs-Framework besteht das Ziel darin, explizit die Zeit zwischen jeder Medienexposition und dem Zeitpunkt der Konversion zu berücksichtigen (*tc-tx*), wobei zu berücksichtigen ist, dass neuere Interaktionen mehr Gewicht haben als ältere.
 
@@ -89,7 +101,7 @@ Die wichtigsten Konzepte der Multi-Touch-Attribution sind:
   ![Modell für das zeitdiskrete Überleben](/help/assets/discrete-time-survival-model.jpg)
 
   Eine Funktion mit kontinuierlicher Zeit modelliert die Auswirkung von E-Mail-Werbemitteln auf das Zinsniveau zu einem beliebigen Zeitpunkt seit dem Zeitpunkt der Exposition: *ϴ<sub>E</sub>(;⋋)*
-Eine Diskrete-Zeit-Funktion modelliert die Auswirkungen von E-Mail-Werbemitteln auf das Interessensniveau als diskrete Zeitfenster unter Verwendung von skalaren Parametern: *ϴ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*
+  Eine Diskrete-Zeit-Funktion modelliert die Auswirkungen von E-Mail-Werbemitteln auf das Interessensniveau als diskrete Zeitfenster unter Verwendung von skalaren Parametern: *ϴ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*
 
 
 ### Vorteile
@@ -130,7 +142,7 @@ Die wichtigsten Konzepte der Marketing-Mix-Modellierung sind:
 * **Multiplikatives Modell**: Umsätze oder Konversionen sind das Produkt einer Grundlinie und von Medienmultiplikatoren.
 
   Anstelle eines additiven Modells:
-  *Wöchentliche Konversionen = Grundlegender Bedarf **+**&#x200B;Multiplikator für **+**&#x200B;Multiplikator für Anzeige **+**…*
+  *Wöchentliche Konversionen = Grundlegender Bedarf **+**&#x200B;Multiplikator für **+**&#x200B;Multiplikator für Anzeige **+**….*
 Verwenden eines multiplikativen Modells:
   *Wöchentliche Konversionen = Grundlegender Bedarf **x**&#x200B;Multiplikator der Suche **x**&#x200B;Multiplikator der Anzeige **x**….*
 
@@ -138,11 +150,11 @@ Verwenden eines multiplikativen Modells:
 
   Beispiel:
 
-   * Woche der tatsächlichen Konversionen: 1730.
-   * Woche prognostizierte Konversionen: 1787,5 = 1100 x 1,25 x 1,3, wobei:
-      * 1100: In Woche 4 wurde die Baseline-Nachfrage vorhergesagt, eine Funktion für die Daten zu Faktor 1 und 2 in Woche 4.
-      * 1.25: Prognostizierter Suchmultiplikator für Woche 4, eine Funktion aus den Suchdaten von Woche 1 bis Woche 4.
-      * 1.3: Prognostizierter Anzeigemultiplikator für Woche 4, eine Funktion zur Anzeige von Daten von Woche 1 bis Woche 4.
+  * Woche der tatsächlichen Konversionen: 1730.
+  * Woche prognostizierte Konversionen: 1787,5 = 1100 x 1,25 x 1,3, wobei:
+    * 1100: In Woche 4 wurde die Baseline-Nachfrage vorhergesagt, eine Funktion für die Daten zu Faktor 1 und 2 in Woche 4.
+    * 1.25: Prognostizierter Suchmultiplikator für Woche 4, eine Funktion aus den Suchdaten von Woche 1 bis Woche 4.
+    * 1.3: Prognostizierter Anzeigemultiplikator für Woche 4, eine Funktion zur Anzeige von Daten von Woche 1 bis Woche 4.
 
   Der erwartete Unterschied zwischen den Prognosen des Modells (1787.5) und den tatsächlichen Konversionen (1730) ist der Rest, der oft klein und kein Grund zur Sorge ist.
 
